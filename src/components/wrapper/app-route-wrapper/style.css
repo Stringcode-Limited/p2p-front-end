@@ -1,0 +1,10 @@
+.app__container{
+    display: flex;
+  }
+  
+  .app__content{
+    width: 100%;
+    height: 300vh;
+    font-size: 30px;
+    padding: 20px;
+  }

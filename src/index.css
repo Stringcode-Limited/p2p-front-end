@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  padding: 20px;
+}
+
+header *{
+  color: white;
+  margin: 10px;
+}
+
+
+.sidebar{
+  width: 300px;
+  background-color: royalblue;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+.sidebar *{
+  color: white;
+  margin: 10px;
+}
