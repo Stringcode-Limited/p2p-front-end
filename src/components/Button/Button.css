@@ -1,0 +1,84 @@
+.btn{
+    color: white;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.green{
+    background-color: #00A542;
+    ;
+}
+
+.red{
+    background-color: #B3261E;
+}
+
+.grey{
+    background-color: #343434;
+}
+
+.white{
+    background-color: white;
+    border: 1px solid #00A542;
+    color: black;
+}
+
+/* For BUY and SELL */
+.mini{
+    border-radius: 5px;
+    width: 59px;
+    height: 38px;
+}
+
+/* For Sign Up */
+.mini2{
+    border-radius: 6px;
+    width: 82px;
+    height: 32px;
+}
+
+/* For Proceed to Pay */
+.small{
+    border-radius: 5px;
+    width: 124px;
+    height: 38px;
+}
+
+/* For Subscribe */
+.small2{
+    border-radius: 6px;
+    width: 143px;
+    height: 56px;
+}
+
+/* For Get Started */
+.normal{
+    border-radius: 5px;
+    width: 216px;
+    height: 58px;
+}
+
+/* For Login, Continue, Finish */
+.normal2{
+    border-radius: 6px;
+    width: 399px;
+    height: 48px;
+}
+
+/* For Buy USDT & SELL*/
+.large{
+    border-radius: 5px;
+    width: 479px;
+    height: 38px;
+}
+
+/* For Proceed to Pay, Cancel Order, Check Wallet, Mark as Paid,
+Provide Feedback, Transfer, Confirm, View Details, Share, Payment Received, Help*/
+.large2{
+    border-radius: 5px;
+    width: 511px;
+    height: 38px;
+}
