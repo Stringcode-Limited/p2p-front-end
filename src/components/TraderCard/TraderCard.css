@@ -1,0 +1,94 @@
+.traderCard{
+    margin-left: 20px;
+    width: 520px;
+    height: 206px;
+    border-radius: 10px;
+    background-color: #F3F3F3;
+    padding: 24px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.traderCard .details{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.traderCard .details .user{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.traderCard .details .user .name{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.traderCard .details .user .name .name1{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.traderCard .details .user .name .name2{
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.traderCard .details .user .picture img{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+/* .traderCard .details .user .picture .circle{
+    background-color: #00A542;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: fixed;
+    left: 52px;
+    top: 175px;
+} */
+
+.traderCard .trade{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.traderCard .trade .detail1{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.traderCard .trade .detail1 p{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.traderCard .trade .detail2{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.traderCard .trade .detail2 .p1{
+    font-size: 10px;
+}
+
+.traderCard .trade .detail2 .p2{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.traderCard .trade .detail3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+}
