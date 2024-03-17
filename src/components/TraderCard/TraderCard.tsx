@@ -39,7 +39,6 @@ function TraderCard({
           <div className="user">
             <div className="picture">
               <img src={image} />
-              {/* <div className="circle"></div> */}
             </div>
             <div className="name">
               <p className="name1">{fullName}</p>
