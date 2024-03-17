@@ -30,6 +30,7 @@
 .orderCard .user .name .name2{
     font-size: 11px;
     font-weight: 400;
+    font-family: 'Gilroy-Regular', sans-serif;
 }
 
 .orderCard .user .picture img{
@@ -48,11 +49,12 @@
     font-size: 14px;
     font-weight: 400;
     color: #4B4B4B;
+    font-family: 'Gilroy-Medium', sans-serif;
 }
 
 .orderCard .val{
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 400;
     color: #1D1B20;
 }
 
