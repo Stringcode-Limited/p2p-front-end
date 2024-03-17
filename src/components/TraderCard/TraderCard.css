@@ -1,5 +1,4 @@
 .traderCard{
-    margin-left: 20px;
     width: 520px;
     height: 206px;
     border-radius: 10px;
@@ -36,6 +35,7 @@
 .traderCard .details .user .name .name2{
     font-size: 11px;
     font-weight: 400;
+    font-family: 'Gilroy-Regular', sans-serif;
 }
 
 .traderCard .details .user .picture img{
@@ -61,6 +61,14 @@
     font-size: 14px;
 }
 
+.traderCard .trade .detail1 .total{
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+
+.traderCard .trade .detail1 .time{
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+
 .traderCard .trade .detail2{
     display: flex;
     align-items: center;
@@ -69,16 +77,23 @@
 
 .traderCard .trade .detail2 .p1{
     font-size: 10px;
+    font-family: 'Gilroy-Bold', sans-serif;
 }
 
 .traderCard .trade .detail2 .p2{
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 400;
+    font-family: 'Gilroy-Bold', sans-serif;
 }
 
 .traderCard .trade .detail3{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.traderCard .trade .detail3 .total, .traderCard .trade .detail3 .range{
     font-size: 14px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-weight: 400;
 }

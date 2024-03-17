@@ -48,9 +48,9 @@ function TraderCard({
 
           <div className="trade">
             <div className="detail1">
-              <p>{tradeTotal} Trades | {tradePercent}% Completed</p>
-              <p>{time} mins</p>
-              <p>{percent}%</p>
+              <p className="total">{tradeTotal} Trades | {tradePercent}% Completed</p>
+              <p className="time">{time} mins</p>
+              <p className="time">{percent}%</p>
             </div>
             <div className="detail2">
               <div className="p1">₦</div>
