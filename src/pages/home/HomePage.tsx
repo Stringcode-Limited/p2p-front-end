@@ -7,7 +7,7 @@ function HomePage() {
         <menu>
           <nav>
             <ul>
-              <li>Home</li>
+              <li>Landing page</li>
             </ul>
           </nav>
         </menu>
