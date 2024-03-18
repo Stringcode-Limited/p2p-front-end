@@ -1,7 +1,21 @@
-
+import "./HomePage.css"
 function HomePage() {
   return (
-    <div><h1>Home page</h1></div>
+    <>
+    <div>
+      <header>
+        <menu>
+          <nav>
+            <ul>
+              <li>Home</li>
+            </ul>
+          </nav>
+        </menu>
+      </header>
+    </div>
+    
+      </>
+    
   )
 }
 
