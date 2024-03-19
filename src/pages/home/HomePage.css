@@ -1,4 +1,109 @@
-header{
-    background-color: whitesmoke;
-    height: 5px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.Navbar{
+    background-color: #FCFCFC;
+    width: 1440px;
+    height: 69px;
+    display: flex;
+    box-shadow: 1px 0px 9px;
+    
 }
+nav ul li a{
+    color: black;
+    margin-right: 15px;
+    font-size: 12px;
+    
+}
+
+
+nav{
+    flex: 1;
+    text-align: right;
+    
+    
+    
+    
+}
+
+nav ul li{
+    display: inline-block;
+    
+    
+}
+ ul li a{
+    text-decoration: none;
+    
+}
+nav ul{
+}
+
+.P2P{
+    color: black;
+    width: 100px;
+    margin-top: 8px;
+}
+nav ul{
+    margin-top: -15px;
+    margin-right: 200px;
+}
+.hero-section{
+    width: 1440px;
+    height: 732px;
+    top: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+    height: 391px;
+    width: 579px;
+    gap: 40px;
+}
+.hero-text{
+    height: 150px;
+    width: 528px;
+    line-height: 75px;
+    size: 56px;
+    font-weight: 400;
+}
+h2{
+    line-height: 1.5;
+    font-size: 35px;
+    font-family: "Poppins";
+}
+.seamless-text{
+    font-size: 24px;
+    line-height: 42px;
+    font-family: "Poppins";
+}
+.iphone{
+    width: 570px;
+    height: 465.88px;
+}
+.approved{
+    background-color: #F0EDED;
+    width: 1441px;
+    height: 417px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 801px;
+    margin-top:-70px;
+    border: 0.5px, 0px, 0px, 0px;
+    padding: 40px, 133px, 40px, 13px;
+    gap: 10px;
+}
+.sub-approved{
+    width: 1175px;
+    border: 1px solid red;
+    text-align: center;
+    margin-top: -220px;
+
+}
+.due{
+    font-family: "Poppins";
+    margin-top: -7px;
+}
+.aff{
+    
+}
+
