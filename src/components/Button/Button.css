@@ -8,11 +8,18 @@
 
 .green{
     background-color: #00A542;
-    ;
+}
+
+.green:hover{
+    background-image: linear-gradient(to right, #009C3C, #008626);
 }
 
 .red{
     background-color: #B3261E;
+}
+
+.red:hover{
+    background-image: linear-gradient(to right, #B3261E, #4D0400);
 }
 
 .grey{
