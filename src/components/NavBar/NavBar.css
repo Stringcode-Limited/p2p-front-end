@@ -1,0 +1,82 @@
+nav{
+    height: 69px;
+    width: auto;
+    box-shadow: 0px -5px 21.299999237060547px 0px #000000A1;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+}
+
+nav .logo{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 20px;
+}
+
+nav .navs{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+nav .navs .navs1 ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 24px;
+}
+
+nav .navs .navs1 ul li{
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+nav .navs .navs1 ul li:hover{
+    color: #00A542;
+}
+
+nav .navs .navs2 ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+nav .navs .navs2 ul .search{
+    font-size: 25px;
+}
+
+nav .navs .navs2 ul .login{
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+nav .navs .navs2 ul .login:hover{
+    color: #00A542;
+}
+
+nav .navs .navs2 ul .mode{
+    display: flex;
+    width: 58px;
+    height: 24px;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #545454;
+    border-radius: 5px;
+    padding: 2px, 4px, 2px, 4px;
+}
+
+nav .navs .navs2 ul .mode .light{
+    font-size: 21px;
+    background-color: #545454;
+    border-radius: 4px;
+    height: 20px;
+}
+
+nav .navs .navs2 ul .mode .dark{
+    font-size: 20px;
+    color: #5E5E5E;
+    height: 20px;
+}
