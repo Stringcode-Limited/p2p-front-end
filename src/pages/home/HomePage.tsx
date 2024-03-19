@@ -3,27 +3,27 @@ import "./HomePage.css"
 
 
 
-interface IHome{
-  app: string,
-  home: string,
-  contactus:string,
-  faq:string,
-  login:string,
+// interface IHome{
+//   app: string,
+//   home: string,
+//   contactus:string,
+//   faq:string,
+//   login:string,
   
 
-}
-function HomePage({app, home, contactus, faq, login, }:IHome) {
+// }
+function HomePage() {
   return (
     <>
     <div>
       <header className="Navbar">
-      <div className="P2P">{app}</div>
+      <div className="P2P">P2P APP</div>
           <nav>
             <ul>
-              <li><a href="">{home}</a></li>
-              <li><a href="">{contactus}</a></li>
-              <li><a href="">{faq}</a></li>
-              <li><a href="">{login}</a></li>
+              <li><a href="">Home</a></li>
+              <li><a href="">ContactUs</a></li>
+              <li><a href="">FAQs</a></li>
+              <li><a href="">Login</a></li>
 
             </ul>
           </nav>

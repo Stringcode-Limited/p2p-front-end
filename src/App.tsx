@@ -14,7 +14,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<HomeRouteWrapper />}>
-          <Route path="/" element={<HomePage app="P2P APP" home="Home" contactus="ContactUs" faq="FAQs" login="Login" />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
         </Route>
 
