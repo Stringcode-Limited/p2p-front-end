@@ -9,6 +9,7 @@ import firs from "../../assets/images/firs.png"
 import fr from "../../assets/images/fr.png"
 import fraud from "../../assets/images/fraud.png"
 import sec from "../../assets/images/sec.png"
+import laptop from "../../assets/images/Laptop.png"
 
 
 
@@ -84,6 +85,27 @@ function HomePage() {
         </div>
        
       </div>
+      <section className="about">
+        <div className="about-us">
+          <div className="inner-us">
+            <div className="content">
+             <img className="laptop" src={laptop} alt="" />
+            </div>
+            <div className="us">
+               <div className="text-us">
+                <h1 className="caption">About Us</h1>
+                <p className="p2">P2Papp is your premier destination for peer-to-peer<br></br>connections and transactions. Our platfor<br></br>
+                empowers individuals to connect and trade in a<br></br>secure and transperent environment.</p>
+               </div>
+               <div className="duty">
+                <h1 className="caption">What we do</h1>
+                <p className="p2">We connect individuals to exchange crypto and fiat<br></br> seamlessly. Join us in revolutionalizing the way people<br></br>
+                trade, share, and grow together.</p>
+               </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
     
       </>
