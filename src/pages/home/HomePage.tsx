@@ -1,4 +1,7 @@
+import Button from "../../components/Button/Button/"
 import "./HomePage.css"
+
+
 
 interface IHome{
   app: string,
@@ -34,7 +37,8 @@ function HomePage({app, home, contactus, faq, login, }:IHome) {
           <p className="seamless">Experience seamless peer-to-peer transactions.<br></br>
            Connect with ease, trade with confidence. Join P2P platform today!</p>
          </div>
-         <button>Get Started</button>
+         
+            <Button  text="Get Started" type="normal"/>
        </div>
       </div>
     </div>
