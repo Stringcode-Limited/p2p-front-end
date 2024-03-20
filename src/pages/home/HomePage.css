@@ -111,24 +111,24 @@ h2{
     align-items: center;
     justify-content: center;
 }
-.due{
+.approved .due{
     font-family: "Poppins";
     margin-top: -7px;
     text-align: center;
 }
-.aff{
+.approved .aff{
     font-family: "Poppins";
     text-align: center;
 }
-.cbn{
+.approved .cbn{
     width: 51px;
     height: 73px;
 }
-.sec{
+.approved .sec{
     width: 56px;
     height: 62px;
 }
-.fintech{
+.approved .fintech{
     width: 113px;
     height: 45px;
 }
@@ -175,7 +175,7 @@ h2{
     border: 1px solid red;
     
 }
-.laptop{
+.laptop .laptop{
     width: 408.64px;
     height: 276.51px;
     left: 52.05px;
@@ -186,7 +186,7 @@ h2{
     width: 515.09px;
     height: 323px;
 }
-.p2{
+.about .p2{
     font-family: "Poppins";
     font-weight: 400;
     line-height: 42px;
