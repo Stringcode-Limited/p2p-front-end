@@ -1,8 +1,25 @@
-import "./HomePage.css"
+import Button from "../../components/Button/Button";
+import NavBar from "../../components/NavBar/NavBar";
+import "./HomePage.css";
+
 function HomePage() {
   return (
-    <div><h1>Home page</h1></div>
+    <>
+    <div>
+      <header>
+        <menu>
+          <nav>
+            <ul>
+              <li>Home</li>
+            </ul>
+          </nav>
+        </menu>
+      </header>
+    </div>
+    
+      </>
+    
   )
 }
 
-export default HomePage
+export default HomePage;
