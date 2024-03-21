@@ -8,6 +8,10 @@ nav{
     padding-left: 10%;
     padding-right: 10%;
     justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    background-color: #FCFCFC;
 }
 
 nav .logo{
@@ -73,10 +77,12 @@ nav .navs .navs2 ul .mode .light{
     background-color: #545454;
     border-radius: 4px;
     height: 20px;
+    cursor: pointer;
 }
 
 nav .navs .navs2 ul .mode .dark{
     font-size: 20px;
     color: #5E5E5E;
     height: 20px;
+    cursor: pointer;
 }

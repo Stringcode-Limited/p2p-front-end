@@ -1,0 +1,35 @@
+.Sell{
+    width: 120px;
+    height: 28px;
+    border-radius: 5px;
+    background-color: #545454;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sell .buyButton{
+    width: 54px;
+    height: 22px;
+    border-radius: 3px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Sell .sellButton{
+    width: 54px;
+    height: 22px;
+    border-radius: 3px;
+    background-color: #00A542;
+    padding: 6px, 16px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;    
+    align-items: center;
+    cursor: pointer;
+}
