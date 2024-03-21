@@ -1,7 +1,13 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
 .Navbar{
     background-color: #FCFCFC;
-
     height: 69px;
     display: flex;
     box-shadow: 1px 0px 9px;
@@ -82,7 +88,7 @@ nav ul{
 .approved{
     background-color: #F0EDED;
     max-width: 1441px;
-    height: 417px;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,7 +100,7 @@ nav ul{
 }
 .sub-approved{
     width: 1175px;
-    margin-top: -70px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -163,13 +169,13 @@ nav ul{
     
 
 }
-.inner-us{
+.about .inner-us{
     width: 1201px;
     height: 494px;
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 93px;
+    margin-top: -100px;
     left: 125px;
     gap: 96px;
     
@@ -197,4 +203,49 @@ nav ul{
 .caption{
     font-family: "Poppins";
 }
-
+.why-us2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    
+}
+.why-us .whyus2{
+    max-width: 1441px;
+    height: 865px;
+    top: 1898px;
+    border: 0.5px, 0p, 0px, 0px;
+}
+.why-us .element-wrap2{
+    display: flex;
+    gap: 167px;
+    height: 338.04pxpx;
+    width: 518px;
+}
+.why-us h1{
+    font-family: "Poppins";
+}
+.why-us .why{
+    font-family: "Poppins";
+}
+.why-us span{
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: bold;
+}
+.why-us .element-wrap3{
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+.ph{
+    width: 800px;
+    height: 600px;
+    margin-top: -250px;
+}
+.sub-wrap{
+    display: flex;
+}
+.why-us .element1{
+   border: 1px solid green;
+}

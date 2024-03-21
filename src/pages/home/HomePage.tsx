@@ -10,9 +10,13 @@ import fr from "../../assets/images/fr.png"
 import fraud from "../../assets/images/fraud.png"
 import sec from "../../assets/images/sec.png"
 import laptop from "../../assets/images/Laptop.png"
-
-
-
+import { CiHeadphones } from "react-icons/ci"
+import { GrSecure } from "react-icons/gr";
+import { VscWorkspaceTrusted } from "react-icons/vsc";
+import { TbBrandSpeedtest } from "react-icons/tb";
+import { FaArrowRightArrowLeft } from "react-icons/fa6";
+import { TbUsersGroup } from "react-icons/tb";
+import phones from "../../assets/images/phones.png"
 
 function HomePage() {
   return (
@@ -105,6 +109,55 @@ function HomePage() {
             </div>
           </div>
         </div>
+      </section>
+      <section className="why-us">
+        <div className="why-us2">
+          <div className="element1">
+            <div className="element-wrap1">
+            <h1>Why Us?</h1>
+            <p className="why">We are deligently committed to providing a conducive<br></br> platform for traders to seamlessly
+            trade crypto for fiat<br></br> with real people</p>
+            <p className="why">We stand out in diverse ways.</p>
+            </div>
+            <div className="sub-wrap">
+            <div className="element-wrap2">
+              <div className="element-wrap3">
+              <div className="support">
+                 <CiHeadphones size={23}/><br></br>
+                 <span>24/7 Support</span>
+              </div>
+              <div className="secur">
+                <GrSecure size={23}/><br></br>
+                <span>Secure Transactions</span>
+              </div>
+              <div className="trust">
+                <VscWorkspaceTrusted size={23}/><br></br>
+                <span>Trust & tansparency</span>
+              </div>
+              </div>
+              <div className="element-wrap3">
+              <div className="support">
+                 < TbBrandSpeedtest  size={23}/><br></br>
+                 <span>Faster speed</span>
+              </div>
+              <div className="secur">
+                <  FaArrowRightArrowLeft size={23}/><br></br>
+                <span>Personalization</span>
+              </div>
+              <div className="trust">
+                < TbUsersGroup size={23}/><br></br>
+                <span>Expanded reach</span>
+              </div>
+              </div>
+              
+            </div>
+            <div className="phn">
+              <img className="ph" src={phones} alt="" />
+            </div>
+            </div>
+          </div>
+        </div>
+
       </section>
     </div>
     
