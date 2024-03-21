@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
 .Navbar{
     background-color: #FCFCFC;
-    width: 1440px;
+
     height: 69px;
     display: flex;
     box-shadow: 1px 0px 9px;
@@ -46,7 +46,7 @@ nav ul{
     margin-right: 200px;
 }
 .hero-section{
-    width: 1440px;
+    max-width: 1440px;;
     height: 732px;
     top: 69px;
     display: flex;
@@ -65,10 +65,10 @@ nav ul{
     size: 56px;
     font-weight: 400;
 }
-h2{
+.hero-section h2{
     line-height: 1.5;
     font-size: 35px;
-    font-family: "Poppins";
+    font-family: "Gilroy-Bold', sans-serif";
 }
 .seamless-text{
     font-size: 24px;
@@ -81,7 +81,7 @@ h2{
 }
 .approved{
     background-color: #F0EDED;
-    width: 1441px;
+    max-width: 1441px;
     height: 417px;
     display: flex;
     align-items: center;
@@ -112,7 +112,7 @@ h2{
     justify-content: center;
 }
 .approved .due{
-    font-family: "Gilroy-Bold', sans-serif";
+    font-family: "Poppins";
     margin-top: -7px;
     text-align: center;
 }
@@ -153,14 +153,14 @@ h2{
     height: 137px;
 }
 .about-us{
-    width: 1441px;
+    max-width: 1441px;
     height: 680px;
     top: 1218px;
     border: 0.5px, 0px, 0px 0px,;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid green;
+    
 
 }
 .inner-us{
@@ -172,7 +172,6 @@ h2{
     top: 93px;
     left: 125px;
     gap: 96px;
-    border: 1px solid red;
     
 }
 .laptop .laptop{
