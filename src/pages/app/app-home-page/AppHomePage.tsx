@@ -1,12 +1,13 @@
-import "./style.css"
+import AppHomeBody from "./AppHomeBody";
+import RecentOrders from "./RecentOrders";
+import "./style.css";
+
 function AppHomePage() {
   return (
     <div> 
       <div className="container">
-        <div className="card"></div>
-        <div className="card"></div>
-        <div className="card"></div>
-        <div className="card"></div>
+      <AppHomeBody/>
+      <RecentOrders/>
       </div>
     </div>
   )

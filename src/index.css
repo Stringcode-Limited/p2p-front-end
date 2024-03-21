@@ -15,15 +15,3 @@ header *{
 }
 
 
-.sidebar{
-  width: 300px;
-  background-color: royalblue;
-  height: 100vh;
-  position: sticky;
-  top: 0;
-}
-
-.sidebar *{
-  color: white;
-  margin: 10px;
-}

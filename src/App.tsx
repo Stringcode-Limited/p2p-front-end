@@ -4,7 +4,8 @@ import {
   AppHomePage,
   AppOrderPage,
   AppPitchPage,
-  AppSettingsPage,
+  AppProfilePage,
+  AppSignOutPage,
   AppWalletPage,
   HomePage,
 } from "./pages";
@@ -23,7 +24,8 @@ function App() {
           <Route path="order" element={<AppOrderPage />} />
           <Route path="pitch" element={<AppPitchPage />} />
           <Route path="wallet" element={<AppWalletPage />} />
-          <Route path="settings" element={<AppSettingsPage />} />
+          <Route path="profile" element={<AppProfilePage />} />
+          <Route path="signout" element={<AppSignOutPage/>}/>
         </Route>
       </Routes>
     </>
