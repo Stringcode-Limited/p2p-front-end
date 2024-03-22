@@ -1,5 +1,5 @@
 import { TraderCard } from "../../..";
-import "./styles.css";
+import "./appHomeBody.css";
 import JohnDoe from "./../../../../assets/JohnDoe.png"; 
 import KemiFemi from "./../../../../assets/KemiFemi.png";
 import Buy from "../../../../components/Buy/Buy";
