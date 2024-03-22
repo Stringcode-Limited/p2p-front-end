@@ -53,6 +53,8 @@ nav ul{
     margin-top: -15px;
     margin-right: 200px;
 }
+
+/* .......HERO-SECTION START */
 .hero-section{
     max-width: 1440px;
     height: 732px;
@@ -99,6 +101,9 @@ nav ul{
 .hero-section .hero1{
     flex-basis: 50%;
 }
+/* ..........HERO-SECTION ENDS */
+
+
 /* ..............APPROVE-SECTION................. */
 .approved{
     background-color: #F0EDED;
@@ -223,6 +228,10 @@ nav ul{
     font-family: "Poppins";
 }
 /* ..............ABOUT-SECTION  ENDS............ */
+
+
+
+/*.........WHY-US START.............. */
 .why-us2{
     max-width: 1441px;
     height: 680px;
@@ -291,6 +300,10 @@ nav ul{
     width: 35.35px;
     height: 35.35px;
 }
+/* ......WHY-US ENDS......... */
+
+
+/* .......NEW-LETTER-SECTION START......... */
 .newsletter .subscription{
     max-width: 1441px;
     height: 263px;
@@ -354,6 +367,9 @@ nav ul{
     top: 50.5px;
     left: 390px;
 }
+/* .......NDEWS-LETTER SECTION ENDS......... */
+
+/* ..........FOOTER-SECTION STARTS........ */
 .footer .p2p-footer{
     max-width: 1440px;
     height: 564px;
@@ -455,3 +471,4 @@ nav ul{
 .subbtn{
     width: 50px;
 }
+/* ........FOOTER-SECTION ENDS....... */
