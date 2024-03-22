@@ -1,0 +1,36 @@
+
+.recentOrders{
+    /* width: 384px; */
+    width: 25vw;
+    height: 800px;
+    border-left: 1px solid #000;
+    overflow-y: scroll;
+    
+}
+.recentOrders::-webkit-scrollbar {
+    display: none;
+  }
+.recentOrders .recentContainer{
+    padding-top: 77px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.recentOrders .recentContainer .recentHeading{
+    font-family: 'Gilroy-Bold' sans-serif;
+    font-weight:400;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 12px;
+    color: #000000;
+}
+.recentOrders .recentContainer .orderWrapper{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    
+    
+}

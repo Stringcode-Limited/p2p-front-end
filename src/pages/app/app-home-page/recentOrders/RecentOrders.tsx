@@ -1,6 +1,6 @@
-import OrderCard from "../../../components/OrderCard/OrderCard";
+import OrderCard from "../../../../components/OrderCard/OrderCard";
 import "./style.css";
-import recentProfile from "./../../../assets/recentProfile.png";
+import recentProfile from "./../../../../assets/recentProfile.png"
 
 const RecentOrders = () => {
   return (
@@ -12,7 +12,7 @@ const RecentOrders = () => {
             <OrderCard image={recentProfile} fullName={"Adison Bator"} name={"Adbator"} type={"BUY"} price={"1525,829.00"} quantity={3} />
             <OrderCard image={recentProfile} fullName={"Adison Bator"} name={"Adbator"} type={"BUY"} price={"1525,829.00"} quantity={3} />
             <OrderCard image={recentProfile} fullName={"Adison Bator"} name={"Adbator"} type={"BUY"} price={"1525,829.00"} quantity={3} />
-
+            <OrderCard image={recentProfile} fullName={"Adison Bator"} name={"Adbator"} type={"BUY"} price={"1525,829.00"} quantity={3} />
           </div>
         </div>
 
