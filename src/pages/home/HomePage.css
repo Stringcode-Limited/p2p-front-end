@@ -52,12 +52,13 @@ nav ul{
     margin-right: 200px;
 }
 .hero-section{
-    max-width: 1440px;;
+    max-width: 1440px;
     height: 732px;
     top: 69px;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .hero-section .wrapper{
     height: 391px;
@@ -84,6 +85,16 @@ nav ul{
 .hero-section .iphone{
     width: 570px;
     height: 465.88px;
+}
+.hero-section .hero2{
+    flex-basis: 30%;
+    display: flex;
+    align-items: center;
+    width: 320px;
+    justify-content: center;
+}
+.hero-section .hero1{
+    flex-basis: 50%;
 }
 .approved{
     background-color: #F0EDED;
@@ -159,7 +170,7 @@ nav ul{
     height: 137px;
 }
 .approved .about-us{
-    max-width: 1441px;
+    width: 1441px;
     height: 680px;
     top: 1218px;
     border: 0.5px, 0px, 0px 0px,;
@@ -175,7 +186,7 @@ nav ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -100px;
+    margin-top: 20px;
     left: 125px;
     gap: 96px;
     
@@ -205,20 +216,23 @@ nav ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
+    
     
 }
 .why-us .whyus2{
     max-width: 1441px;
     height: 865px;
     top: 1898px;
+    display: flex;
+    
     border: 0.5px, 0p, 0px, 0px;
 }
 .why-us .element-wrap2{
     display: flex;
     gap: 167px;
-    height: 338.04pxpx;
+    height: 338.04px;
     width: 518px;
+    margin-top: 10px;
 }
 .why-us h1{
     font-family: "Poppins";
@@ -239,11 +253,72 @@ nav ul{
 .why-us .ph{
     width: 800px;
     height: 600px;
-    margin-top: -250px;
+    margin-top: -170px;
 }
-.sub-wrap{
+.why-us .sub-wrap{
     display: flex;
 }
 .why-us .element1{
-   border: 1px solid green;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+.why-us .headphn{
+    width: 35.35px;
+    height: 35.35px;
+}
+.newsletter .subscription{
+    max-width: 1441px;
+    height: 263px;
+    top: 2763px;
+    background-color: #F0EDED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.newsletter .norm{
+    width: 143px;
+    height: 56px;
+    font-family: "Poppins";
+    border-radius: 6px;
+    padding: 4px, 12px, 4px, 12px;
+    gap: 10px;
+}
+.newsletter .address{
+    display: flex;
+    width: 661px;
+    height: 56px;
+    
+}
+.newsletter input[type="text"]{
+    width: 494px;
+    height: 56px;
+    border: none;
+    border-radius: 5px;
+}
+.newsletter .scribe{
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+}
+.newsletter .deals{
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    
+}
+.newsletter .small-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.subbtn{
+    width: 50px;
 }

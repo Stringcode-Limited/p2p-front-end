@@ -10,13 +10,13 @@ import fr from "../../assets/images/fr.png"
 import fraud from "../../assets/images/fraud.png"
 import sec from "../../assets/images/sec.png"
 import laptop from "../../assets/images/Laptop.png"
-import { CiHeadphones } from "react-icons/ci"
-import { GrSecure } from "react-icons/gr";
-import { VscWorkspaceTrusted } from "react-icons/vsc";
-import { TbBrandSpeedtest } from "react-icons/tb";
-import { FaArrowRightArrowLeft } from "react-icons/fa6";
-import { TbUsersGroup } from "react-icons/tb";
-import phones from "../../assets/images/phones.png"
+import secure from  "../../assets/images/secure.png"
+import faster from "../../assets/images/faster.png"
+import personal from "../../assets/images/personal.png"
+import reachout from "../../assets/images/reachout.png"
+import trust from "../../assets/images/trust.png"
+import headphn from "../../assets/images/headphn.png"
+
 
 function HomePage() {
   return (
@@ -38,7 +38,7 @@ function HomePage() {
         <div className="hero1">
         <div className="wrapper">
        <div className="hero-text">
-        <h2>Trade anywhere,<br></br>time. P2P at your Fingertips</h2>
+        <h2>Trade anywhere,<br></br>time. P2P at your<br></br> Fingertips</h2>
        </div>
          <div className="seamless-text">
           <p className="seamless">Experience seamless peer-to-peer transactions.<br></br>
@@ -113,6 +113,7 @@ function HomePage() {
       <section className="why-us">
         <div className="why-us2">
           <div className="element1">
+            <div className="element2">
             <div className="element-wrap1">
             <h1>Why Us?</h1>
             <p className="why">We are deligently committed to providing a conducive<br></br> platform for traders to seamlessly
@@ -123,37 +124,53 @@ function HomePage() {
             <div className="element-wrap2">
               <div className="element-wrap3">
               <div className="support">
-                 <CiHeadphones size={23}/><br></br>
+                 <img className="headphn" src={headphn} alt="" /><br></br>
                  <span>24/7 Support</span>
               </div>
               <div className="secur">
-                <GrSecure size={23}/><br></br>
+                <img src={secure} alt="" /><br></br>
                 <span>Secure Transactions</span>
               </div>
               <div className="trust">
-                <VscWorkspaceTrusted size={23}/><br></br>
+                <img src={trust} alt="" /><br></br>
                 <span>Trust & tansparency</span>
               </div>
               </div>
               <div className="element-wrap3">
               <div className="support">
-                 < TbBrandSpeedtest  size={23}/><br></br>
+                 <img src={faster} alt="" /><br></br>
                  <span>Faster speed</span>
               </div>
               <div className="secur">
-                <  FaArrowRightArrowLeft size={23}/><br></br>
+                <img src={personal} alt="" /><br></br>
                 <span>Personalization</span>
               </div>
               <div className="trust">
-                < TbUsersGroup size={23}/><br></br>
+                <img src={reachout} alt="" /><br></br>
                 <span>Expanded reach</span>
               </div>
               </div>
               
             </div>
             <div className="phn">
-              <img className="ph" src={phones} alt="" />
+              {/* <img className="ph" src={phones} alt="" /> */}
             </div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <section className="newsletter">
+        <div className="subscription">
+          <div className="news-text">
+            <div className="small-cont">
+            <h1 className="scribe">Subscribe to our Newsletter today</h1>
+            <p className="deals">We will send news about the best deals and offers to your email</p>
+            </div>
+            <div className="address">
+              <input type="text" placeholder="Enter your email" />
+              <Button text="Subscribe" type="norm" />
             </div>
           </div>
         </div>
