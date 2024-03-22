@@ -97,6 +97,7 @@ nav ul{
 .hero-section .hero1{
     flex-basis: 50%;
 }
+/* ..............APPROVE-SECTION................. */
 .approved{
     background-color: #F0EDED;
     max-width: 1441px;
@@ -170,6 +171,11 @@ nav ul{
     width: 104px;
     height: 137px;
 }
+/* ............APPROVE-SECTION END............ */
+
+
+
+/* .........ABOUT-SECTION START........ */
  .about-us{
     max-width: 1441px;
     height: 680px;
@@ -214,6 +220,7 @@ nav ul{
 .about .caption{
     font-family: "Poppins";
 }
+/* ..............ABOUT-SECTION  ENDS............ */
 .why-us2{
     max-width: 1441px;
     height: 680px;
@@ -242,8 +249,12 @@ nav ul{
     width: 518px;
     margin-top: 10px;
 }
-.why-us h1{
+.why-us .wy{
     font-family: "Poppins";
+    line-height: 52px;
+}
+.why-us .we-stand{
+    margin-top: 20px;
 }
 .why-us .why{
     font-family: "Poppins";
@@ -260,7 +271,9 @@ nav ul{
 }
 .why-us .ph{
     width: 428px;
-    height: 600px;
+    height: 615px;
+    margin-top: 70px;
+    z-index: 2;
     
 }
 .why-us .sub-wrap{
@@ -375,6 +388,35 @@ nav ul{
 .footer .social{
     display: flex;
     gap: 134px;
+}
+.footer ul li{
+    font-family: "Poppins";
+    display: flex;
+    
+}
+.footer ul{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+.footer .social-3{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footer .social-4{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footer .social-2{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footer h4{
+    font-family: "Poppins";
+    font-size: 18px;
 }
 .subbtn{
     width: 50px;

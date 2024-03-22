@@ -121,10 +121,12 @@ function HomePage() {
           <div className="element1">
             <div className="element2">
             <div className="element-wrap1">
-            <h1>Why Us?</h1>
+            <h1 className="wy">Why Us?</h1>
+            <div className="we-stand">
             <p className="why">We are deligently committed to providing a conducive<br></br> platform for traders to seamlessly
             trade crypto for fiat<br></br> with real people</p>
             <p className="why">We stand out in diverse ways.</p>
+            </div>
             </div>
             <div className="sub-wrap">
             <div className="element-wrap2">
@@ -190,7 +192,7 @@ function HomePage() {
               <div className="social">
                 <div className="social-1">
                 <div className="social-text">
-                  <h3>Social Media</h3>
+                  <h4>Social Media</h4>
                 </div>
                 <div className="social-img">
                   <div className="img1">
@@ -210,29 +212,35 @@ function HomePage() {
               </div>
               <div className="social-2">
                 <div className="footer-link-1">
-                   <h3>User</h3>
+                   <h4>User</h4>
                 </div>
                 <div className="link">
+                  <ul>
                   <li>Get Started</li>
                   <li>Login</li>
+                  </ul>
                 </div>
               </div>
               <div className="social-3">
                 <div className="footer-link-1">
-                   <h3>Company</h3>
+                   <h4>Company</h4>
                 </div>
                 <div className="link">
+                  <ul>
                   <li>FAQs</li>
                   <li>Contact Us</li>
                   <li>Terms & Rules</li>
+                  </ul>
                 </div>
               </div>
               <div className="social-4">
                 <div className="footer-link-1">
-                   <h3>Theme</h3>
+                   <h4>Theme</h4>
                 </div>
                 <div className="link">
-                  <img src={moon} alt="" />
+                  <ul>
+                 <li><img src={moon} alt="" /></li>
+                  </ul>
               </div>
               </div>
             </div>
