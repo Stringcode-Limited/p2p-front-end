@@ -408,6 +408,21 @@ nav ul{
     display: flex;
     gap: 134px;
 }
+.social{
+    position: relative;
+     margin: 0;
+     padding-bottom: 50px;
+}
+.social::after{
+    content: '';
+    position: absolute;
+    background-color: black;
+    left: 50%;
+    width: 710px;
+    height: 1px;
+    bottom: 0;
+    transform: translateX(-50%);
+}
 .footer ul li{
     font-family: "Poppins";
     display: flex;
