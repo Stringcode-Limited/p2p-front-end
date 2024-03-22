@@ -22,6 +22,7 @@ import whatsapp from "../../assets/images/whatsapp.png"
 import twitter from "../../assets/images/twitter.png"
 import moon from "../../assets/images/moon.png"
 import slidphone from "../../assets/images/slidphone.png"
+import P2Papp from "../../components/P2Papp/P2Papp"
 
 
 function HomePage() {
@@ -242,6 +243,19 @@ function HomePage() {
                  <li><img src={moon} alt="" /></li>
                   </ul>
               </div>
+              </div>
+            </div>
+            <div className="end-footer">
+              <div className="p2app">
+                <div className="app">
+                  <P2Papp/>
+                  </div>
+                <div className="wrap-cookies">
+                <div className="copy"><h5>&copy;2024 P2P App</h5></div>
+                <div className="cooky">
+                  <p className="cookies">Cookies settings</p>
+                </div>
+                </div>
               </div>
             </div>
        </div>

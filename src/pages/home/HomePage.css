@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-  *{
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -78,6 +79,7 @@ nav ul{
     font-size: 35px;
     font-family: "Gilroy-Bold', sans-serif";
 }
+
 .hero-section .seamless-text{
     font-size: 24px;
     line-height: 42px;
@@ -360,7 +362,7 @@ nav ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
+    
 }
 .footer .layout{
     width: 1195px;
@@ -370,7 +372,8 @@ nav ul{
     display: flex;
     align-items: center;
     justify-content: center;
-
+     flex-direction: column;
+     gap: 56px;
 
     /* gap: ; */
 }
@@ -409,6 +412,11 @@ nav ul{
     flex-direction: column;
     gap: 16px;
 }
+.footer .social-1{
+    display: flex ;
+    gap: 16px;
+    flex-direction: column;
+}
 .footer .social-2{
     display: flex;
     flex-direction: column;
@@ -417,6 +425,32 @@ nav ul{
 .footer h4{
     font-family: "Poppins";
     font-size: 18px;
+}
+.footer h5{
+    font-family: "Poppins";
+    font-size: 14px;
+}
+.footer .cookies{
+    font-family: "Poppins";
+    font-size: 14px;
+}
+.footer .wrap-cookies{
+    display: flex;
+    gap: 24px;
+    
+}
+.footer .p2app{
+    display: flex;
+    flex-direction: column;
+}
+.footer .end-footer{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+
+}
+.app{
+    text-align: center;
 }
 .subbtn{
     width: 50px;
