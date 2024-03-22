@@ -1,17 +1,23 @@
-.container{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    
-}
 .bodyWrapper{
-    width: 820px;
+    /* width: 820px; */
+    width: 53vw;
     height: 1336px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    overflow-y: scroll;
+    
 }
+.bodyWrapper::-webkit-scrollbar {
+    display: none;
+  }
 .bodyWrapper .bodyTop{
-    margin: 75px 39px 0 39px;
+    margin: 75px 48px 0 48px;
+    height: 177px;
+    padding: 0 16px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
 }
 .bodyWrapper .bodyTop .dashboardTitle{
     font-weight: 400;
@@ -33,44 +39,10 @@
     gap: 16px;
     justify-content: end;
 }
-
 .bodyWrapper .bodyContainer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 46px;
-}
-
-
-.recentOrders{
-    width: 384px;
-    height: 800px;
-    border-left: 1px solid #000;
-    
-    
-}
-.recentOrders .recentContainer{
-    padding-top: 77px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-.recentOrders .recentContainer .recentHeading{
-    font-family: 'Gilroy-Bold' sans-serif;
-    font-weight:400;
-    font-size: 18px;
-    line-height: 24px;
-    margin: 0 12px;
-    color: #000000;
-}
-.recentOrders .recentContainer .orderWrapper{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    
-    
 }

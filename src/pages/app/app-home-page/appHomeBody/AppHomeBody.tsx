@@ -1,9 +1,9 @@
-import { TraderCard } from "../..";
-import "./style.css";
-import JohnDoe from "./../../../assets/JohnDoe.png";
-import KemiFemi from "./../../../assets/KemiFemi.png";
-import Buy from "../../../components/Buy/Buy";
-import Dropdown from "../../../components/Dropdown/Dropdown";
+import { TraderCard } from "../../..";
+import "./styles.css";
+import JohnDoe from "./../../../../assets/JohnDoe.png"; 
+import KemiFemi from "./../../../../assets/KemiFemi.png";
+import Buy from "../../../../components/Buy/Buy";
+import Dropdown from "../../../../components/Dropdown/Dropdown";
 import { IoIosNotifications } from "react-icons/io";
 import { HiFunnel } from "react-icons/hi2";
 
@@ -26,11 +26,13 @@ const AppHomeBody = () => {
                 <Dropdown list={['NGN', 'USD', 'GHC', 'EUR', 'JPY', 'GBP']} title="NGN" />
               </div>
               <div>
-                <IoIosNotifications />
-              </div>
-              <div>
                 <HiFunnel />
               </div>
+
+              <div>
+                <IoIosNotifications />
+              </div>
+      
             </div>
           </div>
         </div>

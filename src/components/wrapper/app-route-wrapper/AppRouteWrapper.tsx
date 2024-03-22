@@ -21,29 +21,29 @@ function AppRouteWrapper() {
           <div className="sidebar">
             <ul>
               <li>
-                <div><LuArrowRightLeft /></div>
-                <NavLink to={"/app"} >P2P</NavLink>
+                
+                <NavLink to={"/app"} ><div><LuArrowRightLeft  /></div>P2P</NavLink>
               </li>
               <li>
-                <div><CgNotes /></div>
-                <NavLink to={"/app/order"}>Orders</NavLink>
+                
+                <NavLink to={"/app/order"}><div><CgNotes /></div>Orders</NavLink>
               </li>
               <li>
-                <div><HiOutlineSpeakerphone /></div>
-                <NavLink to={"/app/pitch"}>Pitch</NavLink>
+                
+                <NavLink to={"/app/pitch"}><div><HiOutlineSpeakerphone /></div>Pitch</NavLink>
               </li>
               <li>
-                <div><IoWalletOutline /></div>
-                <NavLink to={"/app/wallet"}>Wallet</NavLink>
+                
+                <NavLink to={"/app/wallet"}><div><IoWalletOutline /></div>Wallet</NavLink>
               </li>
               <li>
-                <div><FaRegUser /></div>
-                <NavLink to={"/app/profile"}>Profile</NavLink>
+                
+                <NavLink to={"/app/profile"}><div><FaRegUser /></div>Profile</NavLink>
                 <div><IoIosArrowDown /></div>
               </li>
               <li>
-                <div><LiaSignOutAltSolid fill="#B3261E"/></div>
-                <NavLink to={"/app/signout"}>Sign Out</NavLink>
+                
+                <NavLink to={"/app/signout"}><div><LiaSignOutAltSolid fill="#B3261E"/></div>Sign Out</NavLink>
               </li>
             </ul>
           </div>
