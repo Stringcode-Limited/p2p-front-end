@@ -16,6 +16,12 @@ import personal from "../../assets/images/personal.png"
 import reachout from "../../assets/images/reachout.png"
 import trust from "../../assets/images/trust.png"
 import headphn from "../../assets/images/headphn.png"
+import instagram from "../../assets/images/instagram.png"
+import facebook from "../../assets/images/facebook.png"
+import whatsapp from "../../assets/images/whatsapp.png"
+import twitter from "../../assets/images/twitter.png"
+import moon from "../../assets/images/moon.png"
+import slidphone from "../../assets/images/slidphone.png"
 
 
 function HomePage() {
@@ -152,10 +158,12 @@ function HomePage() {
               </div>
               
             </div>
+            
+            </div>
+            
+            </div>
             <div className="phn">
-              {/* <img className="ph" src={phones} alt="" /> */}
-            </div>
-            </div>
+              <img className="ph" src={slidphone} alt="" />
             </div>
           </div>
         </div>
@@ -175,6 +183,61 @@ function HomePage() {
           </div>
         </div>
 
+      </section>
+      <section className="footer">
+        <div className="p2p-footer">
+          <div className="layout">
+              <div className="social">
+                <div className="social-1">
+                <div className="social-text">
+                  <h3>Social Media</h3>
+                </div>
+                <div className="social-img">
+                  <div className="img1">
+                    <img src={instagram} alt="" />
+                  </div>
+                  <div className="img2">
+                    <img src={facebook} alt="" />
+                  </div>
+                  <div className="img3">
+                    <img src={whatsapp} alt="" />
+                  </div>
+                  <div className="img4">
+                    <img src={twitter} alt="" />
+                  </div>
+                  
+                </div>
+              </div>
+              <div className="social-2">
+                <div className="footer-link-1">
+                   <h3>User</h3>
+                </div>
+                <div className="link">
+                  <li>Get Started</li>
+                  <li>Login</li>
+                </div>
+              </div>
+              <div className="social-3">
+                <div className="footer-link-1">
+                   <h3>Company</h3>
+                </div>
+                <div className="link">
+                  <li>FAQs</li>
+                  <li>Contact Us</li>
+                  <li>Terms & Rules</li>
+                </div>
+              </div>
+              <div className="social-4">
+                <div className="footer-link-1">
+                   <h3>Theme</h3>
+                </div>
+                <div className="link">
+                  <img src={moon} alt="" />
+              </div>
+              </div>
+            </div>
+       </div>
+       </div>
       </section>
     </div>
     
