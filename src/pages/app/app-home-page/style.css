@@ -13,6 +13,27 @@
 .bodyWrapper .bodyTop{
     margin: 75px 39px 0 39px;
 }
+.bodyWrapper .bodyTop .dashboardTitle{
+    font-weight: 400;
+    font-family: Gilroy-Bold;
+    font-size: 28px;
+    color: #000000;
+    padding-bottom: 8px;
+}
+.bodyWrapper .bodyTop .bodyTopButtons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   /* gap: 16px;  */
+   padding: 8px 0;
+}
+.bodyWrapper .bodyTop .bodyTopButtons .dropdownLists{
+    display: flex;
+    align-items:center;
+    gap: 16px;
+    justify-content: end;
+}
+
 .bodyWrapper .bodyContainer{
     display: flex;
     flex-direction: column;
