@@ -1,5 +1,8 @@
-import Button from "../../components/Button/Button/"
-import "./HomePage.css"
+
+import Button from "../../components/Button/Button";
+import NavBar from "../../components/NavBar/NavBar";
+import "./HomePage.css";
+
 import iphone from "../../assets/images/iphone.png"
 import cbn from "../../assets/images/cbn.png"
 import ci from "../../assets/images/ci.png"
@@ -23,7 +26,6 @@ import twitter from "../../assets/images/twitter.png"
 import moon from "../../assets/images/moon.png"
 import slidphone from "../../assets/images/slidphone.png"
 import P2Papp from "../../components/P2Papp/P2Papp"
-import NavBar from "../../components/NavBar/NavBar"
 
 
 function HomePage() {
@@ -174,7 +176,7 @@ function HomePage() {
             </div>
             <div className="address">
               <input type="text" placeholder="Enter your email" />
-              <Button text="Subscribe" type="norm" />
+              <Button text="Subscribe" type="normal" />
             </div>
           </div>
         </div>
@@ -255,10 +257,10 @@ function HomePage() {
        </div>
       </section>
     </div>
-    
       </>
     
 
   )
-  }
-export default HomePage;
+}
+
+export default HomePage

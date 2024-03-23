@@ -12,9 +12,9 @@
     display: none;
   }
 .bodyWrapper .bodyTop{
-    margin: 75px 48px 0 48px;
     height: 177px;
-    padding: 0 16px;
+    margin: 0 48px;
+    padding: 75px 16px 0 16px;
     position: sticky;
     top: 0;
     background-color: #fff;
