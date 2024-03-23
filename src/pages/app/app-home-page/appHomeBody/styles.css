@@ -1,0 +1,48 @@
+.bodyWrapper{
+    /* width: 820px; */
+    width: 53vw;
+    height: 1336px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: scroll;
+    
+}
+.bodyWrapper::-webkit-scrollbar {
+    display: none;
+  }
+.bodyWrapper .bodyTop{
+    margin: 75px 48px 0 48px;
+    height: 177px;
+    padding: 0 16px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+.bodyWrapper .bodyTop .dashboardTitle{
+    font-weight: 400;
+    font-family: Gilroy-Bold;
+    font-size: 28px;
+    color: #000000;
+    padding-bottom: 8px;
+}
+.bodyWrapper .bodyTop .bodyTopButtons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   /* gap: 16px;  */
+   padding: 8px 0;
+}
+.bodyWrapper .bodyTop .bodyTopButtons .dropdownLists{
+    display: flex;
+    align-items:center;
+    gap: 16px;
+    justify-content: end;
+}
+.bodyWrapper .bodyContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 46px;
+}

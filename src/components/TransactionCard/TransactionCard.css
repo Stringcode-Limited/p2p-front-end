@@ -1,0 +1,41 @@
+.transactionCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 370px;
+    height: 62px;
+    border-radius: 5px;
+    padding: 16px;
+    background-color: #DDDDDD;
+}
+
+.transactionCard .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 38px;
+    color: #1D1B20;
+}
+
+.transactionCard .left .title{
+    color: #1D1B20;
+}
+
+.transactionCard .left .time{
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 10px;
+    color: #4B4B4B;
+}
+
+.transactionCard .right{
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 14px;
+}
+
+.transactionCard .Green{
+    color: #00A925;
+}
+
+.transactionCard .Red{
+    color: #E60200;
+}
