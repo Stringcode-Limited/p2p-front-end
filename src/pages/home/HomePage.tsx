@@ -23,24 +23,17 @@ import twitter from "../../assets/images/twitter.png"
 import moon from "../../assets/images/moon.png"
 import slidphone from "../../assets/images/slidphone.png"
 import P2Papp from "../../components/P2Papp/P2Papp"
+import NavBar from "../../components/NavBar/NavBar"
 
 
 function HomePage() {
   return (
     <>
     <div>
-      <header className="Navbar">
-      <div className="P2P">P2P APP</div>
-          <nav>
-            <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="">ContactUs</a></li>
-              <li><a href="">FAQs</a></li>
-              <li><a href="">Login</a></li>
-
-            </ul>
-          </nav>
-      </header>
+      <div className="Nav">
+        <NavBar />
+      </div>
+      
       <div className="hero-section">
         <div className="hero1">
         <div className="wrapper">
