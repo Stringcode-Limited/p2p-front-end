@@ -16,7 +16,7 @@
 
 .dropdown {
     position: relative;
-    margin-left: 200px;
+    /* margin-left: 200px; */
   }
 
 .dropdown-menu {
@@ -27,7 +27,7 @@
     display: none;
     position: absolute;
     top: 130%;
-    left: -7.5%;
+    right: -140%;
   }
   
   .dropdown-menu.open {

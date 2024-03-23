@@ -1,0 +1,20 @@
+<<<<<<< HEAD
+=======
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gilroy-Bold', sans-serif;
+}
+
+header{
+  padding: 20px;
+}
+
+header *{
+  color: white;
+  margin: 10px;
+}
+
+
+>>>>>>> 981393e994aafb0b822f8734498fa800ac14480e
