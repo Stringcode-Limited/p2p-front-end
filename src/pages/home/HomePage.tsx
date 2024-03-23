@@ -1,3 +1,4 @@
+
 import Button from "../../components/Button/Button/"
 import "./HomePage.css"
 import iphone from "../../assets/images/iphone.png"
@@ -24,6 +25,7 @@ import moon from "../../assets/images/moon.png"
 import slidphone from "../../assets/images/slidphone.png"
 import P2Papp from "../../components/P2Papp/P2Papp"
 import NavBar from "../../components/NavBar/NavBar"
+
 
 
 function HomePage() {
@@ -163,6 +165,7 @@ function HomePage() {
             </div>
           </div>
         </div>
+
 
       </section>
       <section className="newsletter">
