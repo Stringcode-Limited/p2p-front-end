@@ -1,6 +1,6 @@
 import AppHomeBody from "../appHomeBody/AppHomeBody";
 import RecentOrders from "../recentOrders/RecentOrders";
-import "./styles.css";
+import "./appHomePage.css"
 
 function AppHomePage() {
   return (

@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom"
-import "./style.css";
+import "./appRouteWrapper.css";
 import P2Papp from "../../P2Papp/P2Papp";
 import { LuArrowRightLeft } from "react-icons/lu";
 import { CgNotes } from "react-icons/cg";
