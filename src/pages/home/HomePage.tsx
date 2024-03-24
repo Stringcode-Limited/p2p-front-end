@@ -1,5 +1,5 @@
 
-import Button from "../../components/Button/Button/"
+import Button from "../../components/Button/Button"
 import "./HomePage.css"
 import iphone from "../../assets/images/iphone.png"
 import cbn from "../../assets/images/cbn.png"
@@ -177,7 +177,7 @@ function HomePage() {
             </div>
             <div className="address">
               <input type="text" placeholder="Enter your email" />
-              <Button text="Subscribe" type="norm" />
+              <Button text="Subscribe" type="small2" />
             </div>
           </div>
         </div>
