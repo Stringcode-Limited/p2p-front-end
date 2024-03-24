@@ -33,6 +33,8 @@ function HomePage() {
     <>
     <div>
       <div className="Nav">
+    <div>
+      <div className="Nav">
         <NavBar />
       </div>
       
@@ -178,6 +180,27 @@ function HomePage() {
               <input type="text" placeholder="Enter your email" />
               <Button text="Subscribe" type="normal" />
             </div>
+            
+            </div>
+            <div className="phn">
+              <img className="ph" src={slidphone} alt="" />
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+      <section className="newsletter">
+        <div className="subscription">
+          <div className="news-text">
+            <div className="small-cont">
+            <h1 className="scribe">Subscribe to our Newsletter today</h1>
+            <p className="deals">We will send news about the best deals and offers to your email</p>
+            </div>
+            <div className="address">
+              <input type="text" placeholder="Enter your email" />
+              <Button text="Subscribe" type="norm" />
+            </div>
           </div>
         </div>
 
@@ -264,3 +287,87 @@ function HomePage() {
 }
 
 export default HomePage
+
+      </section>
+      <section className="footer">
+        <div className="p2p-footer">
+          <div className="layout">
+              <div className="social">
+                <div className="social-1">
+                <div className="social-text">
+                  <h4>Social Media</h4>
+                </div>
+                <div className="social-img">
+                  <div className="img1">
+                    <img src={instagram} alt="" />
+                  </div>
+                  <div className="img2">
+                    <img src={facebook} alt="" />
+                  </div>
+                  <div className="img3">
+                    <img src={whatsapp} alt="" />
+                  </div>
+                  <div className="img4">
+                    <img src={twitter} alt="" />
+                  </div>
+                  
+                </div>
+              </div>
+              <div className="social-2">
+                <div className="footer-link-1">
+                   <h4>User</h4>
+                </div>
+                <div className="link">
+                  <ul>
+                  <li>Get Started</li>
+                  <li>Login</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="social-3">
+                <div className="footer-link-1">
+                   <h4>Company</h4>
+                </div>
+                <div className="link">
+                  <ul>
+                  <li>FAQs</li>
+                  <li>Contact Us</li>
+                  <li>Terms & Rules</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="social-4">
+                <div className="footer-link-1">
+                   <h4>Theme</h4>
+                </div>
+                <div className="link">
+                  <ul>
+                 <li><img src={moon} alt="" /></li>
+                  </ul>
+              </div>
+              </div>
+            </div>
+            <div className="end-footer">
+              <div className="p2app">
+                <div className="app">
+                  <P2Papp/>
+                  </div>
+                <div className="wrap-cookies">
+                <div className="copy"><h5>&copy;2024 P2P App</h5></div>
+                <div className="cooky">
+                  <p className="cookies">Cookies settings</p>
+                </div>
+                </div>
+              </div>
+            </div>
+       </div>
+       </div>
+      </section>
+    </div>
+    
+      </>
+    
+
+  )
+  }
+export default HomePage;
