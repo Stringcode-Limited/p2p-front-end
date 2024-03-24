@@ -178,26 +178,7 @@ function HomePage() {
             </div>
             <div className="address">
               <input type="text" placeholder="Enter your email" />
-              <Button text="Subscribe" type="normal" />
-            </div>
-            
-            </div>
-            <div className="phn">
-              <img className="ph" src={slidphone} alt="" />
-            </div>
-          </div>
-        </section>
-      
-      <section className="newsletter">
-        <div className="subscription">
-          <div className="news-text">
-            <div className="small-cont">
-            <h1 className="scribe">Subscribe to our Newsletter today</h1>
-            <p className="deals">We will send news about the best deals and offers to your email</p>
-            </div>
-            <div className="address">
-              <input type="text" placeholder="Enter your email" />
-              <Button text="Subscribe" type="normal" />
+              <Button text="Subscribe" type="small2" />
             </div>
           </div>
         </div>
