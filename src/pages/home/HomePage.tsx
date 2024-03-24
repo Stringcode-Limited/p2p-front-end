@@ -12,7 +12,7 @@ import firs from "../../assets/images/firs.png"
 import fr from "../../assets/images/fr.png"
 import fraud from "../../assets/images/fraud.png"
 import sec from "../../assets/images/sec.png"
-import laptop from "../../assets/images/Laptop.png"
+import pc from "../../assets/images/pc.png"
 import secure from  "../../assets/images/secure.png"
 import faster from "../../assets/images/faster.png"
 import personal from "../../assets/images/personal.png"
@@ -31,7 +31,7 @@ import P2Papp from "../../components/P2Papp/P2Papp"
 function HomePage() {
   return (
     <>
-    <div>
+    
       <div className="Nav">
     <div>
       <div className="Nav">
@@ -97,7 +97,7 @@ function HomePage() {
         <div className="about-us">
           <div className="inner-us">
             <div className="content">
-             <img className="laptop" src={laptop} alt="" />
+             <img className="laptop" src={pc} alt="" />
             </div>
             <div className="us">
                <div className="text-us">
@@ -186,10 +186,8 @@ function HomePage() {
               <img className="ph" src={slidphone} alt="" />
             </div>
           </div>
-        </div>
-
-
-      </section>
+        </section>
+      
       <section className="newsletter">
         <div className="subscription">
           <div className="news-text">
@@ -199,12 +197,13 @@ function HomePage() {
             </div>
             <div className="address">
               <input type="text" placeholder="Enter your email" />
-              <Button text="Subscribe" type="norm" />
+              <Button text="Subscribe" type="normal" />
             </div>
           </div>
         </div>
 
       </section>
+      
       <section className="footer">
         <div className="p2p-footer">
           <div className="layout">
@@ -278,7 +277,9 @@ function HomePage() {
             </div>
        </div>
        </div>
-      </section>
+       
+      </section> 
+    </div>
     </div>
       </>
     
@@ -287,87 +288,3 @@ function HomePage() {
 }
 
 export default HomePage
-
-      </section>
-      <section className="footer">
-        <div className="p2p-footer">
-          <div className="layout">
-              <div className="social">
-                <div className="social-1">
-                <div className="social-text">
-                  <h4>Social Media</h4>
-                </div>
-                <div className="social-img">
-                  <div className="img1">
-                    <img src={instagram} alt="" />
-                  </div>
-                  <div className="img2">
-                    <img src={facebook} alt="" />
-                  </div>
-                  <div className="img3">
-                    <img src={whatsapp} alt="" />
-                  </div>
-                  <div className="img4">
-                    <img src={twitter} alt="" />
-                  </div>
-                  
-                </div>
-              </div>
-              <div className="social-2">
-                <div className="footer-link-1">
-                   <h4>User</h4>
-                </div>
-                <div className="link">
-                  <ul>
-                  <li>Get Started</li>
-                  <li>Login</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="social-3">
-                <div className="footer-link-1">
-                   <h4>Company</h4>
-                </div>
-                <div className="link">
-                  <ul>
-                  <li>FAQs</li>
-                  <li>Contact Us</li>
-                  <li>Terms & Rules</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="social-4">
-                <div className="footer-link-1">
-                   <h4>Theme</h4>
-                </div>
-                <div className="link">
-                  <ul>
-                 <li><img src={moon} alt="" /></li>
-                  </ul>
-              </div>
-              </div>
-            </div>
-            <div className="end-footer">
-              <div className="p2app">
-                <div className="app">
-                  <P2Papp/>
-                  </div>
-                <div className="wrap-cookies">
-                <div className="copy"><h5>&copy;2024 P2P App</h5></div>
-                <div className="cooky">
-                  <p className="cookies">Cookies settings</p>
-                </div>
-                </div>
-              </div>
-            </div>
-       </div>
-       </div>
-      </section>
-    </div>
-    
-      </>
-    
-
-  )
-  }
-export default HomePage;
