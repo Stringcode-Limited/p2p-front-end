@@ -25,13 +25,11 @@
 .hero-section h2{
     line-height: 1.5;
     font-size: 35px;
-    font-family: "Poppins";
 }
 
 .hero-section .seamless-text{
     font-size: 24px;
     line-height: 42px;
-    font-family: "Poppins";
 }
 .hero-section .iphone{
     width: 570px;
@@ -84,12 +82,10 @@
     justify-content: center;
 }
 .approved .due{
-    font-family: "Poppins";
     margin-top: -7px;
     text-align: center;
 }
 .approved .aff{
-    font-family: "Poppins";
     text-align: center;
 }
 .approved .cbn{
@@ -164,14 +160,12 @@
     height: 323px;
 }
 .about .p2{
-    font-family: "Poppins";
     font-weight: 400;
     line-height: 42px;
     size: 24px;
 }
 
 .about .caption{
-    font-family: "Poppins";
 }
 /* ..............ABOUT-SECTION  ENDS............ */
 
@@ -207,17 +201,14 @@
     margin-top: 10px;
 }
 .why-us .wy{
-    font-family: "Poppins";
     line-height: 52px;
 }
 .why-us .we-stand{
     margin-top: 20px;
 }
 .why-us .why{
-    font-family: "Poppins";
 }
 .why-us span{
-    font-family: "Poppins";
     font-size: 12px;
     font-weight: bold;
 }
@@ -263,7 +254,6 @@
 .newsletter .norm{
     width: 143px;
     height: 56px;
-    font-family: "Poppins";
     border-radius: 6px;
     padding: 4px, 12px, 4px, 12px;
     gap: 10px;
@@ -283,13 +273,11 @@
     padding: 20px;
 }
 .newsletter .scribe{
-    font-family: "Poppins";
     font-size: 36px;
     font-weight: 400;
     line-height: 44px;
 }
 .newsletter .deals{
-    font-family: "Poppins";
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -370,7 +358,6 @@
     transform: translateX(-50%);
 }
 .footer ul li{
-    font-family: "Poppins";
     display: flex;
     
 }
@@ -400,15 +387,12 @@
     gap: 16px;
 }
 .footer h4{
-    font-family: "Poppins";
     font-size: 18px;
 }
 .footer h5{
-    font-family: "Poppins";
     font-size: 14px;
 }
 .footer .cookies{
-    font-family: "Poppins";
     font-size: 14px;
 }
 .footer .wrap-cookies{
