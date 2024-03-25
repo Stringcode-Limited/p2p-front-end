@@ -1,0 +1,24 @@
+.recentTransactionBody{
+    display: flex;
+    flex-direction: column;
+    padding-top: 77px;
+    gap: 16px;
+    width: 29vw;
+    justify-content: center;
+    height: max-content;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.recentTransactionBody .title{
+    text-align: left;
+    width: 87%;
+    font-size: 18px;
+}
+
+.recentTransactionBody .recentTransactions{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

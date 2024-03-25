@@ -1,10 +1,14 @@
-import AppOrderBody from '../AppOrderBody/AppOrderBody';
-import './AppOrderPage.css'
+import AppOrderBody from "../AppOrderBody/AppOrderBody";
+import RecentTransactions from "../RecentTransactions/RecentTransactions";
+import "./AppOrderPage.css";
 
 function AppOrderPage() {
   return (
     <>
-      <AppOrderBody/>
+      <div className="appOrderPage">
+        <AppOrderBody />
+        <RecentTransactions />
+      </div>
     </>
   );
 }
