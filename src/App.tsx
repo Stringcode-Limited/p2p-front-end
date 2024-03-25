@@ -10,12 +10,14 @@ import {
   HomePage,
 } from "./pages";
 import { Routes, Route } from "react-router-dom";
+import Buyusdt from "./pages/app/app-home-page/BuyUsdt/Buyusdt";
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<HomeRouteWrapper />}>
-          <Route path="/" element={<HomePage />} />
+          {/* <Route path="/" element={<HomePage />} /> */}
+          <Route path="/" element={<Buyusdt/>} />
           <Route path="/about" element={<AboutPage />} />
         </Route>
 
