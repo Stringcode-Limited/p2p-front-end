@@ -16,18 +16,18 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<HomeRouteWrapper />}>
-          {/* <Route path="/" element={<HomePage />} /> */}
-          <Route path="/" element={<Buyusdt/>} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
         </Route>
-
-        <Route path="/app" element={<AppRouteWrapper />}>
+        <Route path="/app" element={<AppRouteWrapper />}/>
           <Route index element={<AppHomePage />} />
           <Route path="order" element={<AppOrderPage />} />
           <Route path="pitch" element={<AppPitchPage />} />
           <Route path="wallet" element={<AppWalletPage />} />
           <Route path="profile" element={<AppProfilePage />} />
           <Route path="signout" element={<AppSignOutPage/>}/>
+          <Route path="/Buyusdt" element={<AppRouteWrapper/>}>
+            <Route path="Buyusdtpage" element={<Buyusdt/>}/>
         </Route>
       </Routes>
     </>
