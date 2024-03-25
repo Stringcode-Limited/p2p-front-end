@@ -6,26 +6,36 @@ import "./login.css";
 import Google from "../../components/Google/Google";
 import Apple from "../../components/Apple/Apple";
 
+                           
+
+                
+
 
 const Login = () => {
     return (
         <div>
             <NavBar />
-            <div>
-                <div>
-                    <div>
-                    <div>login</div>
-                    <Input label="Username/Email/Phone number" type="text" />
-                    <Input label="Password" type="password" />
-                    <Button text="Login" color="green" type="normal2" />
-                    <div>Don't have an account? <span><NavLink to={""}>Sign up</NavLink></span></div>
-                    <div>
-                        <NavLink to={""}>Forgot Password?</NavLink>
+            <div className="container">
+                <div className="form-wrapper">
+                    <div className="div-wrapper">
+                        <div className="heading">Login</div>
+                        <div className="form-contents">
+                            <Input label="Username/Email/Phone number" type="text" />
+                            <Input label="Password" type="password" />
+                            <div className="login-button">
+                            <Button text="Login" color="green" type="normal2" />
+                            </div>
+                            <div className="account">
+                                <div className="have-an-account">Don't have an account? <span><NavLink to={""}>Sign up</NavLink></span></div>
+                                <div className="forgot-password">
+                                    <NavLink to={""}>Forgot Password?</NavLink>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    </div>
-                    <div>
-                      <Google/>  
-                      <Apple/>
+                    <div className="continue-wrapper">
+                        <Google />
+                        <Apple />
                     </div>
                 </div>
 
