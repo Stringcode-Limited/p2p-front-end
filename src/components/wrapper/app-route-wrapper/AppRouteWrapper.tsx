@@ -9,6 +9,7 @@ import { LiaSignOutAltSolid } from "react-icons/lia";
 import { FaRegUser } from "react-icons/fa6";
 import { IoIosArrowDown } from "react-icons/io";
 
+
 function AppRouteWrapper() {
   return (
     <>
@@ -21,29 +22,29 @@ function AppRouteWrapper() {
           <div className="sidebar">
             <ul>
               <li>
-                
-                <NavLink to={"/app"} ><div><LuArrowRightLeft  /></div>P2P</NavLink>
+             
+                <NavLink to={"/app"} ><LuArrowRightLeft />P2P</NavLink>
               </li>
               <li>
                 
-                <NavLink to={"/app/order"}><div><CgNotes /></div>Orders</NavLink>
+                <NavLink to={"/app/order"}><CgNotes />Orders</NavLink>
               </li>
               <li>
                 
-                <NavLink to={"/app/pitch"}><div><HiOutlineSpeakerphone /></div>Pitch</NavLink>
+                <NavLink to={"/app/pitch"}><HiOutlineSpeakerphone />Pitch</NavLink>
               </li>
               <li>
                 
-                <NavLink to={"/app/wallet"}><div><IoWalletOutline /></div>Wallet</NavLink>
+                <NavLink to={"/app/wallet"}><IoWalletOutline />Wallet</NavLink>
               </li>
               <li>
                 
-                <NavLink to={"/app/profile"}><div><FaRegUser /></div>Profile</NavLink>
+                <NavLink to={"/app/profile"}><FaRegUser />Profile</NavLink>
                 <div><IoIosArrowDown /></div>
               </li>
               <li>
                 
-                <NavLink to={"/app/signout"}><div><LiaSignOutAltSolid fill="#B3261E"/></div>Sign Out</NavLink>
+                <NavLink to={"/app/signout"}><LiaSignOutAltSolid fill="#B3261E"/>Sign Out</NavLink>
               </li>
             </ul>
           </div>
