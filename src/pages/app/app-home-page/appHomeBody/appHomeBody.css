@@ -1,5 +1,4 @@
 .bodyWrapper{
-    /* width: 820px; */
     width: 53vw;
     height: 1336px;
     display: flex;
@@ -13,11 +12,10 @@
   }
 .bodyWrapper .bodyTop{
     height: 177px;
-    margin: 0 48px;
-    padding: 75px 16px 0 16px;
+    padding: 75px 60px 48px 60px;
     position: sticky;
     top: 0;
-    background-color: #fff;
+    background-color:#fff
 }
 .bodyWrapper .bodyTop .dashboardTitle{
     font-weight: 400;
@@ -30,7 +28,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-   /* gap: 16px;  */
    padding: 8px 0;
 }
 .bodyWrapper .bodyTop .bodyTopButtons .dropdownLists{
@@ -44,5 +41,5 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 46px;
+    margin-top: 40px;
 }
