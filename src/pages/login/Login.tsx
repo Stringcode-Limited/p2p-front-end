@@ -15,7 +15,7 @@ const Login = () => {
     return (
         <div>
             <NavBar />
-            <div className="container">
+            <div className="login-container">
                 <div className="form-wrapper">
                     <div className="div-wrapper">
                         <div className="heading">Login</div>
