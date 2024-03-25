@@ -20,7 +20,7 @@ function NavBar() {
             </div>
             <div className="navs2">
                 <ul>
-                <li className='search login'><IoSearch /></li>
+                <li className='navsearch login'><IoSearch /></li>
                 <li className='login'><NavLink to={"/login"}>Login</NavLink></li>
                 <li><NavLink to={"/signup"}><Button text='Sign Up' type='mini2'/></NavLink></li>
                 <li>
