@@ -1,6 +1,6 @@
 import TraderCard from "../components/TraderCard/TraderCard";
 import AppHomePage from "./app/app-home-page/appHomePage/AppHomePage";
-import AppOrderPage from "./app/AppOrderPage";
+import AppOrderPage from "./app/app-order-page/AppOrderPage/AppOrderPage";
 import AppPitchPage from "./app/AppPitchPage";
 import AppProfilePage from "./app/AppProfilePage";
 import AppSignOutPage from "./app/AppSignOutPage";

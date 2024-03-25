@@ -1,0 +1,22 @@
+.orderBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 53vw;
+}
+
+.orderBody .top{
+    display: flex;
+    align-items: center;
+    height: 145px;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 45%;
+    background-color: red;
+}
+
+.orderBody .top p{
+    font-size: 28px;
+}
