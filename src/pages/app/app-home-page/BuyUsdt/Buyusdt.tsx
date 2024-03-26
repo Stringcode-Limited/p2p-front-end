@@ -1,4 +1,3 @@
-import React from 'react';
 import "./Buyusdt.css"
 import P2Papp from '../../../../components/P2Papp/P2Papp';
 import opposite from "../BuyUsdt/img/opposite.png"
@@ -17,7 +16,6 @@ import buy from "../BuyUsdt/img/buy.png"
 function Buyusdt() {
   return (
     <div className='usdt-info'>
-        <div className="info-section">
             <div className="sidebar">
                 <div className="log">
                     <P2Papp />
@@ -41,11 +39,10 @@ function Buyusdt() {
                     <div className="opposite-face">
                         <img src={signout}alt="" />
                     </div>
-                    
                 </div>
             </div>
             <div className="middle-section">
-                <div className="usdt">
+                <div className="sdt">
                     <img src={buy} alt="" />
                 </div>
             </div>
@@ -53,7 +50,7 @@ function Buyusdt() {
                 <div className="log">
                     <P2Papp />
                 </div>
-                <div className="icons-unit-right">
+                <div className="icons-unit">
                     <div className="opposite-face">
                         <img src={opposite}alt="" />
                     </div>
@@ -72,12 +69,10 @@ function Buyusdt() {
                     <div className="opposite-face">
                         <img src={signout}alt="" />
                     </div>
-                    
                 </div>
             </div>
-        </div>
-
-        
+            
+           
     </div>
   );
 }
