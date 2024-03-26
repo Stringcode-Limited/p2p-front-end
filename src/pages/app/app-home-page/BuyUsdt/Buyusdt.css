@@ -23,7 +23,6 @@
     display: flex;
     gap: 161px;
     margin-top: 75px;
-    border: 1px solid red;
     width: 299.23px;
     height: 36px;
     align-items: center;
@@ -31,9 +30,9 @@
 }
 
 .usdt-info .middle-section{
-    border: 1px solid pink;
     width: 570px;
     height: 145px;
+    margin-top: -400px;
     
 
 }
@@ -53,16 +52,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    
 }
 .inner-container{
     width: 479px;
     height: 274px;
 }
-.usdt-info .dev-usdt{
-    border: 1px solid black;
-}
+
 .recent{
-    border: 1px solid green;
     width: 384px;
 }
 input[type="text"]{
@@ -78,10 +76,14 @@ input[type="text"]{
 }
 .usdt-info .amount{
     width: 497px;
+    margin-top: 5px;
 }
 .usdt-info .pays{
-    margin-top: 10px;
+    margin-top: 15px;
     width: 479px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     
 }
 .usdt-info .fig-bold{
@@ -107,4 +109,27 @@ input[type="text"]{
 }
 .usdt-info .entering-filed{
     margin-top: 10px;
+}
+.usdt-info .Buy-btn{
+    width: 479px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #00A542;
+    padding: 7px;
+    
+}
+.usdt-info .btn{
+    text-align: center;
+    margin-top: -60px;
+}
+.usdt-info .details{
+    width: 511px;
+    height: 224px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -600px;
+}
+.usdt-info .comm{
+    font-family: 'Gilroy-Medium', sans-serif;
+
 }
