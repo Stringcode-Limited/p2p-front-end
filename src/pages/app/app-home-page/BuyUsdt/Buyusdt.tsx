@@ -3,7 +3,7 @@ import left from "../../../../assets/images/left.png"
 import OrderCard from "../../../../components/OrderCard/OrderCard";
 import figure from "../../../../assets/images/figure.png"
 import fiat from "../../../../assets/images/fiat.png"
-
+import pays from "../../../../assets/images/pays.png"
 
 
 
@@ -35,18 +35,32 @@ function Buyusdt() {
                                 <img src={fiat} alt="" />
                             </div>
                             </div>
-                            <div className="search">
+                            <div className="entering-filed">
+                            <div className="input-field">
                               <input type="text" placeholder="# Enter Amount" />
                             </div>
                             <div className="amount">
-                                <p>#100,000.00 - #367,200.00</p>
+                                <p className="figs">Range #100,000.00 - #367,200.00</p>
+                            </div>
+                            <div className="pays">
+                                <div className="paying">
+                                <p className="pying">You will pay</p>
+                                <p className="pying">-- NGN</p>
+                                </div>
+                                <div className="paying">
+                                <p className="pying">You will pay</p>
+                                <p className="pying">-- USDT</p>
+                                </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
            </div>
-           
+           <div className="joy">
+            fjgbjgbj
+           </div>
 
     </div>
     
