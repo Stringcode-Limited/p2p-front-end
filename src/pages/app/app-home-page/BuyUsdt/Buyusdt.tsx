@@ -45,6 +45,7 @@ function Buyusdt() {
                 <div className="sdt">
                     <img src={buy} alt="" />
                 </div>
+                .
             </div>
             <div className="sidebar-right">
                 <div className="log">
