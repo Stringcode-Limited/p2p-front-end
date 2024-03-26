@@ -14,6 +14,8 @@ import Login from "./pages/login/Login";
 import Signup from "./pages/signup/Signup";
 import EmailSmsVerification from "./pages/emailSmsVerification/EmailSmsVerification";
 import Setup from "./pages/setupaccount/Setup";
+import Buyusdt from "./pages/app/app-home-page/BuyUsdt/Buyusdt";
+
 function App() {
   return (
     <>
@@ -26,15 +28,15 @@ function App() {
           <Route path="/verification" element={<EmailSmsVerification/>}/>
           <Route path="/setup" element={<Setup/>}/>
         </Route>
-
         <Route path="/app" element={<AppRouteWrapper />}>
           <Route index element={<AppHomePage />} />
+          <Route path="buyUSDT" element={<Buyusdt/>}/>
           <Route path="order" element={<AppOrderPage />} />
           <Route path="pitch" element={<AppPitchPage />} />
           <Route path="wallet" element={<AppWalletPage />} />
           <Route path="profile" element={<AppProfilePage />} />
           <Route path="signout" element={<AppSignOutPage/>}/>
-        </Route>
+          </Route>
         
       </Routes>
     </>

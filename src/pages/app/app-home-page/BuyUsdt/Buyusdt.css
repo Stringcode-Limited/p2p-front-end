@@ -1,0 +1,51 @@
+.usdt-info{
+    width: 50vw;
+    height: 1221px;
+    top: 2227px;
+    display: flex;
+    gap: 20px;
+    
+}
+.usdt-info .sidebar{
+    width: 365px;
+    height: 945px;
+    border: 0px, 1px 0px, 0px;
+    border-right: 1px solid #727272;
+}
+.usdt-info .sidebar-right{
+    width: 365px;
+    height: 945px;
+    border: 0px, 1px 0px, 0px;
+    border-left: 1px solid #727272
+}
+.usdt-info .icons-unit{
+    width: 136px;
+    height: 368px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 44px;
+    top: 106px;
+    margin-top: 30px;
+    left: 44px;
+    gap: 40px;
+}
+.usdt-info .log{
+    margin-left: 44px;
+}
+.usdt-info .icons-unit-right{
+    width: 136px;
+    height: 368px;
+    display: flex;
+    flex-direction: column;
+    top: 106px;
+    margin-top: 30px;
+    left: 44px;
+    gap: 40px;
+}
+.usdt-info .middle-section{
+    border: 1px solid red;
+    width: 570px;
+}
+.sdt{
+    border: 1px solid green;
+}

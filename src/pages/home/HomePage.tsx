@@ -42,6 +42,7 @@ function HomePage() {
         <div className="hero1">
         <div className="wrapper">
        <div className="hero-text">
+        
         <h2>Trade anywhere,<br></br>time. P2P at your<br></br> Fingertips</h2>
        </div>
          <div className="seamless-text">

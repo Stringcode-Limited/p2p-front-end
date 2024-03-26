@@ -17,6 +17,7 @@ nav{
 nav .logo{
     font-family: 'Gilroy-Bold', sans-serif;
     font-size: 20px;
+    color: #111010;
 }
 
 nav .navs{
@@ -35,6 +36,7 @@ nav .navs .navs1 ul{
 nav .navs .navs1 ul li{
     transition: ease-in-out 0.2s;
     cursor: pointer;
+    color: #111010;
 }
 
 nav .navs .navs1 ul li:hover{
