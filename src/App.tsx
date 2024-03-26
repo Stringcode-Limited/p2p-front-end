@@ -25,7 +25,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/login" element={<Login/>} />
           <Route path="/signup" element={<Signup/>} />
-          <Route path="/veri" element={<EmailSmsVerification/>}/>
+          <Route path="/verification" element={<EmailSmsVerification/>}/>
           <Route path="/setup" element={<Setup/>}/>
         </Route>
         <Route path="/app" element={<AppRouteWrapper />}>
