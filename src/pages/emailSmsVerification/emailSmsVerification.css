@@ -2,20 +2,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 90px 0;
+    padding: 80px 0;
 }
 .veri-container .form-wrapper {
     border: 2px solid rgb(141, 132, 132);
     border-radius: 30px;
-    padding: 68px 33px;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+    padding: 64px 38px;
+    
 }
 .veri-container .form-wrapper .div-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 30px;
 }
 .veri-container .form-wrapper .div-wrapper .heading {
     text-align: center;
@@ -23,6 +21,7 @@
     font-size: 28px;
     line-height: 36px;
     font-family: Gilroy-Bold;
+    color: #1D1B20;
 }
 .veri-container .form-wrapper .div-wrapper .form-contents {
     display: flex;
