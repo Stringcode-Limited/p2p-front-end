@@ -15,6 +15,7 @@ interface ITraderCard {
   cryptoAmount: number;
   range1: string;
   range2: string;
+  route?: string;
 }
 
 function TraderCard({
@@ -31,6 +32,7 @@ function TraderCard({
   cryptoAmount,
   range1,
   range2,
+  route
 }: ITraderCard) {
   return (
     <>
@@ -63,7 +65,7 @@ function TraderCard({
           </div>
         </div>
 
-        <Button text={buttonText} color={buttonColor} type="mini" />
+        <Button text={buttonText} color={buttonColor} type="mini" route={route}/>
       </div>
     </>
   );
