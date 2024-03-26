@@ -12,7 +12,10 @@ import {
 import { Routes, Route } from "react-router-dom";
 import Login from "./pages/login/Login";
 import Signup from "./pages/signup/Signup";
+import EmailSmsVerification from "./pages/emailSmsVerification/EmailSmsVerification";
+import Setup from "./pages/setupaccount/Setup";
 import Buyusdt from "./pages/app/app-home-page/BuyUsdt/Buyusdt";
+
 function App() {
   return (
     <>
@@ -22,6 +25,8 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/login" element={<Login/>} />
           <Route path="/signup" element={<Signup/>} />
+          <Route path="/verification" element={<EmailSmsVerification/>}/>
+          <Route path="/setup" element={<Setup/>}/>
         </Route>
         <Route path="/app" element={<AppRouteWrapper />}>
           <Route index element={<AppHomePage />} />

@@ -1,0 +1,41 @@
+.veri-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+.veri-container .form-wrapper {
+    border: 2px solid rgb(141, 132, 132);
+    border-radius: 30px;
+    padding: 64px 38px;
+    
+}
+.veri-container .form-wrapper .div-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.veri-container .form-wrapper .div-wrapper .heading {
+    text-align: center;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    font-family: Gilroy-Bold;
+    color: #1D1B20;
+}
+.veri-container .form-wrapper .div-wrapper .form-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.veri-container .form-wrapper .div-wrapper .form-contents .continue-button {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.veri-container .form-wrapper .div-wrapper .form-contents .continue-button a {
+    text-decoration: none;
+}

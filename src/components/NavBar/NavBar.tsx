@@ -9,11 +9,11 @@ function NavBar() {
   return (
     <>
     <nav>
-        <div className="logo">P2P APP</div>
+    <NavLink to={"/"}><div className="logo">P2P APP</div></NavLink>
         <div className="navs">
             <div className="navs1">
                 <ul>
-                    <li>Home</li>
+                <NavLink to={"/"}><li>Home</li></NavLink>
                     <li>Contact Us</li>
                     <li>FAQs</li>
                 </ul>
