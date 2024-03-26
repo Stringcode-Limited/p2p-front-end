@@ -26,7 +26,7 @@ const Login = () => {
                             <Button text="Login" color="green" type="normal2" />
                             </div>
                             <div className="account">
-                                <div className="have-an-account">Don't have an account? <span><NavLink to={""}>Sign up</NavLink></span></div>
+                                <p className="have-an-account">Don't have an account? <span><NavLink to={""}>Sign up</NavLink></span></p>
                                 <div className="forgot-password">
                                     <NavLink to={""}>Forgot Password?</NavLink>
                                 </div>

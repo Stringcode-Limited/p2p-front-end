@@ -19,7 +19,7 @@ const Signup = () => {
               <Input label="Email address" type="email" />
               <Input label="Phone number" type="number" />
               <div className="continue-button">
-                <NavLink to={"/veri"}><Button text="Continue" color="green" type="normal2" /></NavLink>
+                <NavLink to={"/verification"}><Button text="Continue" color="green" type="normal2" /></NavLink>
               </div>
               <div className="account">
                 <p>Already have an account? <span><NavLink to={""}>Login </NavLink></span></p>

@@ -7,8 +7,36 @@
 .setup-container .form-wrapper {
     border: 2px solid rgb(141, 132, 132);
     border-radius: 30px;
-    padding: 68px 33px;
+    padding: 48px 33px;
     display: flex;
     flex-direction: column;
     gap: 24px;
+}
+.setup-container .form-wrapper .div-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.setup-container .form-wrapper .div-wrapper .heading {
+    text-align: center;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    font-family: Gilroy-Bold;
+    padding-bottom: 24px;
+}
+.setup-container .form-wrapper .div-wrapper .form-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.setup-container .form-wrapper .div-wrapper .finish-button {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.setup-container .form-wrapper .div-wrapper .finish-button a{
+    text-decoration: none;
 }

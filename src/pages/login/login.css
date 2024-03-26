@@ -45,8 +45,11 @@ gap: 30px;
 .login-container .form-wrapper .div-wrapper .form-contents .login-button{
     margin-top: 18px ;
 }
-.login-container .form-wrapper .div-wrapper .form-contents .account{
+.login-container .form-wrapper .div-wrapper .form-contents .account {
     text-align: center;
+    
+}
+.login-container .form-wrapper .div-wrapper .form-contents .account p{
     font-family: 'Gilroy-Regular', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -55,13 +58,22 @@ gap: 30px;
 .login-container .form-wrapper .div-wrapper .form-contents .account .have-an-account span a{
 text-decoration: none;
 color: #00A542;
+font-family: 'Gilroy-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 .login-container .form-wrapper .div-wrapper .form-contents .account .forgot-password{
     padding: 4px 0;
+    
 }
 .login-container .form-wrapper .div-wrapper .form-contents .account .forgot-password a{
     color: #00A542;
     text-decoration: none;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
    
 }
 .login-container .form-wrapper .continue-wrapper{
