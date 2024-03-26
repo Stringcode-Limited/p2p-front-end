@@ -1,6 +1,12 @@
 /* @import url('https://fonts.cdnfonts.com/css/gilroy-bold'); */
                 
 .usdt-info{
+   
+    border: 1px solid red;
+    
+  
+}
+.usdt-info .jr-usdt{
     width: 50vw;
     height: 1221px;
     top: 2227px;
@@ -9,9 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    
-  
+    flex-direction: column;
 }
 
 
@@ -130,6 +134,15 @@ input[type="text"]{
     margin-top: -600px;
 }
 .usdt-info .comm{
-    font-family: 'Gilroy-Medium', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
 
+
+}
+.usdt-info .com{
+    font-family: 'Gilroy-Medium', sans-serif;
+    padding: -5px;
+}
+.usdt-info .timer{
+    display: flex;
+    gap: 6px;
 }

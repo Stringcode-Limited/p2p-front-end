@@ -5,6 +5,7 @@ import figure from "../../../../assets/images/figure.png"
 import fiat from "../../../../assets/images/fiat.png"
 import pays from "../../../../assets/images/pays.png"
 import Buyudstbtn from "./Buyudstbtn";
+import timer from "../../../../assets/images/timer.png"
 
 
 
@@ -68,6 +69,10 @@ function Buyusdt() {
                             </div>
                         <div className="comments">
                             <p className="comm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <div className="timer">
+                            <div className="time"><img src={timer} alt="" /></div>
+                            <p className="com">10 mins</p>
                         </div>
                 </div>
            </div>
