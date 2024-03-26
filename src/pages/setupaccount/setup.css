@@ -1,0 +1,14 @@
+.setup-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0;
+}
+.setup-container .form-wrapper {
+    border: 2px solid rgb(141, 132, 132);
+    border-radius: 30px;
+    padding: 68px 33px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}

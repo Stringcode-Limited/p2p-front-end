@@ -9,28 +9,34 @@ import Apple from "../../components/Apple/Apple";
 const Signup = () => {
   return (
     <div>
-            <NavBar />
-            <div>
-                <div>
-                    <div>
-                    <div>Create an Account</div>
-                    <Input label="Full name" type="text" />
-                    <Input label="Email address" type="email" />
-                    <Input label="Phone number" type="number" />
-                    <Button text="Continue" color="green" type="normal2" />
-                    <div>Already have an account? <span><NavLink to={""}>Login </NavLink></span></div>
-                    <div>
-                        <NavLink to={""}>Forgot Password?</NavLink>
-                    </div>
-                    </div>
-                    <div>
-                      <Google/>  
-                      <Apple/>
-                    </div>
+      <NavBar />
+      <div className="signup-container">
+        <div className="form-wrapper">
+          <div className="div-wrapper">
+            <div className="heading">Create an Account</div>
+            <div className="form-contents">
+              <Input label="Full name" type="text" />
+              <Input label="Email address" type="email" />
+              <Input label="Phone number" type="number" />
+              <div className="continue-button">
+                <NavLink to={"/veri"}><Button text="Continue" color="green" type="normal2" /></NavLink>
+              </div>
+              <div className="account">
+                <p>Already have an account? <span><NavLink to={""}>Login </NavLink></span></p>
+                <div className="forgot">
+                  <NavLink to={""}>Forgot Password?</NavLink>
                 </div>
-
+              </div>
             </div>
+          </div>
+          <div className="continue-wrapper">
+            <Google />
+            <Apple />
+          </div>
         </div>
+
+      </div>
+    </div>
   )
 }
 

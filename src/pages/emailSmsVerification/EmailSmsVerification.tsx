@@ -1,19 +1,24 @@
 import "./emailSmsVerification.css";
 import Button from "../../components/Button/Button";
-import Input from "../../components/Input/Input";
 import NavBar from "../../components/NavBar/NavBar";
+import { NavLink } from "react-router-dom";
+import OTP from "../../components/OTP/OTP";
 
 const EmailSmsVerification = () => {
     return (
         <div>
             <NavBar />
-            <div>
-                <div>
-                    <div>
-                        <div>Email & SMS Verification</div>
-                        <Input label="Email OTP" type="number" />
-                        <Input label="SMS OTP" type="number" />
-                        <Button text="Continue" color="green" type="normal2" />
+            <div className="veri-container">
+                <div className="form-wrapper">
+                    <div className="div-wrapper">
+                        <div className="heading">Email & SMS Verification</div>
+                        <div className="form-contents">
+                        <OTP label="Email OTP" />
+                        <OTP label="SMS OTP" />
+                        <div className="continue-button">
+                        <NavLink to={"/setup"}><Button text="Continue" color="green" type="normal2" /></NavLink>
+                        </div>
+                        </div>
                     </div>
                 </div>
 

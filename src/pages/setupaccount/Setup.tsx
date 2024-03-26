@@ -7,8 +7,8 @@ const Setup = () => {
     return (
         <div>
             <NavBar />
-            <div>
-                <div>
+            <div className="setup-container">
+                <div className="form-wrapper">
                     <div>
                         <div>Setup your account</div>
                         <Input label="Username" type="text" />
