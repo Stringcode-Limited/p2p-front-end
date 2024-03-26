@@ -1,0 +1,70 @@
+
+
+                               
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.login-container .form-wrapper{
+    border: 2px solid rgb(141,132,132);
+    border-radius: 30px;
+    padding: 30px 33px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.login-container .form-wrapper .div-wrapper{
+display: flex;
+flex-direction: column;
+gap: 30px;
+
+}
+.login-container .form-wrapper .div-wrapper .heading{
+    text-align: center;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    font-family: Gilroy-Bold;
+   
+    
+}
+.login-container .form-wrapper .div-wrapper input{
+    font-family: Gilroy-Bold;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.login-container .form-wrapper .div-wrapper .form-contents{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.login-container .form-wrapper .div-wrapper .form-contents .login-button{
+    margin-top: 18px ;
+}
+.login-container .form-wrapper .div-wrapper .form-contents .account{
+    text-align: center;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.login-container .form-wrapper .div-wrapper .form-contents .account .have-an-account span a{
+text-decoration: none;
+color: #00A542;
+}
+.login-container .form-wrapper .div-wrapper .form-contents .account .forgot-password{
+    padding: 4px 0;
+}
+.login-container .form-wrapper .div-wrapper .form-contents .account .forgot-password a{
+    color: #00A542;
+    text-decoration: none;
+   
+}
+.login-container .form-wrapper .continue-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}

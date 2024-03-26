@@ -14,11 +14,13 @@
     flex-direction: column;
     justify-content: space-between;
     height: 38px;
+    width: 40%;
     color: #1D1B20;
 }
 
 .transactionCard .left .title{
     color: #1D1B20;
+    font-size: 14px;
 }
 
 .transactionCard .left .time{

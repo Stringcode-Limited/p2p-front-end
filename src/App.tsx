@@ -10,6 +10,8 @@ import {
   HomePage,
 } from "./pages";
 import { Routes, Route } from "react-router-dom";
+import Login from "./pages/login/Login";
+import Signup from "./pages/signup/Signup";
 import Buyusdt from "./pages/app/app-home-page/BuyUsdt/Buyusdt";
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path="/" element={<HomeRouteWrapper />}>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/login" element={<Login/>} />
+          <Route path="/signup" element={<Signup/>} />
         </Route>
         <Route path="/app" element={<AppRouteWrapper />}>
           <Route index element={<AppHomePage />} />
@@ -28,6 +32,7 @@ function App() {
           <Route path="profile" element={<AppProfilePage />} />
           <Route path="signout" element={<AppSignOutPage/>}/>
           </Route>
+        
       </Routes>
     </>
   );

@@ -3,13 +3,12 @@
     
   }
   .app__container .sidebarWrapper{
-    /* width: 365px; */
     width: 20vw;
     background-color: #FCFCFC;
     height: 100vh;
     position: sticky;
     top: 0;
-    border-right: 1px solid #000;
+    border-right: 1px solid #727272;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -21,18 +20,7 @@
   .app__container .sidebarWrapper .sidebar{
     margin-left: 44px;
   }
-  /* .app__container .sidebarWrapper .sidebar *{
-    color: #5E5E5E;
-    list-style: none;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    font-family: Gilroy-Medium;
-  } */
+ 
   
  .app__container .sidebarWrapper .sidebar ul li{
     display: flex;
@@ -41,8 +29,6 @@
     gap: 20px; 
     padding: 6px 0;
     margin: 16px 0;
-    
-
     list-style: none;
     color: #5E5E5E;
     
@@ -64,9 +50,7 @@
  
  
   .app__container .app__content{
-    /* width: 100%; */
     width: 80vw;
-    height: 300vh;
   }
   
   

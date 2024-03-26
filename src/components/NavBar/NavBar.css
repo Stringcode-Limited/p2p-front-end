@@ -47,8 +47,14 @@ nav .navs .navs2 ul{
     list-style: none;
     gap: 30px;
 }
-
-nav .navs .navs2 ul .search{
+nav .navs .navs2 ul li a{
+    text-decoration: none;
+    color: #000;
+}
+nav .navs .navs2 ul li a:hover{
+    color: #00A542;
+}
+nav .navs .navs2 ul .navsearch{
     font-size: 25px;
 }
 
