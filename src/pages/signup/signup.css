@@ -1,0 +1,89 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 90vh; */
+    padding: 90px 0;
+}
+
+.signup-container .form-wrapper {
+    border: 2px solid rgb(141, 132, 132);
+    border-radius: 30px;
+    padding: 30px 33px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.signup-container .form-wrapper .div-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.signup-container .form-wrapper .div-wrapper .heading {
+    text-align: center;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    font-family: Gilroy-Bold;
+}
+
+.signup-container .form-wrapper .div-wrapper .form-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.signup-container .form-wrapper .div-wrapper .form-contents input {
+    font-family: Gilroy-Bold;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.signup-container .form-wrapper .div-wrapper .form-contents .continue-button {
+    margin-top: 18px;
+}
+.signup-container .form-wrapper .div-wrapper .form-contents .continue-button a {
+    text-decoration: none;
+}
+
+.signup-container .form-wrapper .div-wrapper .form-contents .account {
+    text-align: center;
+
+}
+
+.signup-container .form-wrapper .div-wrapper .form-contents .account p {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.signup-container .form-wrapper .div-wrapper .form-contents .account p span a {
+    text-decoration: none;
+    color: #00A542;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.signup-container .form-wrapper .div-wrapper .form-contents .account .forgot {
+    padding: 4px 0;
+}
+
+.signup-container .form-wrapper .div-wrapper .form-contents .account .forgot a {
+    color: #00A542;
+    text-decoration: none;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.signup-container .form-wrapper .continue-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
