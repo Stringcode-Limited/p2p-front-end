@@ -17,6 +17,7 @@ import Setup from "./pages/setupaccount/Setup";
 import Buyusdt from "./pages/app/app-home-page/BuyUsdt/Buyusdt";
 import ReleasingCryptoPage from "./pages/app/app-home-page/releasingCrypto/releasingCryptoPage/ReleasingCryptoPage";
 import CryptoReleasedPage from "./pages/app/app-home-page/cryptoReleased/CryptoReleasedPage/CryptoReleasedPage";
+import CryptoSold from "./pages/app/app-home-page/cryptoSold/CryptoSoldPage/CryptoSold";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Route path="buyUSDT" element={<Buyusdt/>}/>
           <Route path="releasingcrypto" element={<ReleasingCryptoPage/>} />
           <Route path="cryptoreleased" element={<CryptoReleasedPage/>} />
+          <Route path="cryptosold" element={<CryptoSold/>}/>
           <Route path="order" element={<AppOrderPage />} />
           <Route path="pitch" element={<AppPitchPage />} />
           <Route path="wallet" element={<AppWalletPage />} />
