@@ -2,7 +2,9 @@
                 
 .usdt-info{
    
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    display: flex;
+    
     
   
 }
@@ -11,7 +13,6 @@
     height: 1221px;
     top: 2227px;
     gap: 20px;
-    border: 1px solid orange;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,7 +37,7 @@
 .usdt-info .middle-section{
     width: 570px;
     height: 145px;
-    margin-top: -400px;
+    margin-top: -80px;
     
 
 }
@@ -184,6 +185,10 @@ input[type="text"]{
     height: 46px;
     gap: 8px;
 }
+.usdt-info .jh{
+    font-size: 16px;
+    font-family: 'Gilroy-Light' sans-serif;
+}
 .usdt-info .seller-profile{
     display: flex;
     flex-direction: column;
@@ -213,6 +218,45 @@ input[type="text"]{
     bottom: 0;
     transform: translateX(-50%);
 }
-
+.usdt-info .reviews{
+    width: 511px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -240px;
+    /* gap */
+}
+.usdt-info .review-caption{
+    width: 150px;
+    height: 24px;
+    
+}
+.usdt-info .write-ups{
+    width: 511px;
+    height: 168px;
+}
+.usdt-info .rev{
+    font-size: 18px;
+    font-family: 'Gilroy-Bold' sans-serif;
+    
+}
+.usdt-info .rev-text{
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    font-weight: 400;
+}.usdt-info .recent-orders{
+    width: 384px;
+    height: 800px;
+    left: 979px;
+}
+.usdt-info .inner-order{
+    width: 370px;
+    height: 1067px;
+    top: 77px;
+    left: 14px;
+    /* gap: 16px; */
+}
 
 

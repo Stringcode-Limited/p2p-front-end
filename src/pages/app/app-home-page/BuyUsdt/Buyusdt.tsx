@@ -6,8 +6,9 @@ import fiat from "../../../../assets/images/fiat.png"
 import pays from "../../../../assets/images/pays.png"
 import Buyudstbtn from "./Buyudstbtn";
 import timer from "../../../../assets/images/timer.png"
-import JohnDoe from "../../../../assets/JohnDoe.png"
+import doe from "../../../../assets/images/doe.png"
 import badge from "../../../../assets/images/badge.png"
+import RecentOrders from "../recentOrders/RecentOrders";
 
 
 
@@ -83,11 +84,11 @@ function Buyusdt() {
                     </div>
                     <div className="se-img">
                         <div className="doe-wrapper">
-                        <img src={JohnDoe} alt="" />
+                        <img src={doe} alt="" />
                         </div>
                         <div className="nam-wrapper">
                             <div className="name-wrapper">
-                            <h4>JhonDoe</h4>
+                            <h4 className="jh">JohnDoe</h4>
                             <div className="badge">
                                 <img className="dge" src={badge} alt="" />
                                 </div>
@@ -103,6 +104,19 @@ function Buyusdt() {
                             <p className="com">10 mins</p>
                         </div>
                     </div>
+                    </div>
+                    <div className="reviews">
+                        <div className="review-caption">
+                            <h3 className="rev">Reviews & ratings</h3>
+                        </div>
+                        <div className="write-ups">
+                            <p className="rev-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolorin reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident,sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="recent-orders">
+                    <div className="inner-order">
+                         <RecentOrders /> 
                     </div>
                 </div>
            </div>
