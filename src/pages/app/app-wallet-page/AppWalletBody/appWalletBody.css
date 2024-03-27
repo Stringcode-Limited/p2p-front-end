@@ -1,0 +1,26 @@
+.walletBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    border-right: 1px solid #727272;
+}
+
+.walletBody .top{
+    display: flex;
+    align-items: center;
+    height: 145px;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 45%;
+    position: sticky;
+    top: 0;
+    background-color: #FCFCFC; 
+}
+
+.walletBody .top p{
+    font-size: 28px;
+}
+
