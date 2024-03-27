@@ -20,6 +20,7 @@ import CryptoReleasedPage from "./pages/app/app-home-page/cryptoReleased/CryptoR
 import P2PSellPage from "./pages/app/app-home-page/p2pSell/P2PSellPage/P2PSellPage";
 import CryptoSold from "./pages/app/app-home-page/cryptoSold/CryptoSoldPage/CryptoSold";
 import WaitingPaymentPage from "./pages/app/app-home-page/waitingPayment/waitingPaymentPage/WaitingPaymentPage";
+import SellUsdtPage from "./pages/app/app-home-page/sellUsdt/sellUsdtPage/SellUsdtPage";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
           <Route path="cryptoreleased" element={<CryptoReleasedPage/>} />
           <Route path="cryptosold" element={<CryptoSold/>}/>
           <Route path="waitingPayment" element={<WaitingPaymentPage/>}/>
+          <Route path="sellUsdtPage" element={<SellUsdtPage/>}/>
           <Route path="order" element={<AppOrderPage />} />
           <Route path="pitch" element={<AppPitchPage />} />
           <Route path="wallet" element={<AppWalletPage />} />
