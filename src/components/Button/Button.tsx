@@ -3,7 +3,7 @@ import './Button.css'
 
 interface IButton {
   text: string
-  color?: "green" | "red" | "grey" | "white"
+  color?: "green" | "red" | "grey" | "white" 
   type?: "mini" | "mini2" | "small" | "small2" | "normal" | "normal2" | "large" | "large2"
   route?: string
 }

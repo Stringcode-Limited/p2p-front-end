@@ -1,8 +1,6 @@
 import "./Buyusdt.css"
 import left from "../../../../assets/images/left.png"
 import OrderCard from "../../../../components/OrderCard/OrderCard";
-import figure from "../../../../assets/images/figure.png"
-import fiat from "../../../../assets/images/fiat.png"
 import pays from "../../../../assets/images/pays.png"
 import Buyudstbtn from "./Buyudstbtn";
 import timer from "../../../../assets/images/timer.png"

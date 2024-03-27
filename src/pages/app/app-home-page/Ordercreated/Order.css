@@ -1,6 +1,10 @@
 .ordercreated{
     /*  */
-}.ordercreated .arrow{
+    display: flex;
+    margin-left: 40px;
+
+}
+.ordercreated .arrow{
     display: flex;
     width: 360.23px;
     height: 36px;
@@ -12,19 +16,22 @@
     width: 570px;
     height: 145px;
     left: 387px;
+    margin-top: 70px;
 }
 .ordercreated .customer-info{
     width: 511px;
     height: 706px;
     top: 201px;
     left: 412px;
-    /* gap: ; */
+    
 }
 .ordercreated .jhn-d{
     width: 270px;
     height: 134px;
-    /* display: flex; */
-    gap:8px ;
+    display: flex; 
+    flex-direction: column;
+    gap:20px ;
+    margin-top: -30px;
 }
 .ordercreated .name-wrapper{
    display: flex;
@@ -67,4 +74,33 @@
 .ordercreated .fit{
     font-family: 'Gilroy-Medium', sans-serif;
     font-size: 14px;
+}
+.ordercreated .rev-text{
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+.ordercreated .reviews{
+    width: 511px;
+    height: 200px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.ordercreated .rev{
+    font-size: 18px;
+    font-family: 'Gilroy-Bold' sans-serif;
+    
+}
+.ordercreated .proceed-topay{
+    display: flex;
+    flex-direction: column;
+    width: 511px;
+    height: 84px;
+    gap: 8px;
+}
+.ordercreated .complete{
+    display: flex;
+    gap: 10px;
 }

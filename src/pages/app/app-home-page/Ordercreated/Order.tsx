@@ -7,6 +7,7 @@ import right from "../../../../assets/images/right.png"
 import interval from "../../../../assets/images/interval.png"
 import esc from "../../../../assets/images/asc.png"
 import ordernumber from "../../../../assets/images/ordernumber.png"
+import Button from '../../../../components/Button/Button';
 
 function Order() {
   return (
@@ -14,13 +15,18 @@ function Order() {
          <div className="order1">
           <div className="order-caption">
             <div className="arrow">
+              <div className="rights">
               <img src={left} alt="" />
+              </div>
+              <div className="ders">
               <h2>Order Created</h2>
+              </div>
             </div>
            
           </div>
             <div className="customer-info">
             <div className="jhn-d">
+                         <div className="complete">
                         <div className="doe-wrapper">
                         <img src={doe} alt="" />
                         </div>
@@ -39,7 +45,9 @@ function Order() {
                             <div className="right-arrow">
                               <img src={right} alt="" />
                             </div>
-                        </div>
+                           </div>
+                          </div>
+                        
                         <div className="make-payment">
                             <div className="interval">
                               <img src={interval} alt="" />
@@ -68,8 +76,23 @@ function Order() {
                             </div>
                           </div>
                         </div>
+                        <div className="reviews">
+                        <div className="review-caption">
+                            <h3 className="rev">Reviews & ratings</h3>
+                        </div>
+                        <div className="write-ups">
+                            <p className="rev-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolorin reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident,sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                       <div className="proceed-topay">
+                        <Button  type='large' text='Proceed to pay'/>
+                        <Button  type='large' text='Cancel order' color='grey'/>
+                       </div>
                     </div>
             </div>
+         </div>
+         <div className="chats">
+          <h3>chats</h3>
          </div>
     </div>
   );
