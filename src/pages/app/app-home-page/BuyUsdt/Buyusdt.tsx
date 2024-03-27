@@ -9,6 +9,8 @@ import timer from "../../../../assets/images/timer.png"
 import doe from "../../../../assets/images/doe.png"
 import badge from "../../../../assets/images/badge.png"
 import RecentOrders from "../recentOrders/RecentOrders";
+import Fiat from "../../../../components/Fiat/Fiat";
+import Button from "../../../../components/Button/Button";
 
 
 
@@ -33,10 +35,10 @@ function Buyusdt() {
                         <div className="fig-bold">
                             <div className="wrapps">
                             <div className="fig-amount">
-                                <img src={figure} alt="" />
+                                <h1>1,430.00</h1>
                             </div>
                             <div className="ud-label">
-                                <img src={fiat} alt="" />
+                                <Fiat/>
                             </div>
                             </div>
                             <div className="entering-filed">
@@ -62,7 +64,7 @@ function Buyusdt() {
                    
                 </div>
                 <div className="btn">
-                        <Buyudstbtn />
+                        <Button text="BUY USDT" type="large" route="/app/orderCreated"/>
                     </div>
             </div>
             <div className="davwrapper">

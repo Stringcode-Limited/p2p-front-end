@@ -1,0 +1,70 @@
+.ordercreated{
+    /*  */
+}.ordercreated .arrow{
+    display: flex;
+    width: 360.23px;
+    height: 36px;
+    top: 75px;
+    left: 39px;
+    gap: 161px;
+}
+.ordercreated .order-caption{
+    width: 570px;
+    height: 145px;
+    left: 387px;
+}
+.ordercreated .customer-info{
+    width: 511px;
+    height: 706px;
+    top: 201px;
+    left: 412px;
+    /* gap: ; */
+}
+.ordercreated .jhn-d{
+    width: 270px;
+    height: 134px;
+    /* display: flex; */
+    gap:8px ;
+}
+.ordercreated .name-wrapper{
+   display: flex;
+}
+.ordercreated .nam-wrapper{
+    display: flex;
+    width: 160px;
+    height: 46px;
+    gap: 10px;
+}
+.ordercreated .doe{
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 11px;
+}
+.ordercreated .right-arrow{
+    margin-top: 12px;
+    width: 9px;
+}
+.ordercreated .make-payment{
+    width: 270px;
+    height: 64px;
+    /* gap: ; */
+}
+.ordercreated .fiat-amount{
+    width: 511px;
+    height: 228px;
+    border-radius: 10px;
+    background-color: #F3F3F3;
+}
+.ordercreated .fiat1{
+    display: flex;
+    width: 507px;
+    height: 48px;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.ordercreated .fit{
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 14px;
+}

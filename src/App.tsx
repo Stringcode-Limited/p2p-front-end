@@ -15,6 +15,7 @@ import Signup from "./pages/signup/Signup";
 import EmailSmsVerification from "./pages/emailSmsVerification/EmailSmsVerification";
 import Setup from "./pages/setupaccount/Setup";
 import Buyusdt from "./pages/app/app-home-page/BuyUsdt/Buyusdt";
+import Order from "./pages/app/app-home-page/Ordercreated/Order";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         </Route>
         <Route path="/app" element={<AppRouteWrapper />}>
           <Route index element={<AppHomePage />} />
+          <Route path="orderCreated" element={<Order/>}/>
           <Route path="buyUSDT" element={<Buyusdt/>}/>
           <Route path="order" element={<AppOrderPage />} />
           <Route path="pitch" element={<AppPitchPage />} />
