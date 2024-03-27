@@ -6,7 +6,7 @@ import tick from '../../../../../assets/images/tick.svg'
 const CryptoSoldBody = () => {
     return (
         <>
-          <div className="cryptoReleasedBody">
+          <div className="cryptoSoldBody">
             <div className="top">
               <img src={left} />
               <p className="orders">Crypto sold</p>
