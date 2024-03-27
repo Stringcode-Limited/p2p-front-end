@@ -18,7 +18,7 @@
     justify-content: center;
     font-size: 14px;
     align-items: center;
-    cursor: pointer;
+    cursor: default;
 }
 
 .Buy .sellButton{
