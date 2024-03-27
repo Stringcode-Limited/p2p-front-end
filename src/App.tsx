@@ -16,6 +16,7 @@ import EmailSmsVerification from "./pages/emailSmsVerification/EmailSmsVerificat
 import Setup from "./pages/setupaccount/Setup";
 import Buyusdt from "./pages/app/app-home-page/BuyUsdt/Buyusdt";
 import ReleasingCryptoPage from "./pages/app/app-home-page/releasingCrypto/releasingCryptoPage/ReleasingCryptoPage";
+import CryptoReleasedPage from "./pages/app/app-home-page/cryptoReleased/CryptoReleasedPage/CryptoReleasedPage";
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
         <Route path="/app" element={<AppRouteWrapper />}>
           <Route index element={<AppHomePage />} />
           <Route path="buyUSDT" element={<Buyusdt/>}/>
-          <Route path="releasingCrypto" element={<ReleasingCryptoPage/>} />
+          <Route path="releasingcrypto" element={<ReleasingCryptoPage/>} />
+          <Route path="cryptoreleased" element={<CryptoReleasedPage/>} />
           <Route path="order" element={<AppOrderPage />} />
           <Route path="pitch" element={<AppPitchPage />} />
           <Route path="wallet" element={<AppWalletPage />} />
