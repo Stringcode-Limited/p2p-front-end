@@ -3,8 +3,8 @@ import './Button.css'
 
 interface IButton {
   text: string
-  color?: "green" | "red" | "grey" | "white"
-  type?: "mini" | "mini2" | "small" | "small2" | "normal" | "normal2" | "large" | "large2"
+  color?: "green" | "red" | "grey" | "white" | "grey2"
+  type?: "mini" | "mini2" | "small" | "small2" | "normal" | "normal2" | "large" | "large2" | "large3"
   route?: string
 }
 

@@ -7,7 +7,7 @@ function ReleasingCryptoPage() {
     <>
     <div className="releasingCryptoPage">
       <ReleasingCryptoBody/>
-      <Chat/>
+      <Chat label="Your crypto will be released within" time="09:00" type="paragraph" timertype="timer" displayimage="show"/>
       </div>
     </>
   )
