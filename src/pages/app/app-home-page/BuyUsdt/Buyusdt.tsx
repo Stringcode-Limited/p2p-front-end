@@ -64,8 +64,8 @@ function Buyusdt() {
                         <Buyudstbtn />
                     </div>
             </div>
+            <div className="davwrapper">
                 <div className="details">
-                        
                         <div className="comments">
                         <div className="det">
                             <h3>Ad Details</h3>
@@ -102,6 +102,7 @@ function Buyusdt() {
                             <div className="time"><img src={timer} alt="" /></div>
                             <p className="com">10 mins</p>
                         </div>
+                    </div>
                     </div>
                 </div>
            </div>

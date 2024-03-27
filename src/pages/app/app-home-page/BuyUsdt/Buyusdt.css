@@ -190,9 +190,29 @@ input[type="text"]{
     width: 143px;
     height: 102px;
     gap: 8px;
-    margin-left: -370px;
+    margin-top: 25px;
+
 }
+
 .usdt-info .tim{
     display: flex;
     gap: 8px;
 }
+.usdt-info .tim{
+    position: relative;
+    margin: 0;
+    padding-bottom: 15px;
+}
+.tim::after{
+    content: '';
+    position: absolute;
+    background-color: #C6C6C6;
+    left: 180%;
+    width: 511px;
+    height: 1px;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+
+
