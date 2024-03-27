@@ -1,19 +1,20 @@
 
 .recentOrders{
-    width: 25vw;
-    height: 800px;
-    border-left: 1px solid #000;
+    width: 29vw;
+    height: 100vh;
     overflow-y: scroll;
-    
+    position: sticky;
+    top: 0;
 }
 .recentOrders::-webkit-scrollbar {
-    display: none;
+    /* display: none; */
   }
 .recentOrders .recentContainer{
     padding-top: 77px;
     display: flex;
     flex-direction: column;
     gap: 8px;
+    padding-bottom: 10px;
 }
 .recentOrders .recentContainer .recentHeading{
     font-family: 'Gilroy-Bold' sans-serif;
@@ -22,6 +23,7 @@
     line-height: 24px;
     margin: 0 12px;
     color: #000000;
+    padding-left: 3%;
 }
 .recentOrders .recentContainer .orderWrapper{
     
