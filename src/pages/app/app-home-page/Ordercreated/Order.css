@@ -104,3 +104,37 @@
     display: flex;
     gap: 10px;
 }
+.ordercreated .chats{
+    width: 461px;
+    height: 800px;
+    left: 979px;
+    border: 0px, 0px, 0px, 1px solid #727272;
+    border-left: 1px solid #727272;
+    
+}
+.ordercreated .chat-main{
+    width: 447px;
+    height: 514px;
+    margin-top: 50px;
+    top: 77px;
+    left: 14px;
+    margin-left: 10px;
+}
+.ordercreated .interval{
+    margin-left: 20px;
+}
+.ordercreated .chat-text{
+    margin-left: 10px;
+}
+.ordercreated .fiat-proceed{
+    display: flex;
+    width: 447px;
+    height: 52px;
+    top: 68px;
+    justify-content: space-between;
+    background-color: #DDDDDD;
+    align-items: center;
+    padding: 4px, 16px, 4px, 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}

@@ -92,7 +92,25 @@ function Order() {
             </div>
          </div>
          <div className="chats">
-          <h3>chats</h3>
+           <div className="chat-main">
+            <div className="chat-caption">
+              <p className='chat-text'>Chat</p>
+            </div>
+           <div className="interval">
+             <img src={interval} alt="" />
+            </div>
+            <div className="fiat-proceed">
+              <div className="fiat-amt">
+                <div className="merg-fiat">
+                <p>Fiat amount</p>
+                <p>#5,000.00</p>
+                </div>
+              </div>
+              <div className="fiat-btn">
+                <Button  type='small' text="Proceed to pay"/>
+              </div>
+            </div>
+           </div>
          </div>
     </div>
   );

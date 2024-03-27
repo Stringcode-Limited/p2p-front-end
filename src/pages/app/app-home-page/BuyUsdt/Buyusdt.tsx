@@ -44,7 +44,7 @@ function Buyusdt() {
                               <input type="text" placeholder="# Enter Amount" />
                             </div>
                             <div className="amount">
-                                <p className="figs">Range #100,000.00 - #367,200.00</p>
+                                <p className="figs">Range 100,000.00 - #367,200.00</p>
                             </div>
                             <div className="pays">
                                 <div className="paying">
