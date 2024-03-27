@@ -3,15 +3,23 @@ import clock from "../../../../assets/images/clock.svg";
 import chat from "../../../../assets/images/chat.svg";
 import clip from "../../../../assets/images/clip.svg";
 
-function Chat() {
+interface IChat{
+  label:string
+  time: string
+  type?: "amountsold" | "paragraph"
+  timertype: "timer" | "amountsold"
+  displayimage: "show" | "hide"
+}
+
+function Chat({label, time, type, timertype, displayimage}:IChat) {
   return (
     <>
       <div className="chat">
         <div className="title">Chat</div>
         <div className="text">
-          <img src={clock} />
-          <p>Your crypto will be released within</p>
-          <p className="time">09:00</p>
+          <img src={clock} className={displayimage}/>
+          <p className={type}>{label}</p>
+          <p className={timertype}>{time}</p>
         </div>
         <img src={chat} />
         <div className="chatContainer">

@@ -20,14 +20,31 @@
     align-items: center;
     padding-left: 5%;
 }
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
 
-.chat .text p{
+/* .chat .text */
+ .paragraph{
     font-size: 12px;
     color: #4B4B4B;
     font-family: 'Gilroy-Medium', sans-serif;
 }
+.amountsold{
 
-.chat .text .time{
+font-family: Gilroy-Bold;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+color: #4B4B4B;
+
+}
+
+/* .chat .text  */
+.timer{
     font-size: 16px;
     font-family: 'Gilroy-Bold', sans-serif;
 }
