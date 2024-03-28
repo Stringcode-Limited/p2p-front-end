@@ -15,6 +15,8 @@ import Signup from "./pages/signup/Signup";
 import EmailSmsVerification from "./pages/emailSmsVerification/EmailSmsVerification";
 import Setup from "./pages/setupaccount/Setup";
 import Buyusdt from "./pages/app/app-home-page/BuyUsdt/Buyusdt";
+import Order from "./pages/app/app-home-page/Ordercreated/Order";
+import MakePayment from "./pages/app/app-home-page/Makepayment/MakePayment";
 import ReleasingCryptoPage from "./pages/app/app-home-page/releasingCrypto/releasingCryptoPage/ReleasingCryptoPage";
 import CryptoReleasedPage from "./pages/app/app-home-page/cryptoReleased/CryptoReleasedPage/CryptoReleasedPage";
 import P2PSellPage from "./pages/app/app-home-page/p2pSell/P2PSellPage/P2PSellPage";
@@ -37,6 +39,8 @@ function App() {
         </Route>
         <Route path="/app" element={<AppRouteWrapper />}>
           <Route index element={<AppHomePage />} />
+          <Route path="orderCreated" element={<Order/>}/>
+          <Route path="Makepayment" element={<MakePayment/>}/>
           <Route path="buyUSDT" element={<Buyusdt/>}/>
           <Route path="P2Psell" element={<P2PSellPage/>}/>
           <Route path="releasingcrypto" element={<ReleasingCryptoPage/>} />
