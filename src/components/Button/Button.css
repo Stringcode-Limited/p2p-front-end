@@ -29,7 +29,10 @@ a{
 .grey{
     background-color: #343434;
 }
-
+.grey2{
+    background-color: #4B4B4B;
+    color: #B0B0B0;
+}
 .white{
     background-color: white;
     border: 1px solid #00A542;
@@ -93,4 +96,9 @@ Provide Feedback, Transfer, Confirm, View Details, Share, Payment Received, Help
     border-radius: 5px;
     width: 511px;
     height: 38px;
+}
+.large3{
+    border-radius: 5px;
+    width: 555px;
+    height: 38px; 
 }

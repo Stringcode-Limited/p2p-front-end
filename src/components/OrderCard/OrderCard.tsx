@@ -1,4 +1,5 @@
 import "./OrderCard.css";
+import medal from '../../assets/images/medal.svg'
 
 interface IOrderCard {
   image: string;
@@ -18,7 +19,7 @@ function OrderCard({image, fullName, name, type, price, quantity}:IOrderCard) {
             <img src={image} />
           </div>
           <div className="name">
-            <div className="name1">{fullName}</div>
+            <div className="name1">{fullName} <img src={medal}/></div>
             <div className="name2">@{name}</div>
           </div>
         </div>

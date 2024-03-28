@@ -1,10 +1,11 @@
+import { NavLink } from 'react-router-dom'
 import './Sell.css'
 
 function Sell() {
   return (
     <>
     <div className="Sell">
-        <div className="buyButton">Buy</div>
+    <NavLink to={"/app"}><div className="buyButton">Buy</div></NavLink>
         <div className="sellButton">Sell</div>
     </div>
     </>

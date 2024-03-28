@@ -1,5 +1,6 @@
 import Button from "../Button/Button";
 import "./TraderCard.css";
+import medal from '../../assets/images/medal.svg'
 
 interface ITraderCard {
   buttonText: "BUY" | "SELL";
@@ -43,7 +44,7 @@ function TraderCard({
               <img src={image} />
             </div>
             <div className="name">
-              <p className="name1">{fullName}</p>
+              <p className="name1">{fullName} <img src={medal}/></p>
               <p className="name2">@{name}</p>
             </div>
           </div>

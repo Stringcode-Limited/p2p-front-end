@@ -4,7 +4,7 @@ import AppOrderPage from "./app/app-order-page/AppOrderPage/AppOrderPage";
 import AppPitchPage from "./app/AppPitchPage";
 import AppProfilePage from "./app/AppProfilePage";
 import AppSignOutPage from "./app/AppSignOutPage";
-import AppWalletPage from "./app/AppWalletPage";
+import AppWalletPage from "./app/app-wallet-page/AppWalletPage/AppWalletPage";
 import AboutPage from "./home/AboutPage";
 import HomePage from "./home/HomePage";
 
