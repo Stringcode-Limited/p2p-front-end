@@ -35,3 +35,10 @@
     width: 9px;
     height: 13px;
 }
+
+.show{
+    display: block;
+}
+.hide{
+    visibility: hidden;
+}

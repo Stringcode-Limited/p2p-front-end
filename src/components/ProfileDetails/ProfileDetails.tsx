@@ -6,9 +6,10 @@ interface IProfile {
     image: string;
     fullName: string;
     name: string;
+    display: "show" | "hide";
 }
 
-const ProfileDetails = ({ image, fullName, name }: IProfile) => {
+const ProfileDetails = ({ image, fullName, name, display }: IProfile) => {
     return (
         <>
             <div className="details">
@@ -20,7 +21,7 @@ const ProfileDetails = ({ image, fullName, name }: IProfile) => {
                         <p className="name1">{fullName} <img src={medal} /></p>
                         <p className="name2">@{name}</p>
                     </div>
-                    <div>
+                    <div className={display}>
                         <img className="vector" src={Vector} alt="" />
                     </div>
                 </div>
