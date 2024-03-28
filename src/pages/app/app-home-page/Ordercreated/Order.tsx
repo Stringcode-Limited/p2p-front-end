@@ -102,12 +102,34 @@ function Order() {
             <div className="fiat-proceed">
               <div className="fiat-amt">
                 <div className="merg-fiat">
-                <p>Fiat amount</p>
-                <p>#5,000.00</p>
+                <p className='iat-amount'>Fiat amount</p>
+                <p className='nai-fig'>#5,000.00</p>
                 </div>
               </div>
               <div className="fiat-btn">
                 <Button  type='small' text="Proceed to pay"/>
+              </div>
+            </div>
+            <div className="chat1">
+              <p className='stipulated'>You have successfully created an order. Kindly pay within the stipulated time limit</p>
+            </div>
+            <div className="chat2">
+              <div className="inner-chat">
+                <p className='semi'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
+                <div className="inner-chat">
+                <p className='semi'>Relit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              </div>
+             
+            </div>
+            <div className="chat3">
+              <div className="p3">
+                 <p className='p3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+              </div>
+            </div>
+            <div className="chat4">
+              <div className="p4">
+                <p className='p4'>Thank you</p>
               </div>
             </div>
            </div>

@@ -126,6 +126,7 @@
 .ordercreated .chat-text{
     margin-left: 10px;
 }
+
 .ordercreated .fiat-proceed{
     display: flex;
     width: 447px;
@@ -137,4 +138,101 @@
     padding: 4px, 16px, 4px, 16px;
     padding-left: 16px;
     padding-right: 16px;
+}
+.ordercreated .iat-amount{
+    font-size: 14px;
+    font-family: 'Gilroy-Medium' sans-serif;
+    color: #4B4B4B;
+}.ordercreated .nai-fig{
+    font-size: 16px;
+    font-family: 'Gilroy-Bold' sans-serif;
+
+}
+.ordercreated .chat1{
+    width: 359px;
+    height: 54px;
+    top: 136px;
+    left: 44px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    border-radius: 5px;
+    background-color: #DDDDDD;
+}
+.ordercreated .stipulated{
+    font-family: 'Gilroy-Medium' sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #1D1B20;
+    margin-left: 20px;
+}
+.ordercreated .chat2{
+    width: 320px;
+    height: 196px;
+    top: 206px;
+    left: 16px;
+    background-color: #B0B0B0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+.ordercreated .inner-chat{
+    width: 300px;
+    height: 176px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+}
+.ordercreated .semi{
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.ordercreated .semi{
+    margin-left: 10px;
+}
+.ordercreated .chat3{
+    width: 320px;
+    height: 52px;
+    top: 414px;
+    background-color: #DDDDDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-top: 12px;
+    margin-left: 40px;
+}
+.ordercreated .p3{
+    width: 300px;
+    height: 32px;
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-size: 12px;
+}
+.ordercreated .chat4{
+    width: 320px;
+    height: 36px;
+    top: 478px;
+    left: 16px;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #B0B0B0;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+.ordercreated .p4{
+    font-size: 12px;
+    font-family: 'Gilroy-SemiBold', sans-serif;
+
 }
