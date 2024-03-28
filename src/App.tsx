@@ -21,6 +21,7 @@ import P2PSellPage from "./pages/app/app-home-page/p2pSell/P2PSellPage/P2PSellPa
 import CryptoSold from "./pages/app/app-home-page/cryptoSold/CryptoSoldPage/CryptoSold";
 import WaitingPaymentPage from "./pages/app/app-home-page/waitingPayment/waitingPaymentPage/WaitingPaymentPage";
 import SellUsdtPage from "./pages/app/app-home-page/sellUsdt/sellUsdtPage/SellUsdtPage";
+import ManageCryptoPage from "./pages/app/app-wallet-page/ManageCrypto/ManageCryptoPage/ManageCryptoPage";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
           <Route path="order" element={<AppOrderPage />} />
           <Route path="pitch" element={<AppPitchPage />} />
           <Route path="wallet" element={<AppWalletPage />} />
+          <Route path="wallet/manageCrypto" element={<ManageCryptoPage/>} />
           <Route path="profile" element={<AppProfilePage />} />
           <Route path="signout" element={<AppSignOutPage/>}/>
           </Route>
