@@ -10,6 +10,7 @@ import Button from '../../../../components/Button/Button';
 import ordernumber from "../../../../assets/images/ordernumber.png"
 import curv from "../../../../assets/images/curv.png"
 import help2 from "../../../../assets/images/help2.png"
+import clock from "../../../../assets/images/clock.png"
 
 
 
@@ -107,19 +108,9 @@ function MakePayment() {
             <div className="chat-caption">
               <p className='chat-text'>Chat</p>
             </div>
-           <div className="interval">
-             <img src={interval} alt="" />
-            </div>
-            <div className="fiat-proceed">
-              <div className="fiat-amt">
-                <div className="merg-fiat">
-                <p className='iat-amount'>Fiat amount</p>
-                <p className='nai-fig'>#5,000.00</p>
-                </div>
-              </div>
-              <div className="fiat-btn">
-                <Button  type='small' text="Proceed to pay" route='/app/Makepayment'/>
-              </div>
+            <div className="release-status">
+                <img src={clock} alt="" />
+                <p className='release'>Your crypto have been released</p>
             </div>
             <div className="chat1">
               <p className='stipulated'>You have successfully created an order. Kindly pay within the stipulated time limit</p>

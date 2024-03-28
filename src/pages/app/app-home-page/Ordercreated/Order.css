@@ -55,6 +55,8 @@
 .ordercreated .make-payment{
     width: 270px;
     height: 64px;
+    display: flex;
+    flex-direction: column;
     /* gap: ; */
 }
 .ordercreated .fiat-amount{

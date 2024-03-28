@@ -1,5 +1,6 @@
 .make-payment{
     display: flex;
+    margin-left: 40px;
 }
 .make-payment .arrow{
     display: flex;
@@ -11,6 +12,17 @@
     margin-top: 30px;
     margin-left: 20px;
     
+}
+.make-payment .release{
+    font-size: 12px;
+    font-family: 'Gilroy-SemiBold', sans-serif;
+
+}
+.make-payment .release-status{
+    display: flex;
+    gap: 6px;
+    margin-left: 12px;
+    margin-top: 15px;
 }
 .make-payment .order1{
     display: flex;
