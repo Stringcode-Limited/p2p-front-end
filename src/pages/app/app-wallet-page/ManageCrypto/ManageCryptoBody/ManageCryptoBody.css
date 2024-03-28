@@ -1,0 +1,45 @@
+.manageCryptoBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    border-right: 1px solid #727272;
+    padding-bottom: 100px;
+}
+
+.manageCryptoBody .top{
+    display: flex;
+    align-items: center;
+    height: 145px;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 35%;
+    position: sticky;
+    top: 0;
+    background-color: #FCFCFC;
+    margin-bottom: 56px;
+    z-index: 2;
+}
+
+.manageCryptoBody .top p{
+    font-size: 28px;
+}
+
+.manageCryptoBody .center{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.manageCryptoBody .center .title{
+    font-size: 18px;
+    color: #1D1B20;    
+}
+
+.manageCryptoBody .center .body{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
