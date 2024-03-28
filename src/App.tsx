@@ -15,10 +15,8 @@ import Signup from "./pages/signup/Signup";
 import EmailSmsVerification from "./pages/emailSmsVerification/EmailSmsVerification";
 import Setup from "./pages/setupaccount/Setup";
 import Buyusdt from "./pages/app/app-home-page/BuyUsdt/Buyusdt";
-<<<<<<< HEAD
 import Order from "./pages/app/app-home-page/Ordercreated/Order";
 import MakePayment from "./pages/app/app-home-page/Makepayment/MakePayment";
-=======
 import ReleasingCryptoPage from "./pages/app/app-home-page/releasingCrypto/releasingCryptoPage/ReleasingCryptoPage";
 import CryptoReleasedPage from "./pages/app/app-home-page/cryptoReleased/CryptoReleasedPage/CryptoReleasedPage";
 import P2PSellPage from "./pages/app/app-home-page/p2pSell/P2PSellPage/P2PSellPage";
@@ -26,7 +24,6 @@ import CryptoSold from "./pages/app/app-home-page/cryptoSold/CryptoSoldPage/Cryp
 import WaitingPaymentPage from "./pages/app/app-home-page/waitingPayment/waitingPaymentPage/WaitingPaymentPage";
 import SellUsdtPage from "./pages/app/app-home-page/sellUsdt/sellUsdtPage/SellUsdtPage";
 import ManageCryptoPage from "./pages/app/app-wallet-page/ManageCrypto/ManageCryptoPage/ManageCryptoPage";
->>>>>>> ccbddf783f3b6dae80f576d2554cdfe1351c645b
 
 function App() {
   return (
