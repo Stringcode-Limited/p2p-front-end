@@ -16,7 +16,7 @@ const WaitingPaymentBody = () => {
           <p className="orders">Waiting for payment</p>
         </div>
          <div className="profile"> 
-        <ProfileDetails fullName="John Doe" name="Doemoney" image={ProfileImage}/>
+        <ProfileDetails fullName="John Doe" name="Doemoney" image={ProfileImage} display="show"/>
         </div>
         <div className="box1">
           <div className="text">

@@ -42,6 +42,18 @@
 
 .sellUsdtBody .center .box4 .title{
     font-size: 18px;
+    font-family: 'Gilroy-Bold', sans-serif;
+   
+}
+.border{
+    border-top: 1px solid #000;
+}
+.borderTop{
+    padding-top: 16px;
+}
+
+.reviewTop{
+    padding-top: 8px;
 }
 
 .sellUsdtBody .center .box4 .details{
@@ -50,3 +62,6 @@
     line-height: 24px;
 }
 
+.sellUsdtBody .profileWrapper{
+    width: 36vw;
+}
