@@ -1,26 +1,29 @@
 import React from 'react';
-import "./Order.css"
+import "./make.css" 
 import left from "../../../../assets/images/left.png"
 import doe from "../../../../assets/images/doe.png"
 import badge from "../../../../assets/images/badge.png"
 import right from "../../../../assets/images/right.png"
 import interval from "../../../../assets/images/interval.png"
-import esc from "../../../../assets/images/asc.png"
-import ordernumber from "../../../../assets/images/ordernumber.png"
+import esc2 from "../../../../assets/images/esc2.png"
 import Button from '../../../../components/Button/Button';
+import ordernumber from "../../../../assets/images/ordernumber.png"
 import curv from "../../../../assets/images/curv.png"
+import help2 from "../../../../assets/images/help2.png"
 
-function Order() {
+
+
+function MakePayment() {
   return (
-    <div className='ordercreated'>
-         <div className="order1">
+    <div className='make-payment'>
+       <div className="order1">
           <div className="order-caption">
             <div className="arrow">
               <div className="rights">
               <img src={left} alt="" />
               </div>
               <div className="ders">
-              <h2>Order Created</h2>
+              <h2>Make Payment</h2>
               </div>
             </div>
            
@@ -28,10 +31,11 @@ function Order() {
             <div className="customer-info">
             <div className="jhn-d">
                          <div className="complete">
+                        
+                        <div className="nam-wrapper">
                         <div className="doe-wrapper">
                         <img src={doe} alt="" />
                         </div>
-                        <div className="nam-wrapper">
                           <div className="wraps">
                             <div className="name-wrapper">
                             <h4 className="jh">JohnDoe</h4>
@@ -49,12 +53,12 @@ function Order() {
                            </div>
                           </div>
                         
-                        <div className="make-payment">
+                        <div className="make-pay">
                             <div className="interval">
                               <img src={interval} alt="" />
                             </div>
                             <div className="esc">
-                               <img src={esc} alt="" />
+                               <img src={esc2} alt="" />
                             </div>
                         </div>
                         <div className="fiat-amount">
@@ -64,15 +68,19 @@ function Order() {
                               <p className='fit'>#5,000.00</p>
                             </div>
                             <div className="fiat1">
-                              <p className='fit'>Price</p>
-                              <p className='fit'>#1,430.00</p>
+                              <p className='fit'>Account name</p>
+                              <p className='fit'>JACK DOE</p>
                             </div>
                             <div className="fiat1">
-                              <p className='fit'>Total quantity</p>
-                              <p className='fit'>69.93 USDT</p>
+                              <p className='fit'>Account number</p>
+                              <p className='fit'>0123456789 <img src={ordernumber} alt="" /></p>
                             </div>
                             <div className="fiat1">
-                              <p className='fit'>Order number</p>
+                              <p className='fit'>Bank name</p>
+                              <p className='fit'>Access Bank <img src={ordernumber} alt="" /></p>
+                            </div>
+                            <div className="fiat1">
+                              <p className='fit'>Ref number</p>
                               <p className='fit'>203875876455390938764 <img src={ordernumber} alt="" /></p>
                             </div>
                           </div>
@@ -86,9 +94,10 @@ function Order() {
                         </div>
                     </div>
                        <div className="proceed-topay">
-                        <Button  type='large' text='Proceed to pay'/>
-                        <Button  type='large' text='Cancel order' color='grey'/>
+                        <Button  type='large' text='Mark as paid'/>
+                        <Button  type='large' text="help" color='grey'/>
                        </div>
+                       <div className="help"><img src={help2} alt="" /></div>
                     </div>
             </div>
          </div>
@@ -143,10 +152,8 @@ function Order() {
                 <img className='curv' src={curv} alt="" />
            </div>
          </div>
-        
-
     </div>
   );
 }
 
-export default Order;
+export default MakePayment;

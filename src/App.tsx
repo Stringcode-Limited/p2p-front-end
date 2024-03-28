@@ -16,6 +16,7 @@ import EmailSmsVerification from "./pages/emailSmsVerification/EmailSmsVerificat
 import Setup from "./pages/setupaccount/Setup";
 import Buyusdt from "./pages/app/app-home-page/BuyUsdt/Buyusdt";
 import Order from "./pages/app/app-home-page/Ordercreated/Order";
+import MakePayment from "./pages/app/app-home-page/Makepayment/MakePayment";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/app" element={<AppRouteWrapper />}>
           <Route index element={<AppHomePage />} />
           <Route path="orderCreated" element={<Order/>}/>
+          <Route path="Makepayment" element={<MakePayment/>}/>
           <Route path="buyUSDT" element={<Buyusdt/>}/>
           <Route path="order" element={<AppOrderPage />} />
           <Route path="pitch" element={<AppPitchPage />} />
