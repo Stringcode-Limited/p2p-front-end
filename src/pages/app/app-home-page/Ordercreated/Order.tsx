@@ -8,6 +8,7 @@ import interval from "../../../../assets/images/interval.png"
 import esc from "../../../../assets/images/asc.png"
 import ordernumber from "../../../../assets/images/ordernumber.png"
 import Button from '../../../../components/Button/Button';
+import curv from "../../../../assets/images/curv.png"
 
 function Order() {
   return (
@@ -92,6 +93,7 @@ function Order() {
             </div>
          </div>
          <div className="chats">
+          <div className="chat-pertition">
            <div className="chat-main">
             <div className="chat-caption">
               <p className='chat-text'>Chat</p>
@@ -133,7 +135,16 @@ function Order() {
               </div>
             </div>
            </div>
+            </div>
+           <div className="type-message">
+               <div className="input">
+                <input type="text" placeholder='Type message' />
+                </div>
+                <img className='curv' src={curv} alt="" />
+           </div>
          </div>
+        
+
     </div>
   );
 }
