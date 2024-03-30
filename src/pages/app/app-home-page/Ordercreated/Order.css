@@ -13,12 +13,15 @@
     top: 75px;
     left: 39px;
     gap: 161px;
+    background-color: white;
+    
 }
 .ordercreated .order-caption{
     width: 570px;
     height: 145px;
     left: 387px;
     margin-top: 70px;
+    
 }
 .ordercreated .customer-info{
     width: 511px;
@@ -129,6 +132,26 @@
 }
 .ordercreated .interval{
     margin-left: 20px;
+    width: 196px;
+    height: 24px;
+    display: flex;
+    gap: 6px;
+}
+.ordercreated .time-frame{
+    width: 174px;
+    height: 24px;
+
+}
+.ordercreated .ment-pay{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Gilroy-Bold', sans-serif;
+    color: #4B4B4B;
+}
+
+.ordercreated .get{
+    width: 16px;
+    height: 16px;
 }
 .ordercreated .chat-text{
     margin-left: 10px;
@@ -262,5 +285,30 @@
     position: absolute;
     right: 40px;
     
+}
+.ordercreated .esc{
+    width: 250px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: #DDDDDD;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ordercreated .sell{
+    width: 232px;
+    height: 20px;
+    display: flex;
+    gap: 8px;
+}
+.ordercreated .pto{
+    font-size: 14px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-weight: 400;
+
+}
+.ordercreated .question-mark{
+    width: 14px;
+    height: 14px;
 }
 

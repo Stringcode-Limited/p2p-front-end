@@ -184,6 +184,7 @@
     font-family: 'Gilroy-Bold' sans-serif;
 
 }
+
 .make-payment .chat1{
     width: 359px;
     height: 54px;
@@ -215,6 +216,9 @@
     border-top-right-radius: 15px;
     margin-top: 12px;
     margin-left: 5px;
+}
+.chatContainer{
+    margin-top: 235px;
 }
 .make-payment .inner-chat{
     width: 300px;
