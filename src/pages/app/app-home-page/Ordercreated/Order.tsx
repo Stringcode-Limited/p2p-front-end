@@ -6,10 +6,11 @@ import badge from "../../../../assets/images/badge.png"
 import right from "../../../../assets/images/right.png"
 import interval from "../../../../assets/images/interval.png"
 import question2 from "../../../../assets/images/question2.png"
-import ordernumber from "../../../../assets/images/ordernumber.png"
+import ordernum from "../../../../assets/images/ordernums.png"
 import Button from '../../../../components/Button/Button';
 import curv from "../../../../assets/images/curv.png"
 import clock from "../../../../assets/images//clock.png"
+import naira from "../../../../assets/images/naira.png"
 
 function Order() {
   return (
@@ -73,11 +74,11 @@ function Order() {
                           <div className="inner-fiat">
                             <div className="fiat1">
                               <p className='fit'>Fiat amount</p>
-                              <p className='fit'>#5,000.00</p>
+                              <p className='fit'><img className='naira' src={naira} alt="" />5,000.00</p>
                             </div>
                             <div className="fiat1">
                               <p className='fit'>Price</p>
-                              <p className='fit'>#1,430.00</p>
+                              <p className='fit'><img className='naira' src={naira} alt="" />1,430.00</p>
                             </div>
                             <div className="fiat1">
                               <p className='fit'>Total quantity</p>
@@ -85,7 +86,7 @@ function Order() {
                             </div>
                             <div className="fiat1">
                               <p className='fit'>Order number</p>
-                              <p className='fit'>203875876455390938764 <img src={ordernumber} alt="" /></p>
+                              <p className='fit'>203875876455390938764 <img src={ordernum} alt="" /></p>
                             </div>
                           </div>
                         </div>
@@ -117,7 +118,7 @@ function Order() {
               <div className="fiat-amt">
                 <div className="merg-fiat">
                 <p className='iat-amount'>Fiat amount</p>
-                <p className='nai-fig'>#5,000.00</p>
+                <p className='nai-fig'><img className='naira' src={naira} alt="" />5,000.00</p>
                 </div>
               </div>
               <div className="fiat-btn">

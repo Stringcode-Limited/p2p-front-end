@@ -156,7 +156,17 @@
     margin-left: 10px;
 }
 .make-payment .interval{
-    margin-left: 3px;
+    margin-left: 20px;
+    display: flex;
+    width: 204px;
+    height: 16px;
+    top: 40px;
+    gap: 6px;
+    margin-top: 20px;
+}
+.make-payment .release{
+    font-size: 12px;
+    color: #4B4B4B;
 }
 .make-payment .chat-text{
     margin-left: 10px;
