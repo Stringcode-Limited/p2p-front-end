@@ -9,7 +9,7 @@ import esc2 from "../../../../assets/images/esc2.png"
 import Button from '../../../../components/Button/Button';
 import ordernum from "../../../../assets/images/ordernums.png"
 import help2 from "../../../../assets/images/help2.png"
-import Chat from '../Chat/Chat';
+import curv from "../../../../assets/images/curv.png"
 import naira from "../../../../assets/images/naira.png"
 import clock from "../../../../assets/images/clock.png"
 
@@ -103,6 +103,7 @@ function MakePayment() {
                     </div>
             </div>
          </div>
+         <div className="chat-entering">
          <div className="chats">
          <div className="chat-main">
             <div className="chat-caption">
@@ -137,6 +138,13 @@ function MakePayment() {
             </div>
            </div>
          </div>
+         <div className="type-message">
+               <div className="input">
+                <input type="text" placeholder='Type message' />
+                </div>
+                <img className='curv' src={curv} alt="" />
+           </div>
+           </div>
     </div>
   );
 }

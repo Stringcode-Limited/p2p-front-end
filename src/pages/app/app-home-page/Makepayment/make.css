@@ -1,6 +1,7 @@
 .make-payment{
     display: flex;
     margin-left: 40px;
+    
 }
 .make-payment .arrow{
     display: flex;
@@ -12,6 +13,10 @@
     margin-top: 30px;
     margin-left: 20px;
     
+}
+.make-payment .chat-entering{
+    display: flex;
+    flex-direction: column;
 }
 .make-payment .release{
     font-size: 12px;
@@ -294,6 +299,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -80px;
 
     
 }
