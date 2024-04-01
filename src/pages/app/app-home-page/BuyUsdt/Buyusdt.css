@@ -38,6 +38,9 @@
     width: 570px;
     height: 145px;
     margin-top: -80px;
+    top: 0;
+    position: sticky;
+    background-color: white;
     
 
 }
@@ -257,6 +260,9 @@ input[type="text"]{
     top: 77px;
     left: 14px;
     /* gap: 16px; */
+}
+.usdt-info .recent-orders{
+    border-left: 1px solid  #C6C6C6;
 }
 
 

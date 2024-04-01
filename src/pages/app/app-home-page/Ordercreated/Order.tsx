@@ -5,10 +5,11 @@ import doe from "../../../../assets/images/doe.png"
 import badge from "../../../../assets/images/badge.png"
 import right from "../../../../assets/images/right.png"
 import interval from "../../../../assets/images/interval.png"
-import esc from "../../../../assets/images/asc.png"
+import question2 from "../../../../assets/images/question2.png"
 import ordernumber from "../../../../assets/images/ordernumber.png"
 import Button from '../../../../components/Button/Button';
 import curv from "../../../../assets/images/curv.png"
+import clock from "../../../../assets/images//clock.png"
 
 function Order() {
   return (
@@ -51,10 +52,21 @@ function Order() {
                         
                         <div className="make-payment">
                             <div className="interval">
-                              <img src={interval} alt="" />
+                              <div className="get">
+                              <img src={clock} alt="" />
+                              </div>
+                              <div className="time-frame">
+                              <p className='ment-pay'>Make payment within 10:00</p>
+                              </div>
                             </div>
                             <div className="esc">
-                               <img src={esc} alt="" />
+                              <div className="sell">
+                               <p className='pto'>This seller`s crypto is escrowed</p>
+                               <div className="question-mark">
+                                <img src={question2} alt="" />
+                               </div>
+                               </div>
+                              
                             </div>
                         </div>
                         <div className="fiat-amount">
