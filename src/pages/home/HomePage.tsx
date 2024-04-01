@@ -33,10 +33,9 @@ function HomePage() {
     <>
     
       <div className="Nav">
+        
+      <NavBar />
     <div>
-      <div className="Nav">
-        <NavBar />
-      </div>
       
       <div className="hero-section">
         <div className="hero1">
