@@ -27,7 +27,7 @@ import ManageCryptoPage from "./pages/app/app-wallet-page/ManageCrypto/ManageCry
 import TransferPage from "./pages/app/app-wallet-page/Transfer/TransferPage/TransferPage";
 import VerifyWithPinPage from "./pages/app/app-wallet-page/VerifyWithPin/VerifyWithPinPage/VerifyWithPinPage";
 import CompletePage from "./pages/app/app-wallet-page/complete/CompletePage/CompletePage";
-import transactionDetails from './pages/app/app-home-page/Transactiondetails/transactionDetails';
+
 
 function App() {
   return (
@@ -44,7 +44,6 @@ function App() {
         <Route path="/app" element={<AppRouteWrapper />}>
           <Route index element={<AppHomePage />} />
           <Route path="orderCreated" element={<Order/>}/>
-          <Route path="Transactiondetails" element={<transactionDetails/>}/>
           <Route path="Makepayment" element={<MakePayment/>}/>
           <Route path="buyUSDT" element={<Buyusdt/>}/>
           <Route path="P2Psell" element={<P2PSellPage/>}/>
