@@ -1,9 +1,8 @@
 .ordercreated{
-    /*  */
     display: flex;
     margin-left: 40px;
-
 }
+
 .ordercreated .arrow{
     display: flex;
     width: 360.23px;

@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 370px;
+    width: 26vw;
     height: 62px;
     border-radius: 5px;
     padding: 16px;
@@ -14,7 +14,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 38px;
-    width: 40%;
+    width: 70%;
     color: #1D1B20;
 }
 

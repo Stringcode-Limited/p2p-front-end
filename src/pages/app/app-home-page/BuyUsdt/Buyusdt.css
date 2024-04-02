@@ -1,22 +1,16 @@
-/* @import url('https://fonts.cdnfonts.com/css/gilroy-bold'); */
-                
 .usdt-info{
-   
-    /* border: 1px solid red; */
     display: flex;
-    
-    
-  
 }
+
 .usdt-info .jr-usdt{
     width: 50vw;
     height: 1221px;
-    top: 2227px;
     gap: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border-right: 1px solid #727272;
 }
 
 
@@ -48,9 +42,7 @@
     width: 511px;
     height: 948px;
 }
-.usdt-info .jr-usdt{
-    
-}
+
 .usdt-info .figure-frame{
     width: 511px;
     height: 322px;
@@ -71,15 +63,14 @@
 .recent{
     width: 384px;
 }
-input[type="text"]{
-
+.figure-frame .inner-container .fig-bold .input-field input{
     width: 497px;
     height: 44px;
     background-color: #DDDDDD;
     border: none;
     border-radius: 5px;
 }
-::placeholder{
+.figure-frame .inner-container .fig-bold .input-field input::placeholder{
     padding: 10px;
 }
 .usdt-info .amount{
@@ -227,7 +218,6 @@ input[type="text"]{
     display: flex;
     flex-direction: column;
     margin-top: -240px;
-    /* gap */
 }
 .usdt-info .review-caption{
     width: 150px;
@@ -249,20 +239,4 @@ input[type="text"]{
     line-height: 24px;
     letter-spacing: 0.15px;
     font-weight: 400;
-}.usdt-info .recent-orders{
-    width: 384px;
-    height: 800px;
-    left: 979px;
 }
-.usdt-info .inner-order{
-    width: 370px;
-    height: 1067px;
-    top: 77px;
-    left: 14px;
-    /* gap: 16px; */
-}
-.usdt-info .recent-orders{
-    border-left: 1px solid  #C6C6C6;
-}
-
-
