@@ -7,11 +7,11 @@ import right from "../../../../assets/images/right.png"
 import interval from "../../../../assets/images/interval.png"
 import esc2 from "../../../../assets/images/esc2.png"
 import Button from '../../../../components/Button/Button';
-import ordernumber from "../../../../assets/images/ordernumber.png"
-import curv from "../../../../assets/images/curv.png"
+import ordernum from "../../../../assets/images/ordernums.png"
 import help2 from "../../../../assets/images/help2.png"
+import curv from "../../../../assets/images/curv.png"
+import naira from "../../../../assets/images/naira.png"
 import clock from "../../../../assets/images/clock.png"
-import Chat from '../Chat/Chat';
 
 
 
@@ -67,7 +67,7 @@ function MakePayment() {
                           <div className="inner-fiat">
                             <div className="fiat1">
                               <p className='fit'>Fiat amount</p>
-                              <p className='fit'>#5,000.00</p>
+                              <p className='fit'><img src={naira} alt="" />5,000.00</p>
                             </div>
                             <div className="fiat1">
                               <p className='fit'>Account name</p>
@@ -75,15 +75,15 @@ function MakePayment() {
                             </div>
                             <div className="fiat1">
                               <p className='fit'>Account number</p>
-                              <p className='fit'>0123456789 <img src={ordernumber} alt="" /></p>
+                              <p className='fit'>0123456789 <img src={ordernum} alt="" /></p>
                             </div>
                             <div className="fiat1">
                               <p className='fit'>Bank name</p>
-                              <p className='fit'>Access Bank <img src={ordernumber} alt="" /></p>
+                              <p className='fit'>Access Bank <img src={ordernum} alt="" /></p>
                             </div>
                             <div className="fiat1">
                               <p className='fit'>Ref number</p>
-                              <p className='fit'>203875876455390938764 <img src={ordernumber} alt="" /></p>
+                              <p className='fit'>203875876455390938764 <img src={ordernum} alt="" /></p>
                             </div>
                           </div>
                         </div>
@@ -96,19 +96,55 @@ function MakePayment() {
                         </div>
                     </div>
                        <div className="proceed-topay">
-                        <Button  type='large' text='Mark as paid'/>
-                        <Button  type='large' text="Help" color='grey'/>
+                        <Button  type='large' text='Mark as paid' route="/app/transactiondetails"/>
+                        <Button  type='large' text="help" color='grey'/>
                        </div>
                        <div className="help"><img src={help2} alt="" /></div>
                     </div>
             </div>
          </div>
+         <div className="chat-entering">
          <div className="chats">
-          <div className="chat-pertition">
-            <Chat time='10:00'/>
+         <div className="chat-main">
+            <div className="chat-caption">
+              <p className='chat-text'>Chat</p>
+            </div>
+           <div className="interval">
+             <img src={clock} alt="" />
+             <p className='release'>Your crypto has been released</p>
             </div>
            
+            <div className="chat1">
+              <p className='stipulated'>You have successfully created an order. Kindly pay within the stipulated time limit</p>
+            </div>
+            <div className="chat2">
+              <div className="inner-chat">
+                <p className='semi'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
+                <div className="inner-chat">
+                <p className='semi'>Relit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              </div>
+             
+            </div>
+            <div className="chat3">
+              <div className="p3">
+                 <p className='p3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+              </div>
+            </div>
+            <div className="chat4">
+              <div className="p4">
+                <p className='p4'>Thank you</p>
+              </div>
+            </div>
+           </div>
          </div>
+         <div className="type-message">
+               <div className="input">
+                <input type="text" placeholder='Type message' />
+                </div>
+                <img className='curv' src={curv} alt="" />
+           </div>
+           </div>
     </div>
   );
 }
