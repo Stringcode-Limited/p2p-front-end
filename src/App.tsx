@@ -24,6 +24,7 @@ import CryptoSold from "./pages/app/app-home-page/cryptoSold/CryptoSoldPage/Cryp
 import WaitingPaymentPage from "./pages/app/app-home-page/waitingPayment/waitingPaymentPage/WaitingPaymentPage";
 import SellUsdtPage from "./pages/app/app-home-page/sellUsdt/sellUsdtPage/SellUsdtPage";
 import ManageCryptoPage from "./pages/app/app-wallet-page/ManageCrypto/ManageCryptoPage/ManageCryptoPage";
+import transactionDetails from './pages/app/app-home-page/Transactiondetails/transactionDetails';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route path="/app" element={<AppRouteWrapper />}>
           <Route index element={<AppHomePage />} />
           <Route path="orderCreated" element={<Order/>}/>
+          <Route path="Transactiondetails" element={<transactionDetails/>}/>
           <Route path="Makepayment" element={<MakePayment/>}/>
           <Route path="buyUSDT" element={<Buyusdt/>}/>
           <Route path="P2Psell" element={<P2PSellPage/>}/>

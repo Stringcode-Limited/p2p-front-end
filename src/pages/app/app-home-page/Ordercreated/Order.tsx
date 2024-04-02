@@ -15,6 +15,7 @@ import naira from "../../../../assets/images/naira.png"
 function Order() {
   return (
     <div className='ordercreated'>
+      
          <div className="order1">
           <div className="order-caption">
             <div className="arrow">
@@ -149,6 +150,7 @@ function Order() {
             </div>
            </div>
             </div>
+            
            <div className="type-message">
                <div className="input">
                 <input type="text" placeholder='Type message' />
@@ -156,8 +158,7 @@ function Order() {
                 <img className='curv' src={curv} alt="" />
            </div>
          </div>
-        
-
+         
     </div>
   );
 }

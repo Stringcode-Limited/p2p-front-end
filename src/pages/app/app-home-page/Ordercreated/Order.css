@@ -2,8 +2,6 @@
     /*  */
     display: flex;
     margin-left: 40px;
-    
-    
 
 }
 .ordercreated .arrow{
@@ -16,6 +14,7 @@
     background-color: white;
     
 }
+
 .ordercreated .order-caption{
     width: 570px;
     height: 145px;

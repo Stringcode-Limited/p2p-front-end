@@ -34,6 +34,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 50vw;
 }
 .make-payment .order-caption{
     width: 570px;
