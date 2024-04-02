@@ -1,0 +1,60 @@
+.transaction-details{
+
+}
+.transaction-details .transaction-usdt{
+    width: 50vw;
+    /* height: 1221px;
+    top: 2227px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    border: 1px solid red;
+    height: 1221px;
+
+}
+.transaction-details .middle-section{
+    width: 570px;
+    height: 145px;
+    left: 387px;
+
+}
+.transaction-details .left{
+    display: flex;
+    width: 395.23px;
+    height: 36px;
+    top: 75px;
+    left: 39px;
+    gap: 134px;
+}
+.transaction-details .transaction-hero{
+    width: 511px;
+    height: 742px;
+    top: 201px;
+    left: 412px;
+    gap: 32px;
+}
+.transaction-details .transaction-hero1{
+    width: 511px;
+    height: 180px;
+    border-radius: 10px;
+    background-color: #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.transaction-details h1{
+    font-size: 56px;
+    font-weight: 400;
+}
+.transaction-details .us-fig{
+    display: flex;
+    gap: 8px;
+}
+.transaction-details .usdt-changes{
+    margin-top: 30px;
+}
