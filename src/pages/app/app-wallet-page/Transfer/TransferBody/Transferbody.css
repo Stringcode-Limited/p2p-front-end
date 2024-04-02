@@ -1,0 +1,123 @@
+.transferBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    border-right: 1px solid #727272;
+    padding-bottom: 100px;
+
+}
+
+.transferBody .top {
+    display: flex;
+    align-items: center;
+    height: 145px;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 45%;
+    position: sticky;
+    top: 0;
+    background-color: #FCFCFC;
+    margin-bottom: 56px;
+    z-index: 2;
+
+}
+
+.transferBody .top p {
+    font-size: 28px;
+}
+
+.transferBody .transferBodyWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.transferBody .transferBodyWrapper .transferToWallet {
+    display: flex;
+    gap: 16px;
+}
+
+.transferBody .transferBodyWrapper .transactionInput {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.transferBody .transferBodyWrapper .transactionInput label {
+    font-size: 14px;
+    color: #1D1B20;
+}
+
+.transferBody .transferBodyWrapper .transactionInput .transferinput {
+    width: 510px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1.5px #343434 solid;
+    padding: 4px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.transferBody .transferBodyWrapper .transactionInput .transferinput input {
+    width: 420px;
+    height: 35px;
+    outline: none;
+    border: none;
+}
+
+.transferBody .transferBodyWrapper .transactionInput .transferinput p {
+    color: #00A542;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 4px;
+
+
+}
+
+.transferBody .transferBodyWrapper .transactionInput .transferinput span p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #1D1B20;
+}
+
+.transferBody .transferBodyWrapper .transactionInput .transferBalance {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #5E5E5E;
+
+}
+
+
+.transferBody .transferBodyWrapper .transactionInput .networkWrapper {
+    width: 510px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1.5px #343434 solid;
+    padding: 4px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+}
+
+.transferBody .transferBodyWrapper .transactionInput .networkWrapper p {
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #5E5E5E;
+    padding-left: 8px;
+
+}
