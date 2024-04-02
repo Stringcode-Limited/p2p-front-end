@@ -1,6 +1,6 @@
 .ordercreated{
     display: flex;
-    padding-left: 40px;
+    margin-left: 40px;
 }
 
 .ordercreated .arrow{
@@ -13,12 +13,16 @@
     background-color: white;
     
 }
+
 .ordercreated .order-caption{
     width: 570px;
     height: 145px;
     left: 387px;
     margin-top: 70px;
     
+}
+.ordercreated .naira{
+    height: 10px;
 }
 .ordercreated .customer-info{
     width: 511px;

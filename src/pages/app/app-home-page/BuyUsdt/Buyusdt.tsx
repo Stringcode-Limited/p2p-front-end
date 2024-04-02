@@ -6,6 +6,7 @@ import badge from "../../../../assets/images/badge.png"
 import RecentOrders from "../recentOrders/RecentOrders";
 import Fiat from "../../../../components/Fiat/Fiat";
 import Button from "../../../../components/Button/Button";
+import naira from "../../../../assets/images/naira.png"
 
 
 
@@ -41,7 +42,7 @@ function Buyusdt() {
                               <input type="text" placeholder="# Enter Amount" />
                             </div>
                             <div className="amount">
-                                <p className="figs">Range 100,000.00 - #367,200.00</p>
+                                <p className="figs">Range <img className="naira" src={naira} alt="" />100,000.00 - <img className="naira" src={naira} alt="" />367,200.00</p>
                             </div>
                             <div className="pays">
                                 <div className="paying">

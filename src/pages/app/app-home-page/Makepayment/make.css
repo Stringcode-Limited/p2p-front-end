@@ -1,6 +1,7 @@
 .make-payment{
     display: flex;
     margin-left: 40px;
+    
 }
 .make-payment .arrow{
     display: flex;
@@ -12,6 +13,10 @@
     margin-top: 30px;
     margin-left: 20px;
     
+}
+.make-payment .chat-entering{
+    display: flex;
+    flex-direction: column;
 }
 .make-payment .release{
     font-size: 12px;
@@ -29,6 +34,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 50vw;
 }
 .make-payment .order-caption{
     width: 570px;
@@ -156,7 +162,17 @@
     margin-left: 10px;
 }
 .make-payment .interval{
-    margin-left: 3px;
+    margin-left: 20px;
+    display: flex;
+    width: 204px;
+    height: 16px;
+    top: 40px;
+    gap: 6px;
+    margin-top: 20px;
+}
+.make-payment .release{
+    font-size: 12px;
+    color: #4B4B4B;
 }
 .make-payment .chat-text{
     margin-left: 10px;
@@ -284,6 +300,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -80px;
 
     
 }
