@@ -4,6 +4,7 @@ import left from "../../../../assets/images/left.png"
 import succ from "../../../../assets/images/succ.svg"
 import Button from '../../../../components/Button/Button';
 import q2 from "../../../../assets/images/q2.svg"
+import search from "../../../../assets/images/search.png"
 function TransactionDetails() {
   return (
     <div className='transaction-details'>
@@ -82,7 +83,24 @@ function TransactionDetails() {
             
    </div>
    <div className="recent-transaction">
-      
+      <div className="inner-recent">
+        <div className="recent-text">
+          <p>Recent Transactions</p>
+        </div>
+        <div className="search-transaction">
+          <div className="input">
+            <input type="text1"  placeholder='Search'/>
+            </div>
+            <div className="search-logo">
+              <img src={search} alt="" />
+            </div>
+        </div>
+        <div className="layers-transactions">
+          <div className="layer1">
+            
+          </div>
+        </div>
+      </div>
    </div>
    </div>
   );
