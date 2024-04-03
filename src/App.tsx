@@ -29,6 +29,7 @@ import TransactionDetails from "./pages/app/app-wallet-page/transactiondetails/T
 import TransferPage from "./pages/app/app-wallet-page/Transfer/TransferPage/TransferPage";
 import VerifyWithPinPage from "./pages/app/app-wallet-page/VerifyWithPin/VerifyWithPinPage/VerifyWithPinPage";
 import CompletePage from "./pages/app/app-wallet-page/complete/CompletePage/CompletePage";
+import Profile from "./pages/app/Profile/Profile";
 
 
 function App() {
@@ -60,6 +61,7 @@ function App() {
           <Route path="transactiondetails" element={<TransactionDetails />} />
           <Route path="wallet/manageCrypto" element={<ManageCryptoPage/>} />
           <Route path="wallet/transfer" element={<TransferPage/>} />
+          <Route path="Profile" element={<Profile/>} />
           <Route path="wallet/verifywithpin" element={<VerifyWithPinPage/>} />
           <Route path="wallet/complete" element={<CompletePage/>} />
           <Route path="profile" element={<AppProfilePage />} />

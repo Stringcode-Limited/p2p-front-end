@@ -1,0 +1,55 @@
+.profile-page{
+
+}
+.profile-page .profile-layout{
+    width: 50vw;
+    height: 1221px;
+    border: 1px solid red;
+}
+.profile-layout .left{
+    display: flex;
+    width: 395.23px;
+    height: 36px;
+    top: 75px;
+    left: 39px;
+    gap: 134px;
+}
+.profile-layout .profile-main{
+    width: 511px;
+    height: 810px;
+    top: 201px;
+    left: 412px;
+    gap: 32px;
+
+    
+}
+.profile-layout .profile-image{
+    width: 511px;
+    height: 214px;
+    gap: 16px;
+}
+.profile-layout .inner-image{
+    width: 511px;
+    height: 174px;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.profile-layout .pro-image{
+    width: 98px;
+    height: 96px;
+}
+.profile-layout .talan{
+    width:254px ;
+    height: 60px;
+
+}
+.profile-layout .tala{
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Gilroy-Bold', sans-serif;
+
+}
