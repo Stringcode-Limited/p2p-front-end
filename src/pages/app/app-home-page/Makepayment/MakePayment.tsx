@@ -57,10 +57,17 @@ function MakePayment() {
                         
                         <div className="make-pay">
                             <div className="interval">
-                              <img src={interval} alt="" />
+                            <div className="get">
+                              <img src={clock} alt="" />
+                              </div>
+                              <div className="time-frame">
+                              <p className='ment-pay'>Make payment within 10:00</p>
+                              </div>
                             </div>
-                            <div className="esc">
-                               <img src={esc2} alt="" />
+                            <div className="statment">
+                              <div className="inner-statment">
+                                <p className='state'>The seller’s asset is being held in escrow by p2p app and will be delivered to you as soon as you make payment and the seller confirms it</p>
+                              </div>
                             </div>
                         </div>
                         <div className="fiat-amount">

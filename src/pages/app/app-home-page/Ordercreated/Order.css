@@ -61,7 +61,8 @@
     height: 64px;
     display: flex;
     flex-direction: column;
-    /* gap: ; */
+    gap: 10px;
+    
 }
 .ordercreated .fiat-amount{
     width: 511px;
@@ -132,11 +133,11 @@
     margin-left: 10px;
 }
 .ordercreated .interval{
-    margin-left: 20px;
     width: 196px;
     height: 24px;
     display: flex;
-    gap: 6px;
+    
+    
 }
 .ordercreated .time-frame{
     width: 174px;
@@ -153,6 +154,8 @@
 .ordercreated .get{
     width: 16px;
     height: 16px;
+    margin-left: -20px;
+    
 }
 .ordercreated .chat-text{
     margin-left: 10px;
@@ -301,6 +304,8 @@
     height: 20px;
     display: flex;
     gap: 8px;
+    align-items: center;
+    justify-content: center;
 }
 .ordercreated .pto{
     font-size: 14px;
