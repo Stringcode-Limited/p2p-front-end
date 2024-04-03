@@ -3,6 +3,7 @@ import "./transactiondetails.css"
 import left from "../../../../assets/images/left.png"
 import succ from "../../../../assets/images/succ.svg"
 import Button from '../../../../components/Button/Button';
+import q2 from "../../../../assets/images/q2.svg"
 function TransactionDetails() {
   return (
     <div className='transaction-details'>
@@ -70,12 +71,18 @@ function TransactionDetails() {
                 </div>
                </div>
                 <Button  text='Share' type='large2'/>
+                <div className="help-center">
+                  <div className="question-symbol">
+                  <img src={q2} alt="" />
+                  <p className='center'>Help Center</p>
+                    </div>
+                </div>
             </div>
             </div>
             
    </div>
-   <div className="rec">
-    <h2>fbfgjg</h2>
+   <div className="recent-transaction">
+      
    </div>
    </div>
   );

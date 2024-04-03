@@ -7,7 +7,6 @@
     align-items: center;
     justify-content: center;
     height: 1221px;
-    border-right:  1px solid green;
 
 
 }
@@ -140,4 +139,31 @@
     flex-direction: column;
     gap: 8px;
 
+}
+.transaction-details .help-center{
+    width: 511px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.transaction-details .question-symbol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 107px;
+    height: 20px;
+    gap: 8px;
+}
+.transaction-details .center{
+    font-size: 14px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-weight: 400;
+    color: #00A542;
+}
+.transaction-details .recent-transaction{
+    width: 461px;
+    height: 800px;
+    left: 979px;
+    border: 0px, 0px, 0px 1px;
+    border-left: 1px solid #727272;
 }
