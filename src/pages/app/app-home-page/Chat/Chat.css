@@ -21,7 +21,7 @@
     padding-left: 5%;
 }
 
-.show{
+/* .show{
     display: block;
 }
 
@@ -46,7 +46,7 @@
 .timer{
     font-size: 16px;
     font-family: 'Gilroy-Bold', sans-serif;
-}
+} */
 
 .chat img:nth-child(3){
     padding-left: 3%;

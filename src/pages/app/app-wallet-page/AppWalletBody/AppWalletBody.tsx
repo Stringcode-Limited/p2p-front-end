@@ -10,6 +10,8 @@ import ETH from "../../../../assets/images/eth.png";
 import Matic from "../../../../assets/images/matic.png";
 import BNB from "../../../../assets/images/bnb-bnb.png";
 import LTC from "../../../../assets/images/litecoin-ltc.png";
+import ManageCryptoPage from "../ManageCrypto/ManageCryptoPage/ManageCryptoPage";
+import { NavLink } from "react-router-dom";
 
 
 const AppWalletBody = () => {
@@ -53,7 +55,7 @@ const AppWalletBody = () => {
           <Assets image={LTC} name="LTC" rightPrice="0" leftPrice="1" percent="70.12" quantity={0} color="R" />
         </div>
         <div className="seeMore">
-          <p>See more</p>
+        <NavLink to={'manageCrypto'}><p>See more</p></NavLink>
         </div>
 
 
