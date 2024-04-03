@@ -1,23 +1,23 @@
 .transaction-details{
-
+   display: flex;
 }
 .transaction-details .transaction-usdt{
     width: 50vw;
-    /* height: 1221px;
-    top: 2227px;
-    gap: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column; */
-    border: 1px solid red;
     height: 1221px;
+    border-right:  1px solid green;
+
 
 }
 .transaction-details .middle-section{
     width: 570px;
     height: 145px;
     left: 387px;
+    margin-top: -100px;
+    
+    
 
 }
 .transaction-details .left{
@@ -33,7 +33,42 @@
     height: 742px;
     top: 201px;
     left: 412px;
-    gap: 32px;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+    
+}
+.transaction-details .wrappers{
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.transaction-details .dt-icon{
+  margin-left: 40px;
+}
+.transaction-details .inner-hero2{
+    width: 479px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.transaction-details .from{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+.transaction-details .spanish{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    font-family: 'Gilroy-Medium', sans-serif;
 }
 .transaction-details .transaction-hero1{
     width: 511px;
@@ -47,6 +82,7 @@
     gap: 10px;
     
 }
+
 .transaction-details h1{
     font-size: 56px;
     font-weight: 400;
@@ -57,4 +93,51 @@
 }
 .transaction-details .usdt-changes{
     margin-top: 30px;
+}
+.transaction-details .transaction-hero2{
+    width: 511px;
+    height: 72px;
+    border-radius: 5px;
+    padding: 12px, 16px, 12px, 16px;
+    gap: 12px;
+    background-color: #DDDDDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.transaction-details .transaction-hero3{
+    width: 511px;
+    height: 96px;
+    border-radius: 5px;
+    padding: 12px, 16px, 12px, 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DDDDDD;
+    gap: 12px;
+}
+.transaction-details .transaction-hero4{
+    width: 511px;
+    height: 48px;
+    border-radius: 5px;
+    padding: 12px, 16px, 12px, 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DDDDDD;
+    gap: 5px;
+}
+.transaction-details .number{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    
+}
+.transaction-details .jrn-hero{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
 }
