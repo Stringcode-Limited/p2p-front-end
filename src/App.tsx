@@ -28,6 +28,7 @@ import TransactionDetails from "./pages/app/app-wallet-page/transactiondetails/T
 import TransferPage from "./pages/app/app-wallet-page/Transfer/TransferPage/TransferPage";
 import VerifyWithPinPage from "./pages/app/app-wallet-page/VerifyWithPin/VerifyWithPinPage/VerifyWithPinPage";
 import CompletePage from "./pages/app/app-wallet-page/complete/CompletePage/CompletePage"
+import FundPage from "./pages/app/app-wallet-page/Fund/FundPage/FundPage";
 
 function App() {
   return (
