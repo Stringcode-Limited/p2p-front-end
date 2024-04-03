@@ -97,7 +97,49 @@ function TransactionDetails() {
         </div>
         <div className="layers-transactions">
           <div className="layer1">
-            
+            <div className="inner-layer1">
+              <div className="funded">
+              <p className='acc-fund'>Account funded</p>
+              <p className='date'>October 26, 4:34PM</p>
+              </div>
+              <div className="btc-negative">-0.02BTC</div>
+            </div>
+          </div>
+          <div className="layer1">
+            <div className="inner-layer1">
+              <div className="funded">
+              <p className='acc-fund'>Account funded</p>
+              <p className='date'>October 26, 4:34PM</p>
+              </div>
+              <div className="btc-negative">-0.02BTC</div>
+            </div>
+          </div>
+          <div className="layer1">
+            <div className="inner-layer1">
+              <div className="funded">
+              <p className='acc-fund'>Account funded</p>
+              <p className='date'>October 26, 4:34PM</p>
+              </div>
+              <div className="btc-negative">-0.02BTC</div>
+            </div>
+          </div>
+          <div className="layer1">
+            <div className="inner-layer1">
+              <div className="funded">
+              <p className='acc-fund'>Account funded</p>
+              <p className='date'>October 26, 4:34PM</p>
+              </div>
+              <div className="btc-negative">-0.02BTC</div>
+            </div>
+          </div>
+          <div className="layer1">
+            <div className="inner-layer1">
+              <div className="funded">
+              <p className='acc-fund'>Account funded</p>
+              <p className='date'>October 26, 4:34PM</p>
+              </div>
+              <div className="btc-negative">-0.02BTC</div>
+            </div>
           </div>
         </div>
       </div>

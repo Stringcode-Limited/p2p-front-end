@@ -25,10 +25,12 @@ import WaitingPaymentPage from "./pages/app/app-home-page/waitingPayment/waiting
 import SellUsdtPage from "./pages/app/app-home-page/sellUsdt/sellUsdtPage/SellUsdtPage";
 import ManageCryptoPage from "./pages/app/app-wallet-page/ManageCrypto/ManageCryptoPage/ManageCryptoPage";
 import TransactionDetails from "./pages/app/app-wallet-page/transactiondetails/TransactionDetails";
+import Profile from "./pages/app/Profile/Profile";
 import TransferPage from "./pages/app/app-wallet-page/Transfer/TransferPage/TransferPage";
 import VerifyWithPinPage from "./pages/app/app-wallet-page/VerifyWithPin/VerifyWithPinPage/VerifyWithPinPage";
 import CompletePage from "./pages/app/app-wallet-page/complete/CompletePage/CompletePage"
 import FundPage from "./pages/app/app-wallet-page/Fund/FundPage/FundPage";
+
 
 function App() {
   return (
@@ -59,6 +61,7 @@ function App() {
           {/* <Route path="transactiondetails" element={<TransactionDetails />} /> */}
           <Route path="wallet/manageCrypto" element={<ManageCryptoPage/>} />
           <Route path="wallet/transfer" element={<TransferPage/>} />
+          <Route path="Profile" element={<Profile/>} />
           <Route path="wallet/verifywithpin" element={<VerifyWithPinPage/>} />
           <Route path="wallet/complete" element={<CompletePage/>} />
           <Route path="wallet/fund" element={<FundPage/>} />
