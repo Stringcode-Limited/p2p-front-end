@@ -1,0 +1,211 @@
+.transaction-details{
+   display: flex;
+}
+.transaction-details .transaction-usdt{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1221px;
+
+
+}
+.transaction-details .middle-section{
+    width: 570px;
+    height: 145px;
+    left: 387px;
+    margin-top: -100px;
+    
+    
+
+}
+.transaction-details .left{
+    display: flex;
+    width: 395.23px;
+    height: 36px;
+    top: 75px;
+    left: 39px;
+    gap: 134px;
+}
+.transaction-details .transaction-hero{
+    width: 511px;
+    height: 742px;
+    top: 201px;
+    left: 412px;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+    
+}
+.transaction-details .wrappers{
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.transaction-details .dt-icon{
+  margin-left: 40px;
+}
+.transaction-details .inner-hero2{
+    width: 479px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.transaction-details .from{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+.transaction-details .spanish{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+.transaction-details .transaction-hero1{
+    width: 511px;
+    height: 180px;
+    border-radius: 10px;
+    background-color: #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.transaction-details h1{
+    font-size: 56px;
+    font-weight: 400;
+}
+.transaction-details .us-fig{
+    display: flex;
+    gap: 8px;
+}
+.transaction-details .usdt-changes{
+    margin-top: 30px;
+}
+.transaction-details .transaction-hero2{
+    width: 511px;
+    height: 72px;
+    border-radius: 5px;
+    padding: 12px, 16px, 12px, 16px;
+    gap: 12px;
+    background-color: #DDDDDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.transaction-details .transaction-hero3{
+    width: 511px;
+    height: 96px;
+    border-radius: 5px;
+    padding: 12px, 16px, 12px, 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DDDDDD;
+    gap: 12px;
+}
+.transaction-details .transaction-hero4{
+    width: 511px;
+    height: 48px;
+    border-radius: 5px;
+    padding: 12px, 16px, 12px, 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DDDDDD;
+    gap: 5px;
+}
+.transaction-details .number{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    
+}
+.transaction-details .jrn-hero{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+.transaction-details .help-center{
+    width: 511px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.transaction-details .question-symbol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 107px;
+    height: 20px;
+    gap: 8px;
+}
+.transaction-details .center{
+    font-size: 14px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-weight: 400;
+    color: #00A542;
+}
+.transaction-details .recent-transaction{
+    width: 461px;
+    height: 800px;
+    left: 979px;
+    border: 0px, 0px, 0px 1px;
+    border-left: 1px solid #727272;
+}
+.transaction-details .inner-recent{
+    width: 370px;
+    height: 436px;
+    top: 77px;
+    left: 52px;
+    /* gap: ; */
+}
+.transaction-details .search-transaction{
+    width: 360px;
+    height: 38px;
+
+}
+.transaction-details input[type="text1"]{
+    width: 360px;
+    height: 43px;
+    border-radius: 20px;
+
+}
+::placeholder{
+    padding: 40px;
+}
+.transaction-details .input{
+    position: absolute;
+}
+.transaction-details .search-logo{
+    position: relative;
+    top: 10px;
+    left: 15px;
+    
+}
+.transaction-details .layer-transactions{
+    width: 370px;
+    height: 342px;
+    gap: 8px;
+}
+.transaction-details .layer1{
+    width: 370px;
+    height: 62px;
+    border-radius: 5px;
+    padding: 12px, 16px, 12px, 16px;
+    gap: 12px;
+}

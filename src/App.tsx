@@ -24,10 +24,15 @@ import CryptoSold from "./pages/app/app-home-page/cryptoSold/CryptoSoldPage/Cryp
 import WaitingPaymentPage from "./pages/app/app-home-page/waitingPayment/waitingPaymentPage/WaitingPaymentPage";
 import SellUsdtPage from "./pages/app/app-home-page/sellUsdt/sellUsdtPage/SellUsdtPage";
 import ManageCryptoPage from "./pages/app/app-wallet-page/ManageCrypto/ManageCryptoPage/ManageCryptoPage";
+<<<<<<< HEAD
+import TransactionDetails from "./pages/app/app-wallet-page/transactiondetails/TransactionDetails";
+
+=======
 import TransferPage from "./pages/app/app-wallet-page/Transfer/TransferPage/TransferPage";
 import VerifyWithPinPage from "./pages/app/app-wallet-page/VerifyWithPin/VerifyWithPinPage/VerifyWithPinPage";
 import CompletePage from "./pages/app/app-wallet-page/complete/CompletePage/CompletePage";
 import transactionDetails from './pages/app/app-home-page/Transactiondetails/transactionDetails';
+>>>>>>> fe70d240a55485ec59cae39f2bb0369bf9c8df05
 
 function App() {
   return (
@@ -44,7 +49,6 @@ function App() {
         <Route path="/app" element={<AppRouteWrapper />}>
           <Route index element={<AppHomePage />} />
           <Route path="orderCreated" element={<Order/>}/>
-          <Route path="Transactiondetails" element={<transactionDetails/>}/>
           <Route path="Makepayment" element={<MakePayment/>}/>
           <Route path="buyUSDT" element={<Buyusdt/>}/>
           <Route path="P2Psell" element={<P2PSellPage/>}/>
@@ -56,6 +60,7 @@ function App() {
           <Route path="order" element={<AppOrderPage />} />
           <Route path="pitch" element={<AppPitchPage />} />
           <Route path="wallet" element={<AppWalletPage />} />
+          <Route path="transactiondetails" element={<TransactionDetails />} />
           <Route path="wallet/manageCrypto" element={<ManageCryptoPage/>} />
           <Route path="wallet/transfer" element={<TransferPage/>} />
           <Route path="wallet/verifywithpin" element={<VerifyWithPinPage/>} />
