@@ -58,6 +58,8 @@
     flex-direction: column;
     gap:20px ;
     margin-top: -30px;
+    align-items: center;
+    justify-content: center;
 }
 .make-payment .name-wrapper{
    display: flex;
@@ -82,6 +84,7 @@
 .make-payment .make-pay{
     width: 512px;
     height: 84px;
+    
     
     /* gap: ; */
 }

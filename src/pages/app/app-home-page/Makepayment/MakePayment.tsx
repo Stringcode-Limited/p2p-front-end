@@ -4,8 +4,6 @@ import left from "../../../../assets/images/left.png"
 import doe from "../../../../assets/images/doe.png"
 import badge from "../../../../assets/images/badge.png"
 import right from "../../../../assets/images/right.png"
-import interval from "../../../../assets/images/interval.png"
-import esc2 from "../../../../assets/images/esc2.png"
 import Button from '../../../../components/Button/Button';
 import ordernum from "../../../../assets/images/ordernums.png"
 import help2 from "../../../../assets/images/help2.png"
