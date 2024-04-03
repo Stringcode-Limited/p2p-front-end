@@ -96,6 +96,7 @@ function MakePayment() {
                         </div>
                     </div>
                        <div className="proceed-topay">
+                        <Button  type='large' text='Mark as paid' route="/app/releasingcrypto"/>
                         <Button  type='large' text='Mark as paid'/>
                         <Button  type='large' text="help" color='grey'/>
                        </div>
