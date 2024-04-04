@@ -13,7 +13,7 @@ function BuyusdtBody() {
        <div className='usdt-info'>
             <div className="top">
                 <img src={left} alt="" />
-                <p className="buy-usdt-text">BUY USDT</p>
+                <p className="buy-usdt-text">Buy USDT</p>
             </div>
             <div className="usdt-info-container">
                 <div className="usdt-info-top-container">
@@ -32,8 +32,9 @@ function BuyusdtBody() {
                             <input type="text"  placeholder="Enter Amount"/>
                                 <p className="input-letter">All</p>
                             </div>
-                           
-                            <p>Range: <img src={naira} alt="" />100,000.00 - <img src={naira} alt="" />367,200.00</p>
+                            <div className="usdt-amount-range">
+                            <p className="range-text">Range <span className="">₦</span>100,000.00 - <span>₦</span>367,200.00</p>
+                            </div>
                         </div>
                     </div>
                 </div>

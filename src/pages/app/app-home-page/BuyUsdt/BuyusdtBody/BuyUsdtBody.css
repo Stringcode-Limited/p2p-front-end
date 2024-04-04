@@ -14,14 +14,14 @@
     justify-content: space-between;
     width: 100%;
     padding-top: 40px;
-    padding-left: 10%;
+    padding-left: 18%;
     padding-right: 37%;
     position: sticky;
     top: 0;
     background-color: #FCFCFC;
     margin-bottom: 56px;
 }
-.usdt-info .buy-usdt-text{
+.usdt-info .top .buy-usdt-text{
     font-size: 28px;
     font-weight: 400;
     font-family: "Gilroy-Bold";
@@ -55,7 +55,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 1px solid red;
 }
 .usdt-info .input-letter{
     font-size: 18px;
@@ -125,4 +124,10 @@
      top: 30px;
      z-index: 1;
      margin-left: 10px;
+}
+
+.usdt-info .range-text{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Gilroy-Regular";
 }
