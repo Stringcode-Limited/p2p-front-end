@@ -1,9 +1,12 @@
-import BuyUsdtBody from "../BuyusdtBody/BuyUsdtBody"
 
+import RecentOrders from '../../recentOrders/RecentOrders';
+import BuyusdtBody from '../Buyusdtbody/BuyusdtBody';
+import "./BuyUsdtPage.css"
 function BuyUsdtPage() {
   return (
-    <div>
-      
+    <div className='buyusdtpage'>
+      <BuyusdtBody />
+      <RecentOrders />
     </div>
   );
 }

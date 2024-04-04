@@ -14,7 +14,6 @@ import Login from "./pages/login/Login";
 import Signup from "./pages/signup/Signup";
 import EmailSmsVerification from "./pages/emailSmsVerification/EmailSmsVerification";
 import Setup from "./pages/setupaccount/Setup";
-import Buyusdt from "./pages/app/app-home-page/BuyUsdt/Buyusdt";
 import Order from "./pages/app/app-home-page/Ordercreated/Order";
 import MakePayment from "./pages/app/app-home-page/Makepayment/MakePayment";
 import ReleasingCryptoPage from "./pages/app/app-home-page/releasingCrypto/releasingCryptoPage/ReleasingCryptoPage";
@@ -30,6 +29,8 @@ import TransferPage from "./pages/app/app-wallet-page/Transfer/TransferPage/Tran
 import VerifyWithPinPage from "./pages/app/app-wallet-page/VerifyWithPin/VerifyWithPinPage/VerifyWithPinPage";
 import CompletePage from "./pages/app/app-wallet-page/complete/CompletePage/CompletePage";
 import Profile from "./pages/app/Profile/Profile";
+import BuyUsdtPage from "./pages/app/app-home-page/buyUsdt/BuyUsdtPage/BuyUsdtPage";
+
 
 
 function App() {
@@ -48,7 +49,7 @@ function App() {
           <Route index element={<AppHomePage />} />
           <Route path="orderCreated" element={<Order/>}/>
           <Route path="Makepayment" element={<MakePayment/>}/>
-          <Route path="buyUSDT" element={<Buyusdt/>}/>
+          <Route path="buyUsdt" element={<BuyUsdtPage/>}/>
           <Route path="P2Psell" element={<P2PSellPage/>}/>
           <Route path="releasingcrypto" element={<ReleasingCryptoPage/>} />
           <Route path="cryptoreleased" element={<CryptoReleasedPage/>} />
