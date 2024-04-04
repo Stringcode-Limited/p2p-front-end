@@ -1,6 +1,5 @@
 .make-payment{
     display: flex;
-    margin-left: 40px;
     
 }
 .make-payment .arrow{
@@ -35,12 +34,13 @@
     align-items: center;
     justify-content: center;
     width: 50vw;
+    
 }
 .make-payment .order-caption{
     width: 570px;
     height: 130px;
     left: 387px;
-    margin-top: 70px;
+    
     
     
 }
@@ -49,6 +49,7 @@
     height: 706px;
     top: 201px;
     left: 412px;
+    
     
 }
 .make-payment .jhn-d{
