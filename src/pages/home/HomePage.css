@@ -171,8 +171,7 @@
 .about-us .us{
     width: 590px;
     height: 494px;
-    gap: 40px;
-    border: 1px solid red;
+    gap: 40
     display: flex;
     align-items: center;
     justify-content: center;
