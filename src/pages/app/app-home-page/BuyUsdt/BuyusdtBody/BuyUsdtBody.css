@@ -332,3 +332,36 @@
     width: 511px;
     height: 1px;
 }
+.usdt-info .usdt-info-container .review-container{
+    width: 511px;
+    height: 200px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -75px;
+}
+.usdt-info .usdt-info-container .review-statement{
+    width: 150px;
+    height: 24px;
+    
+}
+.usdt-info .usdt-info-container .review-comments{
+    width: 511px;
+    height: 168px;
+    
+}
+.usdt-info .usdt-info-container .reviews{
+   font-size: 18px;
+   font-weight: 400;
+   font-family: "Gilroy-Bold";
+   line-height: 24px;
+   letter-spacing: 0.15px; 
+}
+.usdt-info .usdt-info-container .comments{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Gilroy-Medium";
+    line-height: 24px;
+    letter-spacing: 0.15px; 
+ }
+
