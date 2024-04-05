@@ -10,10 +10,10 @@ import {
   HomePage,
 } from "./pages";
 import { Routes, Route } from "react-router-dom";
-import Login from "./pages/login/Login";
-import Signup from "./pages/signup/Signup";
-import EmailSmsVerification from "./pages/emailSmsVerification/EmailSmsVerification";
-import Setup from "./pages/setupaccount/Setup";
+import Login from "./pages/home/login/Login";
+import Signup from "./pages/home/signup/Signup";
+import EmailSmsVerification from "./pages/home/emailSmsVerification/EmailSmsVerification";
+import Setup from "./pages/home/setupaccount/Setup";
 import Buyusdt from "./pages/app/app-home-page/BuyUsdt/Buyusdt";
 import Order from "./pages/app/app-home-page/Ordercreated/Order";
 import MakePayment from "./pages/app/app-home-page/Makepayment/MakePayment";
@@ -58,7 +58,7 @@ function App() {
           <Route path="order" element={<AppOrderPage />} />
           <Route path="pitch" element={<AppPitchPage />} />
           <Route path="wallet" element={<AppWalletPage />} />
-          {/* <Route path="transactiondetails" element={<TransactionDetails />} /> */}
+          <Route path="transactiondetails" element={<TransactionDetails />} />
           <Route path="wallet/manageCrypto" element={<ManageCryptoPage/>} />
           <Route path="wallet/transfer" element={<TransferPage/>} />
           <Route path="Profile" element={<Profile/>} />
