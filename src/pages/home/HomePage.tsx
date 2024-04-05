@@ -126,11 +126,11 @@ function HomePage() {
             <div className="element2">
             <div className="element-wrap1">
             <h1 className="wy">Why Us?</h1>
+            <p className="why">We are deligently committed to providing a conducive platform for traders to seamlessly trade crypto for fiat with real people</p>
             <div className="we-stand">
-            <p className="why">We are deligently committed to providing a conducive<br></br> platform for traders to seamlessly
-            trade crypto for fiat<br></br> with real people</p>
             <p className="why">We stand out in diverse ways.</p>
             </div>
+            
             </div>
             <div className="sub-wrap">
             <div className="element-wrap2">

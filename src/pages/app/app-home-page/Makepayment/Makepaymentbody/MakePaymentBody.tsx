@@ -90,8 +90,8 @@ function MakePaymentBody() {
                         </div>
                     </div>
                        <div className="proceed-topay">
-                        <Button  type='large' text='Mark as paid' route="/app/releasingcrypto"/>
-                        <HelpButton classes='btn grey large helpButton' />
+                        <Button  type='large2' text='Mark as paid' route="/app/releasingcrypto"/>
+                        <HelpButton classes='btn grey large2 helpButton' />
                        </div>
                     </div>
             </div>
