@@ -6,10 +6,10 @@ import badge from "../../../../assets/images/badge.png"
 import right from "../../../../assets/images/right.png"
 import Button from '../../../../components/Button/Button';
 import ordernum from "../../../../assets/images/ordernums.png"
-import help2 from "../../../../assets/images/help2.png"
 import curv from "../../../../assets/images/curv.png"
 import naira from "../../../../assets/images/naira.png"
 import clock from "../../../../assets/images/clock.png"
+import HelpButton from '../../../../components/HelpButton/HelpButton';
 
 
 
@@ -102,9 +102,8 @@ function MakePayment() {
                     </div>
                        <div className="proceed-topay">
                         <Button  type='large' text='Mark as paid' route="/app/releasingcrypto"/>
-                        <Button  type='large' text="help" color='grey'/>
+                        <HelpButton classes='' />
                        </div>
-                       <div className="help"><img src={help2} alt="" /></div>
                     </div>
             </div>
          </div>

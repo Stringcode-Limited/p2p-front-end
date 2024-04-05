@@ -20,6 +20,7 @@
     top: 0;
     background-color: #FCFCFC;
     margin-bottom: 56px;
+    z-index: 2;
 }
 .usdt-info .top .buy-usdt-text{
     font-size: 28px;
@@ -42,6 +43,10 @@
     display: flex;
     justify-content: center;
     padding-top: 12px;
+    flex-direction: column;
+    align-items: center;
+
+    
     
 
     
@@ -56,6 +61,7 @@
     justify-content: center;
     flex-direction: column;
 }
+
 .usdt-info .input-letter{
     font-size: 18px;
     font-family: "Gilroy-Bold";
@@ -63,7 +69,7 @@
     color: #00A542;
     position: absolute;
     right: 587px;
-    top: 335px;
+    top: 325px;
     z-index: -1px;
 }
 .usdt-info .price-per-usdt{
@@ -74,6 +80,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: -40px;
 }
 .usdt-info .usdt-unit-price{
     font-family: "Gilroy-Bold";
@@ -84,6 +91,10 @@
 .usdt-info .input-field{
     width: 479px;
     height: 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-top: -20px;
 }
 .usdt-info input[type="text"]{
     width: 479px;
@@ -92,7 +103,9 @@
     background-color: #DDDDDD;
     border: transparent;
     position: relative;
+    
 }
+
 .usdt-info .naira{
     position: absolute;
     top: 295px;
@@ -121,7 +134,7 @@
 }
 .usdt-info .naira-symbol2{
      position: relative;
-     top: 30px;
+     top: 32px;
      z-index: 1;
      margin-left: 10px;
 }
@@ -131,3 +144,63 @@
     font-weight: 400;
     font-family: "Gilroy-Regular";
 }
+.usdt-info .you-will-pay{
+    width: 470px;
+    height: 44px;
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.usdt-info .you-will-pay .you-will-pay2 .pay{
+   font-size: 14px;
+   font-family: "Gilroy-Regular";
+   font-weight: 400; 
+   line-height: 20px;
+}
+.usdt-info .you-will-pay  .receive{
+    font-size: 14px;
+    font-family: "Gilroy-Regular";
+    font-weight: 400; 
+    line-height: 20px;
+ }
+ .usdt-info .you-will-pay  .pay{
+    font-size: 14px;
+    font-family: "Gilroy-Regular";
+    font-weight: 400; 
+    line-height: 20px;
+ }
+ .usdt-info .you-will-pay  .pay1{
+    width: 369px;
+    height: 20px;
+    gap: 2px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .usdt-info .you-will-pay  .receive1{
+    width: 369px;
+    height: 20px;
+    gap: 2px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .usdt-info .usdt-info-container .usdt-info-top-container .usdt-info-top-container2{
+    width: 479px;
+    height: 220px;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .usdt-info .usdt-info-container .usdt-info-top-container .usdt-info-top-container1{
+    width: 479px;
+    height: 274px;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid red;
+ }

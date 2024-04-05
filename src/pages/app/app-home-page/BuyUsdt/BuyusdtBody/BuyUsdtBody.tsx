@@ -17,6 +17,8 @@ function BuyusdtBody() {
             </div>
             <div className="usdt-info-container">
                 <div className="usdt-info-top-container">
+                    <div className="usdt-info-top-container1">
+                    <div className="usdt-info-top-container2">
                     <div className="usdt-amount-container">
                         <div className="price-per-usdt">
                             <div className="naira-container">
@@ -33,9 +35,24 @@ function BuyusdtBody() {
                                 <p className="input-letter">All</p>
                             </div>
                             <div className="usdt-amount-range">
-                            <p className="range-text">Range <span className="">₦</span>100,000.00 - <span>₦</span>367,200.00</p>
+                            <p className="range-text">Range<span className=""> ₦</span>100,000.00 - <span>₦</span>367,200.00</p>
                             </div>
                         </div>
+                    </div>
+                       <div className="you-will-pay">
+                            <div className="pay1">
+                                <p className="pay">You will pay</p>
+                                <p className="pay">--NGN</p>
+                            </div>
+                        <div className="receive1">
+                                <p className="receive">You will receive</p>
+                                <p className="receive">--USDT</p>
+                         </div>
+                       </div>
+                    </div>
+                       <div className="buy-usdt-btn">
+                        <Button  type="large" text="BUY USDT"/>
+                       </div>
                     </div>
                 </div>
             </div>
