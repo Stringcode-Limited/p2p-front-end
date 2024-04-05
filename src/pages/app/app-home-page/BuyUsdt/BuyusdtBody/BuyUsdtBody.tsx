@@ -7,6 +7,7 @@ import timer from "../../../../../assets/images/timer.png"
 import badge from "../../../../../assets/images/badge2.svg"
 import doe from "../../../../../assets/images/doe.png"
 import Fiat from '../../../../../components/Fiat/Fiat';
+import clock from "../../../../../assets/images/clock.svg"
 
 function BuyusdtBody() {
   return (
@@ -55,13 +56,51 @@ function BuyusdtBody() {
                        </div>
                     </div>
                 </div>
+                <div className="ad-details">
+                    <div className="ad-text">Ad details</div>
+                    <div className="ad-details-text-container">
+                        <p className="details-statement">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                      <div className="clock">
+                        <img src={clock} alt="" />
+                        <p className="ten-minute">10 mins</p>
+                      </div>
+                      <div className="dividing-line">
+                        
+                      </div>
+                </div>
+                <div className="john-doe-container">
+                    <div className="seller">
+                        <p className="sell-profile">Seller`s Profile</p>
+                    </div>
+                    <div className="jhn-doe-img">
+                        <img  src={doe} alt="" />
+                        <div className="badge">
+                            <div className="badge2">
+                                <div className="badge3">
+                                <p className="doee">John Doe</p>
+                                </div>
+                                <div className="badge4">
+                                <img className="does-badge" src={badge} alt="" />
+                                </div>
+                               
+                            </div>
+                            <p className="doemoney">@Doemoney</p>
+                        </div>
+                        
+                    </div>
+                    <div className="clock2">
+                        <img src={clock} alt="" />
+                        <p className="ten-minute">10 mins</p>
+                      </div>
+
+                    
+                </div>
+                <div className="dividing-line">
+                        
+                        </div>
             </div>
-
-
-
-
            </div>
-
   );
 }
 
