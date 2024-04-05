@@ -18,7 +18,7 @@ const Setup = () => {
                             <Input label="Confirm password" type="password" />
                         </div>
                         <div className="finish-button">
-                            <NavLink to={""}><Button text="Finish" color="green" type="normal2" /></NavLink>
+                            <NavLink to={"/app"}><Button text="Finish" color="green" type="normal2" /></NavLink>
                         </div>
                     </div>
                 </div>
