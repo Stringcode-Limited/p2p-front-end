@@ -15,7 +15,7 @@ function MakePaymentBody() {
       <div className="order1">
       <div className="top">
          <img src={left} alt="" />
-        <p className="make-payment-text">Make Payment</p>
+        <p className="make-payment-text">Make payment</p>
             </div>
             <div className="customer-info">
             <div className="jhn-d">

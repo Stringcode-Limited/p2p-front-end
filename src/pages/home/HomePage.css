@@ -2,48 +2,67 @@
 
 /* .......HERO-SECTION START */
 .hero-section{
-    max-width: 1440px;
+    width: 100%;
     height: 732px;
     top: 69px;
     display: flex;
     align-items: center;
     justify-content: center;
+
     
 }
-.hero-section .wrapper{
-    height: 391px;
+.hero-section .wrapper-hero1{
+    height: 400px;
     width: 579px;
-    gap: 40px;
+    gap:10px;
+    
 }
-.hero-section .hero-text{
-    height: 150px;
-    width: 528px;
+
+.hero-section .hero-name{
     line-height: 75px;
-    size: 56px;
+    font-size: 55px;
     font-weight: 400;
-}
-.hero-section h2{
-    line-height: 1.5;
-    font-size: 35px;
+
+    
 }
 
 .hero-section .seamless-text{
     font-size: 24px;
     line-height: 42px;
+    margin-top: 30px;
 }
 .hero-section .iphone{
     width: 570px;
     height: 465.88px;
 }
 .hero-section .hero2{
-    flex-basis: 30%;
     display: flex;
     align-items: center;
-    width: 320px;
+    width: 570px;
+    height: 465px;
     justify-content: center;
+
 }
 .hero-section .hero1{
-    flex-basis: 50%;
+    width: 579px;
+    height: 500px;
+    gap: 28px;
+
+}
+.hero-section .hero-text{
+    width: 340px;
+    height: 225px;
+    
+}
+.hero-section .seamless-text{
+    width: 579px;
+    height: 126px;
+}
+.hero-section .seamless{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 42px;
+    font-family: "Gilroy-Medium";
 }
 /* ..........HERO-SECTION ENDS */
 
@@ -51,7 +70,7 @@
 /* ..............APPROVE-SECTION................. */
 .approved{
     background-color: #F0EDED;
-    max-width: 1441px;
+    width: 100%;
     height: 300px;
     display: flex;
     align-items: center;
@@ -64,11 +83,12 @@
 }
 .approved .sub-approved{
     width: 1175px;
-    margin-top: 20px;
+    margin-top: 2px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 2px;
     
 
 }
@@ -82,11 +102,16 @@
     justify-content: center;
 }
 .approved .due{
-    margin-top: -7px;
     text-align: center;
+    font-size: 45px;
+    margin-top: 10px;
 }
 .approved .aff{
     text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 42px;
+    font-family:"Gilroy-Medium" ;
 }
 .approved .cbn{
     width: 51px;
@@ -120,6 +145,12 @@
     width: 104px;
     height: 137px;
 }
+.approved .sub-approved .rap1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 10px;
+}
 /* ............APPROVE-SECTION END............ */
 
 
@@ -136,6 +167,16 @@
     
     
 
+}
+.about-us .us{
+    width: 590px;
+    height: 494px;
+    gap: 40px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .about .inner-us{
     width: 1201px;
@@ -164,7 +205,32 @@
     line-height: 42px;
     size: 24px;
 }
-
+.about-us .us .text-us{
+    width: 590px;
+    height: 260px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.about-us .us .duty{
+    width: 590px;
+    height: 260px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.about-us .us .text-us .p2{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 42px;
+    font-family: "Gilroy-Medium";
+}
+.about-us .us .duty .p2{
+    font-size: 23.5px;
+    font-weight: 400;
+    line-height: 42px;
+    font-family: "Gilroy-Medium";
+}
 .about .caption{
 }
 /* ..............ABOUT-SECTION  ENDS............ */
