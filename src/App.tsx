@@ -15,8 +15,6 @@ import Signup from "./pages/signup/Signup";
 import EmailSmsVerification from "./pages/emailSmsVerification/EmailSmsVerification";
 import Setup from "./pages/setupaccount/Setup";
 import Buyusdt from "./pages/app/app-home-page/BuyUsdt/Buyusdt";
-import Order from "./pages/app/app-home-page/Ordercreated/Order";
-import MakePayment from "./pages/app/app-home-page/Makepayment/MakePayment";
 import ReleasingCryptoPage from "./pages/app/app-home-page/releasingCrypto/releasingCryptoPage/ReleasingCryptoPage";
 import CryptoReleasedPage from "./pages/app/app-home-page/cryptoReleased/CryptoReleasedPage/CryptoReleasedPage";
 import P2PSellPage from "./pages/app/app-home-page/p2pSell/P2PSellPage/P2PSellPage";
@@ -28,7 +26,10 @@ import TransferPage from "./pages/app/app-wallet-page/Transfer/TransferPage/Tran
 import VerifyWithPinPage from "./pages/app/app-wallet-page/VerifyWithPin/VerifyWithPinPage/VerifyWithPinPage";
 import CompletePage from "./pages/app/app-wallet-page/complete/CompletePage/CompletePage";
 import FundPage from "./pages/app/app-wallet-page/Fund/FundPage/FundPage";
-// import transactionDetails from './pages/app/app-home-page/Transactiondetails/transactionDetails';
+import MakePaymentPage from "./pages/app/app-home-page/Makepayment/MakePaymentPage/MakePaymentPage";
+import OrderCreatedPage from "./pages/app/app-home-page/Ordercreated/OrderCreatedPage/OrderCreatedPage";
+
+
 
 function App() {
   return (
@@ -44,8 +45,8 @@ function App() {
         </Route>
         <Route path="/app" element={<AppRouteWrapper />}>
           <Route index element={<AppHomePage />} />
-          <Route path="orderCreated" element={<Order/>}/>
-          <Route path="Makepayment" element={<MakePayment/>}/>
+          <Route path="order" element={<OrderCreatedPage/>}/>
+          <Route path="makePayment" element={<MakePaymentPage/>}/>
           <Route path="buyUSDT" element={<Buyusdt/>}/>
           <Route path="P2Psell" element={<P2PSellPage/>}/>
           <Route path="releasingcrypto" element={<ReleasingCryptoPage/>} />
@@ -56,7 +57,6 @@ function App() {
           <Route path="order" element={<AppOrderPage />} />
           <Route path="pitch" element={<AppPitchPage />} />
           <Route path="wallet" element={<AppWalletPage />} />
-          {/* <Route path="transactiondetails" element={<TransactionDetails />} /> */}
           <Route path="wallet/manageCrypto" element={<ManageCryptoPage/>} />
           <Route path="wallet/transfer" element={<TransferPage/>} />
           <Route path="wallet/verifywithpin" element={<VerifyWithPinPage/>} />
