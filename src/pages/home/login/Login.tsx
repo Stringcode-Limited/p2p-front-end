@@ -1,10 +1,10 @@
 import { NavLink } from "react-router-dom";
-import Button from "../../components/Button/Button";
-import Input from "../../components/Input/Input";
-import NavBar from "../../components/NavBar/NavBar";
+import Button from "../../../components/Button/Button";
+import Input from "../../../components/Input/Input";
+import NavBar from "../../../components/NavBar/NavBar";
 import "./login.css";
-import Google from "../../components/Google/Google";
-import Apple from "../../components/Apple/Apple";
+import Google from "../../../components/Google/Google";
+import Apple from "../../../components/Apple/Apple";
 
                            
 

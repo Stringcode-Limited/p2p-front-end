@@ -1,8 +1,8 @@
 import "./emailSmsVerification.css";
-import Button from "../../components/Button/Button";
-import NavBar from "../../components/NavBar/NavBar";
+import Button from "../../../components/Button/Button";
+import NavBar from "../../../components/NavBar/NavBar";
 import { NavLink } from "react-router-dom";
-import OTP from "../../components/OTP/OTP";
+import OTP from "../../../components/OTP/OTP";
 
 const EmailSmsVerification = () => {
     return (
