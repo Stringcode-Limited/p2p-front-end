@@ -1,37 +1,25 @@
 import React from 'react';
-import "./make.css" 
-import left from "../../../../assets/images/left.png"
-import doe from "../../../../assets/images/doe.png"
-import badge from "../../../../assets/images/badge.png"
-import right from "../../../../assets/images/right.png"
-import Button from '../../../../components/Button/Button';
-import ordernum from "../../../../assets/images/ordernums.png"
-import curv from "../../../../assets/images/curv.png"
-import naira from "../../../../assets/images/naira.png"
-import clock from "../../../../assets/images/clock.png"
-import HelpButton from '../../../../components/HelpButton/HelpButton';
+import "./MakePaymentBody.css"
+import left from"../../../../../assets/images/left.png";
+import doe from "../../../../../assets/images/doe.png";
+import badge from "../../../../../assets/images/badge2.svg"
+import clock from "../../../../../assets/images/clock.svg"
+import right from "../../../../../assets/images/rightarro.svg"
+import ordernum from "../../../../../assets/images/ordernums.png"
+import Button from '../../../../../components/Button/Button';
+import HelpButton from '../../../../../components/HelpButton/HelpButton';
 
-
-
-function MakePayment() {
+function MakePaymentBody() {
   return (
     <div className='make-payment'>
-       <div className="order1">
-          <div className="order-caption">
-            <div className="arrow">
-              <div className="rights">
-              <img src={left} alt="" />
-              </div>
-              <div className="ders">
-              <h2>Make Payment</h2>
-              </div>
+      <div className="order1">
+      <div className="top">
+         <img src={left} alt="" />
+        <p className="make-payment-text">Make Payment</p>
             </div>
-           
-          </div>
             <div className="customer-info">
             <div className="jhn-d">
-                         <div className="complete">
-                        
+                        <div className="john-doe-image-unit">
                         <div className="nam-wrapper">
                         <div className="doe-wrapper">
                         <img src={doe} alt="" />
@@ -51,7 +39,7 @@ function MakePayment() {
                               <img src={right} alt="" />
                             </div>
                            </div>
-                          </div>
+                          
                         
                         <div className="make-pay">
                             <div className="interval">
@@ -68,11 +56,12 @@ function MakePayment() {
                               </div>
                             </div>
                         </div>
+                        </div>
                         <div className="fiat-amount">
                           <div className="inner-fiat">
                             <div className="fiat1">
                               <p className='fit'>Fiat amount</p>
-                              <p className='fit'><img src={naira} alt="" />5,000.00</p>
+                              <p className='fit'>₦5,000.00</p>
                             </div>
                             <div className="fiat1">
                               <p className='fit'>Account name</p>
@@ -102,56 +91,14 @@ function MakePayment() {
                     </div>
                        <div className="proceed-topay">
                         <Button  type='large' text='Mark as paid' route="/app/releasingcrypto"/>
-                        <HelpButton classes='' />
+                        <HelpButton classes='btn grey large helpButton' />
                        </div>
                     </div>
             </div>
          </div>
-         <div className="chat-entering">
-         <div className="chats">
-         <div className="chat-main">
-            <div className="chat-caption">
-              <p className='chat-text'>Chat</p>
-            </div>
-           <div className="interval">
-             <img src={clock} alt="" />
-             <p className='release'>Your crypto has been released</p>
-            </div>
-           
-            <div className="chat1">
-              <p className='stipulated'>You have successfully created an order. Kindly pay within the stipulated time limit</p>
-            </div>
-            <div className="chat2">
-              <div className="inner-chat">
-                <p className='semi'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
-                <div className="inner-chat">
-                <p className='semi'>Relit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
-              </div>
-             
-            </div>
-            <div className="chat3">
-              <div className="p3">
-                 <p className='p3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
-              </div>
-            </div>
-            <div className="chat4">
-              <div className="p4">
-                <p className='p4'>Thank you</p>
-              </div>
-            </div>
-           </div>
-         </div>
-         
-         <div className="type-message">
-               <div className="input">
-                <input type="text" placeholder='Type message' />
-                </div>
-                <img className='curv' src={curv} alt="" />
-           </div>
-           </div>
+    
     </div>
   );
 }
 
-export default MakePayment;
+export default MakePaymentBody;

@@ -15,7 +15,6 @@ import Signup from "./pages/signup/Signup";
 import EmailSmsVerification from "./pages/emailSmsVerification/EmailSmsVerification";
 import Setup from "./pages/setupaccount/Setup";
 import Order from "./pages/app/app-home-page/Ordercreated/Order";
-import MakePayment from "./pages/app/app-home-page/Makepayment/MakePayment";
 import ReleasingCryptoPage from "./pages/app/app-home-page/releasingCrypto/releasingCryptoPage/ReleasingCryptoPage";
 import CryptoReleasedPage from "./pages/app/app-home-page/cryptoReleased/CryptoReleasedPage/CryptoReleasedPage";
 import P2PSellPage from "./pages/app/app-home-page/p2pSell/P2PSellPage/P2PSellPage";
@@ -30,6 +29,7 @@ import VerifyWithPinPage from "./pages/app/app-wallet-page/VerifyWithPin/VerifyW
 import CompletePage from "./pages/app/app-wallet-page/complete/CompletePage/CompletePage";
 import Profile from "./pages/app/Profile/Profile";
 import BuyUsdtPage from "./pages/app/app-home-page/buyUsdt/BuyUsdtPage/BuyUsdtPage";
+import MakePaymentPage from "./pages/app/app-home-page/Makepayment/Makepaymentpage/MakePaymentPage";
 
 
 
@@ -48,7 +48,7 @@ function App() {
         <Route path="/app" element={<AppRouteWrapper />}>
           <Route index element={<AppHomePage />} />
           <Route path="orderCreated" element={<Order/>}/>
-          <Route path="Makepayment" element={<MakePayment/>}/>
+          <Route path="Makepayment" element={<MakePaymentPage/>}/>
           <Route path="buyUsdt" element={<BuyUsdtPage/>}/>
           <Route path="P2Psell" element={<P2PSellPage/>}/>
           <Route path="releasingcrypto" element={<ReleasingCryptoPage/>} />

@@ -1,7 +1,4 @@
-.make-payment{
-    display: flex;
-    
-}
+
 .make-payment .arrow{
     display: flex;
     width: 360.23px;
@@ -12,6 +9,27 @@
     margin-top: 30px;
     margin-left: 20px;
     
+}
+.make-payment .top .make-payment-text{
+    font-size: 28px;
+    font-weight: 400;
+    font-family: "Gilroy-Bold";
+    line-height: 36px;
+}
+.make-payment .top{
+    display: flex;
+    align-items: center;
+    height: 145px;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 18%;
+    padding-right: 37%;
+    position: sticky;
+    top: 0;
+    background-color: #FCFCFC;
+    margin-bottom: 56px;
+    z-index: 2;
 }
 .make-payment .chat-entering{
     display: flex;
@@ -34,6 +52,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-right: 1px solid #727272;
+    padding-bottom: 200px;
     
     
 }
@@ -41,6 +61,7 @@
     width: 570px;
     height: 130px;
     left: 387px;
+    
     
     
     
@@ -71,9 +92,7 @@
     width: 160px;
     height: 46px;
     gap: 10px;
-    margin-top: 20px;
-
-    
+    margin-top: 100px; 
 }
 .make-payment .doe{
     font-family: 'Gilroy-Regular', sans-serif;
@@ -86,9 +105,13 @@
 .make-payment .make-pay{
     width: 512px;
     height: 84px;
-    
-    
-    /* gap: ; */
+
+}
+.make-payment .john-doe-image-unit{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 60px;
 }
 .make-payment .fiat-amount{
     width: 511px;
@@ -145,7 +168,7 @@
 .make-payment .complete{
     display: flex;
     gap: 10px;
-    margin-top: 25px;
+    
 }
 .make-payment .chats{
     width: 461px;
