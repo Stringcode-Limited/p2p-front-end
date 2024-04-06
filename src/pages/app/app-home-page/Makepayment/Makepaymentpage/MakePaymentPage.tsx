@@ -2,7 +2,6 @@ import React from 'react';
 import MakePaymentBody from '../Makepaymentbody/MakePaymentBody';
 import Chat from '../../Chat/Chat';
 import "./MakePaymentPage.css"
-import Chat2 from '../../chat2/Chat2';
 
 function MakePaymentPage() {
   return (

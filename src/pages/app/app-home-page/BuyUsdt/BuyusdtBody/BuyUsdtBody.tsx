@@ -52,7 +52,7 @@ function BuyusdtBody() {
                        </div>
                     </div>
                        <div className="buy-usdt-btn">
-                        <Button  type="large" text="BUY USDT"/>
+                        <Button  type="large" text="BUY USDT" route="/app/OrderCreated"/>
                        </div>
                     </div>
                 </div>
