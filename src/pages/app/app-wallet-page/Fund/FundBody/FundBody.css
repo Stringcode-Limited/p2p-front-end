@@ -1,0 +1,92 @@
+.fundBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    border-right: 1px solid #727272;
+    padding-bottom: 100px;
+
+}
+
+.fundBody .top {
+    display: flex;
+    align-items: center;
+    height: 145px;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 45%;
+    position: sticky;
+    top: 0;
+    background-color: #FCFCFC;
+    margin-bottom: 56px;
+    z-index: 2;
+
+}
+
+.fundBody .top p {
+    font-size: 28px;
+}
+
+.fundBody .fundWalletWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.fundBody .fundWalletWrapper .fundWallet {
+    display: flex;
+    gap: 16px;
+}
+
+.fundBody .fundWalletWrapper .qrImg {
+    width: 480px;
+    height: 240px;
+    border-radius: 10px;
+
+}
+
+.fundBody .fundWalletWrapper .qrContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.fundBody .fundWalletWrapper .qrContainer .qrcode {
+    text-align: center;
+
+}
+
+.fundBody .fundWalletWrapper .qrContainer .qrcode {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #1D1B20;
+
+
+}
+
+.fundBody .fundWalletWrapper .qrContainer .copyShare {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.fundBody .fundWalletWrapper .qrContainer .copyShare div p {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1D1B20;
+
+}
+
+.fundBody .fundWalletWrapper .qrContainer .copyShare div img {
+    width: 46px;
+    height: 45px;
+
+
+
+}

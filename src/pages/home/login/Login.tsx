@@ -1,10 +1,10 @@
 import { NavLink } from "react-router-dom";
-import Button from "../../components/Button/Button";
-import Input from "../../components/Input/Input";
-import NavBar from "../../components/NavBar/NavBar";
+import Button from "../../../components/Button/Button";
+import Input from "../../../components/Input/Input";
+import NavBar from "../../../components/NavBar/NavBar";
 import "./login.css";
-import Google from "../../components/Google/Google";
-import Apple from "../../components/Apple/Apple";
+import Google from "../../../components/Google/Google";
+import Apple from "../../../components/Apple/Apple";
 
                            
 
@@ -23,7 +23,7 @@ const Login = () => {
                             <Input label="Username/Email/Phone number" type="text" />
                             <Input label="Password" type="password" />
                             <div className="login-button">
-                            <Button text="Login" color="green" type="normal2" />
+                            <NavLink to={"/app"}><Button text="Login" color="green" type="normal2" /></NavLink>
                             </div>
                             <div className="account">
                                 <p className="have-an-account">Don't have an account? <span><NavLink to={""}>Sign up</NavLink></span></p>

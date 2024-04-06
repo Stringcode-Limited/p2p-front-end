@@ -10,6 +10,13 @@ import {
   HomePage,
 } from "./pages";
 import { Routes, Route } from "react-router-dom";
+import Login from "./pages/home/login/Login";
+import Signup from "./pages/home/signup/Signup";
+import EmailSmsVerification from "./pages/home/emailSmsVerification/EmailSmsVerification";
+import Setup from "./pages/home/setupaccount/Setup";
+import Buyusdt from "./pages/app/app-home-page/BuyUsdt/Buyusdt";
+import Order from "./pages/app/app-home-page/Ordercreated/Order";
+import MakePayment from "./pages/app/app-home-page/Makepayment/MakePayment";
 import Login from "./pages/login/Login";
 import Signup from "./pages/signup/Signup";
 import EmailSmsVerification from "./pages/emailSmsVerification/EmailSmsVerification";
@@ -21,6 +28,8 @@ import CryptoSold from "./pages/app/app-home-page/cryptoSold/CryptoSoldPage/Cryp
 import WaitingPaymentPage from "./pages/app/app-home-page/waitingPayment/waitingPaymentPage/WaitingPaymentPage";
 import SellUsdtPage from "./pages/app/app-home-page/sellUsdt/sellUsdtPage/SellUsdtPage";
 import ManageCryptoPage from "./pages/app/app-wallet-page/ManageCrypto/ManageCryptoPage/ManageCryptoPage";
+import TransactionDetails from "./pages/app/app-wallet-page/transactiondetails/TransactionDetails";
+import Profile from "./pages/app/Profile/Profile";
 import TransferPage from "./pages/app/app-wallet-page/Transfer/TransferPage/TransferPage";
 import VerifyWithPinPage from "./pages/app/app-wallet-page/VerifyWithPin/VerifyWithPinPage/VerifyWithPinPage";
 import CompletePage from "./pages/app/app-wallet-page/complete/CompletePage/CompletePage";
@@ -30,6 +39,8 @@ import MakePaymentPage from "./pages/app/app-home-page/Makepayment/Makepaymentpa
 import TransactiondetailPage from './pages/app/app-wallet-page/Transactiondetail/Transactiondetailpage/TransactiondetailPage';
 import OrderBodyPage from "./pages/app/app-home-page/OrderCreated/OrderBodypage/OrderBodyPage";
 
+import CompletePage from "./pages/app/app-wallet-page/complete/CompletePage/CompletePage"
+import FundPage from "./pages/app/app-wallet-page/Fund/FundPage/FundPage";
 
 
 function App() {
@@ -65,6 +76,7 @@ function App() {
           <Route path="Profile" element={<Profile/>} />
           <Route path="wallet/verifywithpin" element={<VerifyWithPinPage/>} />
           <Route path="wallet/complete" element={<CompletePage/>} />
+          <Route path="wallet/fund" element={<FundPage/>} />
           <Route path="profile" element={<AppProfilePage />} />
           <Route path="signout" element={<AppSignOutPage/>}/>
           </Route>

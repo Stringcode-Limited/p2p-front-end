@@ -7,7 +7,7 @@ interface IChat{
   label:string
   time: string
   type?: "amountsold" | "paragraph"
-  timertype: "timer" | "amountsold"
+  timertype: "time" | "amountsold"
   displayimage: "show" | "hide"
 }
 
@@ -21,7 +21,7 @@ function Chat({label, time, type, timertype, displayimage}:IChat) {
           <p className={type}>{label}</p>
           <p className={timertype}>{time}</p>
         </div>
-        <img src={chat} />
+        <img src={chat}/>
         <div className="chatContainer">
           <div className="chatInput">
             <input type="text" placeholder="Type message"/>

@@ -1,7 +1,7 @@
 import "./setup.css";
-import Button from "../../components/Button/Button";
-import Input from "../../components/Input/Input";
-import NavBar from "../../components/NavBar/NavBar";
+import Button from "../../../components/Button/Button";
+import Input from "../../../components/Input/Input";
+import NavBar from "../../../components/NavBar/NavBar";
 import { NavLink } from "react-router-dom";
 
 const Setup = () => {
@@ -18,7 +18,7 @@ const Setup = () => {
                             <Input label="Confirm password" type="password" />
                         </div>
                         <div className="finish-button">
-                            <NavLink to={""}><Button text="Finish" color="green" type="normal2" /></NavLink>
+                            <NavLink to={"/app"}><Button text="Finish" color="green" type="normal2" /></NavLink>
                         </div>
                     </div>
                 </div>
