@@ -1,6 +1,32 @@
 .ordercreated{
+    width: 50vw;
     display: flex;
-    margin-left: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #727272;
+    padding-bottom: 200px;
+}
+.ordercreated .order-created-text{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 36px;
+    font-family: "Gilroy-Bold";
+}
+.ordercreated .top{
+    display: flex;
+    align-items: center;
+    height: 145px;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 18%;
+    padding-right: 37%;
+    position: sticky;
+    top: 0;
+    background-color: #FCFCFC;
+    margin-bottom: 56px;
+    z-index: 2;
 }
 
 .ordercreated .arrow{
@@ -29,6 +55,7 @@
     height: 706px;
     top: 201px;
     left: 412px;
+    gap: 20px;
     
 }
 .ordercreated .jhn-d{
@@ -37,7 +64,7 @@
     display: flex; 
     flex-direction: column;
     gap:20px ;
-    margin-top: -30px;
+
 }
 .ordercreated .name-wrapper{
    display: flex;
@@ -63,7 +90,7 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    margin-left: 5px;
+    
     
 }
 .ordercreated .fiat-amount{
@@ -111,9 +138,15 @@
     height: 84px;
     gap: 8px;
 }
-.ordercreated .complete{
+.ordercreated .customer-info .complete{
     display: flex;
-    gap: 10px;
+    gap: 24px;
+    width: 270px;
+    height: 134px;
+    border: 1px solid red;
+    flex-direction: column;
+    
+
 }
 .ordercreated .chats{
     width: 461px;
@@ -301,7 +334,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-left: -10px;
+    
 }
 .ordercreated .sell{
     width: 232px;
