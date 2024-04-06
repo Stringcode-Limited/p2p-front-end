@@ -255,7 +255,7 @@ function HomePage() {
                   <P2Papp/>
                   </div>
                 <div className="wrap-cookies">
-                <div className="copy"><h5>&copy;2024 P2P App</h5></div>
+                <div className="copy">&copy;2024 P2P App</div>
                 <div className="cooky">
                   <p className="cookies">Cookies settings</p>
                 </div>
