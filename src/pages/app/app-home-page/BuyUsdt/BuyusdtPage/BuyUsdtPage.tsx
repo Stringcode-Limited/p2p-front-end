@@ -1,6 +1,6 @@
 
 import RecentOrders from '../../recentOrders/RecentOrders';
-import BuyusdtBody from '../Buyusdtbody/BuyusdtBody';
+import BuyusdtBody from '../BuyusdtBody/BuyUsdtBody';
 import "./BuyUsdtPage.css"
 function BuyUsdtPage() {
   return (

@@ -1,5 +1,5 @@
 
-import "./BuyusdtBody.css"
+import "./BuyUsdtBody.css"
 import left from "../../../../../assets/images/left.png"
 import naira from "../../../../../assets/images/naira.png"
 import Button from '../../../../../components/Button/Button';
