@@ -2,48 +2,67 @@
 
 /* .......HERO-SECTION START */
 .hero-section{
-    max-width: 1440px;
+    width: 100%;
     height: 732px;
     top: 69px;
     display: flex;
     align-items: center;
     justify-content: center;
+
     
 }
-.hero-section .wrapper{
-    height: 391px;
+.hero-section .wrapper-hero1{
+    height: 400px;
     width: 579px;
-    gap: 40px;
+    gap:10px;
+    
 }
-.hero-section .hero-text{
-    height: 150px;
-    width: 528px;
+
+.hero-section .hero-name{
     line-height: 75px;
-    size: 56px;
+    font-size: 55px;
     font-weight: 400;
-}
-.hero-section h2{
-    line-height: 1.5;
-    font-size: 35px;
+
+    
 }
 
 .hero-section .seamless-text{
     font-size: 24px;
     line-height: 42px;
+    margin-top: 30px;
 }
 .hero-section .iphone{
     width: 570px;
     height: 465.88px;
 }
 .hero-section .hero2{
-    flex-basis: 30%;
     display: flex;
     align-items: center;
-    width: 320px;
+    width: 570px;
+    height: 465px;
     justify-content: center;
+
 }
 .hero-section .hero1{
-    flex-basis: 50%;
+    width: 579px;
+    height: 500px;
+    gap: 28px;
+
+}
+.hero-section .hero-text{
+    width: 340px;
+    height: 225px;
+    
+}
+.hero-section .seamless-text{
+    width: 579px;
+    height: 126px;
+}
+.hero-section .seamless{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 42px;
+    font-family: "Gilroy-Medium";
 }
 /* ..........HERO-SECTION ENDS */
 
@@ -51,7 +70,7 @@
 /* ..............APPROVE-SECTION................. */
 .approved{
     background-color: #F0EDED;
-    max-width: 1441px;
+    width: 100%;
     height: 300px;
     display: flex;
     align-items: center;
@@ -64,11 +83,12 @@
 }
 .approved .sub-approved{
     width: 1175px;
-    margin-top: 20px;
+    margin-top: 2px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 2px;
     
 
 }
@@ -82,11 +102,16 @@
     justify-content: center;
 }
 .approved .due{
-    margin-top: -7px;
     text-align: center;
+    font-size: 45px;
+    margin-top: 10px;
 }
 .approved .aff{
     text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 42px;
+    font-family:"Gilroy-Medium" ;
 }
 .approved .cbn{
     width: 51px;
@@ -120,6 +145,12 @@
     width: 104px;
     height: 137px;
 }
+.approved .sub-approved .rap1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 10px;
+}
 /* ............APPROVE-SECTION END............ */
 
 
@@ -136,6 +167,15 @@
     
     
 
+}
+.about-us .us{
+    width: 590px;
+    height: 494px;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .about .inner-us{
     width: 1201px;
@@ -164,7 +204,32 @@
     line-height: 42px;
     size: 24px;
 }
-
+.about-us .us .text-us{
+    width: 590px;
+    height: 260px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.about-us .us .duty{
+    width: 590px;
+    height: 260px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.about-us .us .text-us .p2{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 42px;
+    font-family: "Gilroy-Medium";
+}
+.about-us .us .duty .p2{
+    font-size: 23.5px;
+    font-weight: 400;
+    line-height: 42px;
+    font-family: "Gilroy-Medium";
+}
 .about .caption{
 }
 /* ..............ABOUT-SECTION  ENDS............ */
@@ -172,24 +237,36 @@
 
 
 /*.........WHY-US START.............. */
-.why-us2{
-    max-width: 1441px;
+/* .why-us2{
+    width: 100%;
     height: 680px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid red;
+
     
+} */
+.why-us .element2{
+    width: 590px;
+    height: 646px;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
 }
-.why-us2{
-    
-    
-    
+.why-us .element-wrap1{
+    width: 590px;
+    height: 260px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
 }
 .why-us .whyus2{
     max-width: 1441px;
     height: 865px;
     top: 1898px;
     display: flex;
+    
     
     border: 0.5px, 0p, 0px, 0px;
 }
@@ -202,11 +279,20 @@
 }
 .why-us .wy{
     line-height: 52px;
+    font-size: 45px;
+    font-weight: 400;
+    font-family: "Gilroy-Bold";
+    color: #111010;
 }
 .why-us .we-stand{
     margin-top: 20px;
 }
 .why-us .why{
+    font-size: 24px;
+    font-family: "Gilroy-Medium";
+    line-height: 42px;
+    font-weight: 400;
+    color: #1D1B20;
 }
 .why-us span{
     font-size: 12px;
@@ -224,6 +310,7 @@
     z-index: 2;
     
 }
+
 .why-us .sub-wrap{
     display: flex;
 }
@@ -231,6 +318,9 @@
    display: flex;
    align-items: center;
    justify-content: center;
+   width: 100%;
+    height: 680px;
+    gap: 60px;
    
 }
 .why-us .headphn{
@@ -242,7 +332,7 @@
 
 /* .......NEW-LETTER-SECTION START......... */
 .newsletter .subscription{
-    max-width: 1441px;
+    width: 100%;
     height: 263px;
     top: 2763px;
     background-color: #F0EDED;
@@ -272,16 +362,21 @@
     border-radius: 5px;
     padding: 20px;
 }
-.newsletter .scribe{
+.subscription .news-text .address ::placeholder{
+    padding: 2px;
+}
+.newsletter .subscription .scribe{
     font-size: 36px;
     font-weight: 400;
     line-height: 44px;
+    color: #111010;
 }
 .newsletter .deals{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.15px;
+    font-family: "Gilroy-Medium";
     
 }
 .newsletter .small-cont{
@@ -305,7 +400,7 @@
 
 /* ..........FOOTER-SECTION STARTS........ */
 .footer .p2p-footer{
-    max-width: 1440px;
+    width: 100%;
     height: 564px;
     top: 3026px;
     left: 1px;
@@ -352,13 +447,14 @@
     position: absolute;
     background-color: black;
     left: 50%;
-    width: 710px;
+    width: 1195px;
     height: 1px;
     bottom: 0;
     transform: translateX(-50%);
 }
 .footer ul li{
     display: flex;
+    font-size: 10px;
     
 }
 .footer ul{
@@ -386,14 +482,14 @@
     flex-direction: column;
     gap: 16px;
 }
-.footer h4{
-    font-size: 18px;
-}
+
 .footer h5{
-    font-size: 14px;
+    font-size: 10px;
 }
 .footer .cookies{
-    font-size: 14px;
+    font-size: 10px;
+}.footer .copy{
+    font-size: 10px;
 }
 .footer .wrap-cookies{
     display: flex;

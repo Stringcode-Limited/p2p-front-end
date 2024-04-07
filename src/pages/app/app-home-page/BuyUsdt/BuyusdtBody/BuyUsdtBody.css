@@ -1,0 +1,367 @@
+.usdt-info{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-right: 1px solid #727272;
+}
+
+.usdt-info .top{
+    display: flex;
+    align-items: center;
+    height: 145px;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 18%;
+    padding-right: 37%;
+    position: sticky;
+    top: 0;
+    background-color: #FCFCFC;
+    margin-bottom: 56px;
+    z-index: 2;
+}
+.usdt-info .top .buy-usdt-text{
+    font-size: 28px;
+    font-weight: 400;
+    font-family: "Gilroy-Bold";
+}
+.usdt-info .usdt-info-container{
+    width: 511px;
+    height: 948px;
+    top: 201px;
+    left: 412px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.usdt-info .usdt-info-top-container{
+    width:511px;
+    height: 322px;
+    padding: 24px, 16px, 24px, 16px;
+    border-radius: 10px;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+    flex-direction: column;
+    align-items: center;
+
+    
+    
+
+    
+    
+}
+.usdt-info .usdt-amount-container{
+    width: 479px;
+    height: 165px;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.usdt-info .input-letter{
+    font-size: 18px;
+    font-family: "Gilroy-Bold";
+    font-weight: 400;
+    color: #00A542;
+    position: absolute;
+    right: 587px;
+    top: 325px;
+    z-index: -1px;
+}
+.usdt-info .price-per-usdt{
+    width: 140px;
+    height: 80px;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -40px;
+}
+.usdt-info .usdt-unit-price{
+    font-family: "Gilroy-Bold";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+}
+.usdt-info .input-field{
+    width: 479px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-top: -20px;
+}
+.usdt-info input[type="text"]{
+    width: 479px;
+    height: 44px;
+    border-radius: 5px;
+    background-color: #DDDDDD;
+    border: transparent;
+    position: relative;
+    
+}
+
+.usdt-info .naira{
+    position: absolute;
+    top: 295px;
+    margin-left: 5px;
+}
+.usdt-info ::placeholder{
+     padding: 30px;
+}
+
+.usdt-info .naira-container{
+    display: flex;
+}
+.usdt-info .naira-emblem{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Gilroy-Bold";
+    line-height: 20px;
+    height: 11px;
+    width: 20px;
+}
+.usdt-info .naira-symbol1{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400px;
+    width: 11px;
+}
+.usdt-info .naira-symbol2{
+     position: relative;
+     top: 32px;
+     z-index: 1;
+     margin-left: 10px;
+}
+
+.usdt-info .range-text{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Gilroy-Regular";
+}
+.usdt-info .you-will-pay{
+    width: 470px;
+    height: 44px;
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.usdt-info .you-will-pay .you-will-pay2 .pay{
+   font-size: 14px;
+   font-family: "Gilroy-Regular";
+   font-weight: 400; 
+   line-height: 20px;
+}
+.usdt-info .you-will-pay  .receive{
+    font-size: 14px;
+    font-family: "Gilroy-Regular";
+    font-weight: 400; 
+    line-height: 20px;
+ }
+ .usdt-info .you-will-pay  .pay{
+    font-size: 14px;
+    font-family: "Gilroy-Regular";
+    font-weight: 400; 
+    line-height: 20px;
+ }
+ .usdt-info .you-will-pay  .pay1{
+    width: 369px;
+    height: 20px;
+    gap: 2px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .usdt-info .you-will-pay  .receive1{
+    width: 369px;
+    height: 20px;
+    gap: 2px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .usdt-info .usdt-info-container .usdt-info-top-container .usdt-info-top-container2{
+    width: 479px;
+    height: 220px;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .usdt-info .usdt-info-container .usdt-info-top-container .usdt-info-top-container1{
+    width: 479px;
+    height: 274px;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+ }
+ .usdt-info .usdt-info-container .ad-details{
+    width: 511px;
+    height: 224px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+
+ }
+ .usdt-info .usdt-info-container .ad-details-text-container{
+     width: 511px;
+     height: 168px;
+ }
+ .usdt-info .usdt-info-container .ad-details-text-container .details-statement{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Gilroy-Medium";
+    line-height: 24px;
+    letter-spacing: 0.15px;
+ }
+ .usdt-info .usdt-info-container .ad-details-text-container .ad-text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Gilroy-Bold";
+    letter-spacing: 0.15px;
+ }
+ .usdt-info .ad-details .clock{
+    display: flex;
+    gap: 6px;
+ }
+ .usdt-info .ad-details .dividing-line{
+    text-align: center;
+    position: relative;
+    margin: 0 auto 80px;
+    padding-bottom: 10px;
+    
+}
+.usdt-info .ad-details .dividing-line::after{
+    content: "";
+    position: absolute;
+    background: #C6C6C6;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 511px;
+    height: 1px;
+}
+.usdt-info .usdt-info-container .john-doe-container{
+    width: 143px;
+    height: 102px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+
+}
+.usdt-info .john-doe-container .badge2{
+    display: flex;
+    gap: 4px;
+    width: 100px;
+    height: 24px;
+}
+.usdt-info .john-doe-container .doemoney{
+    font-size: 11px;
+    font-weight: 400;
+    font-family: "Gilroy-Regular";
+    line-height: 16px;
+    letter-spacing: 0.5px;
+}
+.usdt-info .john-doe-container .sell-profile{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Gilroy-Bold";
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+.usdt-info .john-doe-container .jhn-doe-img{
+    display: flex;
+    width: 143px;
+    height: 46px;
+    gap: 8px;
+    
+}
+.usdt-info .john-doe-container .doee{
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   font-family: "Gilroy-Bold";
+}
+.usdt-info .john-doe-container .does-badge{
+     padding: 2px;
+ }
+ .usdt-info .john-doe-container .clock2{
+    display: flex;
+    gap: 6px;
+}
+.usdt-info .john-doe-container  .clock2 .ten-minute{
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 16px;
+   letter-spacing: 0.5px;
+   font-family: "Gilroy-SemiBold";
+}
+.usdt-info .ad-details  .clock .ten-minute{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    font-family: "Gilroy-SemiBold";
+ }
+ .usdt-info .usdt-info-container .dividing-line{
+    text-align: center;
+    position: relative;
+    margin: 0 auto 80px;
+    padding-bottom: 10px;
+    
+}
+.usdt-info .usdt-info-container .dividing-line::after{
+    content: "";
+    position: absolute;
+    background: #C6C6C6;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 511px;
+    height: 1px;
+}
+.usdt-info .usdt-info-container .review-container{
+    width: 511px;
+    height: 200px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -75px;
+}
+.usdt-info .usdt-info-container .review-statement{
+    width: 150px;
+    height: 24px;
+    
+}
+.usdt-info .usdt-info-container .review-comments{
+    width: 511px;
+    height: 168px;
+    
+}
+.usdt-info .usdt-info-container .reviews{
+   font-size: 18px;
+   font-weight: 400;
+   font-family: "Gilroy-Bold";
+   line-height: 24px;
+   letter-spacing: 0.15px; 
+}
+.usdt-info .usdt-info-container .comments{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Gilroy-Medium";
+    line-height: 24px;
+    letter-spacing: 0.15px; 
+ }
+

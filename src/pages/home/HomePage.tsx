@@ -39,18 +39,16 @@ function HomePage() {
       
       <div className="hero-section">
         <div className="hero1">
-        <div className="wrapper">
-       <div className="hero-text">
+        <div className="wrapper-hero1">
         
-        <h2>Trade anywhere,<br></br>time. P2P at your<br></br> Fingertips</h2>
-       </div>
+        <h2 className="hero-name">Trade anywhere, anytime. P2P at your Fingertips</h2>
+       
          <div className="seamless-text">
           <p className="seamless">Experience seamless peer-to-peer transactions.<br></br>
            Connect with ease, trade with confidence. Join P2P platform today!</p>
          </div>
-         
-            <div className="btnn"><Button  text="Get Started" type="normal"/></div>
        </div>
+       <div className="btnn"><Button  text="Get Started" type="normal"/></div>
        </div>
        <div className="hero2">
         <img className="iphone" src={iphone} alt="" />
@@ -60,9 +58,13 @@ function HomePage() {
       <div className="approved">
         <div className="sub-approved">
           <div className="rap1">
-          <h1 className="due">We are duly Approved</h1>
-          <p className="aff">Regulated by the Central Bank of Nigeria, licensed by Securities and Exchange Commission of Nigeria.</p>
+            <div className="we-are-approved">
+            <h1 className="due">We are duly approved</h1>
+            </div>
+            <div className="regulation-text">
+            <p className="aff">Regulated by the Central Bank of Nigeria, licensed by Securities and Exchange Commission of Nigeria.</p>
           <p className="aff">And affiliated to all necessary bodies in Nigeria and abroad.</p>
+            </div>
            </div>
           <div className="logos">
             <div className="bank">
@@ -101,12 +103,16 @@ function HomePage() {
             </div>
             <div className="us">
                <div className="text-us">
+                <div className="about-caption">
                 <h1 className="caption">About Us</h1>
+                </div>
                 <p className="p2">P2Papp is your premier destination for peer-to-peer<br></br>connections and transactions. Our platfor<br></br>
                 empowers individuals to connect and trade in a<br></br>secure and transperent environment.</p>
                </div>
                <div className="duty">
+                <div className="about-caption">
                 <h1 className="caption">What we do</h1>
+                </div>
                 <p className="p2">We connect individuals to exchange crypto and fiat<br></br> seamlessly. Join us in revolutionalizing the way people<br></br>
                 trade, share, and grow together.</p>
                </div>
@@ -120,11 +126,11 @@ function HomePage() {
             <div className="element2">
             <div className="element-wrap1">
             <h1 className="wy">Why Us?</h1>
+            <p className="why">We are deligently committed to providing a conducive platform for traders to seamlessly trade crypto for fiat with real people</p>
             <div className="we-stand">
-            <p className="why">We are deligently committed to providing a conducive<br></br> platform for traders to seamlessly
-            trade crypto for fiat<br></br> with real people</p>
             <p className="why">We stand out in diverse ways.</p>
             </div>
+            
             </div>
             <div className="sub-wrap">
             <div className="element-wrap2">
