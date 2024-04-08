@@ -1,13 +1,12 @@
 
 import "./BuyUsdtBody.css"
 import left from "../../../../../assets/images/left.png"
-import naira from "../../../../../assets/images/naira.png"
 import Button from '../../../../../components/Button/Button';
-import timer from "../../../../../assets/images/timer.png"
-import badge from "../../../../../assets/images/badge2.svg"
+import medal from "../../../../../assets/images/medal.svg"
 import doe from "../../../../../assets/images/doe.png"
 import Fiat from '../../../../../components/Fiat/Fiat';
 import clock from "../../../../../assets/images/clock.svg"
+import refresh from "../../../../../assets/images/refresh.svg"
 
 function BuyusdtBody() {
   return (
@@ -23,7 +22,9 @@ function BuyusdtBody() {
                     <div className="usdt-amount-container">
                         <div className="price-per-usdt">
                             <div className="naira-container">
-                            <p className="usdt-unit-price"> <span className="naira-symbol1">₦</span> 1,430.00</p>
+                           <p className="nigeria-currency">₦</p> 
+                           <p className="usdt-unit-price">1,430.00</p>
+                           <img src={refresh} alt="" />
                             </div>
                             <div className="fiat">
                                 <Fiat />
@@ -76,15 +77,10 @@ function BuyusdtBody() {
                     <div className="jhn-doe-img">
                         <img  src={doe} alt="" />
                         <div className="badge">
-                            <div className="badge2">
                                 <div className="badge3">
-                                <p className="doee">John Doe</p>
+                                <div className="doee">John Doe</div>
+                                 <img className="does-badge" src={medal}  alt="" />
                                 </div>
-                                <div className="badge4">
-                                <img className="does-badge" src={badge} alt="" />
-                                </div>
-                               
-                            </div>
                             <p className="doemoney">@Doemoney</p>
                         </div>
                         
@@ -93,8 +89,6 @@ function BuyusdtBody() {
                         <img src={clock} alt="" />
                         <p className="ten-minute">10 mins</p>
                       </div>
-
-                    
                 </div>
                 <div className="dividing-line"></div>
 
