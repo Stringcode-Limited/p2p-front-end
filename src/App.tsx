@@ -54,11 +54,11 @@ function App() {
           <Route path="cryptoreleased" element={<CryptoReleasedPage/>} />
           <Route path="cryptosold" element={<CryptoSold/>}/>
           <Route path="waitingPayment" element={<WaitingPaymentPage/>}/>
-          <Route path="sellUsdtPage" element={<SellUsdtPage/>}/>
+          <Route path="sellUsdt" element={<SellUsdtPage/>}/>
           <Route path="order" element={<AppOrderPage />} />
           <Route path="pitch" element={<AppPitchPage />} />
           <Route path="wallet" element={<AppWalletPage />} />
-          <Route path="transactiondetails" element={<TransactiondetailPage />} />
+          <Route path="wallet/transactiondetails" element={<TransactiondetailPage />} />
           <Route path="wallet/manageCrypto" element={<ManageCryptoPage/>} />
           <Route path="wallet/transfer" element={<TransferPage/>} />
           <Route path="wallet/verifywithpin" element={<VerifyWithPinPage/>} />
