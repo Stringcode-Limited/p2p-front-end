@@ -32,7 +32,7 @@ function P2PSellBody() {
           </div>
         </div>
         <div className="center">
-        <TraderCard buttonText={"SELL"} buttonColor={"red"} image={JohnDoe} fullName={"John Doe"} name={"Doemoney"} tradeTotal={"4,460"} tradePercent={"96.00"} time={10} percent={"97.30"} amount={"1,430.00"} cryptoAmount={240} range1={"100,000.00"} range2={"367,200.00"} route="/app/buyUSDT"/>
+        <TraderCard buttonText={"SELL"} buttonColor={"red"} image={JohnDoe} fullName={"John Doe"} name={"Doemoney"} tradeTotal={"4,460"} tradePercent={"96.00"} time={10} percent={"97.30"} amount={"1,430.00"} cryptoAmount={240} range1={"100,000.00"} range2={"367,200.00"} route="/app/sellUsdt"/>
           <TraderCard buttonText={"SELL"} buttonColor={"red"} image={KemiFemi} fullName={"Kemi Femi"} name={"KemsFems"} tradeTotal={"4,460"} tradePercent={"96.00"} time={10} percent={"97.30"} amount={"1,430.00"} cryptoAmount={240} range1={"100,000.00"} range2={"367,200.00"} />
           <TraderCard buttonText={"SELL"} buttonColor={"red"} image={KemiFemi} fullName={"John Doe"} name={"Doemoney"} tradeTotal={"4,460"} tradePercent={"96.00"} time={10} percent={"97.30"} amount={"1,430.00"} cryptoAmount={240} range1={"100,000.00"} range2={"367,200.00"} />
           <TraderCard buttonText={"SELL"} buttonColor={"red"} image={KemiFemi} fullName={"John Doe"} name={"Doemoney"} tradeTotal={"4,460"} tradePercent={"96.00"} time={10} percent={"97.30"} amount={"1,430.00"} cryptoAmount={240} range1={"100,000.00"} range2={"367,200.00"} />
