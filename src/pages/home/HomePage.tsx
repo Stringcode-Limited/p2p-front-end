@@ -106,8 +106,8 @@ function HomePage() {
                 <div className="about-caption">
                 <h1 className="caption">About Us</h1>
                 </div>
-                <p className="p2">P2Papp is your premier destination for peer-to-peer<br></br>connections and transactions. Our platfor<br></br>
-                empowers individuals to connect and trade in a<br></br>secure and transperent environment.</p>
+                <p className="p2">P2Papp is your premier destination for peer-to-peer connections and transactions. Our platform
+                empowers individuals to connect and trade in a secure and transparent environment.</p>
                </div>
                <div className="duty">
                 <div className="about-caption">

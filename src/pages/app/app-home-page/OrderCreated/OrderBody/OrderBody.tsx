@@ -2,10 +2,10 @@ import React from 'react';
 import "./OrderBody.css"
 import left from "../../../../../assets/images/left.png"
 import doe from "../../../../../assets/images/doe.png"
-import badge from "../../../../../assets/images/badge2.svg"
+import medal from "../../../../../assets/images/medal.svg"
 import clock from "../../../../../assets/images/clock.svg"
 import right from "../../../../../assets/images/rightarro.svg"
-import question2 from "../../../../../assets/images/question.svg"
+import ques from "../../../../../assets/images/ques.svg"
 import ordernum from "../../../../../assets/images/ordernums.png"
 import Button from '../../../../../components/Button/Button';
 function OrderBody() {
@@ -24,9 +24,7 @@ function OrderBody() {
                  <div className="wraps">
                    <div className="name-wrapper">
                    <h4 className="jh">JohnDoe</h4>
-                   <div className="badge">
-                       <img className="dge" src={badge} alt="" />
-                       </div>
+                      <img className="dge" src={medal} alt="" />
                    </div>
                    <div className="at-name">
                        <p className="doe">@Doemoney</p>
@@ -49,7 +47,7 @@ function OrderBody() {
                      <div className="sell">
                       <p className='pto'>This seller`s crypto is escrowed</p>
                       <div className="question-mark">
-                       <img src={question2} alt="" />
+                       <img src={ques} alt="" />
                       </div>
                       </div>
                      
@@ -62,7 +60,7 @@ function OrderBody() {
                  <div className="inner-fiat">
                    <div className="fiat1">
                      <p className='fit'>Fiat amount</p>
-                     <p className='fit'>5,000.00</p>
+                     <p className='fit'>₦5,000.00</p>
                    </div>
                    <div className="fiat1">
                      <p className='fit'>Price</p>
@@ -87,8 +85,8 @@ function OrderBody() {
                </div>
            </div>
               <div className="proceed-topay">
-               <Button  type='large' text='Proceed to pay'/>
-               <Button  type='large' text='Cancel order' color='grey'/>
+               <Button  type='large2' text='Proceed to pay'/>
+               <Button  type='large2' text='Cancel order' color='grey'/>
               </div>
            
    </div>
