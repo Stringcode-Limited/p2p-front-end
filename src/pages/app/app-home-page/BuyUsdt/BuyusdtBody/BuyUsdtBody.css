@@ -70,7 +70,7 @@
     font-family: "Gilroy-Bold";
     font-weight: 400;
     color: #00A542;
-    position: absolute;
+    
     right: 510px;
     top: 320px;
     z-index: -1px;
@@ -98,19 +98,38 @@
 }
 .usdt-info .input-field{
     width: 479px;
-    height: 72px;
     display: flex;
     flex-direction: column;
-    gap: 3px;
-    margin-top: -20px;
+    justify-content: center;
+
 }
-.usdt-info input[type="text"]{
+.usdt-info .big-container{
     width: 479px;
     height: 44px;
-    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
     background-color: #DDDDDD;
-    border: transparent;
-    position: relative;
+    border-radius: 5px;
+    align-items: center;
+}
+.usdt-info .usdt-info-container .usdt-info-top-container .usdt-info-top-container1 .usdt-info-top-container2 .usdt-amount-container .input-field
+.input-field-container{
+    width: 465px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+.usdt-info input[type="text"]{
+    outline: none;
+    background-color: transparent;
+    width: 450px;
+    border: none;
     
 }
 
@@ -120,7 +139,7 @@
     margin-left: 5px;
 }
 .usdt-info ::placeholder{
-     padding: 30px;
+     padding: 5px;
 }
 
 .usdt-info .naira-container{
@@ -153,10 +172,10 @@
     width: 11px;
 }
 .usdt-info .naira-symbol2{
-     position: relative;
+    
      top: 32px;
-     z-index: 1;
-     margin-left: 10px;
+    
+     
 }
 
 .usdt-info .range-text{
