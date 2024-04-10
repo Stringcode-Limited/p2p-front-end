@@ -31,10 +31,12 @@ function BuyusdtBody() {
                             </div>
                         </div>
                         <div className="input-field">
+                            <div className="big-container">
                             <div className="input-field-container">
                                 <span className="naira-symbol2">₦</span>
                             <input type="text"  placeholder="Enter Amount"/>
                                 <p className="input-letter">All</p>
+                            </div>
                             </div>
                             <div className="usdt-amount-range">
                             <p className="range-text">Range<span className=""> ₦</span>100,000.00 - <span>₦</span>367,200.00</p>
