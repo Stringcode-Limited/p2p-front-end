@@ -1,6 +1,6 @@
 import OrderCard from "../../../../components/OrderCard/OrderCard";
 import "./recentOrder.css";
-import recentProfile from "./../../../../assets/recentProfile.png"
+import recentProfile from "./../../../../assets/images/recentProfile.png"
 
 const RecentOrders = () => {
   return (

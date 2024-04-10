@@ -84,3 +84,7 @@
     flex-direction: column;
     gap: 12px;
 }
+
+/* .backgroundGrad{
+     background-image: linear-gradient(to right, #c1e0c1,#fff, #fff, #fff);
+} */

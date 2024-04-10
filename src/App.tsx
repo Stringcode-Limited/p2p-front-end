@@ -29,12 +29,14 @@ import TransactiondetailPage from './pages/app/app-wallet-page/Transactiondetail
 import OrderBodyPage from "./pages/app/app-home-page/OrderCreated/OrderBodypage/OrderBodyPage";
 import FundPage from "./pages/app/app-wallet-page/Fund/FundPage/FundPage";
 import BuyUsdtPage from "./pages/app/app-home-page/BuyUsdt/BuyusdtPage/BuyUsdtPage";
+import PitchBuyPage from "./pages/app/app-pitch-page/PitchBuyLight/PitchBuyPage/PitchBuyPage";
 
 
 function App() {
   return (
     <>
       <Routes>
+      
         <Route path="/" element={<HomeRouteWrapper />}>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
@@ -56,7 +58,8 @@ function App() {
           <Route path="waitingPayment" element={<WaitingPaymentPage/>}/>
           <Route path="sellUsdtPage" element={<SellUsdtPage/>}/>
           <Route path="order" element={<AppOrderPage />} />
-          <Route path="pitch" element={<AppPitchPage />} />
+          <Route path="pitch" element={<AppPitchPage/>}/>
+          <Route path="pitch/pitchBuy" element={<PitchBuyPage/>} />
           <Route path="wallet" element={<AppWalletPage />} />
           <Route path="transactiondetails" element={<TransactiondetailPage />} />
           <Route path="wallet/manageCrypto" element={<ManageCryptoPage/>} />

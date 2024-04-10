@@ -4,8 +4,8 @@ import "./P2PSellBody.css";
 import filter from '../../../../../assets/images/filter.svg'
 import bell from '../../../../../assets/images/bell.svg'
 import TraderCard from "../../../../../components/TraderCard/TraderCard";
-import JohnDoe from '../../../../../assets/JohnDoe.png'
-import KemiFemi from '../../../../../assets/KemiFemi.png'
+import JohnDoe from '../../../../../assets/images/JohnDoe.png';
+import KemiFemi from '../../../../../assets/images/KemiFemi.png'
 
 function P2PSellBody() {
   return (

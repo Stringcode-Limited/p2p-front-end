@@ -5,9 +5,10 @@ import './Dropdown.css';
 interface IDropdown{
     title:string
     list:string[]
+    
 }
 
-function Dropdown({title, list}:IDropdown) {
+function Dropdown({title, list,}:IDropdown) {
 
     function printCurrency(list: string[]) {
         return list.map((listItem, index) => (
