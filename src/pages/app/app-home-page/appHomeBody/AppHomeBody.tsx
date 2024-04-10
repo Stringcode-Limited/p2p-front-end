@@ -1,7 +1,7 @@
 import { TraderCard } from "../../..";
 import "./appHomeBody.css";
-import JohnDoe from "./../../../../assets/JohnDoe.png";
-import KemiFemi from "./../../../../assets/KemiFemi.png";
+import JohnDoe from "../../../../assets/images/JohnDoe.png";
+import KemiFemi from "../../../../assets/images/KemiFemi.png";
 import Buy from "../../../../components/Buy/Buy";
 import Dropdown from "../../../../components/Dropdown/Dropdown";
 import filter from "../../../../assets/images/filter.svg";

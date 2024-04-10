@@ -5,7 +5,7 @@ import PaymentCard from "../../../../../components/PaymentCard/PaymentCard";
 import Button from "../../../../../components/Button/Button";
 import HelpButton from "../../../../../components/HelpButton/HelpButton";
 import ProfileDetails from "../../../../../components/ProfileDetails/ProfileDetails";
-import ProfileImage from "../../../../../assets/JohnDoe.png";
+import ProfileImage from "../../../../../assets/images/JohnDoe.png";
 
 const WaitingPaymentBody = () => {
   return (
