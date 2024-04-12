@@ -14,7 +14,7 @@
     justify-content: space-between;
     width: 100%;
     padding-top: 40px;
-    padding-left: 18%;
+    padding-left: 13%;
     padding-right: 37%;
     position: sticky;
     top: 0;
@@ -29,12 +29,13 @@
 }
 .usdt-info .usdt-info-container{
     width: 511px;
-    height: 948px;
+    height: 1000px;
     top: 201px;
     left: 412px;
     gap: 20px;
     display: flex;
     flex-direction: column;
+    
 }
 .usdt-info .usdt-info-top-container{
     width:511px;
@@ -69,11 +70,16 @@
     font-family: "Gilroy-Bold";
     font-weight: 400;
     color: #00A542;
-    position: absolute;
-    right: 587px;
-    top: 325px;
+    
+    right: 510px;
+    top: 320px;
     z-index: -1px;
 }
+
+.usdt-info .usdt-info-container .john-doe-container .jhn-doe-img .badge .badge3{
+    display: flex;
+}
+
 .usdt-info .price-per-usdt{
     width: 140px;
     height: 80px;
@@ -92,19 +98,38 @@
 }
 .usdt-info .input-field{
     width: 479px;
-    height: 72px;
     display: flex;
     flex-direction: column;
-    gap: 3px;
-    margin-top: -20px;
+    justify-content: center;
+
 }
-.usdt-info input[type="text"]{
+.usdt-info .big-container{
     width: 479px;
     height: 44px;
-    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
     background-color: #DDDDDD;
-    border: transparent;
-    position: relative;
+    border-radius: 5px;
+    align-items: center;
+}
+.usdt-info .usdt-info-container .usdt-info-top-container .usdt-info-top-container1 .usdt-info-top-container2 .usdt-amount-container .input-field
+.input-field-container{
+    width: 465px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+.usdt-info input[type="text"]{
+    outline: none;
+    background-color: transparent;
+    width: 450px;
+    border: none;
     
 }
 
@@ -114,11 +139,23 @@
     margin-left: 5px;
 }
 .usdt-info ::placeholder{
-     padding: 30px;
+     padding: 5px;
 }
 
 .usdt-info .naira-container{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.usdt-info .naira-container .nigeria-currency{
+    font-size: 18px;
+    font-weight: 400;
+    height: 20px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #1D1B20;
+
 }
 .usdt-info .naira-emblem{
     font-size: 18px;
@@ -135,10 +172,10 @@
     width: 11px;
 }
 .usdt-info .naira-symbol2{
-     position: relative;
+    
      top: 32px;
-     z-index: 1;
-     margin-left: 10px;
+    
+     
 }
 
 .usdt-info .range-text{
@@ -235,6 +272,7 @@
  .usdt-info .ad-details .clock{
     display: flex;
     gap: 6px;
+    
  }
  .usdt-info .ad-details .dividing-line{
     text-align: center;
@@ -303,18 +341,25 @@
     gap: 6px;
 }
 .usdt-info .john-doe-container  .clock2 .ten-minute{
-   font-size: 15px;
+   font-size: 14px;
    font-weight: 400;
    line-height: 16px;
    letter-spacing: 0.5px;
-   font-family: "Gilroy-SemiBold";
+   font-family: 'Gilroy-SemiBold', sans-serif;
+   color: #4B4B4B;
 }
 .usdt-info .ad-details  .clock .ten-minute{
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0.5px;
-    font-family: "Gilroy-SemiBold";
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    color: #4B4B4B;
+    padding: 2px;
+ }
+ .usdt-info .ad-details  .clock .ten-minute .min{
+    width: 44px;
+    height: 16px;
  }
  .usdt-info .usdt-info-container .dividing-line{
     text-align: center;

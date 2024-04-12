@@ -8,6 +8,7 @@ import right from "../../../../../assets/images/rightarro.svg"
 import ordernum from "../../../../../assets/images/ordernums.png"
 import Button from '../../../../../components/Button/Button';
 import HelpButton from '../../../../../components/HelpButton/HelpButton';
+import medal from "../../../../../assets/images/medal.svg"
 
 function MakePaymentBody() {
   return (
@@ -28,7 +29,7 @@ function MakePaymentBody() {
                             <div className="name-wrapper">
                             <h4 className="jh">JohnDoe</h4>
                             <div className="badge">
-                                <img className="dge" src={badge} alt="" />
+                                <img className="dge" src={medal} alt="" />
                                 </div>
                             </div>
                             <div className="at-name">

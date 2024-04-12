@@ -1,0 +1,241 @@
+.chat{
+    width: 29vw;
+    height: 100vh;
+    padding-top: 77px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    
+}
+
+.chat .wrapp-proceed-to-pay{
+    padding: 2x;
+}
+
+.chat .title{
+    font-size: 18px;
+    padding-left: 3%;
+}
+
+.chat .text{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    padding-left:5%;
+    
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+.paragraph{
+    font-size: 12px;
+    color: #4B4B4B;
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+
+.amountsold{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #4B4B4B;
+}
+
+.time{
+    font-size: 16px;
+}
+
+.chat img:nth-child(3){
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.chat .chatContainer{
+    height: 82px;
+    background-color: #B0B0B0;
+    padding: 8px 16px 24px 16px;
+    
+}
+
+.chat .chatContainer .chatInput{
+    height: 50px;
+    padding: 12px;
+    background-color: #9B9B9B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chat .chatContainer .chatInput input{
+    border: none;
+    outline: none;
+    background-color: #9B9B9B;
+    width: 100%;
+    height: 100%;
+    font-family: 'Gilroy-Medium', sans-serif;
+    caret-color: #00A542;
+}
+.chat  .proceed-to-pay{
+    width: 28vw;
+    height: 52px;
+    top: 68px;
+    padding: 4px, 16px, 4px, 16px;
+    background-color: #DDDDDD;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    
+    
+}
+.chat   .proceed-text{
+    width: 124px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #00A542;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.chat  .proceed-to-pay .amount-in-fig .fiat-figure{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+.chat  .proceed-to-pay .amount-in-fig .fiat-text{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Gilroy-Bold";
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #4B4B4B;
+}
+.chat .wrapp-proceed-to-pay .chat-text1{
+    width: 359px;
+    height: 54px;
+    top: 136px;
+    left: 44px;
+    border-radius: 5px;
+    padding: 13px, 16px, 13px, 16px;
+    background-color: #DDDDDD;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    justify-content: center;
+}
+.chat .wrapp-proceed-to-pay .chat-text2{
+    width: 320px;
+    height: 170px;
+    top: 206px;
+    left: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #B0B0B0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+.chat .wrapp-proceed-to-pay .chat-text3{
+  width: 320px;
+  height: 52px;
+  top: 414px;
+  left: 52px;
+  padding: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: #DDDDDD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.chat .wrapp-proceed-to-pay .chat-text4{
+    width: 320px;
+    height: 36px;
+    top: 478px;
+    left: 16px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #B0B0B0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.chat .wrapp-proceed-to-pay .chat-text1  .chat-text-inner .text1{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.5px;
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+.chat .wrapp-proceed-to-pay .chat-text1 .chat-text-inner{
+    width: 327px;
+    height: 28px;
+}
+.chat .wrapp-proceed-to-pay .chat-text2 .chat-text-inner2{
+    width: 300px;
+    height: 176px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chat .wrapp-proceed-to-pay .chat-text2 .chat-text-inner3{
+    width: 300px;
+    height: 32px;
+}
+.chat .wrapp-proceed-to-pay  .chat-text-inner4{
+    width: 300px;
+    height: 16px;
+    
+}
+
+.chat .wrapp-proceed-to-pay .chat-text2 .chat-text-inner2 .text1{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    color: #343434;
+
+}
+.chat .wrapp-proceed-to-pay .chat-text3 .chat-text-inner3 .text1{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    color: #1D1B20
+
+}
+.chat .wrapp-proceed-to-pay .chat-text4 .chat-text-inner4 .text1{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    color: #343434
+
+}
