@@ -13,8 +13,8 @@ const PitchBuyBody = () => {
                 <p className='pitch'>Pitch</p>
             </div>
             <div className="pitchDropdown">
-                <Dropdown title="USDT" list={["UDST", "BTC", "ETH", "LTC", "SOL", "XPR"]}/>
-                <Dropdown title="Trade type" list={["By fiat"]}/>
+                <Dropdown title="USDT" width="widthNormal" list={["UDST", "BTC", "ETH", "LTC", "SOL", "XPR"]}/>
+                <Dropdown title="Trade type" width="widthLarge" list={["By fiat"]}/>
             </div>
             <div className="pitchCard">
                 <div className="cart">

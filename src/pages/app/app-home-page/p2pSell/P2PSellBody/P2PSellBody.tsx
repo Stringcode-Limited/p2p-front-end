@@ -19,10 +19,12 @@ function P2PSellBody() {
             </div>
             <div className="right">
               <Dropdown
+                width="widthNormal"
                 list={["UDST", "BTC", "ETH", "LTC", "SOL", "XPR"]}
                 title="USDT"
               />
               <Dropdown
+                width="widthNormal"
                 list={["NGN", "USD", "GHC", "EUR", "JPY", "GBP"]}
                 title="NGN"
               />
