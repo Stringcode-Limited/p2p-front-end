@@ -158,7 +158,9 @@
 }
 
 .selectOptions option {
-    padding: 12px;
+    padding: 18px;
+    
+    
 }
 
 .createPitchBody .fee {
