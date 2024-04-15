@@ -17,7 +17,7 @@ const Transferbody = () => {
                 <div className="transferBodyWrapper">
                     <div className="transferToWallet">
                         <p>Transfer to another wallet</p>
-                        <Dropdown title="USDT" list={["UDST", "BTC", "ETH", "LTC", "SOL", "XPR"]} />
+                        <Dropdown title="USDT" width="widthNormal" list={["UDST", "BTC", "ETH", "LTC", "SOL", "XPR"]} />
                     </div>
                     <div className="transactionInput">
                         <label htmlFor="walletAddress">Wallet Address</label>

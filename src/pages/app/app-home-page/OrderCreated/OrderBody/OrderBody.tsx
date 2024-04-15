@@ -1,4 +1,3 @@
-import React from 'react';
 import "./OrderBody.css"
 import left from "../../../../../assets/images/left.png"
 import doe from "../../../../../assets/images/doe.png"

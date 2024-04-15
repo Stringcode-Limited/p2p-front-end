@@ -17,7 +17,7 @@ const FundBody = () => {
                 <div className="fundWalletWrapper">
                     <div className="fundWallet">
                         <p>Fund your crypto wallet</p>
-                        <Dropdown title="USDT" list={["UDST", "BTC", "ETH", "LTC", "SOL", "XPR"]} />
+                        <Dropdown title="USDT" width="widthNormal" list={["UDST", "BTC", "ETH", "LTC", "SOL", "XPR"]} />
                     </div>
                     
                     <img className="qrImg" src={QRCode} />

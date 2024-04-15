@@ -1,0 +1,136 @@
+.pitchBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    border-right: 1px solid #727272;
+}
+
+.pitchBody .top {
+    display: flex;
+    align-items: center;
+    height: 145px;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 45%;
+    position: sticky;
+    top: 0;
+    background-color: #FCFCFC;
+}
+
+.pitchBody .top p {
+    font-size: 28px;
+}
+
+.pitchBody .pitchDropdown {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pitchBody .pitchCard {
+    width: 80%;
+    height: 168px;
+    padding: 14px 9px 14px 9px;
+    border-radius: 10px;
+    background-color: #DDDDDD;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+
+.pitchBody .pitchCard .cart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pitchBody .pitchCard .cart p {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+
+}
+
+.pitchBody .pitchCard .cart p img {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+.pitchBody .pitchCard .editBtn{
+    margin-top: 16px;
+}
+
+.pitchBody .pitchCard .editBtn button {
+    width: 100%;
+    height: 38px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #00A542;
+
+}
+
+.pitchBody .pitchCard .total {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.pitchBody .pitchCard .total .cryptoAmt {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #1D1B20;
+
+}
+
+.pitchBody .pitchCard .total .totalcrypto {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #4B4B4B;
+
+
+}
+
+.pitchBody .pitchCard .range {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.pitchBody .pitchCard .range .title {
+
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+
+}
+
+.pitchBody .pitchCard .range .rangeAmount {
+
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #1D1B20;
+
+}
+
+.pitchBody .pitchCard .range .rangeAmount img{
+    height: 10px;
+    width: 12px;
+}

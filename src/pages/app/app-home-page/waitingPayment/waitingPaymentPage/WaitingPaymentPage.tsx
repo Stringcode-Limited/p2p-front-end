@@ -7,7 +7,7 @@ const  WaitingPaymentPage = () => {
     <>
     <div className="waitingPaymentPage">
       <WaitingPaymentBody/>
-      <Chat label="This order will be cancelled in" time="09:00" type="paragraph" timertype="timer" displayimage="show"/>
+      <Chat label="This order will be cancelled in" time="09:00" type="paragraph" timertype="time" displayimage="show"/>
       </div>
     </>
   )

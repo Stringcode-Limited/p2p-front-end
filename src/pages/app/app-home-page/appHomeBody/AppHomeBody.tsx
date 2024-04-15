@@ -1,7 +1,7 @@
 import { TraderCard } from "../../..";
 import "./appHomeBody.css";
-import JohnDoe from "./../../../../assets/JohnDoe.png";
-import KemiFemi from "./../../../../assets/KemiFemi.png";
+import JohnDoe from "../../../../assets/images/JohnDoe.png";
+import KemiFemi from "../../../../assets/images/KemiFemi.png";
 import Buy from "../../../../components/Buy/Buy";
 import Dropdown from "../../../../components/Dropdown/Dropdown";
 import filter from "../../../../assets/images/filter.svg";
@@ -19,10 +19,12 @@ const AppHomeBody = () => {
             </div>
             <div className="right">
               <Dropdown
+                width="widthNormal"
                 list={["UDST", "BTC", "ETH", "LTC", "SOL", "XPR"]}
                 title="USDT"
               />
               <Dropdown
+                width="widthNormal"
                 list={["NGN", "USD", "GHC", "EUR", "JPY", "GBP"]}
                 title="NGN"
               />

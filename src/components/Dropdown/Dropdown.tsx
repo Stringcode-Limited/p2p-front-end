@@ -5,9 +5,11 @@ import './Dropdown.css';
 interface IDropdown{
     title:string
     list:string[]
+    width?: "widthNormal" | "widthLarge"
+    
 }
 
-function Dropdown({title, list}:IDropdown) {
+function Dropdown({title, list, width}:IDropdown) {
 
     function printCurrency(list: string[]) {
         return list.map((listItem, index) => (
@@ -40,7 +42,7 @@ function Dropdown({title, list}:IDropdown) {
 
   return (
     <div className="dropdown" ref={dropdownRef}>
-      <button onClick={toggleDropdown}>{title} <FaCaretDown/></button>
+      <button className={width} onClick={toggleDropdown}>{title} <FaCaretDown/></button>
       <div className={`dropdown-menu ${isOpen ? 'open' : ''}`}>
         <ul>
         {printCurrency(list)}
