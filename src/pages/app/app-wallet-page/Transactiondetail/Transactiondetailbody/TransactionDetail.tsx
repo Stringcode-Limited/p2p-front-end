@@ -1,4 +1,3 @@
-import React from 'react';
 import succ from "../../../../../assets/images/succ.svg"
 import left from "../../../../../assets/images/left.png"
 import Button from '../../../../../components/Button/Button';

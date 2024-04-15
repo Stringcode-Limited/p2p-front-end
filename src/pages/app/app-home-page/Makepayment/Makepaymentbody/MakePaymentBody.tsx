@@ -1,8 +1,6 @@
-import React from 'react';
 import "./MakePaymentBody.css"
 import left from"../../../../../assets/images/left.png";
 import doe from "../../../../../assets/images/doe.png";
-import badge from "../../../../../assets/images/badge2.svg"
 import clock from "../../../../../assets/images/clock.svg"
 import right from "../../../../../assets/images/rightarro.svg"
 import ordernum from "../../../../../assets/images/ordernums.png"

@@ -10,7 +10,6 @@ import ETH from "../../../../assets/images/eth.png";
 import Matic from "../../../../assets/images/matic.png";
 import BNB from "../../../../assets/images/bnb-bnb.png";
 import LTC from "../../../../assets/images/litecoin-ltc.png";
-import ManageCryptoPage from "../ManageCrypto/ManageCryptoPage/ManageCryptoPage";
 import { NavLink } from "react-router-dom";
 
 

@@ -5,7 +5,7 @@ import clip from "../../../../assets/images/clip.svg";
 
 interface IChat{
   label:string
-  time: string
+  time?: string
   type?: "amountsold" | "paragraph"
   timertype: "time" | "amountsold"
   displayimage: "show" | "hide"
