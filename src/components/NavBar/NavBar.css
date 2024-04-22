@@ -94,3 +94,45 @@ nav .navs .navs2 ul .mode .dark{
     height: 20px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 912px){
+    
+    nav .navs .navs2 ul .mode{
+        display: none;
+        border: 1px solid red;
+      }
+    nav{
+        height: 92px;
+        width: 100vw;
+        box-shadow: 0px -5px 21.299999237060547px 0px #000000A1;
+        display: flex;
+        align-items: center;
+        list-style: none;
+        /* padding-left: 10%;
+        padding-right: 10%; */
+        justify-content: space-between;
+        position: sticky;
+        top: 0px;
+        z-index: 1000;
+        background-color: #FCFCFC;
+    }
+    .navs1{
+        display: block;
+    }
+    nav .logo{
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: 16px;
+        color: #111010;
+    }
+    nav .navs .navs2 ul{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 30px;
+        
+    }
+    nav{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

@@ -38,14 +38,21 @@ function HomePage() {
     <div>
       
       <div className="hero-section">
+        <div className="hero-wrapper">
         <div className="hero1">
         <div className="wrapper-hero1">
         
         <h2 className="hero-name">Trade anywhere, anytime. P2P at your Fingertips</h2>
+        <p className="hero-responsive">Trade anywhere, anytime.</p>
+        <p className="p2p-responsive"> P2P at your Fingertips</p>
        
          <div className="seamless-text">
-          <p className="seamless">Experience seamless peer-to-peer transactions.<br></br>
+          <p className="seamless">Experience seamless peer-to-peer transactions.
            Connect with ease, trade with confidence. Join P2P platform today!</p>
+           <p className="seamless-responsive">Experience seamless peer-to-peer</p>
+           <p className="seamless-responsive">transactions. Connect with ease, trade with</p>
+           <p className="seamless-responsive">confidence. Join p2p platform today!</p>
+           
          </div>
        </div>
        <div className="btnn"><Button  text="Get Started" type="normal"/></div>
@@ -54,6 +61,7 @@ function HomePage() {
         <img className="iphone" src={iphone} alt="" />
        </div>
        
+       </div>
       </div>
       <div className="approved">
         <div className="sub-approved">
@@ -63,7 +71,8 @@ function HomePage() {
             </div>
             <div className="regulation-text">
             <p className="aff">Regulated by the Central Bank of Nigeria, licensed by Securities and Exchange Commission of Nigeria.</p>
-          <p className="aff">And affiliated to all necessary bodies in Nigeria and abroad.</p>
+            <p className="aff-responsive">Regulated by the Central Bank of Nigeria, <br></br>licensed by Securities and Exchange Commission of Nigeria.</p>
+          <p className="aff-responsive">And affiliated to all necessary bodies in Nigeria and abroad.</p>
             </div>
            </div>
           <div className="logos">
@@ -92,6 +101,25 @@ function HomePage() {
           <img className="ci" src={ci} alt="" />
           </div>
         </div>
+        <div className="logos-responsive">
+            <div className="bank">
+          <img className="cbn" src={cbn} alt="" />
+          <img className="sec" src={sec} alt="" />
+          <img className="fintech" src={fintech} alt="" />
+          <img className="fraud" src={fraud} alt="" />
+          </div>
+          
+         
+          <div className="ciso">
+          <img className="cis" src={cis} alt="" />
+          <img className="fr" src={fr} alt="" />
+          <img className="firs" src={firs} alt="" />
+          </div>
+          
+          <div className="cii">
+          <img className="ci" src={ci} alt="" />
+          </div>
+        </div>
         </div>
        
       </div>
@@ -108,12 +136,17 @@ function HomePage() {
                 </div>
                 <p className="p2">P2Papp is your premier destination for peer-to-peer connections and transactions. Our platform
                 empowers individuals to connect and trade in a secure and transparent environment.</p>
+                <p className="p2-responsive">P2Papp is your premier destination for peer-to -peer connections and transactions. Our platform<br></br>
+                empowers individuals to connect and<br></br> trade in a secure and transparent environment.</p>
+                 
                </div>
                <div className="duty">
                 <div className="about-caption">
                 <h1 className="caption">What we do</h1>
                 </div>
-                <p className="p2">We connect individuals to exchange crypto and fiat<br></br> seamlessly. Join us in revolutionalizing the way people<br></br>
+                <p className="p2">We connect individuals to exchange crypto and fiat seamlessly. Join us in revolutionalizing the way people<br></br>
+                trade, share, and grow together.</p>
+                <p className="p2-responsive">We connect individuals to exchange crypto <br></br>and fiat seamlessly. Join us in revolutionalizing<br></br> the way people
                 trade, share, and grow together.</p>
                </div>
             </div>
@@ -127,8 +160,10 @@ function HomePage() {
             <div className="element-wrap1">
             <h1 className="wy">Why Us?</h1>
             <p className="why">We are deligently committed to providing a conducive platform for traders to seamlessly trade crypto for fiat with real people</p>
+            <p className="why-why">We are deligently committed to providing a conducive platform for traders to seamlessly trade crypto for fiat with real people</p>
             <div className="we-stand">
             <p className="why">We stand out in diverse ways.</p>
+            <p className="why-why">We stand out in diverse ways.</p>
             </div>
             
             </div>

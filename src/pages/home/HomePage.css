@@ -8,9 +8,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
     
 }
+.seamless-responsive{
+    display: none;
+}
+.hero-section .hero-wrapper .hero1 .wrapper-hero1 .hero-responsive{
+    display: none;
+
+}
+.hero-section .hero-wrapper .hero1 .wrapper-hero1 .p2p-responsive{
+    display: none;
+
+}
+
+
+.hero-section .hero-wrapper{
+    display: flex;
+    
+}
+
 .hero-section .wrapper-hero1{
     height: 400px;
     width: 579px;
@@ -22,6 +39,7 @@
     line-height: 75px;
     font-size: 55px;
     font-weight: 400;
+    
 
     
 }
@@ -101,6 +119,9 @@
     align-items: center;
     justify-content: center;
 }
+.approved .logos-responsive{
+    display: none;
+}
 .approved .due{
     text-align: center;
     font-size: 45px;
@@ -112,6 +133,9 @@
     font-weight: 400;
     line-height: 42px;
     font-family:"Gilroy-Medium" ;
+}
+.approved .aff-responsive{
+    display: none;
 }
 .approved .cbn{
     width: 51px;
@@ -164,6 +188,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid pink;
     
     
 
@@ -204,6 +229,12 @@
     line-height: 42px;
     size: 24px;
 }
+.about-us .inner-us .us .text-us  .p-responsive{
+    display: none;
+}
+.about-us .inner-us .us .duty .p2-responsive{
+    display: none;
+}
 .about-us .us .text-us{
     width: 590px;
     height: 260px;
@@ -223,6 +254,12 @@
     font-weight: 400;
     line-height: 42px;
     font-family: "Gilroy-Medium";
+}
+.about-us .us .text-us .p2p-responsive{
+    display: none;
+}
+.about-us .inner-us .us .text-us .p2-responsive{
+    display: none;
 }
 .about-us .us .duty .p2{
     font-size: 23.5px;
@@ -271,9 +308,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    
     border: 0.5px, 0p, 0px, 0px;
+}
+.why-why{
+    display: none;
 }
 .why-us .element-wrap2{
     display: flex;
@@ -501,6 +539,7 @@
     flex-direction: column;
     gap: 16px;
 }
+
 .footer .social-1{
     display: flex ;
     gap: 16px;
@@ -568,4 +607,313 @@
 .subbtn{
     width: 50px;
 }
+
+
 /* ........FOOTER-SECTION ENDS....... */
+
+@media screen and (max-width:912px){
+    .hero-section{
+        width: 100%;
+        height: 800px;
+        top: 69px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid red;
+        gap: 32px;
+
+        
+    }
+    span{
+     text-indent: 20%;
+    
+    }
+    .hero-section .hero-wrapper .hero1 .wrapper-hero1 .hero-responsive{
+        display: block;
+        font-size: 40px;
+        font-weight: 400px;
+        font-family: "Gilroy-Bold";
+        line-height: 45px;
+        color: #111010;
+    
+        width: 400px;
+        
+        
+    
+    }
+    .hero-section .hero-wrapper .hero1 .wrapper-hero1 .p2p-responsive{
+        display: block;
+        font-size: 39px;
+        font-weight: 400px;
+        font-family: "Gilroy-Bold";
+        line-height: 45px;
+        color: #111010;
+        width: 400px;
+        
+
+    
+    }
+    .hero-section .hero-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 464px;
+        width: 100%;
+        top: 67px;
+        gap: 100px;
+        border: 1px solid blue;
+        
+        
+    }
+    
+    
+    .hero-section .hero1{
+        width: 360px;
+        height: 228px;
+        top: 67px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+    .hero-section .hero2{
+        align-items: center;
+        width: 250px;
+        height: 204px;
+        justify-content: center;
+        
+    
+    }
+    .hero-section .hero-name{
+        display: none;
+        font-size: 46px;
+        
+        
+    
+        
+    }
+    .hero-section .wrapper-hero1{
+        height: 160px;
+        width: 358px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-section .seamless-text{
+        width: 358px;
+        height: 72px;
+    }
+    .hero-section .seamless{
+        display: none;
+    }
+    .hero-section .seamless-responsive{
+        display: block;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "Gilroy-Regular";
+        font-weight: 400;
+        letter-spacing: 0.5px;
+    }
+    .btnn{
+        margin-top: 50px;
+    }
+    /* .approved{
+        background-color: #F0EDED;
+        width: 100vw;
+        height: 417px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 801px;
+        margin-top:-70px;
+        border: 0.5px, 0px, 0px, 0px;
+        padding: 40px, 133px, 40px, 13px;
+        gap: 10px;
+        border: 1px solid green;
+    }
+    .approved .sub-approved{
+        width: 1175px;
+        margin-top: 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        
+    
+    } */
+    .approved .aff-responsive{
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 42px;
+        font-family:"Gilroy-Medium" ;
+    }
+    .approved .aff{
+        display: none;
+    }
+    .approved .logos{
+        display: none;
+    }
+    .approved .logos-responsive{
+        display: flex;
+        flex-direction:column;
+        width: 1128px;
+        height: 137px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .approved .logos-responsive .bank{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .approved{
+        height: 650px;
+    }
+    .approved .sub-approved{
+    width: 100%;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    border: 1px solid blueviolet;
+
+}
+.about-us .inner-us .us .text-us .p2-responsive{
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 42px;
+    font-family: "Gilroy-Regular";
+
+     
+}
+.about-us .inner-us .us .text-us .p2{
+    display: none;
+
+     
+}
+
+.about-us .inner-us .us .text-us  .p-responsive{
+    display: block;
+}
+.about-us .us .duty .p2{
+    display: none;
+}
+.about .p-responsive{
+    display: block;
+    border: 1px solid red;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.about-us .inner-us .content .laptop{
+    width: 300px;
+    height: 200px;
+    left: 52.05px;
+    Radius: 12.23px, 12.23px, 0px;
+
+}
+.about .inner-us{
+    width: 100%;
+    height: 494px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    border: 1px solid black;
+    
+    
+}
+.content{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10px;
+}
+.about-us .us{
+    border: 1px solid gray;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-us .inner-us .us .duty .p2{
+    display: none;
+}
+.about-us .inner-us .us .duty .p2-responsive{
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 42px;
+    font-family: "Gilroy-Regular";
+}
+.why-us .why-us2{
+    width: 100%;
+    height: 770px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid purple;
+
+}
+
+.why-us .element-wrap1{
+    width: 450px;
+    height: 260px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    
+}
+.why-us .element2{
+    border: 1px solid royalblue;
+    width: 570px;
+    height: 646px;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.element-wrap1{
+    border: 1px solid red;
+}
+.why{
+    display: none;
+}
+.why-why{
+    display: block;
+}
+.why-us .wy{
+    line-height: 52px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Gilroy-Bold";
+    color: #111010;
+}
+.why-us .why-why{
+    font-size: 20px;
+    font-family: "Gilroy-Medium";
+    line-height: 42px;
+    font-weight: 400;
+    color: #1D1B20;
+}
+
+
+}
