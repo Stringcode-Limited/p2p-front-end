@@ -56,6 +56,7 @@ function HomePage() {
          </div>
        </div>
        <div className="btnn"><Button  text="Get Started" type="normal"/></div>
+       <div className="btn2"><button className="button2">Get started</button></div>
        </div>
        <div className="hero2">
         <img className="iphone" src={iphone} alt="" />

@@ -39,6 +39,7 @@
     line-height: 75px;
     font-size: 55px;
     font-weight: 400;
+    font-family: "Gilroy-Bold";
     
 
     
@@ -567,6 +568,9 @@
     gap: 24px;
     
 }
+.btn2{
+    display: none;
+}
 .footer .p2app{
     display: flex;
     flex-direction: column;
@@ -658,7 +662,7 @@
         height: 464px;
         width: 100%;
         top: 67px;
-        gap: 100px;
+        gap: 10px;
         
         
         
@@ -717,6 +721,9 @@
     }
     .btnn{
         margin-top: 50px;
+    }
+     .btn2{
+        display: none;
     }
     /* .approved{
         background-color: #F0EDED;
@@ -983,6 +990,420 @@
 .hero-section .iphone{
     width: 450px;
     height: 465.88px;
+}
+.about-us .us .text-us{
+    width: 500px;
+    height: 260px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+@media screen and (max-width:540px){
+    .hero-section{
+        width: 80%;
+        height: 800px;
+        top: 69px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+
+        
+    }
+    span{
+     text-indent: 20%;
+    
+    }
+    .hero-section .hero-wrapper .hero1 .wrapper-hero1 .hero-responsive{
+        display: block;
+        font-size: 40px;
+        font-weight: 400px;
+        font-family: "Gilroy-Bold";
+        line-height: 30px;
+        color: #111010;
+        display: none;
+        width: 400px;
+        
+        
+    
+    }
+    .hero-section .hero-wrapper .hero1 .wrapper-hero1 .p2p-responsive{
+        display: block;
+        font-size: 39px;
+        font-weight: 400px;
+        font-family: "Gilroy-Bold";
+        line-height: 30px;
+        color: #111010;
+        width: 200px;
+        display: none;
+        
+
+    
+    }
+    .hero-section .hero-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 700px;
+        width: 100%;
+        flex-direction: column-reverse;
+        
+    
+        
+        
+        
+    }
+    
+    
+    .hero-section .hero1{
+        width: 400px;
+        height: 300px;
+        top: 67px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        
+    
+    }
+    .hero-section .hero2{
+        align-items: center;
+        width: 250px;
+        height: 204px;
+        justify-content: center;
+        
+    
+    }
+    .hero-section .hero-name{
+        display: block;
+        font-size: 28px;
+        line-height: 36px;
+        font-family: "Gilroy-Bold";
+        
+        
+    
+        
+    }
+    .hero-section .wrapper-hero1{
+        height: 180px;
+        width: 358px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .hero-section .seamless-text{
+        width: 358px;
+        height: 72px;
+        margin-top: 10px;
+    }
+    .hero-section .seamless{
+        display: none;
+    }
+    .hero-section .seamless-responsive{
+        display: block;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "Gilroy-Regular";
+        font-weight: 400;
+        letter-spacing: 0.5px;
+    }
+        
+    .hero-section .hero-wrapper .hero1 .btn2{
+            margin-top: -30px;
+            display: block;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            
+        
+        }
+        .hero-section .hero-wrapper .hero1 .button2{
+            background-color: #00A542;
+            color: #fff;
+            border: none;
+            height: 40px;
+            width: 370px;
+            border-radius: 50px;
+        }
+        .btnn{
+            display: none;
+        }
+    
+    /* .approved{
+        background-color: #F0EDED;
+        width: 100vw;
+        height: 417px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 801px;
+        margin-top:-70px;
+        border: 0.5px, 0px, 0px, 0px;
+        padding: 40px, 133px, 40px, 13px;
+        gap: 10px;
+        border: 1px solid green;
+    }
+    .approved .sub-approved{
+        width: 1175px;
+        margin-top: 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        
+    
+    } */
+    .approved .aff-responsive{
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        font-family:"Gilroy-Medium" ;
+    }
+    .approved .aff{
+        display: none;
+    }
+    .approved .logos{
+        display: none;
+    }
+    .approved .logos-responsive{
+        display: flex;
+        flex-direction:column;
+        width: 1128px;
+        height: 137px;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+        
+    }
+    .approved .logos-responsive .bank{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    
+    }
+    .approved{
+        height: 400px;
+        margin-top: 30px;
+    }
+    .approved .sub-approved{
+    width: 100%;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+
+}
+.about-us .inner-us .us .text-us .p2-responsive{
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 42px;
+    font-family: "Gilroy-Regular";
+    width: 480px;
+
+     
+}
+.about-us .inner-us .us .text-us .p2{
+    display: none;
+
+     
+}
+
+.about-us .inner-us .us .text-us  .p-responsive{
+    display: block;
+}
+.about-us .us .duty .p2{
+    display: none;
+}
+.about .p-responsive{
+    display: block;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.about-us .inner-us .content .laptop{
+    width: 300px;
+    height: 200px;
+    left: 52.05px;
+    Radius: 12.23px, 12.23px, 0px;
+
+}
+.about .inner-us{
+    width: 100%;
+    height: 494px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+    
+    
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10px;
+}
+.about-us .us{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.about-us .inner-us .us .duty .p2{
+    display: none;
+}
+.about-us .inner-us .us .duty .p2-responsive{
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 42px;
+    font-family: "Gilroy-Regular";
+    width: 480px;
+}
+.why-us .why-us2{
+    width: 100%;
+    height: 770px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.why-us .element-wrap1{
+    width: 450px;
+    height: 260px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.why-us .element2{
+    width: 570px;
+    height: 646px;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.why{
+    display: none;
+}
+.why-why{
+    display: block;
+}
+.why-us .wy{
+    line-height: 52px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Gilroy-Bold";
+    color: #111010;
+}
+.why-us .why-why{
+    font-size: 20px;
+    font-family: "Gilroy-Medium";
+    line-height: 42px;
+    font-weight: 400;
+    color: #1D1B20;
+}
+.why-us .sub-wrap{
+    display: flex;
+
+}
+.why-us .element-wrap2{
+    display: flex;
+    gap: 50px;
+    height: 338.04px;
+    width: 450px;
+    margin-top: 10px;
+
+}
+
+.social{
+    position: relative;
+     margin: 0;
+     padding-bottom: 50px;
+}
+.social::after{
+    content: '';
+    position: absolute;
+    background-color: black;
+    left: 50%;
+    width: 900px;
+    height: 1px;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+.footer .p2p-footer{
+    width: 100%;
+    height: 564px;
+    top: 3026px;
+    left: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.about-us .inner-us .us .duty{
+    height: 260px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.about-caption{
+    width: 200px;
+}
+.hero-section .hero2{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 465px;
+    justify-content: center;
+
+}
+.hero-section{
+    width: 100%;
+    height: 732px;
+    top: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hero-section .hero-wrapper{
+    display: flex;    
+}
+.hero-section .iphone{
+    width: 300px;
+    height: 400px;
 }
 .about-us .us .text-us{
     width: 500px;
