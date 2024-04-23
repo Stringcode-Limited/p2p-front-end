@@ -138,7 +138,6 @@ function HomePage() {
                 empowers individuals to connect and trade in a secure and transparent environment.</p>
                 <p className="p2-responsive">P2Papp is your premier destination for peer-to -peer connections and transactions. Our platform<br></br>
                 empowers individuals to connect and<br></br> trade in a secure and transparent environment.</p>
-                 
                </div>
                <div className="duty">
                 <div className="about-caption">

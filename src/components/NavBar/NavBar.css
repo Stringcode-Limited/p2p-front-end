@@ -99,11 +99,10 @@ nav .navs .navs2 ul .mode .dark{
     
     nav .navs .navs2 ul .mode{
         display: none;
-        border: 1px solid red;
       }
     nav{
         height: 92px;
-        width: 100vw;
+        width: 100%;
         box-shadow: 0px -5px 21.299999237060547px 0px #000000A1;
         display: flex;
         align-items: center;

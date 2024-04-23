@@ -188,9 +188,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid pink;
-    
-    
 
 }
 .about-us .us{
@@ -621,7 +618,6 @@
         justify-content: center;
         align-items: center;
         justify-content: center;
-        border: 1px solid red;
         gap: 32px;
 
         
@@ -663,7 +659,7 @@
         width: 100%;
         top: 67px;
         gap: 100px;
-        border: 1px solid blue;
+        
         
         
     }
@@ -768,6 +764,7 @@
         height: 137px;
         align-items: center;
         justify-content: center;
+        width: 400px;
         
     }
     .approved .logos-responsive .bank{
@@ -775,6 +772,7 @@
         align-items: center;
         justify-content: center;
         gap: 20px;
+    
     }
     .approved{
         height: 650px;
@@ -787,7 +785,7 @@
     align-items: center;
     justify-content: center;
     gap: 100px;
-    border: 1px solid blueviolet;
+
 
 }
 .about-us .inner-us .us .text-us .p2-responsive{
@@ -796,6 +794,7 @@
     font-weight: 400;
     line-height: 42px;
     font-family: "Gilroy-Regular";
+    width: 480px;
 
      
 }
@@ -813,7 +812,6 @@
 }
 .about .p-responsive{
     display: block;
-    border: 1px solid red;
     width: 400px;
     height: 400px;
     align-items: center;
@@ -834,23 +832,22 @@
     align-items: center;
     justify-content: space-around;
     margin-top: 20px;
-    border: 1px solid black;
+    
     
     
 }
 .content{
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 10px;
 }
 .about-us .us{
-    border: 1px solid gray;
     width: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: auto;
 }
 .about-us .inner-us .us .duty .p2{
     display: none;
@@ -861,6 +858,7 @@
     font-weight: 400;
     line-height: 42px;
     font-family: "Gilroy-Regular";
+    width: 480px;
 }
 .why-us .why-us2{
     width: 100%;
@@ -868,7 +866,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid purple;
+    
 
 }
 
@@ -878,11 +876,10 @@
     gap: 16px;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    
     
 }
 .why-us .element2{
-    border: 1px solid royalblue;
     width: 570px;
     height: 646px;
     gap: 32px;
@@ -891,9 +888,7 @@
     align-items: center;
     justify-content: center;
 }
-.element-wrap1{
-    border: 1px solid red;
-}
+
 .why{
     display: none;
 }
@@ -914,6 +909,91 @@
     font-weight: 400;
     color: #1D1B20;
 }
+.why-us .sub-wrap{
+    display: flex;
+
+}
+.why-us .element-wrap2{
+    display: flex;
+    gap: 50px;
+    height: 338.04px;
+    width: 450px;
+    margin-top: 10px;
+
+}
+
+.social{
+    position: relative;
+     margin: 0;
+     padding-bottom: 50px;
+}
+.social::after{
+    content: '';
+    position: absolute;
+    background-color: black;
+    left: 50%;
+    width: 900px;
+    height: 1px;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+.footer .p2p-footer{
+    width: 100%;
+    height: 564px;
+    top: 3026px;
+    left: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.about-us .inner-us .us .duty{
+    height: 260px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.about-caption{
+    width: 200px;
+}
+.hero-section .hero2{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 465px;
+    justify-content: center;
+
+}
+.hero-section{
+    width: 100%;
+    height: 732px;
+    top: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hero-section .hero-wrapper{
+    display: flex;    
+}
+.hero-section .iphone{
+    width: 450px;
+    height: 465.88px;
+}
+.about-us .us .text-us{
+    width: 500px;
+    height: 260px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 
 
 }
