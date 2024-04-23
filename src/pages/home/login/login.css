@@ -39,6 +39,11 @@
     line-height: 20px;
 }
 
+.login-container .form-wrapper .div-wrapper .form-contents .login-button .submit{
+    outline: none;
+    border: none;
+}
+
 .login-container .form-wrapper .div-wrapper .form-contents .login-button {
     margin-top: 18px;
 }

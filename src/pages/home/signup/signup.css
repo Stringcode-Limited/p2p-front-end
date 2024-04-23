@@ -41,6 +41,12 @@
 .signup-container .form-wrapper .div-wrapper .form-contents .continue-button {
     margin-top: 18px;
 }
+
+.signup-container .form-wrapper .div-wrapper .form-contents .continue-button .submit{
+    outline: none;
+    border: none;
+}
+
 .signup-container .form-wrapper .div-wrapper .form-contents .continue-button a {
     text-decoration: none;
 }
