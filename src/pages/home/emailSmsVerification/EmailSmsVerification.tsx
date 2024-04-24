@@ -27,16 +27,12 @@ const EmailSmsVerification = () => {
     const [disabled, setDisabled] = useState(true);
 
     useEffect(() => {
-      if (disabled) {
-        setTimeout(() => setDisabled(false), 6000);
-      }
+       const timer = setTimeout(() => setDisabled(false), 60000);
+       return () => clearTimeout(timer);
     }, []);
 
     const setDisabledState = () => {
         setDisabled(true);
-        setTimeout(() => {
-            setDisabled(false);
-        }, 60000);
     }
 
     const handleInputChange=(e:ChangeEvent<HTMLInputElement>)=>{
@@ -55,6 +51,7 @@ const EmailSmsVerification = () => {
             const response = await axios.post('https://p2p-qrjp.onrender.com/api/v1/users/verifyotp', formData)
             console.log(response)
             setDisabledState();
+            setTimeout(() => setDisabled(false), 6000);
             toast.success(response.data.message,{
              onClose:()=>navigate("/login")
             })
@@ -77,6 +74,7 @@ const EmailSmsVerification = () => {
             resendSmsOTP:false
             })
             setDisabledState();
+            setTimeout(() => setDisabled(false), 6000);
             toast.success(response.data.message)
         } 
         catch (error:any) {
@@ -97,6 +95,7 @@ const EmailSmsVerification = () => {
             resendSmsOTP:true
             })
             setDisabledState();
+            setTimeout(() => setDisabled(false), 6000);
             toast.success(response.data.message)
         } 
         catch (error:any) {
