@@ -17,7 +17,7 @@ const EmailSmsVerification = () => {
 
     const navigate = useNavigate()
 
-    const [oldOtp, setOldOtp] = useState(localStorage.getItem('otpId'))
+    const oldOtp = localStorage.getItem('otpId')
     
     // const [emailResponse, setEmailResponse] = useState(false)
     // const [smsResponse, setSmsResponse] = useState(false)
