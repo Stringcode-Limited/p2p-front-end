@@ -69,13 +69,19 @@ function HomePage() {
           <div className="rap1">
             <div className="we-are-approved">
             <h1 className="due">We are duly approved</h1>
+            <h1 className="due2">We are duly approved</h1>
             </div>
             <div className="regulation-text">
             <p className="aff">Regulated by the Central Bank of Nigeria, licensed by Securities and Exchange Commission of Nigeria.</p>
+            <p className="aff">And affiliated to all necessary bodies in Nigeria and abroad.</p>
             <p className="aff-responsive">Regulated by the Central Bank of Nigeria, <br></br>licensed by Securities and Exchange Commission of Nigeria.</p>
           <p className="aff-responsive">And affiliated to all necessary bodies in Nigeria and abroad.</p>
+          <p className="seamless-responsive">Experience seamless peer-to-peer</p>
+           <p className="seamless-responsive">transactions. Connect with ease, trade with</p>
+           <p className="seamless-responsive">confidence. Join p2p platform today!</p>
             </div>
            </div>
+          
           <div className="logos">
             <div className="bank">
           <img className="cbn" src={cbn} alt="" />
@@ -107,17 +113,19 @@ function HomePage() {
           <img className="cbn" src={cbn} alt="" />
           <img className="sec" src={sec} alt="" />
           <img className="fintech" src={fintech} alt="" />
-          <img className="fraud" src={fraud} alt="" />
+         
           </div>
           
          
           <div className="ciso">
           <img className="cis" src={cis} alt="" />
           <img className="fr" src={fr} alt="" />
-          <img className="firs" src={firs} alt="" />
+          <img className="fraud" src={fraud} alt="" />
+          
           </div>
           
           <div className="cii">
+          <img className="firs" src={firs} alt="" />
           <img className="ci" src={ci} alt="" />
           </div>
         </div>

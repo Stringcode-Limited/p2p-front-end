@@ -100,6 +100,9 @@
     padding: 40px, 133px, 40px, 13px;
     gap: 10px;
 }
+.approved .sub-approved .rap2{
+   display: none;
+}
 .approved .sub-approved{
     width: 1175px;
     margin-top: 2px;
@@ -127,6 +130,9 @@
     text-align: center;
     font-size: 45px;
     margin-top: 10px;
+}
+.approved .due2{
+    display: none;
 }
 .approved .aff{
     text-align: center;
@@ -774,6 +780,9 @@
         width: 400px;
         
     }
+    .approved .sub-approved .rap2{
+        display: none;
+     }
     .approved .logos-responsive .bank{
         display: flex;
         align-items: center;
@@ -998,8 +1007,18 @@
     display: flex;
     flex-direction: column;
 }
+.approved .due{
+    display: none;
+}
+.approved .due2{
+    display: block;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
 
 }
+}
+
 
 @media screen and (max-width:540px){
     .hero-section{
@@ -1107,13 +1126,14 @@
     .hero-section .seamless{
         display: none;
     }
-    .hero-section .seamless-responsive{
+    .approved .sub-approved .rap1 .regulation-text .seamless-responsive{
         display: block;
         font-size: 16px;
         line-height: 24px;
         font-family: "Gilroy-Regular";
         font-weight: 400;
         letter-spacing: 0.5px;
+        text-align: center;
     }
         
     .hero-section .hero-wrapper .hero1 .btn2{
@@ -1169,9 +1189,9 @@
         font-size: 16px;
         font-weight: 400;
         line-height: 20px;
-        font-family:"Gilroy-Medium" ;
+        font-family:"Gilroy-Regular" ;
     }
-    .approved .aff{
+    .approved .sub-approved .rap1 .regulation-text .aff{
         display: none;
     }
     .approved .logos{
@@ -1185,6 +1205,7 @@
         align-items: center;
         justify-content: center;
         width: 400px;
+        gap: 16px;
         
     }
     .approved .logos-responsive .bank{
@@ -1195,20 +1216,47 @@
     
     }
     .approved{
-        height: 400px;
+        height: 500px;
         margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid green;
     }
     .approved .sub-approved{
-    width: 100%;
+    width: 80%;
     margin-top: 2px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 100px;
-
+    height: 500px;
+}
+.approved .we-are-approved{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.approved .sub-approved .rap1{
+    margin-top: -30px;
+ }
+ .approved .sub-approved .rap1{
+    display: block
+ }
+.approved .due{
+    display: none;
+}
+.approved .due2{
+    display: block;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
 
 }
+.approved .aff-responsive{
+    display: none;
+}
+
 .about-us .inner-us .us .text-us .p2-responsive{
     display: block;
     font-size: 20px;
@@ -1402,7 +1450,7 @@
     display: flex;    
 }
 .hero-section .iphone{
-    width: 300px;
+    width: 500px;
     height: 400px;
 }
 .about-us .us .text-us{
@@ -1411,6 +1459,23 @@
     gap: 40px;
     display: flex;
     flex-direction: column;
+}
+.approved .due{
+    text-align: center;
+    font-size: 26px;
+    
+}
+.cii{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: -20px;
+   gap: 20px;
+}
+.ciso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
