@@ -9,7 +9,9 @@ import Apple from "../../../components/Apple/Apple";
 const Signup = () => {
   return (
     <div>
+      <div className="navcontainer">
       <NavBar />
+      </div>
       <div className="signup-container">
         <div className="form-wrapper">
           <div className="div-wrapper">

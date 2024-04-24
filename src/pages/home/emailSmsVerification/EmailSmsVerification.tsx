@@ -3,11 +3,17 @@ import Button from "../../../components/Button/Button";
 import NavBar from "../../../components/NavBar/NavBar";
 import { NavLink } from "react-router-dom";
 import OTP from "../../../components/OTP/OTP";
+import arrowleft from "../../../assets/images/arrowleft.svg";
 
 const EmailSmsVerification = () => {
     return (
         <div>
+            <div className="back">
+            <img src={arrowleft} alt=""  />
+            </div>
+            <div className="navcontainer">
             <NavBar />
+            </div>
             <div className="veri-container">
                 <div className="form-wrapper">
                     <div className="div-wrapper">

@@ -3,11 +3,17 @@ import Button from "../../../components/Button/Button";
 import Input from "../../../components/Input/Input";
 import NavBar from "../../../components/NavBar/NavBar";
 import { NavLink } from "react-router-dom";
+import arrowleft from "../../../assets/images/arrowleft.svg";
 
 const Setup = () => {
     return (
         <div>
+            <div className="back">
+            <img src={arrowleft} alt=""  />
+            </div>
+            <div className="navcontainer">
             <NavBar />
+            </div>
             <div className="setup-container">
                 <div className="form-wrapper">
                     <div className="div-wrapper">

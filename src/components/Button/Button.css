@@ -102,3 +102,32 @@ Provide Feedback, Transfer, Confirm, View Details, Share, Payment Received, Help
     width: 555px;
     height: 38px; 
 }
+
+@media screen and (max-width: 280px){
+    .mini{
+        width: 200px;
+        
+    }
+}
+
+
+@media only screen and (min-width:281px) and (max-width: 390px){
+    .mini{
+        width: 300px;
+        
+    }
+}
+
+
+@media only screen and (min-width:391px) and (max-width: 912px){
+    .mini{
+        width: 340px;
+        
+    }
+}
+
+@media screen and (max-width:540px) {
+    .normal2{
+        width: 90vw;
+}
+}

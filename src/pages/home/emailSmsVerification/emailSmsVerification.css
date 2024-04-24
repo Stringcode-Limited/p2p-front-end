@@ -1,3 +1,7 @@
+.back{
+    display: none;
+}
+
 .veri-container{
     display: flex;
     justify-content: center;
@@ -38,4 +42,53 @@
 }
 .veri-container .form-wrapper .div-wrapper .form-contents .continue-button a {
     text-decoration: none;
+}
+
+@media screen and (max-width:390px){
+    .back{
+        display: block;
+        padding: 36px 20px;
+    }
+
+    .veri-container .form-wrapper .div-wrapper .heading {
+        font-weight: 200;
+        font-size: 24px;
+
+    }
+
+    .veri-container {
+        padding-top: 190px;
+    }
+    .veri-container .form-wrapper {
+        padding: 0;
+        border: none;
+        border-radius: 0;
+    }
+    .navcontainer{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width:391px) and (max-width:910px) {
+
+    .back{
+        display: block;
+        padding: 36px 20px;
+    }
+
+    .navcontainer{
+        display: none;
+    }
+
+    .veri-container .form-wrapper {
+        padding: 0;
+        border: none;
+        border-radius: 0;
+    }
+
+    .veri-container {
+        padding: 280px 0;
+    }
+
 }
