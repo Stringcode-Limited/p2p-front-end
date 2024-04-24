@@ -3,6 +3,7 @@ import Button from "../../../components/Button/Button";
 import NavBar from "../../../components/NavBar/NavBar";
 import OTP from "../../../components/OTP/OTP";
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 import { ChangeEvent, FormEvent, useState } from "react";
 import axios from "axios";
 import { toast , ToastContainer } from 'react-toastify'
@@ -17,15 +18,26 @@ const EmailSmsVerification = () => {
 
     const navigate = useNavigate()
 
-    const oldOtp = localStorage.getItem('otpId')
-    
-    // const [emailResponse, setEmailResponse] = useState(false)
-    // const [smsResponse, setSmsResponse] = useState(false)
+    const oldOtp = localStorage.getItem('otpId');
 
     const [formData, setFormData] = useState<IVerification>({
         emailOTP:"",
         smsOTP:""
     })
+    const [disabled, setDisabled] = useState(true);
+
+    useEffect(() => {
+      if (disabled) {
+        setTimeout(() => setDisabled(false), 6000);
+      }
+    }, []);
+
+    const setDisabledState = () => {
+        setDisabled(true);
+        setTimeout(() => {
+            setDisabled(false);
+        }, 60000);
+    }
 
     const handleInputChange=(e:ChangeEvent<HTMLInputElement>)=>{
         const {name, value} = e.target
@@ -33,11 +45,16 @@ const EmailSmsVerification = () => {
     }
 
     const handleSubmit = async(e:FormEvent) => {
+        if (disabled) {
+            toast.error('Please wait for 60 seconds before trying again');
+            return;
+        }
         e.preventDefault();
         console.log(formData)
         try{
             const response = await axios.post('https://p2p-qrjp.onrender.com/api/v1/users/verifyotp', formData)
             console.log(response)
+            setDisabledState();
             toast.success(response.data.message,{
              onClose:()=>navigate("/login")
             })
@@ -49,12 +66,17 @@ const EmailSmsVerification = () => {
     }
 
     const handleEmailResend = async() =>{
+        if (disabled) {
+          toast.error('Please wait for 60 seconds before trying again');
+          return;
+        }
         try {
             const response = await axios.put('https://p2p-qrjp.onrender.com/api/v1/users/resendotp', {
             oldOtp,
             resendEmailOTP:true,
             resendSmsOTP:false
             })
+            setDisabledState();
             toast.success(response.data.message)
         } 
         catch (error:any) {
@@ -64,12 +86,17 @@ const EmailSmsVerification = () => {
     }
 
     const handleSmsResend = async() =>{
+        if (disabled) {
+          toast.error('Please wait for 60 seconds before trying again');
+          return;
+        }
         try {
             const response = await axios.put('https://p2p-qrjp.onrender.com/api/v1/users/resendotp', {
             oldOtp,
             resendEmailOTP:false,
             resendSmsOTP:true
             })
+            setDisabledState();
             toast.success(response.data.message)
         } 
         catch (error:any) {

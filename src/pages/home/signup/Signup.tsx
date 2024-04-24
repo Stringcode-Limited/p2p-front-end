@@ -39,7 +39,6 @@ const Signup = () => {
     
     try{
       const response = await axios.post('https://p2p-qrjp.onrender.com/api/v1/users/register', formData)
-      console.log(response)
       setLoading(true)
       localStorage.setItem('otpId', response.data.otpIdForResendingOtp)
       toast.success(response.data.message,{
@@ -48,9 +47,9 @@ const Signup = () => {
       setLoading(false)
    }
    catch(error:any){
+      setLoading(false)
       console.log(`Error in signup ${error}`);
       toast.error(error.response.data.message)
-      setLoading(false)
    }
   };
 
