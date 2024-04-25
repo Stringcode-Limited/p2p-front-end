@@ -31,3 +31,12 @@
     align-items: center;
     gap: 8px; 
 }
+
+@media screen and (max-width:912px) {
+    .recentOrders{
+        display: none;
+        width: 0vw;
+    }
+
+   
+}

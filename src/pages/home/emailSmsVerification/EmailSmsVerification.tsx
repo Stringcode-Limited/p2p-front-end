@@ -2,6 +2,7 @@ import "./emailSmsVerification.css";
 import Button from "../../../components/Button/Button";
 import NavBar from "../../../components/NavBar/NavBar";
 import OTP from "../../../components/OTP/OTP";
+import arrowleft from "../../../assets/images/arrowleft.svg";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import { ChangeEvent, FormEvent, useState } from "react";
@@ -15,6 +16,7 @@ interface IVerification{
   }
 
 const EmailSmsVerification = () => {
+
 
     const navigate = useNavigate()
 
@@ -106,8 +108,13 @@ const EmailSmsVerification = () => {
 
   return (
     <div>
-        <ToastContainer/>
-      <NavBar />
+       <ToastContainer/>
+      <div className="back">
+            <img src={arrowleft} alt=""  />
+            </div>
+            <div className="navcontainer">
+            <NavBar />
+      </div>
       <div className="veri-container">
         <div className="form-wrapper">
           <div className="div-wrapper">

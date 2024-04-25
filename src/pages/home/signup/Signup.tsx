@@ -57,7 +57,9 @@ const Signup = () => {
   return (
     <div>
       <ToastContainer/>
+        <div className="navcontainer">
       <NavBar />
+      </div>
       <div className="signup-container">
         <div className="form-wrapper">
           <div className="div-wrapper">

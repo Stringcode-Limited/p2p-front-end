@@ -89,3 +89,20 @@
     flex-direction: column;
     gap: 12px;
 }
+
+@media screen and (max-width:910px) {
+    .navcontainer{
+        display: none;
+    }
+
+    .signup-container .form-wrapper {
+        padding: 0;
+        border: none;
+        border-radius: 0;
+    }
+
+    .signup-container {
+        padding: 132px 0;
+    }
+
+}

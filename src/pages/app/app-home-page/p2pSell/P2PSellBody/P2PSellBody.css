@@ -43,3 +43,13 @@
     align-items: center;
     width: 100%;
 }
+
+@media screen and (max-width: 912px){
+    .p2pSellBody{
+        width: 100vw;
+        border-right: none;
+    }
+    .p2pSellBody .top .body{
+        flex-direction: column;
+    }
+}
