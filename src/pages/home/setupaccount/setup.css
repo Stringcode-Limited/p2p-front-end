@@ -1,3 +1,7 @@
+.back{
+    display: none;
+}
+
 .setup-container{
     display: flex;
     justify-content: center;
@@ -36,4 +40,28 @@
 }
 .setup-container .form-wrapper .div-wrapper .finish-button a{
     text-decoration: none;
+}
+
+
+
+@media screen and (max-width:910px) {
+    .back{
+        display: block;
+        padding: 36px 20px;
+    }
+
+    .navcontainer{
+        display: none;
+    }
+
+    .setup-container .form-wrapper {
+        padding: 0;
+        border: none;
+        border-radius: 0;
+    }
+
+    .setup-container {
+        padding: 145px 0;
+    }
+
 }

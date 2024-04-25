@@ -24,3 +24,10 @@
     background-color: #DDDDDD;
     border: 1px solid #DDDDDD;
 }
+
+@media screen and (max-width:540px) {
+    .apple{
+    width: 90vw;
+    }
+
+}

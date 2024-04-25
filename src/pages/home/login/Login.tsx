@@ -64,7 +64,9 @@ const Login = () => {
     return (
         <div>
             <ToastContainer/>
+           <div className="navcontainer">
             <NavBar />
+            </div>
             <div className="login-container">
                 <div className="form-wrapper">
                     <div className="div-wrapper">

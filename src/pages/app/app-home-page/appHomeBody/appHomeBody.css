@@ -43,3 +43,28 @@
     align-items: center;
     width: 100%;
 }
+.dropdownRight{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+@media screen and (max-width: 912px){
+    .p2pSellBody{
+        width: 100vw;
+        border-right: none;
+    }
+    .p2pSellBody .top .body{
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .p2pSellBody .top {
+        gap: 24px;
+    }
+    .p2pSellBody .top .body .right {
+        gap: 199px;
+    }
+    }
+
+

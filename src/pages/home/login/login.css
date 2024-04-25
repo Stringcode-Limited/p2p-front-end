@@ -93,3 +93,20 @@
 /* .backgroundGrad{
      background-image: linear-gradient(to right, #c1e0c1,#fff, #fff, #fff);
 } */
+
+@media screen and (max-width:910px) {
+    .navcontainer{
+        display: none;
+    }
+
+    .login-container .form-wrapper {
+        padding: 0;
+        border: none;
+        border-radius: 0;
+    }
+
+    .login-container {
+        padding: 132px 0;
+    }
+
+}

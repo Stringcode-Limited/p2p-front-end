@@ -23,6 +23,7 @@ const AppHomeBody = () => {
                 list={["UDST", "BTC", "ETH", "LTC", "SOL", "XPR"]}
                 title="USDT"
               />
+              <div className="dropdownRight">
               <Dropdown
                 width="widthNormal"
                 list={["NGN", "USD", "GHC", "EUR", "JPY", "GBP"]}
@@ -30,6 +31,7 @@ const AppHomeBody = () => {
               />
               <img src={filter} />
               <img src={bell} />
+              </div>
             </div>
           </div>
         </div>
@@ -64,6 +66,7 @@ const AppHomeBody = () => {
             cryptoAmount={240}
             range1={"100,000.00"}
             range2={"367,200.00"}
+            route="/app/buyUSDT"
           />
           <TraderCard
             buttonText={"BUY"}
@@ -79,6 +82,7 @@ const AppHomeBody = () => {
             cryptoAmount={240}
             range1={"100,000.00"}
             range2={"367,200.00"}
+            route="/app/buyUSDT"
           />
           <TraderCard
             buttonText={"BUY"}
@@ -94,6 +98,7 @@ const AppHomeBody = () => {
             cryptoAmount={240}
             range1={"100,000.00"}
             range2={"367,200.00"}
+            route="/app/buyUSDT"
           />
           <TraderCard
             buttonText={"BUY"}
@@ -109,6 +114,7 @@ const AppHomeBody = () => {
             cryptoAmount={240}
             range1={"100,000.00"}
             range2={"367,200.00"}
+            route="/app/buyUSDT"
           />
           <TraderCard
             buttonText={"BUY"}
@@ -124,6 +130,7 @@ const AppHomeBody = () => {
             cryptoAmount={240}
             range1={"100,000.00"}
             range2={"367,200.00"}
+            route="/app/buyUSDT"
           />
         </div>
       </div>
