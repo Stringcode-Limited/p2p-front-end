@@ -42,8 +42,7 @@ const Signup = () => {
       setLoading(true)
       localStorage.setItem('otpId', response.data.otpIdForResendingOtp);
       toast.success(response.data.message);
-      setTimeout(() => setLoading(false), 3000);
-      navigate('/verification');
+      setTimeout(() => navigate('/verification'), 3000);
       setLoading(false);
    }
    catch(error:any){
