@@ -8,6 +8,13 @@ a{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.btn:disabled{
+    cursor: wait;
 }
 
 .green{

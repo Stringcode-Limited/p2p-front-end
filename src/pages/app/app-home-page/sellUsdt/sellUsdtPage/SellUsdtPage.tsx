@@ -7,7 +7,7 @@ const SellUsdtPage = () => {
     <>
     <div className="sellUsdtPage">
       <SellUsdtBody/>
-      <Chat label="Your crypto will be released within" time="09:00" type="paragraph" timertype="timer" displayimage="show"/>
+      <Chat label="Your crypto will be released within" time="09:00" type="paragraph" timertype="time" displayimage="show"/>
       </div>
     </>
   )
