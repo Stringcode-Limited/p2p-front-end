@@ -5,7 +5,7 @@ import NavBar from "../../../components/NavBar/NavBar";
 import "./login.css";
 import Google from "../../../components/Google/Google";
 import Apple from "../../../components/Apple/Apple";
-import { ChangeEvent, FormEvent, useState } from "react";
+import { ChangeEvent, FormEvent, useEffect, useState } from "react";
 import axios from "axios";
 import Cookies from 'js-cookie';
 import { ToastContainer, toast } from "react-toastify";
@@ -17,6 +17,15 @@ interface ILogin{
   }
 
 const Login = () => {
+    
+    useEffect(() => {
+        const urlParams = new URLSearchParams(window.location.search);
+        const token = urlParams.get('token');
+        if (!token) return;
+        Cookies.set('token', token, { expires: 1 });
+        navigate('/app');
+    }, []);
+
     const navigate = useNavigate()
     
     const [formData, setFormData] = useState<ILogin>({
@@ -37,14 +46,12 @@ const Login = () => {
         setLoading(true)
         
         try{
-          const response = await axios.post('https://p2p-qrjp.onrender.com/api/v1/users/login', formData)
+          const response = await axios.post('https://p2p-qrjp.onrender.com/api/v1/users/login', formData);
           console.log(response)
           setLoading(true)
           Cookies.set('token', response.data.token, { expires: 1 });
-          localStorage.setItem('userData', response.data.user)
-          toast.success(response.data.message,{
-           onClose:()=>navigate("/app")
-          })
+          localStorage.setItem('userData', response.data.user);
+          navigate('/app');
           setLoading(false)
        }
        catch(error:any){

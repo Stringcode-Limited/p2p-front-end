@@ -40,11 +40,11 @@ const Signup = () => {
     try{
       const response = await axios.post('https://p2p-qrjp.onrender.com/api/v1/users/register', formData)
       setLoading(true)
-      localStorage.setItem('otpId', response.data.otpIdForResendingOtp)
-      toast.success(response.data.message,{
-       onClose:()=>navigate("/verification")
-      })
-      setLoading(false)
+      localStorage.setItem('otpId', response.data.otpIdForResendingOtp);
+      toast.success(response.data.message);
+      setTimeout(() => setLoading(false), 3000);
+      navigate('/verification');
+      setLoading(false);
    }
    catch(error:any){
       setLoading(false)

@@ -13,7 +13,7 @@ function Input({label, type, value, onChange, aria}:Iinput) {
     <>
       <div className="input">
         <label htmlFor={label}>{label}</label>
-        <input type={type} value={value} onChange={onChange} name={aria} id={aria} aria-describedby={aria}/>
+        <input type={type} value={value} onChange={onChange} name={aria} id={aria} aria-describedby={aria} required/>
       </div>
     </>
   );

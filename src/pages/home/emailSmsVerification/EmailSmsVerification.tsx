@@ -16,7 +16,7 @@ interface IVerification{
 
 const EmailSmsVerification = () => {
 
-    const navigate = useNavigate()
+    const navigate = useNavigate();
 
     const oldOtp = localStorage.getItem('otpId');
 
@@ -41,20 +41,14 @@ const EmailSmsVerification = () => {
     }
 
     const handleSubmit = async(e:FormEvent) => {
-        if (disabled) {
-            toast.error('Please wait for 60 seconds before trying again');
-            return;
-        }
         e.preventDefault();
-        console.log(formData)
         try{
             const response = await axios.post('https://p2p-qrjp.onrender.com/api/v1/users/verifyotp', formData)
             console.log(response)
             setDisabledState();
             setTimeout(() => setDisabled(false), 6000);
-            toast.success(response.data.message,{
-             onClose:()=>navigate("/login")
-            })
+            toast.success(response.data.message);
+            setTimeout(() => navigate('/login'), 2000);
          }
          catch(error:any){
             console.log(`Error in signup ${error}`);
