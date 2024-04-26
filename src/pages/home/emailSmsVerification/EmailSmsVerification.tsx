@@ -26,11 +26,30 @@ const EmailSmsVerification = () => {
         smsOTP:""
     })
     const [disabled, setDisabled] = useState(true);
+    const [timeLeft, setTimeLeft] = useState(60);
 
     useEffect(() => {
-       const timer = setTimeout(() => setDisabled(false), 60000);
-       return () => clearTimeout(timer);
-    }, []);
+      let timer: ReturnType<typeof setTimeout> | null = null;
+      if (disabled) {
+          setTimeLeft(60);
+          timer = setInterval(() => {
+              setTimeLeft((prevTime) => {
+                  const newTime = prevTime - 1;
+                  if (newTime <= 0) {
+                      setDisabled(false);
+                      if (timer) clearInterval(timer);
+                  }
+                  return newTime;
+              });
+          }, 1000);
+      } else {
+          setTimeLeft(60);
+          if (timer) clearInterval(timer);
+      }
+      return () => {
+          if (timer) clearInterval(timer);
+      };
+  }, [disabled]);
 
     const setDisabledState = () => {
         setDisabled(true);
@@ -58,18 +77,13 @@ const EmailSmsVerification = () => {
     }
 
     const handleEmailResend = async() =>{
-        if (disabled) {
-          toast.error('Please wait for 60 seconds before trying again');
-          return;
-        }
+        setDisabledState();
         try {
             const response = await axios.put('https://p2p-qrjp.onrender.com/api/v1/users/resendotp', {
             oldOtp,
             resendEmailOTP:true,
             resendSmsOTP:false
             })
-            setDisabledState();
-            setTimeout(() => setDisabled(false), 6000);
             toast.success(response.data.message)
         } 
         catch (error:any) {
@@ -79,18 +93,13 @@ const EmailSmsVerification = () => {
     }
 
     const handleSmsResend = async() =>{
-        if (disabled) {
-          toast.error('Please wait for 60 seconds before trying again');
-          return;
-        }
+        setDisabledState();
         try {
             const response = await axios.put('https://p2p-qrjp.onrender.com/api/v1/users/resendotp', {
             oldOtp,
             resendEmailOTP:false,
             resendSmsOTP:true
             })
-            setDisabledState();
-            setTimeout(() => setDisabled(false), 6000);
             toast.success(response.data.message)
         } 
         catch (error:any) {
@@ -114,8 +123,17 @@ const EmailSmsVerification = () => {
             <div className="heading">Email & SMS Verification</div>
             <div className="form-contents">
               <form onSubmit={handleSubmit}>
-                <OTP label="Email OTP" value={formData.emailOTP} onChange={handleInputChange} aria='emailOTP' onClick={handleEmailResend}/>
-                <OTP label="SMS OTP" value={formData.smsOTP} onChange={handleInputChange} aria='smsOTP' onClick={handleSmsResend}/>
+                  <>
+                    <OTP label="Email OTP" value={formData.emailOTP} onChange={handleInputChange} aria='emailOTP'/>
+                    <OTP label="SMS OTP" value={formData.smsOTP} onChange={handleInputChange} aria='smsOTP'/>
+                  </>
+                  {!disabled && (
+                    <div className="resend">
+                      <button className="resend-email" onClick={handleEmailResend}>Resend Email</button>
+                      <button className="resend-sms" onClick={handleSmsResend}>Resend SMS</button>
+                    </div>       
+                  )}
+                {disabled && (<p>{timeLeft} seconds remaining until you can resend</p>)}
                 <div className="continue-button">
                     <button className='submit' type="submit">
                   <Button text="Finish" color="green" type="normal2" />

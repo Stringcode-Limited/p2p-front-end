@@ -50,6 +50,29 @@
     text-decoration: none;
 }
 
+.resend {
+    display: flex;
+    margin-top: 15px;
+    gap: 5px;
+    justify-content: between;
+}
+
+.resend-email {
+    border: 1px solid green;
+    color: green;
+    background-color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.resend-sms {
+    border: 1px solid green;
+    color: green;
+    background-color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
 @media screen and (max-width:390px){
     .back{
         display: block;
