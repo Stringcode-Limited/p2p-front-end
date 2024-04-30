@@ -228,7 +228,8 @@ function HomePage() {
             </div>
             <div className="address">
               <input type="text" placeholder="Enter your email" />
-              <Button text="Subscribe" type="small2" />
+              <div className="btn-sub"><Button text="Subscribe" type="small2" /></div>
+              <div className="btn-sub2"><button className="subscribe2">Subscrib</button></div>
             </div>
           </div>
         </div>

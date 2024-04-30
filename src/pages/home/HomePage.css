@@ -404,6 +404,9 @@
     justify-content: center;
     
 }
+.newsletter .subscription .news-text .address .subscribe2{
+    display: none;
+}
 .newsletter .norm{
     width: 143px;
     height: 56px;
@@ -1610,14 +1613,28 @@
 }
 .newsletter .subscription{
     width: 100%;
-    height: 263px;
+    height: 340px;
     top: 2763px;
     background-color: #F0EDED;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -100px;
     
 }
+.newsletter input[type="text"]{
+    width: 360px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.btn-sub{
+    display: none;
+}
+
+
 .newsletter .subscription .news-text{
     width: 360px;
     display: flex;
@@ -1625,31 +1642,102 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    
 }
 .newsletter .subscription .news-text .address{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
 }
-.newsletter .subscription .news-text .small-cont .scribe2{
-    font-size: 28px;
+.newsletter .subscription .news-text .address  .subscribe2{
     font-weight: 400;
     font-family: "Gilroy-Bold";
-    font-size: 28px;
-    line-height: 36px;
-    border: 1px solid red;
-    width: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    color: #FFFFFF;
+    width: 204px;
+    height:52px;
+    border-radius: 30px;
+    background-color: #00A542;
     display: block;
+    
 }
+
 .newsletter .subscription .news-text .small-cont .scribe{
     display: none;
 }
+.newsletter .subscription .news-text .small-cont .scribe2{
+    display: block;
+}
 .newsletter .subscription .news-text .small-cont .deals{
-    border: 1px solid pink;
     width: 370px;
 }
+ .p2p-footer .layout{
+    width: 360px;
+    height: 540px;
+    top: 64px;
+    left: 15px;
+    gap: 34px;
+    display: flex;
+    border: 1px solid rgb(27, 22, 22);
+}
 
+.footer .p2p-footer{
+    width: 100%;
+    top: 3026px;
+    left: 1px;
+    display: flex;
+    border: 1px solid green;
+    
+}
+.footer .p2p-footer .layout .social{
+    display: flex;
+    border: 1px solid greenyellow;
+    width: 121px;
+    height: 421px;
+    flex-direction: column;
+    gap: 48px;
+}
+.footer .p2p-footer .layout .social .social-1 .social-text h4{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Gilroy-Bold";
+}
+.footer .p2p-footer .layout .social .social-2 .footer-link-1 h4{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Gilroy-Bold";
+}
+.footer .p2p-footer .layout .social .social-3 .footer-link-1 h4{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Gilroy-Bold";
+}
+.footer .p2p-footer .layout .social .social-4 .footer-link-1 h4{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Gilroy-Bold";
+}
+.footer .p2p-footer .layout .social .social-3 .link ul li{
+    font-size: 15px;
+    font-style: none;
+    font-family: "Gilroy-Medium";
+    
+}
+.footer .p2p-footer .layout .social .social-2 .link ul li{
+    font-size: 15px;
+    font-style: none;
+    font-family: "Gilroy-Medium";
+    
+}
 
 
 
