@@ -145,8 +145,8 @@ function HomePage() {
                 </div>
                 <p className="p2">P2Papp is your premier destination for peer-to-peer connections and transactions. Our platform
                 empowers individuals to connect and trade in a secure and transparent environment.</p>
-                <p className="p2-responsive">P2Papp is your premier destination for peer-to -peer connections and transactions. Our platform<br></br>
-                empowers individuals to connect and<br></br> trade in a secure and transparent environment.</p>
+                <p className="p2-responsive">P2Papp is your premier destination for peer-<br></br>to -peer connections and transactions.<br></br> Our platform
+                empowers individuals to connect and trade in a secure and transparent environment.</p>
                </div>
                <div className="duty">
                 <div className="about-caption">
@@ -154,7 +154,7 @@ function HomePage() {
                 </div>
                 <p className="p2">We connect individuals to exchange crypto and fiat seamlessly. Join us in revolutionalizing the way people<br></br>
                 trade, share, and grow together.</p>
-                <p className="p2-responsive">We connect individuals to exchange crypto <br></br>and fiat seamlessly. Join us in revolutionalizing<br></br> the way people
+                <p className="p2-responsive2">We connect individuals to exchange crypto <br></br>and fiat seamlessly. Join us in revolutionalizing<br></br> the way people
                 trade, share, and grow together.</p>
                </div>
             </div>
@@ -183,25 +183,25 @@ function HomePage() {
                  <span>24/7 Support</span>
               </div>
               <div className="secur">
-                <img src={secure} alt="" /><br></br>
+                <img className="headphn"  src={secure} alt="" /><br></br>
                 <span>Secure Transactions</span>
               </div>
               <div className="trust">
-                <img src={trust} alt="" /><br></br>
+                <img className="headphn" src={trust} alt="" /><br></br>
                 <span>Trust & tansparency</span>
               </div>
               </div>
               <div className="element-wrap3">
               <div className="support">
-                 <img src={faster} alt="" /><br></br>
+                 <img className="headphn" src={faster} alt="" /><br></br>
                  <span>Faster speed</span>
               </div>
               <div className="secur">
-                <img src={personal} alt="" /><br></br>
+                <img className="headphn" src={personal} alt="" /><br></br>
                 <span>Personalization</span>
               </div>
               <div className="trust">
-                <img src={reachout} alt="" /><br></br>
+                <img className="headphn" src={reachout} alt="" /><br></br>
                 <span>Expanded reach</span>
               </div>
               </div>
@@ -223,6 +223,7 @@ function HomePage() {
           <div className="news-text">
             <div className="small-cont">
             <h1 className="scribe">Subscribe to our Newsletter today</h1>
+            <h1 className="scribe2">Subscribe to our Newsletter</h1>
             <p className="deals">We will send news about the best deals and offers to your email</p>
             </div>
             <div className="address">
