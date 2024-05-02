@@ -1762,7 +1762,6 @@
         justify-content: center;
         align-items: center;
         justify-content: center;
-        border: 1px solid green;
 
         
     }
@@ -1810,17 +1809,12 @@
         justify-content: center;
         height: 700px;
         width: 100%;
-        flex-direction: column-reverse;
-        
-    
-        
-        
-        
+        flex-direction: column-reverse;  
     }
     
     
     .hero-section .hero1{
-        width: 400px;
+        width: 280px;
         height: 300px;
         top: 67px;
         display: flex;
@@ -1835,13 +1829,12 @@
         width: 280px;
         height: 400px;
         justify-content: center;
-        border: 1px solid red;
         display: flex;
         
     
     }
     .hero-section .hero-wrapper .hero2 .iphone{
-        width: 370px;
+        width: 280px;
         height: 465.88px;
     }
     .hero-section .hero-name{
@@ -1857,12 +1850,13 @@
     }
     .hero-section .wrapper-hero1{
         height: 180px;
-        width: 358px;
+        width: 280px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         text-align: center;
+        
         
     }
     .hero-section .seamless-text{
@@ -1892,6 +1886,8 @@
             align-items: center;
             justify-content: center;
             padding: 50px;
+            width: 280px;
+    
             
             
         
@@ -1956,7 +1952,6 @@
         justify-content: center;
         width: 280px;
         gap: 16px;
-        border: 1px solid  red;
         
     }
     .approved .sub-approved  .logos-responsive .bank .cbn{
@@ -1992,7 +1987,6 @@
     height: 40px;
    }
     .approved .sub-approved .rap1 .we-are-approved{
-        border: 1px solid green;
         width: 250px;
         display: flex;
         text-align: center;
@@ -2031,7 +2025,6 @@
  }
  .approved .sub-approved .rap1{
     display: block;
-    border: 1px solid rgb(119, 0, 255);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2068,7 +2061,6 @@
 .about .content{
     width: 280px;
     height: 323px;
-    border: 1px solid crimson;
 }
 .about-us .inner-us .us .text-us .p2{
     display: none;
@@ -2081,7 +2073,6 @@
     gap: 40px;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
 }
 
 .about-us .inner-us .us .text-us  .p-responsive{
@@ -2120,10 +2111,6 @@
     justify-content: space-around;
     flex-direction: column;
     margin-top: 150px;
-    border: 1px solid orange;
-    
-    
-    
     
 }
 .content{
@@ -2162,7 +2149,6 @@
     
 }
 .about-us .us{
-    border: 1px solid greenyellow;
     width: 270px;
     height: 400px;
     display: flex;
@@ -2171,11 +2157,11 @@
     margin-top: -100px;
 }
 .why-us2 .element1 .phn{
-    width: 428px;
+    width: 280px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 400px;
+    margin-top: 200px;
 }
 .why-us .why-us2{
     width: 100%;
@@ -2184,10 +2170,6 @@
     align-items: center;
     justify-content: center;
     margin-top: 100px;
-    border: 1px solid chocolate;
-
-    
-    
 
 }
 .why-us2 .element1 .element2 .sub-wrap .element-wrap2 .element-wrap3{
@@ -2195,7 +2177,6 @@
     flex-direction: column;
     gap: 20px;
     height: 280px;
-    border: 1px solid black;
     padding: 5px;
     
     
@@ -2226,7 +2207,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 1px solid red;
     
 }
 .why-us2 .element1 .element2 .element-wrap1 .wy{
@@ -2243,7 +2223,7 @@
 }
 
 .why-us2 .element1  .element2{
-    width: 400px;
+    width: 280px;
     height: 500px;
     gap: 2px;
     display: flex;
@@ -2261,7 +2241,7 @@
     justify-content: center;
     flex-direction: column-reverse;
     gap: 100px;
-    margin-top: -100px;
+    margin-top: -200px;
     padding-bottom: 200px;
 }
 
@@ -2311,7 +2291,6 @@
     margin-top: 10px;
     align-items: center;
     justify-content: center;
-    border: 1px solid lawngreen;
     
 
 }
@@ -2324,8 +2303,8 @@
     content: '';
     position: absolute;
     background-color: black;
-    left: 150%;
-    width: 500px;
+    left: 120%;
+    width: 260px;
     height: 1px;
     transform: translateX(-50%);
     bottom: -20px;
@@ -2348,7 +2327,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
     width: 280px;
 }
 
@@ -2418,7 +2396,7 @@
     
 }
 .newsletter input[type="text"]{
-    width: 360px;
+    width: 280px;
     height: 56px;
     display: flex;
     align-items: center;
@@ -2446,8 +2424,11 @@
     flex-direction: column;
     gap: 15px;
     margin-top: 20px;
-    width: 500px;
+    width: 280px;
     height: 200px;
+}
+.subscription .news-text .small-cont{
+    width: 280px;
 }
 .newsletter .subscription .news-text .address  .subscribe2{
     font-weight: 400;
@@ -2469,9 +2450,10 @@
 }
 .newsletter .subscription .news-text .small-cont .scribe2{
     display: block;
+
 }
 .newsletter .subscription .news-text .small-cont .deals{
-    width: 370px;
+    width: 280px;
 }
  .footer .p2p-footer .layout{
     width: 360px;
