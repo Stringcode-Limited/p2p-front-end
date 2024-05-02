@@ -1525,18 +1525,18 @@
 
 .social{
     position: relative;
-     margin: 0;
      padding-bottom: 50px;
 }
 .social::after{
     content: '';
     position: absolute;
     background-color: black;
-    left: 50%;
-    width: 900px;
+    left: 150%;
+    width: 500px;
     height: 1px;
-    bottom: 0;
     transform: translateX(-50%);
+    bottom: -20px;
+    
 }
 .footer .p2p-footer{
     width: 100%;
@@ -1651,6 +1651,8 @@
     flex-direction: column;
     gap: 15px;
     margin-top: 20px;
+    width: 500px;
+    height: 200px;
 }
 .newsletter .subscription .news-text .address  .subscribe2{
     font-weight: 400;
@@ -1676,14 +1678,15 @@
 .newsletter .subscription .news-text .small-cont .deals{
     width: 370px;
 }
- .p2p-footer .layout{
+ .footer .p2p-footer .layout{
     width: 360px;
     height: 540px;
     top: 64px;
     left: 15px;
     gap: 34px;
     display: flex;
-    border: 1px solid rgb(27, 22, 22);
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .footer .p2p-footer{
@@ -1691,16 +1694,16 @@
     top: 3026px;
     left: 1px;
     display: flex;
-    border: 1px solid green;
     
 }
 .footer .p2p-footer .layout .social{
     display: flex;
-    border: 1px solid greenyellow;
     width: 121px;
-    height: 421px;
+    height: 420px;
     flex-direction: column;
-    gap: 48px;
+    gap: 20px;
+
+    
 }
 .footer .p2p-footer .layout .social .social-1 .social-text h4{
     font-size: 16px;
@@ -1737,6 +1740,12 @@
     font-style: none;
     font-family: "Gilroy-Medium";
     
+}
+.footer .end-footer{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+
 }
 
 
