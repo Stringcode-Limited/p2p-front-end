@@ -1748,6 +1748,806 @@
 
 }
 
+}
 
+
+
+@media screen and (max-width:280px){
+    .hero-section{
+        width: 80%;
+        height: 1000px;
+        top: 69px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid green;
+
+        
+    }
+    span{
+     text-indent: 20%;
+    
+    }
+    .hero-section .hero-wrapper .hero1 .wrapper-hero1 .hero-responsive{
+        display: block;
+        font-size: 40px;
+        font-weight: 400px;
+        font-family: "Gilroy-Bold";
+        line-height: 30px;
+        color: #111010;
+        display: none;
+        width: 400px;
+        
+    }
+    .hero-section .hero-wrapper .hero1 .wrapper-hero1 .seamless-text .seamless-responsive{
+        display: block;
+        font-size: 15px;
+        line-height: 24px;
+        font-family: "Gilroy-Regular";
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        text-align: center;
+
+    }
+    .hero-section .hero-wrapper .hero1 .wrapper-hero1 .p2p-responsive{
+        display: block;
+        font-size: 39px;
+        font-weight: 400px;
+        font-family: "Gilroy-Bold";
+        line-height: 30px;
+        color: #111010;
+        width: 200px;
+        display: none;
+        
+
+    
+    }
+    .hero-section .hero-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 700px;
+        width: 100%;
+        flex-direction: column-reverse;
+        
+    
+        
+        
+        
+    }
+    
+    
+    .hero-section .hero1{
+        width: 400px;
+        height: 300px;
+        top: 67px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        
+    
+    }
+    .hero-section .hero-wrapper  .hero2{
+        align-items: center;
+        width: 280px;
+        height: 400px;
+        justify-content: center;
+        border: 1px solid red;
+        display: flex;
+        
+    
+    }
+    .hero-section .hero-wrapper .hero2 .iphone{
+        width: 370px;
+        height: 465.88px;
+    }
+    .hero-section .hero-name{
+        display: block;
+        font-size: 28px;
+        line-height: 36px;
+        font-family: "Gilroy-Bold";
+        width: 280px;
+        
+        
+    
+        
+    }
+    .hero-section .wrapper-hero1{
+        height: 180px;
+        width: 358px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .hero-section .seamless-text{
+        width: 280px;
+        height: 100px;
+        margin-top: 10px;
+        
+    }
+    .hero-section .seamless{
+        display: none;
+    }
+    .approved .sub-approved .rap1 .regulation-text .seamless-responsive{
+        display: block;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "Gilroy-Regular";
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        text-align: center;
+        width: 280px;
+    }
+        
+    .hero-section .hero-wrapper .hero1 .btn2{
+            margin-top: -30px;
+            display: block;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+            
+            
+        
+        }
+        .hero-section .hero-wrapper .hero1 .button2{
+            background-color: #00A542;
+            color: #fff;
+            border: none;
+            height: 40px;
+            width: 250px;
+            border-radius: 50px;
+            
+        }
+        .btnn{
+            display: none;
+        }
+    
+    /* .approved{
+        background-color: #F0EDED;
+        width: 100vw;
+        height: 417px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 801px;
+        margin-top:-70px;
+        border: 0.5px, 0px, 0px, 0px;
+        padding: 40px, 133px, 40px, 13px;
+        gap: 10px;
+        border: 1px solid green;
+    }
+    .approved .sub-approved{
+        width: 1175px;
+        margin-top: 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        
+    
+    } */
+    .approved .aff-responsive{
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        font-family:"Gilroy-Regular" ;
+    }
+    .approved .sub-approved .rap1 .regulation-text .aff{
+        display: none;
+    }
+    .approved .logos{
+        display: none;
+    }
+    .approved .sub-approved  .logos-responsive{
+        display: flex;
+        flex-direction:column;
+        height: 280px;
+        align-items: center;
+        justify-content: center;
+        width: 280px;
+        gap: 16px;
+        border: 1px solid  red;
+        
+    }
+    .approved .sub-approved  .logos-responsive .bank .cbn{
+            width: 40px;
+            height: 40px;
+    }
+    .approved .sub-approved  .logos-responsive .bank .sec{
+        width: 40px;
+        height: 40px;
+    }
+    .approved .sub-approved  .logos-responsive .bank .fintech{
+        width: 70px;
+        height: 40px;
+    }
+    .approved .sub-approved  .logos-responsive .ciso .cis{
+        width: 40px;
+        height: 40px;
+    }
+    .approved .sub-approved  .logos-responsive .ciso .fr{
+        width: 60px;
+        height: 40px;
+   }
+   .approved .sub-approved  .logos-responsive .ciso .fraud{
+    width: 60px;
+    height: 40px;
+   }
+   .approved .sub-approved  .logos-responsive .cii .firs{
+    width: 40px;
+    height: 40px;
+   }
+   .approved .sub-approved  .logos-responsive .cii .ci{
+    width: 40px;
+    height: 40px;
+   }
+    .approved .sub-approved .rap1 .we-are-approved{
+        border: 1px solid green;
+        width: 250px;
+        display: flex;
+        text-align: center;
+    }
+    .approved .logos-responsive .bank{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    
+    }
+    .approved{
+        height: 500px;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .approved .sub-approved{
+    width: 80%;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+.approved .we-are-approved{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.approved .sub-approved .rap1{
+    margin-top: -30px;
+ }
+ .approved .sub-approved .rap1{
+    display: block;
+    border: 1px solid rgb(119, 0, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    margin-top: 50px;
+
+ }
+.approved .due{
+    display: none;
+}
+.approved .due2{
+    display: block;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
 
 }
+.approved .aff-responsive{
+    display: none;
+}
+
+.about-us .inner-us .us .text-us .p2-responsive{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: "Gilroy-Regular";
+    width: 340px;
+    text-align: center;
+    
+
+     
+}
+.about .content{
+    width: 280px;
+    height: 323px;
+    border: 1px solid crimson;
+}
+.about-us .inner-us .us .text-us .p2{
+    display: none;
+
+     
+}
+.about-us .inner-us .us .text-us{
+    width: 280px;
+    height: 260px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+.about-us .inner-us .us .text-us  .p-responsive{
+    display: block;
+}
+
+.about-us .inner-us .us .text-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us .us .duty .p2{
+    display: none;
+}
+.about .p-responsive{
+    display: block;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.about-us .inner-us .content .laptop{
+    width: 200px;
+    height: 100px;
+    left: 52.05px;
+    Radius: 12.23px, 12.23px, 0px;
+
+}
+.about .inner-us{
+    width: 100%;
+    height: 780px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 150px;
+    border: 1px solid orange;
+    
+    
+    
+    
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10px;
+}
+
+
+.about-us .inner-us .us .duty .p2{
+    display: none;
+}
+.about-us .inner-us .us .text-us .p2-responsive{
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: "Gilroy-Regular";
+    width: 280px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.about-us .inner-us .us .duty .p2-responsive2{
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: "Gilroy-Regular";
+    width: 280px;
+    text-align: center;
+    
+}
+.about-us .us{
+    border: 1px solid greenyellow;
+    width: 270px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -100px;
+}
+.why-us2 .element1 .phn{
+    width: 428px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 400px;
+}
+.why-us .why-us2{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    border: 1px solid chocolate;
+
+    
+    
+
+}
+.why-us2 .element1 .element2 .sub-wrap .element-wrap2 .element-wrap3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 280px;
+    border: 1px solid black;
+    padding: 5px;
+    
+    
+}
+.why-us2 .element1 .element2 .sub-wrap .element-wrap2 .element-wrap3 span{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Gilroy-Bold";
+    font-weight: 400;
+    line-height: 24px;
+
+}
+.why-us2 .element1 .phn .ph{
+    width: 220px;
+    height: 240px;
+    margin-top: -100px;
+    
+    
+}
+
+
+.why-us2 .element1 .element2 .element-wrap1{
+    width: 280px;
+    height: 260px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid red;
+    
+}
+.why-us2 .element1 .element2 .element-wrap1 .wy{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Gilroy-Bold";
+    color: #111010;
+    display: block;
+    
+    
+}
+.why-us2 .element1 .element2 .element-wrap1 .we-stand{
+    display: none;
+}
+
+.why-us2 .element1  .element2{
+    width: 400px;
+    height: 500px;
+    gap: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+    
+}
+.why-us .element1{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 100px;
+    margin-top: -100px;
+    padding-bottom: 200px;
+}
+
+.why{
+    display: none;
+}
+.why-us2 .element1 .element2 .element-wrap1 .why-why{
+    display: block;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.why-us .why-why{
+    font-size: 20px;
+    font-family: "Gilroy-Medium";
+    line-height: 42px;
+    font-weight: 400;
+    color: #1D1B20;
+    
+}
+.why-us2 .element1 .element2 .sub-wrap .element-wrap2 .element-wrap3 .support .headphn{
+    width: 25px;
+    height: 25px;
+}
+.why-us2 .element1 .element2 .sub-wrap .element-wrap2 .element-wrap3 .secur .headphn{
+    width: 25px;
+    height: 25px;
+}
+.why-us2 .element1 .element2 .sub-wrap .element-wrap2 .element-wrap3 .trust .headphn{
+    width: 25px;
+    height: 25px;
+}
+.why-us .sub-wrap{
+    display: flex;
+    width: 280px;
+    height: 320px;
+    margin-top: -20px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.why-us2 .element1 .element2 .element-wrap2{
+    display: flex;
+    height: 300px;
+    width: 280px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lawngreen;
+    
+
+}
+
+.social{
+    position: relative;
+     padding-bottom: 50px;
+}
+.social::after{
+    content: '';
+    position: absolute;
+    background-color: black;
+    left: 150%;
+    width: 500px;
+    height: 1px;
+    transform: translateX(-50%);
+    bottom: -20px;
+    
+}
+.footer .p2p-footer{
+    width: 100%;
+    height: 564px;
+    top: 3026px;
+    left: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.about-us .inner-us .us .duty{
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    width: 280px;
+}
+
+.about-caption{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-section .hero2{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 465px;
+    justify-content: center;
+
+}
+.hero-section{
+    width: 100%;
+    height: 732px;
+    top: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hero-section .hero-wrapper{
+    display: flex;    
+}
+.hero-section .iphone{
+    width: 500px;
+    height: 400px;
+}
+.about-us .us .text-us{
+    width: 500px;
+    height: 260px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.approved .due{
+    text-align: center;
+    font-size: 26px;
+    
+}
+.cii{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: -20px;
+   gap: 20px;
+}
+.ciso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.newsletter .subscription{
+    width: 100%;
+    height: 340px;
+    top: 2763px;
+    background-color: #F0EDED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+    
+}
+.newsletter input[type="text"]{
+    width: 360px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.btn-sub{
+    display: none;
+}
+
+
+.newsletter .subscription .news-text{
+    width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.newsletter .subscription .news-text .address{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    width: 500px;
+    height: 200px;
+}
+.newsletter .subscription .news-text .address  .subscribe2{
+    font-weight: 400;
+    font-family: "Gilroy-Bold";
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    color: #FFFFFF;
+    width: 204px;
+    height:52px;
+    border-radius: 30px;
+    background-color: #00A542;
+    display: block;
+    
+}
+
+.newsletter .subscription .news-text .small-cont .scribe{
+    display: none;
+}
+.newsletter .subscription .news-text .small-cont .scribe2{
+    display: block;
+}
+.newsletter .subscription .news-text .small-cont .deals{
+    width: 370px;
+}
+ .footer .p2p-footer .layout{
+    width: 360px;
+    height: 540px;
+    top: 64px;
+    left: 15px;
+    gap: 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer .p2p-footer{
+    width: 100%;
+    top: 3026px;
+    left: 1px;
+    display: flex;
+    
+}
+.footer .p2p-footer .layout .social{
+    display: flex;
+    width: 121px;
+    height: 420px;
+    flex-direction: column;
+    gap: 20px;
+
+    
+}
+.footer .p2p-footer .layout .social .social-1 .social-text h4{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Gilroy-Bold";
+}
+.footer .p2p-footer .layout .social .social-2 .footer-link-1 h4{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Gilroy-Bold";
+}
+.footer .p2p-footer .layout .social .social-3 .footer-link-1 h4{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Gilroy-Bold";
+}
+.footer .p2p-footer .layout .social .social-4 .footer-link-1 h4{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Gilroy-Bold";
+}
+.footer .p2p-footer .layout .social .social-3 .link ul li{
+    font-size: 15px;
+    font-style: none;
+    font-family: "Gilroy-Medium";
+    
+}
+.footer .p2p-footer .layout .social .social-2 .link ul li{
+    font-size: 15px;
+    font-style: none;
+    font-family: "Gilroy-Medium";
+    
+}
+.footer .end-footer{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+
+}
+
+}
+
+
+
+
+
+
+
