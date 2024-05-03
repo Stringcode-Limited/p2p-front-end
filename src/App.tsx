@@ -29,6 +29,7 @@ import TransactiondetailPage from './pages/app/app-wallet-page/Transactiondetail
 import OrderBodyPage from "./pages/app/app-home-page/OrderCreated/OrderBodypage/OrderBodyPage";
 import FundPage from "./pages/app/app-wallet-page/Fund/FundPage/FundPage";
 import BuyUsdtPage from "./pages/app/app-home-page/BuyUsdt/BuyusdtPage/BuyUsdtPage";
+import TermsandRules from "./pages/home/termsandRules/TermsandRules";
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
           <Route path="/signup" element={<Signup/>} />
           <Route path="/verification" element={<EmailSmsVerification/>}/>
           <Route path="/setup" element={<Setup/>}/>
+          <Route path="/termsandRules" element={<TermsandRules/>}/>
         </Route>
         <Route path="/app" element={<AppRouteWrapper />}>
           <Route index element={<AppHomePage />} />
