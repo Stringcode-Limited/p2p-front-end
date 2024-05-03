@@ -506,6 +506,9 @@
     display: flex;
     gap: 134px;
 }
+.end-footer2{
+    display: none;
+}
 .social{
     position: relative;
      margin: 0;
@@ -1537,10 +1540,10 @@
     position: absolute;
     background-color: black;
     left: 150%;
-    width: 500px;
+    width: 400px;
     height: 1px;
     transform: translateX(-50%);
-    bottom: -20px;
+    bottom: -30px;
     
 }
 .footer .p2p-footer{
@@ -1696,10 +1699,10 @@
 
 .footer .p2p-footer{
     width: 100%;
+    height: 500px;
     top: 3026px;
     left: 1px;
     display: flex;
-    
 }
 .footer .p2p-footer .layout .social{
     display: flex;
@@ -1747,10 +1750,32 @@
     
 }
 .footer .end-footer{
-    display: flex;
-    align-items:center ;
-    justify-content: center;
+    display: none;
+    
 
+}
+.footer .cookies{
+    font-size: 10px;
+}
+ .end-footer2 .p2app .wrap-cookies  .copy{
+    font-size: 12px;
+    font-family: "Gilroy-Medium";
+}
+.end-footer2 .p2app .wrap-cookies .cooky .cookies{
+    font-size: 15px;
+    font-family: "Gilroy-Medium";
+}
+.end-footer2 .p2app .wrap-cookies{
+    gap: 10px;
+}
+.end-footer2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.end-footer2 .wrap-cookies{
+    display: flex;
 }
 
 }
@@ -2527,6 +2552,7 @@
     display: flex;
     align-items:center ;
     justify-content: center;
+    
 
 }
 
