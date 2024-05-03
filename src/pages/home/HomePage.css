@@ -1262,17 +1262,22 @@
     justify-content: center;
     height: 500px;
 }
-.approved .we-are-approved{
+.approved .sub-approved .rap1 .we-are-approved{
+    width: 320px;
+    
+} 
+.approved .sub-approved .rap1 .regulation-text{
+    width: 350px;
+}
+.approved .sub-approved .rap1{
+    margin-top: -30px;
+    width: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
-} 
-.approved .sub-approved .rap1{
-    margin-top: -30px;
+    flex-direction: column;
  }
- .approved .sub-approved .rap1{
-    display: block
- }
+ 
 .approved .due{
     display: none;
 }
