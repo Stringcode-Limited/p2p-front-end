@@ -109,6 +109,15 @@
     gap: 8px;
 }
 
+.waitingPaymentBody .center .box5 .HelpOpen{
+    display: flex;
+    gap:12px;
+}
+
+.waitingPaymentBody .center .box5 .HelpOpen .open{
+    display: none;
+}
+
 @media screen and (max-width:390px){
     .waitingPaymentBody{
     width: 100vw;
@@ -143,9 +152,12 @@
     .smallWidth{
         width: 90vw;
     }
+    .waitingPaymentBody .center .box5 .HelpOpen .open{
+        display: block;
+    }
 }
 
-@media only screen and (min-width:391px) and (max-width:910px) {
+@media only screen and (min-width:391px) and (max-width:912px) {
     .waitingPaymentBody{
         width: 100vw;
         border-right: none;
@@ -179,5 +191,16 @@
         .smallWidth{
             width: 90vw;
         }
+        .waitingPaymentBody .center .box5 .HelpOpen .open{
+            display: block;
+        }
 
+    }
+
+
+    @media only screen and (min-width:1024px) and (max-width: 1200px){
+        .waitingPaymentBody .top {
+            padding-right: 20%;
+        }
+    
     }
