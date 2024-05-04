@@ -39,3 +39,15 @@
     color: #343434;
     font-family: 'Gilroy-Medium', sans-serif;
 }
+
+@media screen and (max-width:390px){
+    .paymentCard{
+        width: 90vw;
+    }
+}
+
+@media only screen and (min-width:391px) and (max-width:910px) {
+    .paymentCard {
+        width: 90vw;
+    }
+}

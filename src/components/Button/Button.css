@@ -101,7 +101,7 @@ a{
 Provide Feedback, Transfer, Confirm, View Details, Share, Payment Received, Help*/
 .large2{
     border-radius: 5px;
-    width: 511px;
+    width: 93%;
     height: 38px;
 }
 .large3{
@@ -115,13 +115,21 @@ Provide Feedback, Transfer, Confirm, View Details, Share, Payment Received, Help
         width: 200px;
         
     }
+    .large3{
+        width: 200px;
+    }
 }
+
 
 
 @media only screen and (min-width:281px) and (max-width: 390px){
     .mini{
         width: 300px;
         
+    }
+
+    .large3{
+        width: 300px;
     }
 }
 
@@ -131,7 +139,13 @@ Provide Feedback, Transfer, Confirm, View Details, Share, Payment Received, Help
         width: 340px;
         
     }
+   
+    .large3{
+        width: 380px;
 }
+}
+
+
 
 @media screen and (max-width:540px) {
     .normal2{
