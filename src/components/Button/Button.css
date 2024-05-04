@@ -101,13 +101,19 @@ a{
 Provide Feedback, Transfer, Confirm, View Details, Share, Payment Received, Help*/
 .large2{
     border-radius: 5px;
-    width: 511px;
+    width: 93%;
     height: 38px;
 }
 .large3{
     border-radius: 5px;
-    width: 555px;
+    /* width: 555px; */
     height: 38px; 
+    width: 35vw;
+}
+.large4{
+    width: 35vw;
+    height: 38px; 
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 280px){
@@ -115,7 +121,12 @@ Provide Feedback, Transfer, Confirm, View Details, Share, Payment Received, Help
         width: 200px;
         
     }
+    .large3{
+       width: 90vw; 
+    }
+    
 }
+
 
 
 @media only screen and (min-width:281px) and (max-width: 390px){
@@ -123,15 +134,42 @@ Provide Feedback, Transfer, Confirm, View Details, Share, Payment Received, Help
         width: 300px;
         
     }
+    .large3{
+       width: 93vw; 
+    }
+    .large4{
+        width: 45vw;
+    }
 }
 
+@media only screen and (min-width:391px) and (max-width: 800px){
+    .large3{
+        width: 93vw; 
+     }
+     .large4{
+        width: 45vw;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 912px){
+    .large3{
+        width: 90vw; 
+     }
+     .large4{
+        width: 44vw;
+    }
+}
 
 @media only screen and (min-width:391px) and (max-width: 912px){
     .mini{
         width: 340px;
         
     }
+    
 }
+
+
+
+
 
 @media screen and (max-width:540px) {
     .normal2{
