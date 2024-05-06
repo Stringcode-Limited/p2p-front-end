@@ -1,7 +1,7 @@
 
 .terms-rules{
    width: 100%; 
-   height: 1928px;
+   height: 1000px;
    
 
    
@@ -14,7 +14,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* gap: ; */
 }
 .terms-rules .terms-rules-container .terms-rules-inner-container{
     width: 1177px;
@@ -25,11 +24,19 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 3px;
 }
 .terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-text{
-    width: 352px;
+    width: 375px;
     height: 75px;
     text-align: center;
+
+}
+.terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-text h1{
+    font-size: 56px;
+    font-family: "Gilroy-Bold";
+    
+
 }
 .terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-condition-statements{
    width: 1177px;
@@ -79,23 +86,20 @@
 .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-2 .link ul li{
     list-style: none;
     font-size: 20px;
-    font-style: none;
-    font-family: "Gilroy-Medium";
     line-height: 35px;
+    font-family: "Gilroy-Medium";
 }
 .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-3 .link ul li{
     list-style: none;
     font-size: 20px;
-    font-style: none;
-    font-family: "Gilroy-Medium";
     line-height: 35px;
+    font-family: "Gilroy-Medium";
 }
 
 .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-4 .link ul li{
     list-style: none;
     font-size: 20px;
     font-style: none;
-    font-family: "Gilroy-Medium";
     line-height: 35px;
 }
 .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social{
@@ -139,61 +143,24 @@
     width: 1177px;
 }
 
-.footer .p2p-footer .layout .social .social-3 .link ul li{
-    font-size: 20px;
-    font-style: none;
-    font-family: "Gilroy-Medium";
-    
-}
-
-.footer ul{
-    display: flex;
-    gap: 16px;
-    flex-direction: column;
-}
-
-
-.footer h5{
-    font-size: 10px;
-}
-.footer .cookies{
-    font-size: 10px;
-}
-.footer .p2p-footer .layout .end-footer .p2app .wrap-cookies .copy{
-    font-size: 15px;
-    font-family: "Gilroy-Medium";
-}
-.footer .p2p-footer .layout .end-footer .p2app .wrap-cookies  .cooky .cookies{
-    font-size: 15px;
-    font-family: "Gilroy-Medium";
-}
-.footer .wrap-cookies{
-    display: flex;
-    gap: 24px;
-    
-}
 .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-1 .social-text h4{
     font-size: 18px;
     font-weight: 400;
-    font-family: "Gilroy-Bold";
     line-height: 24px;
 }
 .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-2 .footer-link-1 h4{
     font-size: 18px;
     font-weight: 400;
-    font-family: "Gilroy-Bold";
     line-height: 24px;
 }
 .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-3 .footer-link-1 h4{
     font-size: 18px;
     font-weight: 400;
-    font-family: "Gilroy-Bold";
     line-height: 24px;
 }
 .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-4 .footer-link-1 h4{
     font-size: 18px;
     font-weight: 400;
-    font-family: "Gilroy-Bold";
     line-height: 24px;
 
 }
@@ -213,14 +180,12 @@
 }
 .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .end-footer .wrap-cookies .cooky .cookies{
     font-size: 10px;
-    font-family: "Gilroy-Regular";
     font-weight: 400;
 
   
 }
 .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .end-footer .wrap-cookies .copy{
     font-size: 10px;
-    font-family: "Gilroy-Regular";
     font-weight: 400;
 
   

@@ -31,7 +31,7 @@ function TermsandRules() {
                     <p className='terms'> Maecenas eu ultrices ligula. Curabitur sit amet diam porta, pellentesque lacus et, interdum tellus. Nulla accumsan dolor sit amet lacinia euismod. Nullam malesuada luctus ultrices. Praesent pretium nisl tellus, non malesuada lorem accumsan sit amet. Nulla ut viverra magna. Nullam consectetur blandit lectus at suscipit.</p>
                     </div>
                 </div>
-                <div className="back-button"><button className='btn-back'>Backs</button></div>
+                <div className="back-button"><button className='btn-back'>Back</button></div>
             </div>
             <div className="social-media-container">
             <div className="p2p-footer">
