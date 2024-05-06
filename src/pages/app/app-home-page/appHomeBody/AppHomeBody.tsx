@@ -8,6 +8,7 @@ import filter from "../../../../assets/images/filter.svg";
 import bell from "../../../../assets/images/bell.svg";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import cookie from "js-cookie"
 
 const AppHomeBody = () => {
 
@@ -16,7 +17,7 @@ const [buyList, setBuyList] = useState([])
 useEffect(() => {
     const fetchBuyList = async() => {
       try {
-        const response = await axios.get('https://p2p-qrjp.onrender.com/api/v1/buyList', { headers: { Authorization: `Bearer ${"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGQxZjA4MDQ3ZmY1Y2IwZDNkMWM4NCIsImlhdCI6MTcxNDYzNzk0OSwiZXhwIjoxNzE0NzI0MzQ5fQ.kKriE-sv4gJoPLu_IRGlMHhAq8Zet5kTQ-wAoAaMsCc"}` } });
+        const response = await axios.get('https://p2p-qrjp.onrender.com/api/v1/buyList', { headers: { Authorization: `Bearer ${cookie.get("token")}` } });
         console.log(response)
         setBuyList(response.data.data)
       } 

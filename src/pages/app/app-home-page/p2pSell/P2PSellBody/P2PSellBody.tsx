@@ -8,6 +8,7 @@ import JohnDoe from '../../../../../assets/images/JohnDoe.png';
 import KemiFemi from '../../../../../assets/images/KemiFemi.png'
 import { useEffect, useState } from "react";
 import axios from "axios";
+import cookie from "js-cookie"
 
 function P2PSellBody() {
 
@@ -16,7 +17,7 @@ function P2PSellBody() {
   useEffect(() => {
       const fetchSellList = async() => {
         try {
-          const response = await axios.get('https://p2p-qrjp.onrender.com/api/v1/sellList', { headers: { Authorization: `Bearer ${"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGQxZjA4MDQ3ZmY1Y2IwZDNkMWM4NCIsImlhdCI6MTcxNDYzNzk0OSwiZXhwIjoxNzE0NzI0MzQ5fQ.kKriE-sv4gJoPLu_IRGlMHhAq8Zet5kTQ-wAoAaMsCc"}` } });
+          const response = await axios.get('https://p2p-qrjp.onrender.com/api/v1/sellList', { headers: { Authorization: `Bearer ${cookie.get("token")}` } });
           console.log(response)
           setSellList(response.data.data)
         } 
