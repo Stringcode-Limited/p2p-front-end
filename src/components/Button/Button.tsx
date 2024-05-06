@@ -4,7 +4,7 @@ import './Button.css'
 interface IButton {
   text: string
   color?: "green" | "red" | "grey" | "white" | "grey2"
-  type?: "mini" | "mini2" | "small" | "small2" | "normal" | "normal2" | "large" | "large2" | "large3"
+  type?: "mini" | "mini2" | "small" | "small2" | "normal" | "normal2" | "large" | "large2" | "large3" | "large5"
   route?: string
   disabled?:boolean
 }
