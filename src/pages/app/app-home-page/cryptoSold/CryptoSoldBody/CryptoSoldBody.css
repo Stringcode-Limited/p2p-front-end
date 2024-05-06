@@ -53,3 +53,17 @@
     align-items: center;
     gap: 8px;
 }
+
+@media screen and (max-width:390px){
+    .cryptoSoldBody {
+        width: 100vw;
+        border-right: none;
+    }
+}
+
+@media only screen and (min-width:391px) and (max-width:910px) {
+    .cryptoSoldBody {
+        width: 100vw;
+        border-right: none;
+    }
+}

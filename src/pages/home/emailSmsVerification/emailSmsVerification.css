@@ -57,20 +57,22 @@
     justify-content: between;
 }
 
-.resend-email {
-    border: 1px solid green;
-    color: green;
-    background-color: white;
-    padding: 5px;
+.label {
+    margin-bottom: 8px;
+}
+
+.resend-text {
+    color: limegreen;
+}
+
+.resend-text:hover {
     cursor: pointer;
 }
 
-.resend-sms {
-    border: 1px solid green;
-    color: green;
-    background-color: white;
-    padding: 5px;
-    cursor: pointer;
+.otp {
+    display: grid;
+    justify-content: start;
+    margin-bottom: 8px;
 }
 
 @media screen and (max-width:390px){

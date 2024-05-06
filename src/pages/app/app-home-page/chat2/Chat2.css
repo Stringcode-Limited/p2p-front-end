@@ -239,3 +239,20 @@
     color: #343434
 
 }
+
+
+@media screen and (max-width:390px){
+    .chat{
+        display: none;
+        width: 0vw;
+    }
+}
+
+@media only screen and (min-width:391px) and (max-width:912px) {
+    .chat{
+        display: none;
+        width: 0vw;
+    }
+
+   
+}

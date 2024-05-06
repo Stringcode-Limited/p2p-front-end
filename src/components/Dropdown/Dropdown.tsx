@@ -1,6 +1,7 @@
 import { FaCaretDown } from "react-icons/fa";
 import { useState, useEffect, useRef } from 'react';
 import './Dropdown.css';
+import { HomePage } from "../../pages";
 
 interface IDropdown{
     title:string
@@ -29,7 +30,7 @@ function Dropdown({title, list, width}:IDropdown) {
       }
     }
 
-    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener('mousedown', handleClickOutside);HomePage
 
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);

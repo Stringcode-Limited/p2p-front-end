@@ -38,34 +38,50 @@ function HomePage() {
     <div>
       
       <div className="hero-section">
+        <div className="hero-wrapper">
         <div className="hero1">
         <div className="wrapper-hero1">
         
         <h2 className="hero-name">Trade anywhere, anytime. P2P at your Fingertips</h2>
+        <p className="hero-responsive">Trade anywhere, anytime.</p>
+        <p className="p2p-responsive"> P2P at your Fingertips</p>
        
          <div className="seamless-text">
-          <p className="seamless">Experience seamless peer-to-peer transactions.<br></br>
+          <p className="seamless">Experience seamless peer-to-peer transactions.
            Connect with ease, trade with confidence. Join P2P platform today!</p>
+           <p className="seamless-responsive">Experience seamless peer-to-peer</p>
+           <p className="seamless-responsive">transactions. Connect with ease, trade with</p>
+           <p className="seamless-responsive">confidence. Join p2p platform today!</p>
+           
          </div>
        </div>
        <div className="btnn"><Button  text="Get Started" type="normal"/></div>
+       <div className="btn2"><button className="button2">Get started</button></div>
        </div>
        <div className="hero2">
         <img className="iphone" src={iphone} alt="" />
        </div>
        
+       </div>
       </div>
       <div className="approved">
         <div className="sub-approved">
           <div className="rap1">
             <div className="we-are-approved">
             <h1 className="due">We are duly approved</h1>
+            <h1 className="due2">We are duly approved</h1>
             </div>
             <div className="regulation-text">
             <p className="aff">Regulated by the Central Bank of Nigeria, licensed by Securities and Exchange Commission of Nigeria.</p>
-          <p className="aff">And affiliated to all necessary bodies in Nigeria and abroad.</p>
+            <p className="aff">And affiliated to all necessary bodies in Nigeria and abroad.</p>
+            <p className="aff-responsive">Regulated by the Central Bank of Nigeria, <br></br>licensed by Securities and Exchange Commission of Nigeria.</p>
+          <p className="aff-responsive">And affiliated to all necessary bodies in Nigeria and abroad.</p>
+          <p className="seamless-responsive">Experience seamless peer-to-peer</p>
+           <p className="seamless-responsive">transactions. Connect with ease, trade with</p>
+           <p className="seamless-responsive">confidence. Join p2p platform today!</p>
             </div>
            </div>
+          
           <div className="logos">
             <div className="bank">
           <img className="cbn" src={cbn} alt="" />
@@ -92,6 +108,27 @@ function HomePage() {
           <img className="ci" src={ci} alt="" />
           </div>
         </div>
+        <div className="logos-responsive">
+            <div className="bank">
+          <img className="cbn" src={cbn} alt="" />
+          <img className="sec" src={sec} alt="" />
+          <img className="fintech" src={fintech} alt="" />
+         
+          </div>
+          
+         
+          <div className="ciso">
+          <img className="cis" src={cis} alt="" />
+          <img className="fr" src={fr} alt="" />
+          <img className="fraud" src={fraud} alt="" />
+          
+          </div>
+          
+          <div className="cii">
+          <img className="firs" src={firs} alt="" />
+          <img className="ci" src={ci} alt="" />
+          </div>
+        </div>
         </div>
        
       </div>
@@ -108,12 +145,16 @@ function HomePage() {
                 </div>
                 <p className="p2">P2Papp is your premier destination for peer-to-peer connections and transactions. Our platform
                 empowers individuals to connect and trade in a secure and transparent environment.</p>
+                <p className="p2-responsive">P2Papp is your premier destination for peer-<br></br>to -peer connections and transactions.<br></br> Our platform
+                empowers individuals to connect and trade in a secure and transparent environment.</p>
                </div>
                <div className="duty">
                 <div className="about-caption">
                 <h1 className="caption">What we do</h1>
                 </div>
-                <p className="p2">We connect individuals to exchange crypto and fiat<br></br> seamlessly. Join us in revolutionalizing the way people<br></br>
+                <p className="p2">We connect individuals to exchange crypto and fiat seamlessly. Join us in revolutionalizing the way people<br></br>
+                trade, share, and grow together.</p>
+                <p className="p2-responsive2">We connect individuals to exchange crypto <br></br>and fiat seamlessly. Join us in revolutionalizing<br></br> the way people
                 trade, share, and grow together.</p>
                </div>
             </div>
@@ -127,8 +168,10 @@ function HomePage() {
             <div className="element-wrap1">
             <h1 className="wy">Why Us?</h1>
             <p className="why">We are deligently committed to providing a conducive platform for traders to seamlessly trade crypto for fiat with real people</p>
+            <p className="why-why">We are deligently committed to providing a conducive platform for traders to seamlessly trade crypto for fiat with real people</p>
             <div className="we-stand">
             <p className="why">We stand out in diverse ways.</p>
+            <p className="why-why">We stand out in diverse ways.</p>
             </div>
             
             </div>
@@ -140,25 +183,25 @@ function HomePage() {
                  <span>24/7 Support</span>
               </div>
               <div className="secur">
-                <img src={secure} alt="" /><br></br>
+                <img className="headphn"  src={secure} alt="" /><br></br>
                 <span>Secure Transactions</span>
               </div>
               <div className="trust">
-                <img src={trust} alt="" /><br></br>
+                <img className="headphn" src={trust} alt="" /><br></br>
                 <span>Trust & tansparency</span>
               </div>
               </div>
               <div className="element-wrap3">
               <div className="support">
-                 <img src={faster} alt="" /><br></br>
+                 <img className="headphn" src={faster} alt="" /><br></br>
                  <span>Faster speed</span>
               </div>
               <div className="secur">
-                <img src={personal} alt="" /><br></br>
+                <img className="headphn" src={personal} alt="" /><br></br>
                 <span>Personalization</span>
               </div>
               <div className="trust">
-                <img src={reachout} alt="" /><br></br>
+                <img className="headphn" src={reachout} alt="" /><br></br>
                 <span>Expanded reach</span>
               </div>
               </div>
@@ -180,11 +223,13 @@ function HomePage() {
           <div className="news-text">
             <div className="small-cont">
             <h1 className="scribe">Subscribe to our Newsletter today</h1>
+            <h1 className="scribe2">Subscribe to our Newsletter</h1>
             <p className="deals">We will send news about the best deals and offers to your email</p>
             </div>
             <div className="address">
               <input type="text" placeholder="Enter your email" />
-              <Button text="Subscribe" type="small2" />
+              <div className="btn-sub"><Button text="Subscribe" type="small2" /></div>
+              <div className="btn-sub2"><button className="subscribe2">Subscrib</button></div>
             </div>
           </div>
         </div>
