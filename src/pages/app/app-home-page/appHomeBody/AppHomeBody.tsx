@@ -6,8 +6,26 @@ import Buy from "../../../../components/Buy/Buy";
 import Dropdown from "../../../../components/Dropdown/Dropdown";
 import filter from "../../../../assets/images/filter.svg";
 import bell from "../../../../assets/images/bell.svg";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 const AppHomeBody = () => {
+
+const [buyList, setBuyList] = useState([])
+
+useEffect(() => {
+    const fetchBuyList = async() => {
+      try {
+        const response = await axios.get('https://p2p-qrjp.onrender.com/api/v1/buyList', { headers: { Authorization: `Bearer ${"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MGQxZjA4MDQ3ZmY1Y2IwZDNkMWM4NCIsImlhdCI6MTcxNDYzNzk0OSwiZXhwIjoxNzE0NzI0MzQ5fQ.kKriE-sv4gJoPLu_IRGlMHhAq8Zet5kTQ-wAoAaMsCc"}` } });
+        console.log(response)
+        setBuyList(response.data.data)
+      } 
+      catch (error) {
+        console.log(error)
+      }
+    }
+    fetchBuyList()
+  },[])
   return (
     <>
       <div className="p2pSellBody">
@@ -36,102 +54,7 @@ const AppHomeBody = () => {
           </div>
         </div>
         <div className="center">
-          <TraderCard
-            buttonText={"BUY"}
-            buttonColor={"green"}
-            image={JohnDoe}
-            fullName={"John Doe"}
-            name={"Doemoney"}
-            tradeTotal={"4,460"}
-            tradePercent={"96.00"}
-            time={10}
-            percent={"97.30"}
-            amount={"1,430.00"}
-            cryptoAmount={240}
-            range1={"100,000.00"}
-            range2={"367,200.00"}
-            route="/app/buyUSDT"
-          />
-          <TraderCard
-            buttonText={"BUY"}
-            buttonColor={"green"}
-            image={KemiFemi}
-            fullName={"Kemi Femi"}
-            name={"KemsFems"}
-            tradeTotal={"4,460"}
-            tradePercent={"96.00"}
-            time={10}
-            percent={"97.30"}
-            amount={"1,430.00"}
-            cryptoAmount={240}
-            range1={"100,000.00"}
-            range2={"367,200.00"}
-            route="/app/buyUSDT"
-          />
-          <TraderCard
-            buttonText={"BUY"}
-            buttonColor={"green"}
-            image={KemiFemi}
-            fullName={"John Doe"}
-            name={"Doemoney"}
-            tradeTotal={"4,460"}
-            tradePercent={"96.00"}
-            time={10}
-            percent={"97.30"}
-            amount={"1,430.00"}
-            cryptoAmount={240}
-            range1={"100,000.00"}
-            range2={"367,200.00"}
-            route="/app/buyUSDT"
-          />
-          <TraderCard
-            buttonText={"BUY"}
-            buttonColor={"green"}
-            image={KemiFemi}
-            fullName={"John Doe"}
-            name={"Doemoney"}
-            tradeTotal={"4,460"}
-            tradePercent={"96.00"}
-            time={10}
-            percent={"97.30"}
-            amount={"1,430.00"}
-            cryptoAmount={240}
-            range1={"100,000.00"}
-            range2={"367,200.00"}
-            route="/app/buyUSDT"
-          />
-          <TraderCard
-            buttonText={"BUY"}
-            buttonColor={"green"}
-            image={KemiFemi}
-            fullName={"John Doe"}
-            name={"Doemoney"}
-            tradeTotal={"4,460"}
-            tradePercent={"96.00"}
-            time={10}
-            percent={"97.30"}
-            amount={"1,430.00"}
-            cryptoAmount={240}
-            range1={"100,000.00"}
-            range2={"367,200.00"}
-            route="/app/buyUSDT"
-          />
-          <TraderCard
-            buttonText={"BUY"}
-            buttonColor={"green"}
-            image={KemiFemi}
-            fullName={"John Doe"}
-            name={"Doemoney"}
-            tradeTotal={"4,460"}
-            tradePercent={"96.00"}
-            time={10}
-            percent={"97.30"}
-            amount={"1,430.00"}
-            cryptoAmount={240}
-            range1={"100,000.00"}
-            range2={"367,200.00"}
-            route="/app/buyUSDT"
-          />
+          {buyList.map(({}) => <TraderCard />)}
         </div>
       </div>
     </>

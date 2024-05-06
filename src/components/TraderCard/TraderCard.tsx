@@ -17,6 +17,7 @@ interface ITraderCard {
   range1: string;
   range2: string;
   route?: string;
+  fiatCurrency: string;
 }
 
 function TraderCard({
@@ -33,7 +34,8 @@ function TraderCard({
   cryptoAmount,
   range1,
   range2,
-  route
+  route,
+  fiatCurrency
 }: ITraderCard) {
   return (
     <>
@@ -56,12 +58,12 @@ function TraderCard({
               <p className="time">{percent}%</p>
             </div>
             <div className="detail2">
-              <div className="p1">₦</div>
+              <div className="p1">{fiatCurrency}</div>
               <div className="p2">{amount}</div>
             </div>
             <div className="detail3">
               <div className="total">Total crypto amount {cryptoAmount} USDT</div>
-              <div className="range">Range ₦{range1} - ₦{range2}</div>
+              <div className="range">Range {fiatCurrency}{range1} - {fiatCurrency}{range2}</div>
             </div>
           </div>
         </div>
