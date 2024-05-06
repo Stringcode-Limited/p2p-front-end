@@ -12,7 +12,7 @@ const OpenChat = ({classes}:IOpenChat) => {
     {/* btn grey large4 OpenButton */}
     <div  className= {classes} >
         <img src={Open}/>
-        <p>OpenChat</p>
+        <p>Open chat</p>
     </div>
     </>
       
