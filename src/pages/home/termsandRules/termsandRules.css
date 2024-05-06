@@ -8,13 +8,12 @@
 }
 .terms-rules .terms-rules-container{
     width: 100%;
-    height: 1190px;
     top: 189.52px;
     left: 130.5px;
-    border: 1px solid green;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     /* gap: ; */
 }
 .terms-rules .terms-rules-container .terms-rules-inner-container{
@@ -22,7 +21,6 @@
     height: 1190px;
     top: 189.52px;
     left: 130.5px;
-    border: 1px solid orange;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,13 +29,11 @@
 .terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-text{
     width: 352px;
     height: 75px;
-    border: 1px solid salmon;
     text-align: center;
 }
 .terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-condition-statements{
    width: 1177px;
    height: 966px;
-   border: 1px solid greenyellow;
    display: flex;
    align-items: center;
    gap: 20px;
@@ -51,4 +47,188 @@
     font-family: "Gilroy-Medium";
     line-height: 42px;
     color: #1D1B20;
+}
+.terms-rules .terms-rules-container .terms-rules-inner-container .back-button{
+    width: 216px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.terms-rules .terms-rules-container .terms-rules-inner-container .back-button .btn-back{
+    width: 216px;
+    height: 58px;
+    border-radius: 6px;
+    background-color: #00A542;
+    color: #FFFF;
+    font-size: 16px;
+    font-family: "Gilroy-Bold";
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    border: none;
+}
+.terms-rules .terms-rules-container .social-media-container{
+    width: 100%;
+    height: 400px;
+    top: 1364px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-2 .link ul li{
+    list-style: none;
+    font-size: 20px;
+    font-style: none;
+    font-family: "Gilroy-Medium";
+    line-height: 35px;
+}
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-3 .link ul li{
+    list-style: none;
+    font-size: 20px;
+    font-style: none;
+    font-family: "Gilroy-Medium";
+    line-height: 35px;
+}
+
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-4 .link ul li{
+    list-style: none;
+    font-size: 20px;
+    font-style: none;
+    font-family: "Gilroy-Medium";
+    line-height: 35px;
+}
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social{
+    display: flex;
+    gap: 134px;
+    
+    justify-content: center;
+
+} 
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-1{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-1 .social-img{
+    display: flex;
+    gap: 16px;
+    
+
+} 
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-2{
+    display: flex;
+    flex-direction: column;
+
+    
+
+} 
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-3{
+    display: flex;
+    flex-direction: column;
+    
+
+} 
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-4{
+    display: flex;
+    flex-direction: column;
+
+} 
+.terms-rules .terms-rules-container .social-media-container .p2p-footer{
+    width: 1177px;
+}
+
+.footer .p2p-footer .layout .social .social-3 .link ul li{
+    font-size: 20px;
+    font-style: none;
+    font-family: "Gilroy-Medium";
+    
+}
+
+.footer ul{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+
+.footer h5{
+    font-size: 10px;
+}
+.footer .cookies{
+    font-size: 10px;
+}
+.footer .p2p-footer .layout .end-footer .p2app .wrap-cookies .copy{
+    font-size: 15px;
+    font-family: "Gilroy-Medium";
+}
+.footer .p2p-footer .layout .end-footer .p2app .wrap-cookies  .cooky .cookies{
+    font-size: 15px;
+    font-family: "Gilroy-Medium";
+}
+.footer .wrap-cookies{
+    display: flex;
+    gap: 24px;
+    
+}
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-1 .social-text h4{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Gilroy-Bold";
+    line-height: 24px;
+}
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-2 .footer-link-1 h4{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Gilroy-Bold";
+    line-height: 24px;
+}
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-3 .footer-link-1 h4{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Gilroy-Bold";
+    line-height: 24px;
+}
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-4 .footer-link-1 h4{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Gilroy-Bold";
+    line-height: 24px;
+
+}
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .end-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+
+  
+}
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .end-footer .wrap-cookies{
+    display: flex;
+    gap: 10px;
+    
+ 
+}
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .end-footer .wrap-cookies .cooky .cookies{
+    font-size: 10px;
+    font-family: "Gilroy-Regular";
+    font-weight: 400;
+
+  
+}
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .end-footer .wrap-cookies .copy{
+    font-size: 10px;
+    font-family: "Gilroy-Regular";
+    font-weight: 400;
+
+  
+}
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .end-footer .p2app{
+    width: 234px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
