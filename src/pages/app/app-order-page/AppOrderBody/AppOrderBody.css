@@ -32,10 +32,16 @@
 }
 
 .orderBody .bottom{
-    margin-top: 30px;
+    margin-top: 5rem;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 16px;
     padding-bottom: 30px;
+}
+
+.noOrdersText {
+    font-size: 1.2rem;
+    color: #727272;
 }
