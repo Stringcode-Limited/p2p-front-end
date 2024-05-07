@@ -105,8 +105,21 @@
 .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social{
     display: flex;
     gap: 134px;
-    
     justify-content: center;
+    position: relative;
+     margin: 0;
+     padding-bottom: 50px;
+
+} 
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social::after{
+    content: '';
+    position: absolute;
+    background-color: black;
+    left: 50%;
+    width: 1195px;
+    height: 1px;
+    bottom: 0;
+    transform: translateX(-50%);
 
 } 
 .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-1{
@@ -196,4 +209,98 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+@media screen and (max-width: 912px){
+    .terms-rules{
+        width: 100%; 
+        height: 100%;
+        
+         
+     }
+     .terms-rules .terms-rules-container{
+        width: 100%;
+        top: 189.52px;
+        left: 130.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .terms-rules .terms-rules-container .terms-rules-inner-container{
+        width: 100%;
+        height: 1500px;
+        top: 189.52px;
+        left: 130.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-condition-statements{
+        width: 800px;
+        height: 1200px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+     }
+     .terms-rules .terms-rules-container .terms-rules-inner-container .back-button{
+        width: 200px;
+        height: 58px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .terms-rules .terms-rules-container .terms-rules-inner-container .back-button .btn-back{
+        width: 150px;
+        height: 50px;
+        border-radius: 6px;
+        background-color: #00A542;
+        color: #FFFF;
+        font-size: 16px;
+        font-family: "Gilroy-Bold";
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+        border: none;
+    }
+    .terms-rules .terms-rules-container .social-media-container{
+        width: 100%;
+        height: 400px;
+        top: 1364px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social{
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+    
+    } 
+    .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social{
+        position: relative;
+         margin: 0;
+         padding-bottom: 50px;
+    
+    } 
+    .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social::after{
+        content: '';
+        position: absolute;
+        background-color: black;
+        left: 50%;
+        width: 800px;
+        height: 1px;
+        bottom: 0;
+        transform: translateX(-50%);
+    
+    } 
+
 }
