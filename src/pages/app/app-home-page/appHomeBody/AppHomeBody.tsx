@@ -1,7 +1,5 @@
 import { TraderCard } from "../../..";
 import "./appHomeBody.css";
-import JohnDoe from "../../../../assets/images/JohnDoe.png";
-import KemiFemi from "../../../../assets/images/KemiFemi.png";
 import Buy from "../../../../components/Buy/Buy";
 import Dropdown from "../../../../components/Dropdown/Dropdown";
 import filter from "../../../../assets/images/filter.svg";
@@ -55,7 +53,7 @@ useEffect(() => {
           </div>
         </div>
         <div className="center">
-          {buyList.map(({}) => <TraderCard />)}
+          {buyList.map(({}) => <TraderCard amount="" buttonColor="green" buttonText="BUY" cryptoAmount={0} fiatCurrency="" fullName="" image="" name="" percent="" range1="" range2="" time={0} tradePercent="" tradeTotal=""/>)}
         </div>
       </div>
     </>

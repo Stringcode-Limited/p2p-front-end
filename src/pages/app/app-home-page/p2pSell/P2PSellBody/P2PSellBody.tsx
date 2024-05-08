@@ -4,8 +4,6 @@ import "./P2PSellBody.css";
 import filter from '../../../../../assets/images/filter.svg'
 import bell from '../../../../../assets/images/bell.svg'
 import TraderCard from "../../../../../components/TraderCard/TraderCard";
-import JohnDoe from '../../../../../assets/images/JohnDoe.png';
-import KemiFemi from '../../../../../assets/images/KemiFemi.png'
 import { useEffect, useState } from "react";
 import axios from "axios";
 import cookie from "js-cookie"
@@ -54,7 +52,7 @@ function P2PSellBody() {
           </div>
         </div>
         <div className="center">
-        {sellList.map(({_id:id, range:{max, min}, paymentTimeLimit, totalAmountOfCrypto, fiatCurrency, pricePerCoin}) => <TraderCard key={id} time={paymentTimeLimit} fiatCurrency={fiatCurrency} amount={pricePerCoin} cryptoAmount={totalAmountOfCrypto} range1={min} range2={max} buttonColor="red" buttonText="SELL"/>)}
+        {sellList.map(({_id:id, range:{max, min}, paymentTimeLimit, totalAmountOfCrypto, fiatCurrency, pricePerCoin}) => <TraderCard fullName="" image="" name="" percent="" tradePercent="" tradeTotal="" key={id} time={paymentTimeLimit} fiatCurrency={fiatCurrency} amount={pricePerCoin} cryptoAmount={totalAmountOfCrypto} range1={min} range2={max} buttonColor="red" buttonText="SELL"/>)}
         </div>
       </div>
     </>
