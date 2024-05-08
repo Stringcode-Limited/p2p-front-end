@@ -91,6 +91,7 @@ function TermsandRules() {
               </div>
               </div>
             </div>
+            <div className="divider"></div>
             <div className="end-footer">
               <div className="p2app">
                 <div className="app">

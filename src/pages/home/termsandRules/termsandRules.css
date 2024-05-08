@@ -309,7 +309,7 @@
     .terms-rules{
         width: 100%; 
         height: 100%;
-        border: 1px solid red;
+        
         
          
      }
@@ -321,7 +321,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        border: 1px solid green;
+        
         
     }
     .terms-rules .terms-rules-container .terms-rules-inner-container{
@@ -334,7 +334,7 @@
         justify-content: center;
         flex-direction: column;
         gap: 3px;
-        border: 1px solid greenyellow;
+        
     }
     .terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-condition-statements{
         width: 100%;
@@ -346,7 +346,7 @@
         flex-direction: column;
         padding-left: 10px;
         padding-right: 10px;
-        border: 1px solid brown;
+        
         
      }
      .terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-condition-statements .terms{
@@ -380,34 +380,47 @@
     }
     .terms-rules .terms-rules-container .social-media-container{
         width: 100%;
-        height: 400px;
+        height: 500px;
         top: 1364px;
         display: flex;
         align-items: center;
         justify-content: center;
+
+
     }
     .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social{
         display: flex;
         gap: 100px;
         justify-content: center;
-    
-    } 
-    .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social{
-        position: relative;
-         margin: 0;
-         padding-bottom: 50px;
+        width: 50%;
+        flex-direction: column;
+        gap: 2px;
+        margin-top: 200px;
+        padding: 20px;
+        
     
     } 
     .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social::after{
+       display: none;
+        
+    
+    } 
+    .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .divider{
+        position: relative;
+        margin: 0;
+        padding-bottom: 50px;
+    }
+    .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .divider::after{
         content: '';
         position: absolute;
         background-color: black;
         left: 50%;
-        width: 800px;
+        width: 400px;
         height: 1px;
         bottom: 0;
         transform: translateX(-50%);
+    }
     
-    } 
+    
 
 }
