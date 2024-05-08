@@ -1,7 +1,6 @@
 .orderBody{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     width: 50vw;
     border-right: 1px solid #727272;
 }
