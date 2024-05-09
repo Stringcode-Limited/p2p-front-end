@@ -454,12 +454,13 @@
         justify-content: center;
         flex-direction: column;
         gap: 3px;
+        margin-top: -50px;
         
         
     }
     .terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-condition-statements{
         width: 100%;
-        height: 900px;
+        height: 1500px;
         display: flex;
         align-items: center;
         gap: 20px;
@@ -467,13 +468,21 @@
         flex-direction: column;
         padding-left: 10px;
         padding-right: 10px;
-        margin-top: 300px;
+        margin-top: 50px;
+        border: 1px solid greenyellow;
         
         
         
      }
      .terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-text{
         margin-top: -10px;
+        border: 1px solid red;
+        width: 260px;
+        font-family: "Gilroy-Bold";
+        margin-top: 330px;
+     }
+     .terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-text h1{
+        font-size: 35px;
      }
      
      .terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-condition-statements .terms{
@@ -507,11 +516,13 @@
     }
     .terms-rules .terms-rules-container .social-media-container{
         width: 100%;
-        height: 500px;
+        height: 470px;
         top: 1364px;
         display: flex;
         align-items: center;
         justify-content: center;
+        border: 1px solid red;
+        margin-top: 220px;
 
 
     }
@@ -542,7 +553,7 @@
         position: absolute;
         background-color: black;
         left: 50%;
-        width: 400px;
+        width: 250px;
         height: 1px;
         bottom: 0;
         transform: translateX(-50%);
