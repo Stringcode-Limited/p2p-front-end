@@ -53,6 +53,16 @@
     width: 80vw;
   }
   
+  @media screen and (max-width:912px) {
+    .app__container .sidebarWrapper{
+      display: none;
+    } 
+
+    .app__container .app__content{
+      width: 100vw;
+    }
+      
+  }
   
   
   

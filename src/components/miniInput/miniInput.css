@@ -1,0 +1,104 @@
+
+.miniInputWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.miniLabel {
+    color: #1D1B20;
+    font-family: 'Gilroy-SemiBold',sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    padding-bottom: 8px;
+    
+
+}
+
+.input-border {
+    border: 1.5px solid #343434;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 175px;
+    padding: 12px;
+}
+
+.miniInput button {
+    width: 150px;
+    height: 24px;
+    border-radius: 5px;
+    padding: 4px, 8px, 4px, 8px;
+    background-color: white;
+    color: #343434;
+    border: none;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.miniInput {
+    position: relative;
+    /* margin-left: 200px; */
+}
+
+.miniInput-menu {
+    display: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0;
+    transform: translateY(-10px);
+    display: none;
+    position: absolute;
+    top: 130%;
+    right: -140%;
+}
+
+.miniInput-menu.open {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.miniInput-menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 238px;
+    height: 245px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background-color: #DDDDDD;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.miniInput-menu ul li {
+    width: 238px;
+    height: 41px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #b4b4b4;
+    font-size: 12px;
+    color: #343434;
+    cursor: pointer;
+}
+
+.miniInput-menu ul li:hover {
+    background-color: #c2c2c2;
+}
+
+.miniInput-menu ul li:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.miniInput-menu ul li:last-child {
+    border-bottom: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

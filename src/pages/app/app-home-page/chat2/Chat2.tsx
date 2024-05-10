@@ -1,7 +1,5 @@
-import React from 'react';
 import "./Chat2.css"
 import clock from "../../../../assets/images/clock.svg"
-import chat from "../../../../assets/images/chat.svg"
 import clip from "../../../../assets/images/clip.svg"
 
 interface IChat2{

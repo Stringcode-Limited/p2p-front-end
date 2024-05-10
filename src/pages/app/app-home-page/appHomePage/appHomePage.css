@@ -2,3 +2,10 @@
     display: flex;
 }
 
+@media screen and (max-width: 912px) {
+   .container{
+    flex-direction: column;
+    width: 100vw;
+   }
+}
+

@@ -1,0 +1,207 @@
+.createPitchBody {
+    display: flex;
+    flex-direction: column;
+    padding-top: 77px;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 16px;
+    width: 30vw;
+    height: 100vh;
+    /* align-items: center; */
+    position: sticky;
+    top: 0;
+    overflow-y: scroll;
+}
+
+.createPitchBody .cryptoFiat {
+    display: flex;
+    gap: 10px;
+}
+
+.createPitchBody .lowestPrice {
+    display: flex;
+    gap: 8px;
+
+}
+
+.createPitchBody .lowestPrice .low {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+
+}
+
+.createPitchBody .lowestPrice .pricefig {
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+
+}
+
+.createPitchBody .lowestPrice .pricefig img {
+    width: 8px;
+    height: 8px;
+}
+
+.createPitchBody .totalCrypto {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.createPitchBody .totalCrypto label {
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+
+}
+
+.createPitchBody .totalCrypto input {
+    width: 360px;
+    height: 50px;
+    padding: 12px;
+    gap: 12px;
+    border-radius: 10px;
+    border: 1.5px solid #343434;
+
+}
+
+.createPitchBody .totalCrypto p {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #4B4B4B;
+
+}
+
+.createPitchBody .totalCrypto p span {
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #1D1B20;
+
+}
+
+.createPitchBody .range {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.createPitchBody .range label {
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+
+}
+
+.createPitchBody .range .rangeWrapper {
+    display: flex;
+    gap: 12px;
+}
+
+.createPitchBody .range .rangeWrapper .divWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.createPitchBody .range .rangeWrapper .divWrapper .divInput {
+    width: 175px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1.5px solid #4B4B4B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+
+}
+
+.createPitchBody .range .rangeWrapper .divWrapper .divInput input {
+    width: 80px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+
+.createPitchBody .range .rangeWrapper .divWrapper .divInput p {
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+
+}
+
+.createPitchBody .range .rangeWrapper .divWrapper P {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+
+}
+
+.selectOptions {
+    background-color: #4B4B4B;
+    color: #868686;
+    width: 360px;
+    height: 36px;
+    padding: 0 12px;
+    border-radius: 10px;
+
+}
+
+.selectOptions option {
+    padding: 18px;
+    
+    
+}
+
+.createPitchBody .fee {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.createPitchBody .fee label {
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+
+
+}
+
+.createPitchBody .fee input{
+width: 360px;
+height: 50px;
+padding: 12px;
+border-radius: 10px;
+border: 1.5px solid #343434 ;
+
+}
+
+.createPitchBody .confirm{
+width: 360px;
+height: 42px;
+padding: 8px ;
+border-radius: 5px;
+background-color: #00A542;
+border: 1.5px solid #00A542;
+font-family: 'Gilroy-Bold', sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+margin-top: 18px;
+
+}
+
+.hide{
+    display: none;
+}

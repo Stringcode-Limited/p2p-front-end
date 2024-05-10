@@ -1,6 +1,6 @@
 import "./sellUsdtBody.css";
 import left from "../../../../../assets/images/left.png";
-import ProfileImage from "../../../../../assets/JohnDoe.png";
+import ProfileImage from "../../../../../assets/images/JohnDoe.png"
 import ProfileDetails from "../../../../../components/ProfileDetails/ProfileDetails";
 import clock from "../../../../../assets/images/clock.svg";
 import Fiat from "../../../../../components/Fiat/Fiat";

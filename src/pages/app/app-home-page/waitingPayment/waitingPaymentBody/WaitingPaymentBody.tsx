@@ -5,7 +5,8 @@ import PaymentCard from "../../../../../components/PaymentCard/PaymentCard";
 import Button from "../../../../../components/Button/Button";
 import HelpButton from "../../../../../components/HelpButton/HelpButton";
 import ProfileDetails from "../../../../../components/ProfileDetails/ProfileDetails";
-import ProfileImage from "../../../../../assets/JohnDoe.png";
+import ProfileImage from "../../../../../assets/images/JohnDoe.png";
+import OpenChat from "../../../../../components/OpenChat/OpenChat";
 
 const WaitingPaymentBody = () => {
   return (
@@ -71,7 +72,12 @@ const WaitingPaymentBody = () => {
           </div>
           <div className="box5">
             <Button text="Payment received" type="large3" color="grey2" />
-            <HelpButton classes="btn grey large3 helpButton" />
+            <div className="HelpOpen">
+            <HelpButton classes="btn grey large4 helpButton" />
+            <div className="open">
+            <OpenChat classes="btn grey large4 OpenButton"/>
+            </div>
+            </div>
           </div>
         </div>
       </div>

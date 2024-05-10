@@ -1,4 +1,3 @@
-import React from 'react';
 import TransactionDetail from '../Transactiondetailbody/TransactionDetail';
 import RecentTransactions from '../../../app-order-page/RecentTransactions/RecentTransactions';
 import "./TransactiondetailPage.css"

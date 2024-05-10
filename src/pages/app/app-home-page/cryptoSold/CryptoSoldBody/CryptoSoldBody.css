@@ -53,3 +53,66 @@
     align-items: center;
     gap: 8px;
 }
+
+.cryptoSoldBody .center .det2 .feedbackChat{
+    display: none;
+}
+/* .cryptoSoldBody .center .det2 .feedbackChat .open{
+    display: none;
+} */
+
+
+@media screen and (max-width:390px){
+    .cryptoSoldBody {
+        width: 100vw;
+        border-right: none;
+    }
+
+    .cryptoSoldBody .center .det1 p {
+        font-size: 16px;
+    }
+
+    .cryptoSoldBody .center .det2 .feedbackChat{
+        display: flex;
+        gap:12px;
+    }
+    .cryptoSoldBody .center .det2 .feedbackChat .open{
+        display: block;
+    }
+    .displayEffect{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:391px) and (max-width:768px){
+    .displayEffect{
+        display: none;
+    }
+    .cryptoSoldBody .center .det1 p {
+        font-size: 18px;
+    }
+    .cryptoSoldBody .center .det2 .feedbackChat{
+        display: flex;
+        gap:12px;
+    }
+}
+@media only screen and (min-width:820px) and (max-width:912px){
+    .displayEffect{
+        display: none;
+    }
+    .cryptoSoldBody .center .det2 .feedbackChat{
+        display: flex;
+        gap:12px;
+    }
+
+}
+@media only screen and (min-width:391px) and (max-width:912px) {
+    .cryptoSoldBody {
+        width: 100vw;
+        border-right: none;
+    }
+
+    .cryptoSoldBody .center .det2 .feedbackChat .open{
+        display: block;
+    }
+}

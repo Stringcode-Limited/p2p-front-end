@@ -108,3 +108,99 @@
     flex-direction: column;
     gap: 8px;
 }
+
+.waitingPaymentBody .center .box5 .HelpOpen{
+    display: flex;
+    gap:12px;
+}
+
+.waitingPaymentBody .center .box5 .HelpOpen .open{
+    display: none;
+}
+
+@media screen and (max-width:390px){
+    .waitingPaymentBody{
+    width: 100vw;
+    border-right: none;
+    }
+    .waitingPaymentBody .top{
+        padding-left: 5% ;
+        padding-right: 5%;
+        justify-content:flex-start;
+        gap: 24px;
+        margin-bottom: 40px;
+        }
+        .waitingPaymentBody .top p {
+            font-size: 24px;
+        }
+    
+    .waitingPaymentBody .profile {
+        margin: 1% 5%;
+    }
+    .waitingPaymentBody .box1 .text {
+        margin: 0 5%;
+       }
+       .waitingPaymentBody .box2 {
+           margin: 2% 5%;
+       }
+       .normalWidth {
+           width: 90%;
+       }
+       .waitingPaymentBody .center .box4 {
+        width: 90vw;
+    }
+    .smallWidth{
+        width: 90vw;
+    }
+    .waitingPaymentBody .center .box5 .HelpOpen .open{
+        display: block;
+    }
+}
+
+@media only screen and (min-width:391px) and (max-width:912px) {
+    .waitingPaymentBody{
+        width: 100vw;
+        border-right: none;
+        }
+        .waitingPaymentBody .top{
+            padding-left: 5% ;
+            padding-right: 5%;
+            justify-content:flex-start;
+            gap: 24px;
+            margin-bottom: 46px;
+        }
+        .waitingPaymentBody .top p {
+            font-size: 24px;
+        }
+        .waitingPaymentBody .profile {
+            margin: 1% 5%;
+        }
+        
+        .waitingPaymentBody .box1 .text {
+         margin: 0 5%;
+        }
+        .waitingPaymentBody .box2 {
+            margin: 2% 5%;
+        }
+        .normalWidth {
+            width: 90%;
+        }
+        .waitingPaymentBody .center .box4 {
+            width: 90vw;
+        }
+        .smallWidth{
+            width: 90vw;
+        }
+        .waitingPaymentBody .center .box5 .HelpOpen .open{
+            display: block;
+        }
+
+    }
+
+
+    @media only screen and (min-width:1024px) and (max-width: 1200px){
+        .waitingPaymentBody .top {
+            padding-right: 20%;
+        }
+    
+    }

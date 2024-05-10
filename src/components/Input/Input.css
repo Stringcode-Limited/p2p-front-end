@@ -23,3 +23,11 @@
   -webkit-appearance: none;
   margin: 0;
 }
+
+
+@media screen and (max-width:540px) {
+.input input{
+    width: 90vw;
+}
+}
+

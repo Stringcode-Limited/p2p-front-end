@@ -17,6 +17,7 @@
     padding: 12px;
     font-size: 14px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
@@ -39,3 +40,16 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }   
+
+@media screen and (max-width:540px) {
+    .otp .container{
+        width: 90vw;
+        align-items: flex-end;
+        flex-direction: row;
+    }
+
+    .otp input{
+        width: 80%;
+    }
+
+}
