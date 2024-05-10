@@ -311,6 +311,19 @@ function HomePage() {
        </div>
        
       </section> 
+      <div className="end-footer2">
+              <div className="p2app">
+                <div className="app">
+                  <P2Papp/>
+                  </div>
+                <div className="wrap-cookies">
+                <div className="copy">&copy;2024 P2P App</div>
+                <div className="cooky">
+                  <p className="cookies">Cookies settings</p>
+                </div>
+                </div>
+              </div>
+            </div>
     </div>
     </div>
       </>
