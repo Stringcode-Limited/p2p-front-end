@@ -1,5 +1,6 @@
 .search{
-    width: 360px;
+    /* width: 360px; */
+    width: 26vw;
     height: 38px;
     border-radius: 20px;
     border: 1.5px #343434 solid;
@@ -19,4 +20,11 @@
 
 .search input::-webkit-search-cancel-button{
     display: none;
+}
+
+@media screen and (max-width:912px){
+.search {
+    width: 90vw;
+}
+
 }

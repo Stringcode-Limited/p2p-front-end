@@ -134,3 +134,22 @@
 .walletBody .seeMore p{
     color: #1D1B20;
 }
+
+@media screen and (max-width:912px){
+    .walletBody {
+        
+        width: 100vw;
+        border-right: none;
+    }
+
+    .walletBody .walletContent {
+        margin: 2% 5%;
+    }
+    
+    .walletBody .cryptoAssets {
+        margin: 6% 6% 0 6%;
+    }
+    .walletBody .seeMore {
+        margin: 0 6% 4% 6%;
+}
+}
