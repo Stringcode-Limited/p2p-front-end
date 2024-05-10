@@ -41,3 +41,10 @@
 .transactionCard .Red{
     color: #E60200;
 }
+
+@media screen and (max-width:912px){
+    .transactionCard{
+        width: 90vw;
+    }
+
+}
