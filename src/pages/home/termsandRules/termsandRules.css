@@ -454,13 +454,13 @@
         justify-content: center;
         flex-direction: column;
         gap: 3px;
-        margin-top: -50px;
+        margin-top: 100px;
         
         
     }
     .terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-condition-statements{
         width: 100%;
-        height: 1500px;
+        height: 2000px;
         display: flex;
         align-items: center;
         gap: 20px;
@@ -469,17 +469,14 @@
         padding-left: 10px;
         padding-right: 10px;
         margin-top: 50px;
-        border: 1px solid greenyellow;
         
         
         
      }
      .terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-text{
-        margin-top: -10px;
-        border: 1px solid red;
         width: 260px;
         font-family: "Gilroy-Bold";
-        margin-top: 330px;
+        margin-top: 300px;
      }
      .terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-text h1{
         font-size: 35px;
@@ -516,13 +513,12 @@
     }
     .terms-rules .terms-rules-container .social-media-container{
         width: 100%;
-        height: 470px;
+        height: 550px;
         top: 1364px;
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 1px solid red;
-        margin-top: 220px;
+        margin-top: 350px;
 
 
     }
@@ -543,6 +539,10 @@
         
     
     } 
+    .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-1 .social-text h4{
+        width: 200px;
+         
+     } 
     .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .divider{
         position: relative;
         margin: 0;
@@ -557,6 +557,25 @@
         height: 1px;
         bottom: 0;
         transform: translateX(-50%);
+    }
+    .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-2 .link ul li{
+        list-style: none;
+        font-size: 16px;
+        line-height: 35px;
+        font-family: "Gilroy-Medium";
+    }
+    .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-3 .link ul li{
+        list-style: none;
+        font-size: 16px;
+        line-height: 35px;
+        font-family: "Gilroy-Medium";
+    }
+    
+    .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-4 .link ul li{
+        list-style: none;
+        font-size: 20px;
+        font-style: none;
+        line-height: 35px;
     }
     
 }
