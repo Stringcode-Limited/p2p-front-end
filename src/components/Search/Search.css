@@ -22,9 +22,8 @@
     display: none;
 }
 
-@media screen and (max-width:912px){
+@media screen and (max-width:840px){
 .search {
-    width: 90vw;
+    width: 29vw;
 }
-
 }

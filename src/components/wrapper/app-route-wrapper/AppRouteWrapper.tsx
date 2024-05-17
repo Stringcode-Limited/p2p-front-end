@@ -40,7 +40,6 @@ function AppRouteWrapper() {
               <li>
                 
                 <NavLink to={"/app/profile"}><FaRegUser />Profile</NavLink>
-                <div><IoIosArrowDown /></div>
               </li>
               <li>
                 
