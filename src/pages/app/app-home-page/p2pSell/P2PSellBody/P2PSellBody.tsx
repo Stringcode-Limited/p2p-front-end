@@ -1,30 +1,48 @@
 import Dropdown from "../../../../../components/Dropdown/Dropdown";
 import Sell from "../../../../../components/Sell/Sell";
 import "./P2PSellBody.css";
-import filter from '../../../../../assets/images/filter.svg'
-import bell from '../../../../../assets/images/bell.svg'
+import filter from "../../../../../assets/images/filter.svg";
+import bell from "../../../../../assets/images/bell.svg";
 import TraderCard from "../../../../../components/TraderCard/TraderCard";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import cookie from "js-cookie"
+import cookie from "js-cookie";
+
+type SellListItem = {
+  pricePerCoin: string;
+  totalAmountOfCrypto: number;
+  cryptoCurrency: {
+    name: string;
+  };
+  user: {
+    fullname: string;
+    profile_img: string;
+  };
+  range: {
+    min: string;
+    max: string;
+  };
+  paymentTimeLimit: number;
+}
 
 function P2PSellBody() {
-
-  const [sellList, setSellList] = useState([])
+  const [sellList, setSellList] = useState<SellListItem[]>([]);
 
   useEffect(() => {
-      const fetchSellList = async() => {
-        try {
-          const response = await axios.get('https://p2p-qrjp.onrender.com/api/v1/sellList', { headers: { Authorization: `Bearer ${cookie.get("token")}` } });
-          console.log(response)
-          setSellList(response.data.data)
-        } 
-        catch (error) {
-          console.log(error)
-        }
+    const fetchSellList = async () => {
+      try {
+        const response = await axios.get(
+          "https://p2p-qrjp.onrender.com/api/v1/sellList",
+          { headers: { Authorization: `Bearer ${cookie.get("token")}` } }
+        );
+        console.log(response);
+        setSellList(response.data.data);
+      } catch (error) {
+        console.log(error);
       }
-      fetchSellList()
-    },[])
+    };
+    fetchSellList();
+  }, []);
 
   return (
     <>
@@ -46,13 +64,30 @@ function P2PSellBody() {
                 list={["NGN", "USD", "GHC", "EUR", "JPY", "GBP"]}
                 title="NGN"
               />
-              <img src={filter}/>
-              <img src={bell}/>
+              <img src={filter} />
+              <img src={bell} />
             </div>
           </div>
         </div>
         <div className="center">
-        {sellList.map(({_id:id, range:{max, min}, paymentTimeLimit, totalAmountOfCrypto, fiatCurrency, pricePerCoin}) => <TraderCard fullName="" image="" name="" percent="" tradePercent="" tradeTotal="" key={id} time={paymentTimeLimit} fiatCurrency={fiatCurrency} amount={pricePerCoin} cryptoAmount={totalAmountOfCrypto} range1={min} range2={max} buttonColor="red" buttonText="SELL"/>)}
+          {sellList.map((item) => (
+            <TraderCard
+              amount={item.pricePerCoin}
+              buttonColor="green"
+              buttonText="BUY"
+              cryptoAmount={item.totalAmountOfCrypto}
+              fiatCurrency={item.cryptoCurrency.name}
+              fullName={item.user.fullname}
+              image={item.user.profile_img}
+              name=""
+              percent=""
+              range1={item.range.min}
+              range2={item.range.max}
+              time={item.paymentTimeLimit}
+              tradePercent=""
+              tradeTotal=""
+            />
+          ))}
         </div>
       </div>
     </>

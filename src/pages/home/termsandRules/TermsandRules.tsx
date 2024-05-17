@@ -1,4 +1,3 @@
-import React from 'react';
 import NavBar from '../../../components/NavBar/NavBar';
 import "./termsandRules.css"
 import P2Papp from '../../../components/P2Papp/P2Papp';
