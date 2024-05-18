@@ -13,6 +13,7 @@ import methods from '../../../../assets/images/methods.svg'
 import review from '../../../../assets/images/review.svg'
 import preference from '../../../../assets/images/preference.svg'
 import setting from '../../../../assets/images/setting.svg'
+import logout from '../../../../assets/images/logout.svg'
 
 function AppProfileBody() {
   return (
@@ -58,7 +59,12 @@ function AppProfileBody() {
           <ProfileCard icon={review} text="Reviews & ratings"/>
           <ProfileCard icon={preference} text="Preference"/>
           <ProfileCard icon={setting} text="Security settings"/>
-        </div>
+          <div className="logOut">
+            <div className="left">
+              <img src={logout}/>Log out
+            </div>
+          </div>
+          </div>
       </div>
     </>
   );
