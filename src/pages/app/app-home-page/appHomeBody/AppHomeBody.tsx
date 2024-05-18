@@ -1,13 +1,48 @@
 import { TraderCard } from "../../..";
 import "./appHomeBody.css";
-import JohnDoe from "../../../../assets/images/JohnDoe.png";
-import KemiFemi from "../../../../assets/images/KemiFemi.png";
 import Buy from "../../../../components/Buy/Buy";
 import Dropdown from "../../../../components/Dropdown/Dropdown";
 import filter from "../../../../assets/images/filter.svg";
 import bell from "../../../../assets/images/bell.svg";
+import { useEffect, useState } from "react";
+import axios from "axios";
+import cookie from "js-cookie";
+
+type BuyListItem = {
+  pricePerCoin: string;
+  totalAmountOfCrypto: number;
+  cryptoCurrency: {
+    name: string;
+  };
+  user: {
+    fullname: string;
+    profile_img: string;
+  };
+  range: {
+    min: string;
+    max: string;
+  };
+  paymentTimeLimit: number;
+}
 
 const AppHomeBody = () => {
+  const [buyList, setBuyList] = useState<BuyListItem[]>([]);
+
+  useEffect(() => {
+    const fetchBuyList = async () => {
+      try {
+        const response = await axios.get(
+          "https://p2p-qrjp.onrender.com/api/v1/buyList",
+          { headers: { Authorization: `Bearer ${cookie.get("token")}` } }
+        );
+        console.log(response.data.data);
+        setBuyList(response.data.data);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    fetchBuyList();
+  }, []);
   return (
     <>
       <div className="p2pSellBody">
@@ -23,108 +58,37 @@ const AppHomeBody = () => {
                 list={["UDST", "BTC", "ETH", "LTC", "SOL", "XPR"]}
                 title="USDT"
               />
-              <Dropdown
-                width="widthNormal"
-                list={["NGN", "USD", "GHC", "EUR", "JPY", "GBP"]}
-                title="NGN"
-              />
-              <img src={filter} />
-              <img src={bell} />
+              <div className="dropdownRight">
+                <Dropdown
+                  width="widthNormal"
+                  list={["NGN", "USD", "GHC", "EUR", "JPY", "GBP"]}
+                  title="NGN"
+                />
+                <img src={filter} />
+                <img src={bell} />
+              </div>
             </div>
           </div>
         </div>
         <div className="center">
-          <TraderCard
-            buttonText={"BUY"}
-            buttonColor={"green"}
-            image={JohnDoe}
-            fullName={"John Doe"}
-            name={"Doemoney"}
-            tradeTotal={"4,460"}
-            tradePercent={"96.00"}
-            time={10}
-            percent={"97.30"}
-            amount={"1,430.00"}
-            cryptoAmount={240}
-            range1={"100,000.00"}
-            range2={"367,200.00"}
-            route="/app/buyUSDT"
-          />
-          <TraderCard
-            buttonText={"BUY"}
-            buttonColor={"green"}
-            image={KemiFemi}
-            fullName={"Kemi Femi"}
-            name={"KemsFems"}
-            tradeTotal={"4,460"}
-            tradePercent={"96.00"}
-            time={10}
-            percent={"97.30"}
-            amount={"1,430.00"}
-            cryptoAmount={240}
-            range1={"100,000.00"}
-            range2={"367,200.00"}
-          />
-          <TraderCard
-            buttonText={"BUY"}
-            buttonColor={"green"}
-            image={KemiFemi}
-            fullName={"John Doe"}
-            name={"Doemoney"}
-            tradeTotal={"4,460"}
-            tradePercent={"96.00"}
-            time={10}
-            percent={"97.30"}
-            amount={"1,430.00"}
-            cryptoAmount={240}
-            range1={"100,000.00"}
-            range2={"367,200.00"}
-          />
-          <TraderCard
-            buttonText={"BUY"}
-            buttonColor={"green"}
-            image={KemiFemi}
-            fullName={"John Doe"}
-            name={"Doemoney"}
-            tradeTotal={"4,460"}
-            tradePercent={"96.00"}
-            time={10}
-            percent={"97.30"}
-            amount={"1,430.00"}
-            cryptoAmount={240}
-            range1={"100,000.00"}
-            range2={"367,200.00"}
-          />
-          <TraderCard
-            buttonText={"BUY"}
-            buttonColor={"green"}
-            image={KemiFemi}
-            fullName={"John Doe"}
-            name={"Doemoney"}
-            tradeTotal={"4,460"}
-            tradePercent={"96.00"}
-            time={10}
-            percent={"97.30"}
-            amount={"1,430.00"}
-            cryptoAmount={240}
-            range1={"100,000.00"}
-            range2={"367,200.00"}
-          />
-          <TraderCard
-            buttonText={"BUY"}
-            buttonColor={"green"}
-            image={KemiFemi}
-            fullName={"John Doe"}
-            name={"Doemoney"}
-            tradeTotal={"4,460"}
-            tradePercent={"96.00"}
-            time={10}
-            percent={"97.30"}
-            amount={"1,430.00"}
-            cryptoAmount={240}
-            range1={"100,000.00"}
-            range2={"367,200.00"}
-          />
+          {buyList.map((item) => (
+            <TraderCard
+              amount={item.pricePerCoin}
+              buttonColor="green"
+              buttonText="BUY"
+              cryptoAmount={item.totalAmountOfCrypto}
+              fiatCurrency={item.cryptoCurrency.name}
+              fullName={item.user.fullname}
+              image={item.user.profile_img}
+              name=""
+              percent=""
+              range1={item.range.min}
+              range2={item.range.max}
+              time={item.paymentTimeLimit}
+              tradePercent=""
+              tradeTotal=""
+            />
+          ))}
         </div>
       </div>
     </>

@@ -1,0 +1,581 @@
+
+.terms-rules{
+   width: 100%; 
+   height: 1000px;
+   
+
+   
+}
+.terms-rules .terms-rules-container{
+    width: 100%;
+    top: 189.52px;
+    left: 130.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.terms-rules .terms-rules-container .terms-rules-inner-container{
+    width: 1177px;
+    height: 1190px;
+    top: 189.52px;
+    left: 130.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3px;
+}
+.terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-text{
+    width: 375px;
+    height: 75px;
+    text-align: center;
+
+}
+.terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-text h1{
+    font-size: 56px;
+    font-family: "Gilroy-Bold";
+    
+
+}
+.terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-condition-statements{
+   width: 1177px;
+   height: 966px;
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   justify-content: center;
+   flex-direction: column;
+   
+}
+.terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-condition-statements .terms{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Gilroy-Medium";
+    line-height: 42px;
+    color: #1D1B20;
+}
+.terms-rules .terms-rules-container .terms-rules-inner-container .back-button{
+    width: 216px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.terms-rules .terms-rules-container .terms-rules-inner-container .back-button .btn-back{
+    width: 216px;
+    height: 58px;
+    border-radius: 6px;
+    background-color: #00A542;
+    color: #FFFF;
+    font-size: 16px;
+    font-family: "Gilroy-Bold";
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    border: none;
+}
+.terms-rules .terms-rules-container .social-media-container{
+    width: 100%;
+    height: 400px;
+    top: 1364px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-2 .link ul li{
+    list-style: none;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: "Gilroy-Medium";
+}
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-3 .link ul li{
+    list-style: none;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: "Gilroy-Medium";
+}
+
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-4 .link ul li{
+    list-style: none;
+    font-size: 20px;
+    font-style: none;
+    line-height: 35px;
+}
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social{
+    display: flex;
+    gap: 134px;
+    justify-content: center;
+    position: relative;
+     margin: 0;
+     padding-bottom: 50px;
+
+} 
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social::after{
+    content: '';
+    position: absolute;
+    background-color: black;
+    left: 50%;
+    width: 1195px;
+    height: 1px;
+    bottom: 0;
+    transform: translateX(-50%);
+
+} 
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-1{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-1 .social-img{
+    display: flex;
+    gap: 16px;
+    
+
+} 
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-2{
+    display: flex;
+    flex-direction: column;
+
+    
+
+} 
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-3{
+    display: flex;
+    flex-direction: column;
+    
+
+} 
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-4{
+    display: flex;
+    flex-direction: column;
+
+} 
+.terms-rules .terms-rules-container .social-media-container .p2p-footer{
+    width: 1177px;
+}
+
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-1 .social-text h4{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-2 .footer-link-1 h4{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-3 .footer-link-1 h4{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-4 .footer-link-1 h4{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .end-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+
+  
+}
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .end-footer .wrap-cookies{
+    display: flex;
+    gap: 10px;
+    
+ 
+}
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .end-footer .wrap-cookies .cooky .cookies{
+    font-size: 10px;
+    font-weight: 400;
+
+  
+}
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .end-footer .wrap-cookies .copy{
+    font-size: 10px;
+    font-weight: 400;
+
+  
+}
+.terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .end-footer .p2app{
+    width: 234px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 912px){
+    .terms-rules{
+        width: 100%; 
+        height: 100%;
+        
+         
+     }
+     .terms-rules .terms-rules-container{
+        width: 100%;
+        top: 189.52px;
+        left: 130.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .terms-rules .terms-rules-container .terms-rules-inner-container{
+        width: 100%;
+        height: 1500px;
+        top: 189.52px;
+        left: 130.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-condition-statements{
+        width: 800px;
+        height: 1200px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+     }
+     .terms-rules .terms-rules-container .terms-rules-inner-container .back-button{
+        width: 200px;
+        height: 58px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .terms-rules .terms-rules-container .terms-rules-inner-container .back-button .btn-back{
+        width: 150px;
+        height: 50px;
+        border-radius: 6px;
+        background-color: #00A542;
+        color: #FFFF;
+        font-size: 16px;
+        font-family: "Gilroy-Bold";
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+        border: none;
+    }
+    .terms-rules .terms-rules-container .social-media-container{
+        width: 100%;
+        height: 400px;
+        top: 1364px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social{
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+    
+    } 
+    .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social{
+        position: relative;
+         margin: 0;
+         padding-bottom: 50px;
+    
+    } 
+    .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social::after{
+        content: '';
+        position: absolute;
+        background-color: black;
+        left: 50%;
+        width: 800px;
+        height: 1px;
+        bottom: 0;
+        transform: translateX(-50%);
+    
+    } 
+
+}
+
+@media screen and (max-width: 540px){
+    .terms-rules{
+        width: 100%; 
+        height: 100%;
+        
+        
+         
+     }
+     .terms-rules .terms-rules-container{
+        width: 100%;
+        top: 189.52px;
+        left: 130.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        
+    }
+    .terms-rules .terms-rules-container .terms-rules-inner-container{
+        width: 100%;
+        height: 1100px;
+        top: 189.52px;
+        left: 130.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 3px;
+        
+    }
+    .terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-condition-statements{
+        width: 100%;
+        height: 900px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        
+     }
+     .terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-condition-statements .terms{
+        font-weight: 400;
+        font-family: "Gilroy-Medium";
+        line-height: 30px;
+        color: #1D1B20;
+    }
+     .terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-condition-statements .p1 .terms{
+        font-size: 16px;
+     } 
+     .terms-rules .terms-rules-container .terms-rules-inner-container .back-button{
+        width: 200px;
+        height: 58px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .terms-rules .terms-rules-container .terms-rules-inner-container .back-button .btn-back{
+        width: 150px;
+        height: 50px;
+        border-radius: 6px;
+        background-color: #00A542;
+        color: #FFFF;
+        font-size: 16px;
+        font-family: "Gilroy-Bold";
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+        border: none;
+    }
+    .terms-rules .terms-rules-container .social-media-container{
+        width: 100%;
+        height: 500px;
+        top: 1364px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+    .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social{
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+        width: 50%;
+        flex-direction: column;
+        gap: 2px;
+        margin-top: 200px;
+        padding: 20px;
+        
+    
+    } 
+    .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social::after{
+       display: none;
+        
+    
+    } 
+    .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .divider{
+        position: relative;
+        margin: 0;
+        padding-bottom: 50px;
+    }
+    .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .divider::after{
+        content: '';
+        position: absolute;
+        background-color: black;
+        left: 50%;
+        width: 400px;
+        height: 1px;
+        bottom: 0;
+        transform: translateX(-50%);
+    }
+    
+    
+
+}
+
+@media screen and (max-width: 280px){
+    .terms-rules{
+        width: 100%; 
+        height: 100%;
+        
+        
+         
+     }
+     .terms-rules .terms-rules-container{
+        width: 100%;
+        top: 189.52px;
+        left: 130.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        
+    }
+    .terms-rules .terms-rules-container .terms-rules-inner-container{
+        width: 100%;
+        height: 1500px;
+        top: 189.52px;
+        left: 130.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 3px;
+        margin-top: 100px;
+        
+        
+    }
+    .terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-condition-statements{
+        width: 100%;
+        height: 2000px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 50px;
+        
+        
+        
+     }
+     .terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-text{
+        width: 260px;
+        font-family: "Gilroy-Bold";
+        margin-top: 300px;
+     }
+     .terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-text h1{
+        font-size: 35px;
+     }
+     
+     .terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-condition-statements .terms{
+        font-weight: 400;
+        font-family: "Gilroy-Medium";
+        line-height: 30px;
+        color: #1D1B20;
+    }
+     .terms-rules .terms-rules-container .terms-rules-inner-container .terms-rules-condition-statements .p1 .terms{
+        font-size: 16px;
+     } 
+     .terms-rules .terms-rules-container .terms-rules-inner-container .back-button{
+        width: 200px;
+        height: 58px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .terms-rules .terms-rules-container .terms-rules-inner-container .back-button .btn-back{
+        width: 150px;
+        height: 50px;
+        border-radius: 6px;
+        background-color: #00A542;
+        color: #FFFF;
+        font-size: 16px;
+        font-family: "Gilroy-Bold";
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+        border: none;
+    }
+    .terms-rules .terms-rules-container .social-media-container{
+        width: 100%;
+        height: 550px;
+        top: 1364px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 350px;
+
+
+    }
+    .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social{
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+        width: 50%;
+        flex-direction: column;
+        gap: 2px;
+        margin-top: 200px;
+        padding: 20px;
+        
+    
+    } 
+    .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social::after{
+       display: none;
+        
+    
+    } 
+    .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-1 .social-text h4{
+        width: 200px;
+         
+     } 
+    .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .divider{
+        position: relative;
+        margin: 0;
+        padding-bottom: 50px;
+    }
+    .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .divider::after{
+        content: '';
+        position: absolute;
+        background-color: black;
+        left: 50%;
+        width: 250px;
+        height: 1px;
+        bottom: 0;
+        transform: translateX(-50%);
+    }
+    .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-2 .link ul li{
+        list-style: none;
+        font-size: 16px;
+        line-height: 35px;
+        font-family: "Gilroy-Medium";
+    }
+    .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-3 .link ul li{
+        list-style: none;
+        font-size: 16px;
+        line-height: 35px;
+        font-family: "Gilroy-Medium";
+    }
+    
+    .terms-rules .terms-rules-container .social-media-container .p2p-footer .layout .social .social-4 .link ul li{
+        list-style: none;
+        font-size: 20px;
+        font-style: none;
+        line-height: 35px;
+    }
+    
+}

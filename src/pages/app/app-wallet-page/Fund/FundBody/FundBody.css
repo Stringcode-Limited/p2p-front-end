@@ -90,3 +90,26 @@
 
 
 }
+
+@media screen and (max-width:912px){
+    .fundBody {
+        
+        width: 100vw;
+        border-right: none;
+    }
+
+    .fundBody .fundWalletWrapper .qrImg {
+        width: 90vw;
+        height: 25vh;
+    }
+
+    .fundBody .top {
+        height: 100px;
+        margin-bottom: 30px;     
+}
+
+.fundBody .fundWalletWrapper .qrContainer .qrcode {
+    font-size: 16px;
+}
+
+}

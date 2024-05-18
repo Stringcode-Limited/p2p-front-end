@@ -56,3 +56,11 @@
 .assets .left .box2 .down .R{
     color: #B3261E;
 }
+
+
+@media screen and (max-width:912px){
+    .assets{
+    width: 90vw;
+}
+
+}

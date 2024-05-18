@@ -1,3 +1,7 @@
+.back{
+    display: none;
+}
+
 .veri-container{
     display: flex;
     justify-content: center;
@@ -36,6 +40,86 @@
     margin-top: 18px;
     margin-bottom: 18px;
 }
+
+.veri-container .form-wrapper .div-wrapper .form-contents .continue-button .submit{
+    outline: none;
+    border: none;
+}
+
 .veri-container .form-wrapper .div-wrapper .form-contents .continue-button a {
     text-decoration: none;
+}
+
+.resend {
+    display: flex;
+    margin-top: 15px;
+    gap: 5px;
+    justify-content: between;
+}
+
+.label {
+    margin-bottom: 8px;
+}
+
+.resend-text {
+    color: limegreen;
+}
+
+.resend-text:hover {
+    cursor: pointer;
+}
+
+.otp {
+    display: grid;
+    justify-content: start;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width:390px){
+    .back{
+        display: block;
+        padding: 36px 20px;
+    }
+
+    .veri-container .form-wrapper .div-wrapper .heading {
+        font-weight: 200;
+        font-size: 24px;
+
+    }
+
+    .veri-container {
+        padding-top: 190px;
+    }
+    .veri-container .form-wrapper {
+        padding: 0;
+        border: none;
+        border-radius: 0;
+    }
+    .navcontainer{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width:391px) and (max-width:910px) {
+
+    .back{
+        display: block;
+        padding: 36px 20px;
+    }
+
+    .navcontainer{
+        display: none;
+    }
+
+    .veri-container .form-wrapper {
+        padding: 0;
+        border: none;
+        border-radius: 0;
+    }
+
+    .veri-container {
+        padding: 280px 0;
+    }
+
 }

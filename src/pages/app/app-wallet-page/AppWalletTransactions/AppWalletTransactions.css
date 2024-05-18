@@ -23,3 +23,22 @@
     gap: 8px;
     padding-bottom: 18px;
 }
+
+@media screen and (max-width:912px){
+    .walletTransactionBody{
+        padding-top: 45px;
+        width: 100vw;
+        padding-left: 20px;
+        padding-right: 20px;
+        align-items:center;
+        position:initial;
+        overflow-y: initial;
+    }
+    .searchWrapper{
+        display: none;
+    }
+    .walletTransactionBody .title{
+        text-align: left;
+        width: 95%;
+    }
+}

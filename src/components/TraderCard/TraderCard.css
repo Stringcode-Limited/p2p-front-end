@@ -99,3 +99,12 @@
     font-family: 'Gilroy-Regular', sans-serif;
     font-weight: 400;
 }
+
+@media screen and (max-width:912px) {
+    .traderCard{
+        flex-direction: column;
+        gap: 24px;
+        height: 290px;
+        
+    }
+}

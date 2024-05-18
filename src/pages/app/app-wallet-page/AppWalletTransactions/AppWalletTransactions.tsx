@@ -7,7 +7,9 @@ function AppWalletTransactions() {
     <>
       <div className="walletTransactionBody">
         <p className="title">Recent Transactions</p>
+        <div className="searchWrapper">
         <Search />
+        </div>
         <div className="walletTransactions">
         <TransactionCard currency="BTC" date="October 26" price="-0.02" style="Green" time="4:34 PM"/>
             <TransactionCard currency="BTC" date="October 26" price="-0.02" style="Red" time="4:34 PM"/>

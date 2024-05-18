@@ -1,3 +1,123 @@
 .appProfileBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 50vw;
+    border-right: 1px solid #727272;
+}
+
+.appProfileBody .top{
+    display: flex;
+    align-items: center;
+    height: 145px;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 45%;
+    position: sticky;
+    top: 0;
+    background-color: #FCFCFC; 
+}
+
+.appProfileBody .top p{
+    font-size: 28px;
+}
+
+.appProfileBody .center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 56px;
+    gap: 16px;
+}
+
+.appProfileBody .center .user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.appProfileBody .center .user .fullName{
+    font-size: 28px;
+    color: #1D1B20;
+}
+
+.appProfileBody .center .user .name{
+    font-size: 16px;
+    color: #1D1B20;
+    font-family: "Gilroy-Medium", sans-serif;
+}
+
+.appProfileBody .about{
+    width: 83%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.appProfileBody .about .contact{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.appProfileBody .about .contact p{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 16px;
+    font-family: "Gilroy-Medium", sans-serif;
+}
+
+.appProfileBody .about .bio{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;    
+    font-size: 16px;
+}
+
+.appProfileBody .about .bio .body{
+    width: 65%;
+    font-family: "Gilroy-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.appProfileBody .cards{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 190px;
+}
+
+@media screen and (max-width: 1024px){
+    .appProfileBody{
+        width: 46vw;
+        border-right: none;
+    }
+
+    .appProfileBody .about .bio .body{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .appProfileBody{
+        width: 100vw;
+    }
+
+    .appProfileBody .top{
+        justify-content: center;
+        padding: 0;
+        box-shadow: 0px -5px 21.3px 0px #00000054;
+        height: 92px;
+    }
+
+    .appProfileBody .top img{
+        display: none;
+    }
 }

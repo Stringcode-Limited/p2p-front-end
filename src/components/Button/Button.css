@@ -8,6 +8,13 @@ a{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.btn:disabled{
+    cursor: wait;
 }
 
 .green{
@@ -94,11 +101,113 @@ a{
 Provide Feedback, Transfer, Confirm, View Details, Share, Payment Received, Help*/
 .large2{
     border-radius: 5px;
-    width: 511px;
+    width: 93%;
     height: 38px;
 }
 .large3{
     border-radius: 5px;
-    width: 555px;
+    /* width: 555px; */
     height: 38px; 
+    width: 35vw;
+}
+.large4{
+    width: 35vw;
+    height: 38px; 
+    border-radius: 5px;
+}
+.large5{
+    width: 35vw;
+    height: 38px; 
+    border-radius: 5px;
+}
+@media screen and (max-width: 280px){
+    .mini{
+        width: 200px;
+        
+    }
+    .large3{
+       width: 90vw; 
+    }
+    .large{
+        width: 90vw;
+}
+}
+
+
+
+@media only screen and (min-width:281px) and (max-width: 390px){
+    .mini{
+        width: 300px;
+        
+    }
+    .large3{
+       width: 93vw; 
+    }
+    .large5{
+        width: 43.2vw;
+    }
+    .large4{
+        width: 45vw;
+    }
+    .large{
+        width: 90vw;
+}
+}
+
+@media only screen and (min-width:391px) and (max-width: 800px){
+    .large3{
+        width: 93vw; 
+     }
+     .large4{
+        width: 45vw;
+     }
+     .large5{
+        width: 44vw;
+    }
+    .large{
+        width: 90vw;
+}
+}
+@media only screen and (min-width:768px) and (max-width: 912px){
+    .large3{
+        width: 90vw; 
+     }
+     .large4{
+        width: 44vw;
+    }
+    
+}
+@media screen and (width: 820px) {
+    .large5{
+        width: 28.5vw;
+    }
+}
+@media screen and (width: 853px){
+    .large5{
+        width: 27vw !important;
+    }
+}
+
+@media screen and (width: 912px){
+    .large5{
+        width: 25.5vw;
+    }
+}
+
+@media only screen and (min-width:391px) and (max-width: 912px){
+    .mini{
+        width: 340px;
+        
+    }
+    
+}
+
+
+
+
+
+@media screen and (max-width:540px) {
+    .normal2{
+        width: 90vw;
+}
 }

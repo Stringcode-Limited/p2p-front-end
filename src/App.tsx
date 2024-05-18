@@ -30,6 +30,7 @@ import OrderBodyPage from "./pages/app/app-home-page/OrderCreated/OrderBodypage/
 import FundPage from "./pages/app/app-wallet-page/Fund/FundPage/FundPage";
 import BuyUsdtPage from "./pages/app/app-home-page/BuyUsdt/BuyusdtPage/BuyUsdtPage";
 import PitchBuyPage from "./pages/app/app-pitch-page/PitchBuyLight/PitchBuyPage/PitchBuyPage";
+import TermsandRules from "./pages/home/termsandRules/TermsandRules";
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
           <Route path="/signup" element={<Signup/>} />
           <Route path="/verification" element={<EmailSmsVerification/>}/>
           <Route path="/setup" element={<Setup/>}/>
+          <Route path="/termsandRules" element={<TermsandRules/>}/>
         </Route>
         <Route path="/app" element={<AppRouteWrapper />}>
           <Route index element={<AppHomePage />} />
