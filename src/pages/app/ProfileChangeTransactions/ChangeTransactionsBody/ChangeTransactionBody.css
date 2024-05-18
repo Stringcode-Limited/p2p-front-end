@@ -1,0 +1,106 @@
+
+.ChangeTransactionBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    border-right: 1px solid #727272;
+}
+
+.ChangeTransactionBody .top{
+    display: flex;
+    align-items: center;
+    height: 145px;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 45%;
+    position: sticky;
+    top: 0;
+    background-color: #FCFCFC; 
+}
+
+.ChangeTransactionBody .top p{
+    font-size: 28px;
+}
+
+.ChangeTransactionBody .center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 56px;
+    gap: 16px;
+}
+
+.ChangeTransactionBody .center .user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.ChangeTransactionBody .center .user .fullName{
+    font-size: 28px;
+    color: #1D1B20;
+}
+
+.ChangeTransactionBody .center .user .name{
+    font-size: 16px;
+    color: #1D1B20;
+    font-family: "Gilroy-Medium", sans-serif;
+}
+
+.ChangeTransactionBody .about{
+    width: 83%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.ChangeTransactionBody .about .contact{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.ChangeTransactionBody .about .contact p{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 16px;
+    font-family: "Gilroy-Medium", sans-serif;
+}
+
+.ChangeTransactionBody .about .bio{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;    
+    font-size: 16px;
+}
+
+.ChangeTransactionBody .about .bio .body{
+    width: 65%;
+    font-family: "Gilroy-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.ChangeTransactionBody .cards{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 190px;
+}
+
+
+@media screen and (max-width:767px){
+
+    .ChangeTransactionBody{
+        display: none;
+        width: 100vw;
+        border-right: none;
+    }
+}

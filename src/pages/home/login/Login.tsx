@@ -76,9 +76,9 @@ const Login = () => {
                             <Input label="Email/Phone number" type="text" value={formData.email || formData.phone} onChange={handleInputChange} aria='email'/>
                             <Input label="Password" type="password" value={formData.password} onChange={handleInputChange} aria='password'/>
                             
-                                <div className="login-button">
+                               ` <div className="login-button">
                                     <Button text={loading ? 'Loading...':'Login'} color="green" type="normal2" disabled={loading}/>
-                                </div>
+                                </div>`
                             </form>
                             
                                 <div className="account">

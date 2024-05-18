@@ -31,6 +31,14 @@ import FundPage from "./pages/app/app-wallet-page/Fund/FundPage/FundPage";
 import BuyUsdtPage from "./pages/app/app-home-page/BuyUsdt/BuyusdtPage/BuyUsdtPage";
 import PitchBuyPage from "./pages/app/app-pitch-page/PitchBuyLight/PitchBuyPage/PitchBuyPage";
 import TermsandRules from "./pages/home/termsandRules/TermsandRules";
+import ProfileChangePage from "./pages/app/profileChangePassword/profileChangePage/ProfileChangePage";
+import ProfileResetPage from "./pages/app/ProfileReset/ProfileResetPage/ProfileResetPage";
+import ProfileReviewPage from "./pages/app/ProfileReview/ProfileReviewPage/ProfileReviewPage";
+import ProfileSecurityPage from "./pages/app/ProfileSecurity/ProfileSecurityPage/ProfileSecurityPage";
+import ChangeTransactionsPage from "./pages/app/ProfileChangeTransactions/ChangeTransactionsPage/ChangeTransactionsPage";
+import ResetPasswordPage from "./pages/app/ResetPassword/ResetPasswordPage/ResetPasswordPage";
+import DeleteAccountPage from "./pages/app/DeleteAccount/DeleteAccountPage/DeleteAccountPage";
+import DeleteAccPage from "./pages/app/DeleteAcc2/DeleteAccPage/DeleteAccPage";
 
 
 function App() {
@@ -70,6 +78,14 @@ function App() {
           <Route path="wallet/complete" element={<CompletePage/>} />
           <Route path="wallet/fund" element={<FundPage/>} />
           <Route path="profile" element={<AppProfilePage />} />
+          <Route path="profile/changepassword" element={<ProfileChangePage />} /> 
+          <Route path="profile/profileReset" element={<ProfileResetPage/>} /> 
+          <Route path="profile/profileReview" element={<ProfileReviewPage/>} /> 
+          <Route path="profile/profileSecurity" element={<ProfileSecurityPage/>} /> 
+          <Route path="profile/ChangeTransaction" element={<ChangeTransactionsPage/>} /> 
+          <Route path="profile/ResetPassword" element={<ResetPasswordPage/>} /> 
+          <Route path="deleteAccount" element={<DeleteAccountPage/>} /> 
+          <Route path="deleteAcc" element={<DeleteAccPage/>} /> 
           <Route path="signout" element={<AppSignOutPage/>}/>
           </Route>
         

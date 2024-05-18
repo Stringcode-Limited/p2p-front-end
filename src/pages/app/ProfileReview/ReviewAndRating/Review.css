@@ -1,0 +1,52 @@
+.reviewBody {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.reviewBody .reviewHeader {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 20px 0 32px 0;
+    padding: 12% 10% 0% 10%;
+
+}
+
+.reviewAndRating {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 4% 10%;
+}
+
+.reviewBody .reviewAndRating div p {
+    font-family: 'Gilroy-SemiBold' sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+
+
+}
+
+@media screen and (max-width:767px){
+    .reviewAndRating {
+        padding: 4% ;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    .reviewBody {
+        width: 100vw;
+    }
+
+    .reviewBody .reviewHeader {
+        background-color: #FCFCFC;
+        border-bottom: 1px solid #000;
+        padding: 5%;
+    }
+
+}

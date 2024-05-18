@@ -23,3 +23,8 @@
     gap: 8px;
 }
 
+@media screen and (max-width:767px){
+    .recentTransactionBody{
+        display: none;
+    }
+}
