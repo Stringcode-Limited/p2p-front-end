@@ -18,3 +18,9 @@
     font-family: 'Gilroy-Regular', sans-serif;
     color: #1D1B20;
 }
+
+@media screen and (max-width: 768px){
+    .profileCard{
+        width: 82vw;
+    }
+}

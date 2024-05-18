@@ -14,7 +14,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 38px;
-    width: 70%;
+    width: 60%;
     color: #1D1B20;
 }
 
@@ -42,9 +42,30 @@
     color: #E60200;
 }
 
-@media screen and (max-width:912px){
-    .transactionCard{
-        width: 90vw;
+@media screen and (max-width:1024px) {
+    .transactionCard .left{
+        width: 50%;
     }
 
-}
+    .transactionCard{
+        width: 28vw;
+    }
+  }
+
+  @media screen and (max-width:980px) {
+    .transactionCard .left{
+        width: 60%;
+    }
+  }
+
+  @media screen and (max-width:800px) {
+    .transactionCard .left{
+        width: 59%;
+    }
+  }
+
+  @media screen and (max-width:840px) {    
+    .transactionCard{
+        width: 30vw;
+    }
+  }
