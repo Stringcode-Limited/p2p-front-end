@@ -142,10 +142,7 @@
     .appProfileBody .top img{
         display: none;
     }
-}
 
-
-@media screen and (max-width: 768px){
     .appProfileBody .cards .logOut{
         width: 82vw;
         display: block;
