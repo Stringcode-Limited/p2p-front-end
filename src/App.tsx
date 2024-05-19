@@ -39,6 +39,7 @@ import ChangeTransactionsPage from "./pages/app/ProfileChangeTransactions/Change
 import ResetPasswordPage from "./pages/app/ResetPassword/ResetPasswordPage/ResetPasswordPage";
 import DeleteAccountPage from "./pages/app/DeleteAccount/DeleteAccountPage/DeleteAccountPage";
 import DeleteAccPage from "./pages/app/DeleteAcc2/DeleteAccPage/DeleteAccPage";
+import ContactUs from "./pages/home/contactUS/contactUs";
 
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
           <Route path="/verification" element={<EmailSmsVerification/>}/>
           <Route path="/setup" element={<Setup/>}/>
           <Route path="/termsandRules" element={<TermsandRules/>}/>
+          <Route path="/contactus" element={<ContactUs/>}/>
         </Route>
         <Route path="/app" element={<AppRouteWrapper />}>
           <Route index element={<AppHomePage />} />

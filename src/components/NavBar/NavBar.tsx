@@ -14,7 +14,7 @@ function NavBar() {
             <div className="navs1">
                 <ul>
                 <NavLink to={"/"}><li>Home</li></NavLink>
-                    <li>Contact Us</li>
+                <NavLink to={"/contactus"}><li>Contact Us</li></NavLink>
                     <li>FAQs</li>
                 </ul>
             </div>

@@ -1,0 +1,213 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.contact .contactUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    border: 2px solid rgb(141, 132, 132);
+    border-radius: 30px;
+    padding: 40px 43px;
+}
+
+.contact .contactUs .cont{
+    font-size: 28px;
+    color: #1D1B20;
+}
+
+.contact .contactUs form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contact .contactUs form .button{
+    margin-top: 16px;
+}
+
+.contact .contactUs .message{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.message label{
+    font-size: 14px;
+    color: #1D1B20;
+}
+
+.message textarea{
+    width: 399px;
+    height: 150px;
+    border-radius: 10px;
+    border: 1.5px #343434 solid;
+    padding: 12px;
+    font-size: 14px;
+    resize: none;
+}
+
+@media screen and (max-width:540px) {
+    .message textarea{
+        width: 90vw;
+    }
+    }
+
+    .footer .p2p-footer{
+        width: 100%;
+        height: 564px;
+        top: 3026px;
+        left: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .footer .layout{
+        width: 1195px;
+        height: 301px;
+        top: 131px;
+        left: 124px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+         flex-direction: column;
+         gap: 56px;
+    
+        /* gap: ; */
+    }
+    /* .footer .footer-contact{
+        width: 814px;
+        height: 128px;
+        gap: 134px;
+        border: 1px solid red;
+        
+        
+    } */
+    .footer .social-img{
+        display: flex;
+    }
+    .footer .social{
+        display: flex;
+        gap: 134px;
+    }
+    .end-footer2{
+        display: none;
+    }
+    .social{
+        position: relative;
+         margin: 0;
+         padding-bottom: 50px;
+    }
+    .social::after{
+        content: '';
+        position: absolute;
+        background-color: black;
+        left: 50%;
+        width: 1195px;
+        height: 1px;
+        bottom: 0;
+        transform: translateX(-50%);
+    }
+    .footer ul li{
+        display: flex;
+        font-size: 15px;
+    
+        
+    }
+    .footer .p2p-footer .layout .social .social-3 .link ul li{
+        font-size: 20px;
+        font-style: none;
+        font-family: "Gilroy-Medium";
+        
+    }
+    .footer .p2p-footer .layout .social .social-2 .link ul li{
+        font-size: 20px;
+        font-style: none;
+        font-family: "Gilroy-Medium";
+        
+    }
+    .footer ul{
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+    }
+    .footer .social-3{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .footer .social-4{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    .footer .social-1{
+        display: flex ;
+        gap: 16px;
+        flex-direction: column;
+    }
+    .footer .social-2{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    .footer h5{
+        font-size: 10px;
+    }
+    .footer .cookies{
+        font-size: 10px;
+    }
+    .footer .p2p-footer .layout .end-footer .p2app .wrap-cookies .copy{
+        font-size: 15px;
+        font-family: "Gilroy-Medium";
+    }
+    .footer .p2p-footer .layout .end-footer .p2app .wrap-cookies  .cooky .cookies{
+        font-size: 15px;
+        font-family: "Gilroy-Medium";
+    }
+    .footer .wrap-cookies{
+        display: flex;
+        gap: 24px;
+        
+    }
+    .btn2{
+        display: none;
+    }
+    .footer .p2app{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .end-footer{
+        display: flex;
+        align-items:center ;
+        justify-content: center;
+    
+    }
+    .footer .p2p-footer .layout .social .social-2 .footer-link-1 h4{
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 24px;
+        font-family: "Gilroy-Bold";
+        letter-spacing: 0.15px;
+    }
+    .footer .p2p-footer .layout .social .social-3 .footer-link-1 h4{
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 24px;
+        font-family: "Gilroy-Bold";
+        letter-spacing: 0.15px;
+    }
+    .footer .p2p-footer .layout .social .social-4 .footer-link-1 h4{
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 24px;
+        font-family: "Gilroy-Bold";
+        letter-spacing: 0.15px;
+    }
