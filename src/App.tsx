@@ -38,7 +38,7 @@ import ProfileSecurityPage from "./pages/app/ProfileSecurity/ProfileSecurityPage
 import ChangeTransactionsPage from "./pages/app/ProfileChangeTransactions/ChangeTransactionsPage/ChangeTransactionsPage";
 import ResetPasswordPage from "./pages/app/ResetPassword/ResetPasswordPage/ResetPasswordPage";
 import DeleteAccountPage from "./pages/app/DeleteAccount/DeleteAccountPage/DeleteAccountPage";
-import DeleteAccPage from "./pages/app/DeleteAcc2/DeleteAccPage/DeleteAccPage";
+// import DeleteAccPage from "./pages/app/DeleteAcc2/DeleteAccPage/DeleteAccPage";
 import ContactUs from "./pages/home/contactUS/contactUs";
 
 
@@ -87,7 +87,7 @@ function App() {
           <Route path="profile/ChangeTransaction" element={<ChangeTransactionsPage/>} /> 
           <Route path="profile/ResetPassword" element={<ResetPasswordPage/>} /> 
           <Route path="deleteAccount" element={<DeleteAccountPage/>} /> 
-          <Route path="deleteAcc" element={<DeleteAccPage/>} /> 
+          {/* <Route path="deleteAcc" element={<DeleteAccPage/>} />  */}
           <Route path="signout" element={<AppSignOutPage/>}/>
           </Route>
         
