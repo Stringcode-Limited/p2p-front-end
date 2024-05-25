@@ -73,8 +73,8 @@ function P2PSellBody() {
           {sellList.map((item) => (
             <TraderCard
               amount={item.pricePerCoin}
-              buttonColor="green"
-              buttonText="BUY"
+              buttonColor="red"
+              buttonText="SELL"
               cryptoAmount={item.totalAmountOfCrypto}
               fiatCurrency={item.cryptoCurrency.name}
               fullName={item.user.fullname}
