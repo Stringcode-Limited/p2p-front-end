@@ -91,7 +91,7 @@ const Login = () => {
                         </div>
                     </div>
                     <div className="continue-wrapper">
-                        <Google />
+                        <NavLink to={'https://p2p-qrjp.onrender.com/api/v1/auth/google'}><Google/></NavLink>
                         <Apple />
                     </div>
                 </div>
