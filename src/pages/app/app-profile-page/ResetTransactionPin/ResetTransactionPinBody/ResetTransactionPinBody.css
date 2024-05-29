@@ -1,0 +1,49 @@
+.resetTransactionPinBody {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.resetTransactionPinBody .resetTransactionPinBodyHeader {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 20px 0 32px 0;
+}
+
+.resetTransactionPinBody .OTPSection {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.resetTransactionPinBody .OTPSection .continueOTP {
+    background-color: #00A542;
+    width: 100%;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 16px;
+    border-radius: 5px;
+    margin-top: 8px;
+
+}
+
+@media screen and (max-width:767px){
+    .resetTransactionPinBody {
+        width: 100vw;
+    }
+
+    .resetTransactionPinBody .resetTransactionPinBodyHeader {
+    background-color: #FCFCFC;
+   border-bottom: 1px solid #000;
+   padding-bottom: 12px;
+ 
+    
+    }
+    
+}

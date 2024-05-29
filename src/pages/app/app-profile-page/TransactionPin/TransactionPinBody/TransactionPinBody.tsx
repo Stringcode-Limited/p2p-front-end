@@ -2,15 +2,15 @@ import SecurityCard from '../../../../../components/SecurityCard/SecurityCard'
 import './TransactionPinBody.css'
 import reset from "../../../../../assets/images/reset.svg";
 
-function ResetTransactionPin() {
+function TransactionPinBody() {
   return (
     <>
-      <div className="ResetTransactionPin">
-                <div className="ResetTransactionPinHeader">
+      <div className="transactionPinBody">
+                <div className="transactionPinBodyHeader">
                     <img src={reset} alt="" />
                     <p>Reset transaction PIN</p>
                 </div>
-                <div className="ResetTransactionPinWrapper">
+                <div className="transactionPinBodyWrapper">
                 <SecurityCard text="Change transaction PIN"/>
                 <SecurityCard text="Reset transaction PIN" />
                 </div>
@@ -21,4 +21,4 @@ function ResetTransactionPin() {
   )
 }
 
-export default ResetTransactionPin
+export default TransactionPinBody

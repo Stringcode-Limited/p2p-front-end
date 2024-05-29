@@ -41,6 +41,7 @@ import DeleteAccountPage from "./pages/app/DeleteAccount/DeleteAccountPage/Delet
 import DeleteAccPage from "./pages/app/DeleteAcc2/DeleteAccPage/DeleteAccPage";
 import ContactUs from "./pages/home/contactUS/contactUs";
 import TransactionPinPage from "./pages/app/app-profile-page/TransactionPin/TransactionPinPage/TransactionPinPage";
+import ResetTransactionPinPage from "./pages/app/app-profile-page/ResetTransactionPin/ResetTransactionPinPage/ResetTransactionPinPage";
 
 
 function App() {
@@ -88,6 +89,7 @@ function App() {
           <Route path="profile/ChangeTransaction" element={<ChangeTransactionsPage/>} /> 
           <Route path="profile/ResetPassword" element={<ResetPasswordPage/>} /> 
           <Route path="profile/transactionpin" element={<TransactionPinPage/>} /> 
+          <Route path="profile/resettransactionpin" element={<ResetTransactionPinPage/>} /> 
           <Route path="deleteAccount" element={<DeleteAccountPage/>} /> 
           <Route path="deleteAcc" element={<DeleteAccPage/>} /> 
           <Route path="signout" element={<AppSignOutPage/>}/>

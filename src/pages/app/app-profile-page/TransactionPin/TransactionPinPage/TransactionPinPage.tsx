@@ -1,5 +1,5 @@
 import AppProfileBody from '../../AppProfileBody/AppProfileBody'
-import ResetTransactionPin from '../TransactionPinBody/TransactionPinBody'
+import TransactionPinBody from '../TransactionPinBody/TransactionPinBody'
 import './TransactionPinPage.css'
 
 function TransactionPinPage() {
@@ -7,7 +7,7 @@ function TransactionPinPage() {
     <>
     <div className="transactionPinPage">
       <AppProfileBody/>
-      <ResetTransactionPin/>
+      <TransactionPinBody/>
     </div>
     </>
   )
