@@ -13,7 +13,7 @@ const ResetOTP = ({ label, display }: Ireset) => {
                     <label htmlFor="" className="resetlabel">{label}</label>
                     <div className="resetInput">
                         <input type="text" />
-                        <p className={display}>send</p>
+                        <p className={display}>Send</p>
                     </div>
                 </div>
             </div>
