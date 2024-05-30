@@ -1,0 +1,27 @@
+.defaultCurrency{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+
+}
+
+.defaultCurrency .defaultCurrencyHeader {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 20px 0 20px 0;
+}
+
+@media screen and (max-width:767px) {
+    .defaultCurrency {
+        width: 100vw;
+    }
+
+    .defaultCurrency .defaultCurrencyHeader {
+        background-color: #FCFCFC;
+        border-bottom: 1px solid #000;
+        padding: 5%
+    }
+
+}

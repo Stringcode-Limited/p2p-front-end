@@ -1,0 +1,15 @@
+.profilePaymentMethod{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+.profilePaymentMethod .profilePaymentHeader{
+    margin: 20px 0 20px 0;
+}
+
+@media screen and (max-width:767px) {
+    .profilePaymentMethod {
+        width: 100vw;
+    }
+}
