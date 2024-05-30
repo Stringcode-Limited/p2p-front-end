@@ -48,6 +48,7 @@ import ProfilePreferncesPage from "./pages/app/app-profile-page/ProfilePreferenc
 import DefaultCurrencyPage from "./pages/app/app-profile-page/ProfileDefaultCurrency/DefaultCurrencyPage/DefaultCurrencyPage";
 import ProfileThemePage from "./pages/app/app-profile-page/ProfileTheme/ProfileThemePage/ProfileThemePage";
 import ProfileLanguagePage from "./pages/app/app-profile-page/ProfileLanguage/ProfileLanguagePage/ProfileLanguagePage";
+import ResetTransactionPin3Page from "./pages/app/app-profile-page/ResetTransactionPin3/ResetTransactionPin3Page/ResetTransactionPin3Page";
 
 
 function App() {
@@ -96,6 +97,7 @@ function App() {
           <Route path="profile/ResetPassword" element={<ResetPasswordPage/>} /> 
           <Route path="profile/transactionpin" element={<TransactionPinPage/>} /> 
           <Route path="profile/resettransactionpin" element={<ResetTransactionPinPage/>} /> 
+          <Route path="profile/resettransactionpin3" element={<ResetTransactionPin3Page/>} /> 
           <Route path="profile/paymentmethod" element={<ProfilePaymentPage/>} />
           <Route path="profile/newpaymentmethod" element={<NewPaymentPage/>} /> 
           <Route path="profile/profilepreferences" element={<ProfilePreferncesPage/>} /> 
