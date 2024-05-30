@@ -1,0 +1,15 @@
+.newPaymentMethod{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+.newPaymentMethod .newPaymentHeader{
+    margin: 20px 0 20px 0;
+}
+
+@media screen and (max-width:767px) {
+    .newPaymentMethod {
+        width: 100vw;
+    }
+}

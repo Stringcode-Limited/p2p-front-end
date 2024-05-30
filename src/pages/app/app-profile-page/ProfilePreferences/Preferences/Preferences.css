@@ -1,0 +1,15 @@
+.preferences{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+.preferences .preferencesHeader{
+    margin: 20px 0 20px 0;
+}
+
+@media screen and (max-width:767px) {
+    .preferences {
+        width: 100vw;
+    }
+}

@@ -38,10 +38,16 @@ import ProfileSecurityPage from "./pages/app/ProfileSecurity/ProfileSecurityPage
 import ChangeTransactionsPage from "./pages/app/ProfileChangeTransactions/ChangeTransactionsPage/ChangeTransactionsPage";
 import ResetPasswordPage from "./pages/app/ResetPassword/ResetPasswordPage/ResetPasswordPage";
 import DeleteAccountPage from "./pages/app/DeleteAccount/DeleteAccountPage/DeleteAccountPage";
-// import DeleteAccPage from "./pages/app/DeleteAcc2/DeleteAccPage/DeleteAccPage";
+import DeleteAccPage from "./pages/app/DeleteAcc2/DeleteAccPage/DeleteAccPage";
 import ContactUs from "./pages/home/contactUS/contactUs";
 import TransactionPinPage from "./pages/app/app-profile-page/TransactionPin/TransactionPinPage/TransactionPinPage";
 import ResetTransactionPinPage from "./pages/app/app-profile-page/ResetTransactionPin/ResetTransactionPinPage/ResetTransactionPinPage";
+import ProfilePaymentPage from "./pages/app/app-profile-page/ProfilePayment/ProfilePaymentPage/ProfilePaymentPage";
+import NewPaymentPage from "./pages/app/app-profile-page/NewPayment/NewPaymentPage/NewPaymentPage";
+import ProfilePreferncesPage from "./pages/app/app-profile-page/ProfilePreferences/ProfilePreferencesPage/ProfilePreferncesPage";
+import DefaultCurrencyPage from "./pages/app/app-profile-page/ProfileDefaultCurrency/DefaultCurrencyPage/DefaultCurrencyPage";
+import ProfileThemePage from "./pages/app/app-profile-page/ProfileTheme/ProfileThemePage/ProfileThemePage";
+import ProfileLanguagePage from "./pages/app/app-profile-page/ProfileLanguage/ProfileLanguagePage/ProfileLanguagePage";
 
 
 function App() {
@@ -90,8 +96,14 @@ function App() {
           <Route path="profile/ResetPassword" element={<ResetPasswordPage/>} /> 
           <Route path="profile/transactionpin" element={<TransactionPinPage/>} /> 
           <Route path="profile/resettransactionpin" element={<ResetTransactionPinPage/>} /> 
+          <Route path="profile/paymentmethod" element={<ProfilePaymentPage/>} />
+          <Route path="profile/newpaymentmethod" element={<NewPaymentPage/>} /> 
+          <Route path="profile/profilepreferences" element={<ProfilePreferncesPage/>} /> 
+          <Route path="profile/defaultcurrency" element={<DefaultCurrencyPage/>} /> 
+          <Route path="profile/theme" element={<ProfileThemePage/>} /> 
+          <Route path="profile/language" element={<ProfileLanguagePage/>} />
           <Route path="deleteAccount" element={<DeleteAccountPage/>} /> 
-          {/* <Route path="deleteAcc" element={<DeleteAccPage/>} />  */}
+          <Route path="deleteAcc" element={<DeleteAccPage/>} />  
           <Route path="signout" element={<AppSignOutPage/>}/>
           </Route>
         
