@@ -8,6 +8,39 @@
     margin: 20px 0 20px 0;
 }
 
+.profilePaymentMethod .paymentContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profilePaymentMethod .paymentContainer .addPayment{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.profilePaymentMethod .paymentform {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.profilePaymentMethod .paymentform .savePaymentBtn {
+    background-color: #00A542;
+    width: 100%;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 16px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+.profilePaymentMethod .paymentWrapper{
+    margin-top: 24px;
+}
+
 @media screen and (max-width:767px) {
     .profilePaymentMethod {
         width: 100vw;
