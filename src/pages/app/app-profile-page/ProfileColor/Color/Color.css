@@ -1,0 +1,33 @@
+.colorContent{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+
+}
+
+.colorContent .colorHeader {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 20px 0 36px 0;
+}
+
+.colorContent .colorWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+@media screen and (max-width:767px) {
+    .colorContent {
+        width: 100vw;
+    }
+
+    .colorContent .colorHeader {
+        background-color: #FCFCFC;
+        border-bottom: 1px solid #000;
+        padding: 5%
+    }
+
+}
