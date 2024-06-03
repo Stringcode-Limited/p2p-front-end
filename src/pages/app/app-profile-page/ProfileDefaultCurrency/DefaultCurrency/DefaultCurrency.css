@@ -1,4 +1,4 @@
-.defaultCurrency{
+.defaultCurrency {
     width: 30vw;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,51 @@
     display: flex;
     align-items: center;
     gap: 16px;
-    margin: 20px 0 20px 0;
+    margin: 20px 0 36px 0;
+}
+
+.defaultCurrency .currencyInstruction p {
+
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 12px;
+
+
+}
+
+.defaultCurrency .searchBar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 1.5px solid #343434;
+    border-radius: 20px;
+    padding: 6px 12px;
+}
+
+.defaultCurrency .searchBar input {
+    outline: none;
+    border: none;
+    font-family: 'Gilroy-SemiBold', sans-serif;
+}
+
+.defaultCurrency .searchBar input::placeholder {
+    color: #4B4B4B;
+    padding-left: 0px;
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+
+
+}
+
+.defaultCurrency .defaultCurrencyWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 24px;
 }
 
 @media screen and (max-width:767px) {
