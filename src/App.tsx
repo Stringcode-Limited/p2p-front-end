@@ -51,6 +51,9 @@ import ProfileLanguagePage from "./pages/app/app-profile-page/ProfileLanguage/Pr
 import ResetTransactionPin3Page from "./pages/app/app-profile-page/ResetTransactionPin3/ResetTransactionPin3Page/ResetTransactionPin3Page";
 import SetupPage from "./pages/app/app-profile-page/Setup/SetupPage/SetupPage";
 import FAQ from "./pages/home/FAQ/FAQ";
+import ProfileColorPage from "./pages/app/app-profile-page/ProfileColor/ProfileColorPage/ProfileColorPage";
+import ProfileVerification from "./pages/app/app-profile-page/ProfileVerification/ProfileVerificationPage/ProfileVerification";
+
 
 
 function App() {
@@ -107,7 +110,9 @@ function App() {
           <Route path="profile/profilepreferences" element={<ProfilePreferncesPage/>} /> 
           <Route path="profile/defaultcurrency" element={<DefaultCurrencyPage/>} /> 
           <Route path="profile/theme" element={<ProfileThemePage/>} /> 
+          <Route path="profile/color" element={<ProfileColorPage/>} /> 
           <Route path="profile/language" element={<ProfileLanguagePage/>} />
+          <Route path="profile/verification" element={<ProfileVerification/>} />
           <Route path="deleteAccount" element={<DeleteAccountPage/>} /> 
           <Route path="deleteAcc" element={<DeleteAccPage/>} />  
           <Route path="signout" element={<AppSignOutPage/>}/>

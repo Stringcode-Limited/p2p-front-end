@@ -1,0 +1,23 @@
+.profileBrowse{
+    height: 48px;
+    padding: 5%;
+    background-color: #DDDDDD;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.profileBrowse .left{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    color: #1D1B20;
+}
+
+
+
+

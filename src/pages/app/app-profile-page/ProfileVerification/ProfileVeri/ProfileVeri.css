@@ -1,4 +1,4 @@
-.theme{
+.profileVeri{
     width: 30vw;
     display: flex;
     flex-direction: column;
@@ -6,25 +6,22 @@
 
 }
 
-.theme .themeHeader {
-    display: flex;
-    align-items: center;
-    gap: 16px;
+.profileVeri .profileVeriHeader {
     margin: 20px 0 36px 0;
 }
 
-.theme .themeWrapper{
+.profileVeri .profileVeriWrapper{
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
 @media screen and (max-width:767px) {
-    .theme {
+    .profileVeri {
         width: 100vw;
     }
 
-    .theme .themeHeader {
+    .profileVeri .profileVeriHeader {
         background-color: #FCFCFC;
         border-bottom: 1px solid #000;
         padding: 5%
