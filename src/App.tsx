@@ -50,8 +50,10 @@ import ProfileThemePage from "./pages/app/app-profile-page/ProfileTheme/ProfileT
 import ProfileLanguagePage from "./pages/app/app-profile-page/ProfileLanguage/ProfileLanguagePage/ProfileLanguagePage";
 import ResetTransactionPin3Page from "./pages/app/app-profile-page/ResetTransactionPin3/ResetTransactionPin3Page/ResetTransactionPin3Page";
 import SetupPage from "./pages/app/app-profile-page/Setup/SetupPage/SetupPage";
+import FAQ from "./pages/home/FAQ/FAQ";
 import ProfileColorPage from "./pages/app/app-profile-page/ProfileColor/ProfileColorPage/ProfileColorPage";
 import ProfileVerification from "./pages/app/app-profile-page/ProfileVerification/ProfileVerificationPage/ProfileVerification";
+
 
 
 function App() {
@@ -68,6 +70,7 @@ function App() {
           <Route path="/setup" element={<Setup/>}/>
           <Route path="/termsandRules" element={<TermsandRules/>}/>
           <Route path="/contactus" element={<ContactUs/>}/>
+          <Route path="/faq" element={<FAQ/>}/>
         </Route>
         <Route path="/app" element={<AppRouteWrapper />}>
           <Route index element={<AppHomePage />} />
