@@ -52,6 +52,7 @@ import ResetTransactionPin3Page from "./pages/app/app-profile-page/ResetTransact
 import SetupPage from "./pages/app/app-profile-page/Setup/SetupPage/SetupPage";
 import ProfileColorPage from "./pages/app/app-profile-page/ProfileColor/ProfileColorPage/ProfileColorPage";
 import ProfileVerification from "./pages/app/app-profile-page/ProfileVerification/ProfileVerificationPage/ProfileVerification";
+import BvnVerificationPage from "./pages/app/app-profile-page/BvnVerification/BvnVerificationPage/BvnVerificationPage";
 
 
 function App() {
@@ -108,6 +109,7 @@ function App() {
           <Route path="profile/defaultcurrency" element={<DefaultCurrencyPage/>} /> 
           <Route path="profile/theme" element={<ProfileThemePage/>} /> 
           <Route path="profile/color" element={<ProfileColorPage/>} /> 
+          <Route path="profile/bvn" element={<BvnVerificationPage/>} /> 
           <Route path="profile/language" element={<ProfileLanguagePage/>} />
           <Route path="profile/verification" element={<ProfileVerification/>} />
           <Route path="deleteAccount" element={<DeleteAccountPage/>} /> 

@@ -3,6 +3,11 @@
     flex-direction: column;
     gap: 8px;
 }
+.resetOTP .labelWrapper{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
 
 .resetOTP .resetInput {
     display: flex;
