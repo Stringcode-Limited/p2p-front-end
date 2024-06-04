@@ -53,6 +53,7 @@ import SetupPage from "./pages/app/app-profile-page/Setup/SetupPage/SetupPage";
 import FAQ from "./pages/home/FAQ/FAQ";
 import ProfileColorPage from "./pages/app/app-profile-page/ProfileColor/ProfileColorPage/ProfileColorPage";
 import ProfileVerification from "./pages/app/app-profile-page/ProfileVerification/ProfileVerificationPage/ProfileVerification";
+import BvnVerificationPage from "./pages/app/app-profile-page/BvnVerification/BvnVerificationPage/BvnVerificationPage";
 
 
 
@@ -111,6 +112,7 @@ function App() {
           <Route path="profile/defaultcurrency" element={<DefaultCurrencyPage/>} /> 
           <Route path="profile/theme" element={<ProfileThemePage/>} /> 
           <Route path="profile/color" element={<ProfileColorPage/>} /> 
+          <Route path="profile/bvn" element={<BvnVerificationPage/>} /> 
           <Route path="profile/language" element={<ProfileLanguagePage/>} />
           <Route path="profile/verification" element={<ProfileVerification/>} />
           <Route path="deleteAccount" element={<DeleteAccountPage/>} /> 
