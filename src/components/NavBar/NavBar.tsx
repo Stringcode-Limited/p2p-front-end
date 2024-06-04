@@ -15,7 +15,7 @@ function NavBar() {
                 <ul>
                 <NavLink to={"/"}><li>Home</li></NavLink>
                 <NavLink to={"/contactus"}><li>Contact Us</li></NavLink>
-                    <li>FAQs</li>
+                <NavLink to={"/faq"}><li>FAQs</li></NavLink>
                 </ul>
             </div>
             <div className="navs2">
