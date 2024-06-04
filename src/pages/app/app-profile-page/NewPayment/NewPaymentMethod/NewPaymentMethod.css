@@ -7,7 +7,12 @@
 .newPaymentMethod .newPaymentHeader{
     margin: 20px 0 20px 0;
 }
-
+.newPaymentMethod .yourPayment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
 @media screen and (max-width:767px) {
     .newPaymentMethod {
         width: 100vw;
