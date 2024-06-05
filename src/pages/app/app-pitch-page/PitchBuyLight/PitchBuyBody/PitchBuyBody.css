@@ -134,3 +134,11 @@
     height: 10px;
     width: 12px;
 }
+
+@media screen and (max-width:767px){
+
+    .pitchBody{
+        display: none;
+        border-right: none;
+    }
+}

@@ -21,12 +21,11 @@
     display: flex;
     align-items: center;
     height: 50px;
-    width: 175px;
     padding: 12px;
 }
 
 .miniInput button {
-    width: 150px;
+    width: 80px;
     height: 24px;
     border-radius: 5px;
     padding: 4px, 8px, 4px, 8px;
@@ -36,7 +35,6 @@
     font-size: 12px;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     justify-content: space-between;
     gap: 6px;
     cursor: pointer;
@@ -44,7 +42,6 @@
 
 .miniInput {
     position: relative;
-    /* margin-left: 200px; */
 }
 
 .miniInput-menu {
