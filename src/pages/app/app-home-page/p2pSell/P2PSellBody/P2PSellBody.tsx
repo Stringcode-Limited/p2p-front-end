@@ -77,8 +77,8 @@ function P2PSellBody() {
               buttonText="SELL"
               cryptoAmount={item.totalAmountOfCrypto}
               fiatCurrency={item.cryptoCurrency.name}
-              fullName={item.user.fullname}
-              image={item.user.profile_img}
+              fullName={item.user?.fullname}
+              image={item.user?.profile_img}
               name=""
               percent=""
               range1={item.range.min}
