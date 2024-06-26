@@ -3,7 +3,7 @@ import "./TraderCard.css";
 import medal from '../../assets/images/medal.svg'
 
 interface ITraderCard {
-  buttonText: "BUY" | "SELL";
+  buttonText: "VIEW" | "SELL";
   buttonColor: "green" | "red";
   image: string;
   fullName: string;

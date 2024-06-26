@@ -75,7 +75,7 @@ const AppHomeBody = () => {
             <TraderCard
               amount={item.pricePerCoin}
               buttonColor="green"
-              buttonText="BUY"
+              buttonText="VIEW"
               cryptoAmount={item.totalAmountOfCrypto}
               fiatCurrency={item.cryptoCurrency.name}
               fullName={item.user?.fullname}
