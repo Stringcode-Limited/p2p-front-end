@@ -84,7 +84,7 @@ function OrderBody() {
                </div>
            </div>
               <div className="proceed-topay">
-               <Button  type='large2' text='Proceed to pay'/>
+               <Button  type='large2' text='Proceed to pay' route="/app/makepayment"/>
                <Button  type='large2' text='Cancel order' color='grey'/>
               </div>
            

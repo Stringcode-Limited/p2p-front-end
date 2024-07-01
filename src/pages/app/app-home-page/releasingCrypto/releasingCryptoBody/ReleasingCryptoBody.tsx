@@ -47,7 +47,7 @@ function ReleasingCryptoBody() {
             </div>
           </div>
           <div className="box5">
-            <Button text="Mark as paid" type="large2"/>
+            <Button text="Mark as paid" type="large2" route="/app/cryptoreleased"/>
             <HelpButton classes="btn grey large2 helpButton"/>
           </div>
         </div>

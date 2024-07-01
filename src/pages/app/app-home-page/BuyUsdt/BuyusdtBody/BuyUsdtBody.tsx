@@ -1,4 +1,3 @@
-
 import "./BuyUsdtBody.css"
 import left from "../../../../../assets/images/left.png"
 import Button from '../../../../../components/Button/Button';

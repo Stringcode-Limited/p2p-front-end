@@ -87,6 +87,7 @@ const AppHomeBody = () => {
               time={item.paymentTimeLimit}
               tradePercent=""
               tradeTotal=""
+              route="BuyUsdt"
             />
           ))}
         </div>

@@ -17,7 +17,7 @@ function CryptoReleasedBody() {
             <p>Your crypto has been delivered to your wallet</p>
           </div>
           <div className="det2">
-            <Button text="Check wallet" type="large2"/>
+            <Button text="Check wallet" type="large2" route="/app/wallet"/>
             <Button text="Provide feedback" type="large2" color="grey"/>
           </div>
         </div>

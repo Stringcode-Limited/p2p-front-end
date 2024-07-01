@@ -1,6 +1,7 @@
 import "./Chat2.css"
 import clock from "../../../../assets/images/clock.svg"
 import clip from "../../../../assets/images/clip.svg"
+import { NavLink } from "react-router-dom"
 
 interface IChat2{
   label:string
@@ -25,9 +26,11 @@ function Chat2({label, time, type, timertype, displayimage}:IChat2) {
                 <p className='fiat-text'>Fiat amount</p>
                 <p className='fiat-figure'>₦5000.00</p>
               </div>
-              <div className="proceed-text">
-                <p className='proceed-main-text'>Proceed to pay</p>
-              </div>
+              <NavLink to={'/app/makepayment'}>
+                <div className="proceed-text">
+                  <p className='proceed-main-text'>Proceed to pay</p>
+                </div>
+              </NavLink>
               
           </div>
           <div className="chat-text1">
